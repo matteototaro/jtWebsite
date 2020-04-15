@@ -1,0 +1,362 @@
+baseURL = "https://mtotaro.com/"
+
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "Matteo Totaro"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+
+[languages]
+  [languages.en]  ##to add another language in the main menù i need to repeat this language.it menu.starter
+    weight = 1
+    # language code
+    languageCode = "en"
+    # website title
+    title = "Matteo Totaro"
+    # language name
+    languageName = "English"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # date format
+    dateFormatToUse = "02-01-2006"
+
+    # Menu Info
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is allowed), such as icons
+        pre = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      
+      [[languages.en.menu.main]]
+        identifier = "gallery"
+        pre = ""
+        name = "Gallery"
+        url = "/gallery/"
+        title = ""
+        weight = 2
+      
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 3
+      
+      [languages.en.params]
+        # site description
+        description = "About LoveIt Theme"
+        # site keywords
+        keywords = ["Theme", "Hugo"]
+        # site default theme ("light", "dark", "auto")
+        defaultTheme = "auto"
+        # Home Page Info
+        [languages.en.params.home]
+          # Home Page Profile
+          [languages.en.params.home.profile]
+            enable = true
+            # Gravatar Email for preferred avatar in home page
+            gravatarEmail = ""  #putting the email kills the imageavatar
+            # URL of avatar shown in home page
+            avatarURL = "/images/avatar.jpg"
+            # subtitle shown in home page
+            subtitle = "Welcome to my angle on the internet"
+            # whether to use typeit animation for subtitle
+            typeit = true
+            # whether to show social links
+            social = true
+          # Home Page Posts
+          [languages.en.params.home.posts] #if enabled it shows list of posts on the home page
+                                            #controllare se possibile far vedere solo le immagini
+            enable = false
+            # special amount of posts in each home posts page
+            paginate = 6
+            # default behavior when you don't set "hiddenFromHomePage" in front matter
+            defaultHiddenFromHomePage = false
+        # Social Info in home page
+        [languages.en.params.social]
+          #GitHub = "xxxx"
+          Linkedin = "xxxx"
+          Twitter = "matteojtotaro"
+          Instagram = "matt.totaro"
+          Email = "tmatteos@gmail.com"
+          
+          #Telegram = "xxxx"
+          # Pinterest = "xxxx"
+          # Reddit = "xxxx"
+          # Soundcloud = "xxxx"
+          # Spotify = "xxxx"
+          # Skype = "xxxx"
+        # Social Share Links in post page
+        [languages.en.params.share]
+          enable = true
+          Twitter = true
+          Facebook = true
+          Linkedin = true
+          Whatsapp = true
+          Pinterest = true
+          # Tumblr = true
+          HackerNews = true
+          # Reddit = true
+          # VK = true
+          # Buffer = true
+          # Xing = true
+          # Line = true
+          # Instapaper = true
+          # Pocket = true
+          # Digg = true
+          # Stumbleupon = true
+          # Flipboard = true
+          # Weibo = true
+          # Renren = true
+          # Myspace = true
+          # Blogger = true
+          # Baidu = true
+          # Odnoklassniki = true
+          # Evernote = true
+          # Skype = true
+          # Trello = true
+          # Mix = true
+        # Comment Config
+        [languages.en.params.comment]
+          enable = true
+          # Disqus Comment Config (https://disqus.com/)
+          [languages.en.params.comment.disqus]
+            # Disqus shortname to use Disqus in posts
+            shortname = ""
+          # Gitalk Comment Config (https://github.com/gitalk/gitalk)
+          [languages.en.params.comment.gitalk]
+            owner = ""
+            repo = ""
+            clientId = ""
+            clientSecret = ""
+          # Valine Comment Config (https://github.com/xCss/Valine)
+          [languages.en.params.comment.valine]
+            enable = true
+            appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+            appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+            placeholder = "Your comment ..."
+            notify = false
+            verify = true
+            avatar = "mp"
+            meta= ""
+            pageSize = 10
+            lang = "en"
+            visitor = true
+            recordIP = true
+          # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+          [languages.en.params.comment.facebook]
+            enable = false
+            width = "100%"
+            numPosts = 10
+            appId = ""
+            languageCode = "en_US"
+
+
+[params]
+  # LoveIt theme version
+    version = "0.1.X"
+  # public git repo url only then enableGitInfo is true
+    gitRepo = "https://github.com/dillonzq/LoveIt"
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+    fingerprint = ""
+  # Header info
+
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+  # Footer Copyright Info
+
+  [params.footer]
+    # Site creation time
+    since = 2020
+    # ICP info only in China (HTML format is allowed)
+    icp = ""
+    # license info (HTML format is allowed)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # Page config
+
+  [params.page]
+    # whether to use lightgallery in the page
+    lightgallery = true
+    # whether to show link to Raw Markdown content of the post
+    linkToMarkdown = true
+  # mathematical formulas (KaTeX https://katex.org/)
+
+  [params.math]
+    enable = true
+    # default block delimiter is $$ ... $$ and \\[ ... \\]
+
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    # default inline delimiter is $ ... $ and \\( ... \\)
+ 
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    # KaTeX extension copy_tex
+
+    copyTex = true
+    # KaTeX extension mhchem
+
+    mhchem = true
+  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+  # Publisher Info just for SEO
+  #
+  [params.publisher]
+    name = "xxxx"
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+  # Website Log Info just for SEO
+
+  [params.logo]
+    url = "logo.png"
+    width = 127
+    height = 40
+  # Website Image Info just for SEO
+  
+  [params.image]
+    url = "cover.png"
+    width = 800
+    height = 600
+  # CSS and JS Files CDN
+  # CSS 和 JS 文件的 CDN 设置
+  [params.cdn]
+    # fontawesome-free@5.12.1 https://fontawesome.com/
+    fontawesomeFreeCSS = ''
+    # animate.css@3.7.2 https://github.com/daneden/animate.css
+    animateCSS = ''
+    # smooth-scroll@16.1.2 https://github.com/cferdinandi/smooth-scroll
+    smoothScrollJS = ''
+    # sharer@0.4.0 https://github.com/ellisonleao/sharer.js
+    sharerJS = ''
+    # lazysizes@5.2.0 https://github.com/aFarkas/lazysizes
+    lazysizesJS = ''
+    # lightgallery@1.1.3 lg-thumbnail@1.1.0 lg-zoom@1.1.0 https://github.com/sachinchoolur/lightgallery.js
+    lightgalleryCSS = ''
+    lightgalleryJS = ''
+    lightgalleryThumbnailJS = ''
+    lightgalleryZoomJS = ''
+    # typeit@6.5.1 https://github.com/alexmacarthur/typeit
+    typeitJS = ''
+    # katex@0.11.1 https://github.com/KaTeX/KaTeX
+    katexCSS = ''
+    katexJS = ''
+    katexAutoRenderJS = ''
+    katexCopyTexCSS = ''
+    katexCopyTexJS = ''
+    katexMhchemJS = ''
+    # mermaid@8.4.8 https://github.com/knsv/mermaid
+    mermaidJS = ''
+    # aplayer@1.10.1 https://github.com/MoePlayer/APlayer
+    aplayerCSS = ''
+    aplayerJS = ''
+    # meting@2.0.1 https://github.com/metowolf/MetingJS
+    metingJS = ''
+    # echarts@4.6.0 https://echarts.apache.org/
+    echartsJS = ''
+    echartsMacaronsJS = ''
+    # gitalk@1.6.2 https://github.com/gitalk/gitalk
+    gitalkCSS = ''
+    gitalkJS = ''
+    # valine@1.3.10 https://valine.js.org/
+    valineJS = ''
+
+# Markup related configuration in Hugo
+# Hugo 解析文档的配置
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+
+[author]
+  name = "Matteo Totaro"
+  link = "/about/"
+
+# Sitemap Info
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files???
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
