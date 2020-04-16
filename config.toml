@@ -74,7 +74,7 @@ theme = "LoveIt"
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
             # subtitle shown in home page
-            subtitle = "Welcome to my angle on the internet"
+            subtitle = "Welcome to my angle on the web"
             # whether to use typeit animation for subtitle
             typeit = true
             # whether to show social links
@@ -103,14 +103,14 @@ theme = "LoveIt"
           # Skype = "xxxx"
         # Social Share Links in post page
         [languages.en.params.share]
-          enable = true
+          enable = false
           Twitter = true
           Facebook = true
           Linkedin = true
           Whatsapp = true
           Pinterest = true
           # Tumblr = true
-          HackerNews = true
+          # HackerNews = true
           # Reddit = true
           # VK = true
           # Buffer = true
