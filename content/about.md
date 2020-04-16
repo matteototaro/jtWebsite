@@ -1,10 +1,28 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-draft: true
+lastmod: 2020-04-14T19:21:09+02:00
+draft: false
+author: "Matteo"
+authorLink: "https://mtotaro.com"
+description: ""
+license: ""
 
-math: true
+tags: []
+categories: []
+hiddenFromHomePage: true
+
+featuredImage: ""
+featuredImagePreview: ""
+
+toc: false
+autoCollapseToc: true
+math: false
 lightgallery: true
+linkToMarkdown: false
+share:
+  enable: true
+comment: true
 ---
 
 ![Foto prova](/images/cover_universe.jpg "Foto prova")
