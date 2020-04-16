@@ -12,4 +12,4 @@ lightgallery: true
 My name is **Matteo Totaro**, I am 23 and I love all sorts of electronics gadget.
 I have a bachelor degree in Electronic Engineering obtained at the Department of Engineering "Enzo Ferrari" and I live in Reggio Emilia, Italy.
 
-My hobbies are photogra
+My hobbies are photography
