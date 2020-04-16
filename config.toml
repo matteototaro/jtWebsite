@@ -101,8 +101,9 @@ theme = "LoveIt"
           # Soundcloud = "xxxx"
           # Spotify = "xxxx"
           # Skype = "xxxx"
+
         # Social Share Links in post page
-        [languages.en.params.share]
+        [languages.en.params.share] 
           enable = false
           Twitter = true
           Facebook = true
@@ -133,7 +134,7 @@ theme = "LoveIt"
           # Mix = true
         # Comment Config
         [languages.en.params.comment]
-          enable = true
+          enable = false
           # Disqus Comment Config (https://disqus.com/)
           [languages.en.params.comment.disqus]
             # Disqus shortname to use Disqus in posts
@@ -146,7 +147,7 @@ theme = "LoveIt"
             clientSecret = ""
           # Valine Comment Config (https://github.com/xCss/Valine)
           [languages.en.params.comment.valine]
-            enable = true
+            enable = false
             appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
             appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
             placeholder = "Your comment ..."
@@ -174,15 +175,15 @@ theme = "LoveIt"
     gitRepo = "https://github.com/dillonzq/LoveIt"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
     fingerprint = ""
-  # Header info
 
+  # Header info
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
-  # Footer Copyright Info
 
+  # Footer Copyright Info
   [params.footer]
     # Site creation time
     since = 2020
@@ -190,15 +191,15 @@ theme = "LoveIt"
     icp = ""
     # license info (HTML format is allowed)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-  # Page config
 
+  # Page config
   [params.page]
     # whether to use lightgallery in the page
     lightgallery = true
     # whether to show link to Raw Markdown content of the post
     linkToMarkdown = true
-  # mathematical formulas (KaTeX https://katex.org/)
 
+  # mathematical formulas (KaTeX https://katex.org/)
   [params.math]
     enable = true
     # default block delimiter is $$ ... $$ and \\[ ... \\]
@@ -215,37 +216,37 @@ theme = "LoveIt"
     # KaTeX extension mhchem
 
     mhchem = true
-  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
 
+  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
     google = ""
     bing = ""
     yandex = ""
     pinterest = ""
     baidu = ""
+
   # Publisher Info just for SEO
-  #
   [params.publisher]
-    name = "xxxx"
+    name = "Matteo Totaro"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
       height = 40
-  # Website Log Info just for SEO
 
+  # Website Log Info just for SEO
   [params.logo]
     url = "logo.png"
     width = 127
     height = 40
+
   # Website Image Info just for SEO
-  
   [params.image]
     url = "cover.png"
     width = 800
     height = 600
+ 
   # CSS and JS Files CDN
-  # CSS 和 JS 文件的 CDN 设置
-  [params.cdn]
+   [params.cdn]
     # fontawesome-free@5.12.1 https://fontawesome.com/
     fontawesomeFreeCSS = ''
     # animate.css@3.7.2 https://github.com/daneden/animate.css
@@ -286,8 +287,8 @@ theme = "LoveIt"
     # valine@1.3.10 https://valine.js.org/
     valineJS = ''
 
+
 # Markup related configuration in Hugo
-# Hugo 解析文档的配置
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
@@ -299,6 +300,7 @@ theme = "LoveIt"
     noClasses = false
     style = "monokai"
     tabWidth = 4
+
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -312,11 +314,11 @@ theme = "LoveIt"
     [markup.goldmark.renderer]
       # whether to use HTML tags directly in the document
       unsafe = true
+  
   # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
-
 
 [author]
   name = "Matteo Totaro"
