@@ -1,15 +1,26 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master
 
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}" # Filename template, e.g., DD-MM-YYYY-title.md
-    fields: # The fields for each document, usually in front matter
-       - {label: "Title", name: "title", widget: "string"}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Author, name: author, widget: "hidden", default: Matteo Totaro}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "uploads/avatar.jpg"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+      #- {label: "Draft", name: "draft", widget: "boolean", default: true}
+      #- {label: "Categories", name: "categories", widget: "string", required: true}
+
+    
