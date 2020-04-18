@@ -63,7 +63,7 @@ theme = "LoveIt"
         # site keywords
         keywords = ["Theme", "Hugo"]
         # site default theme ("light", "dark", "auto")
-        defaultTheme = "auto"
+        defaultTheme = "light"
         # Home Page Info
         [languages.en.params.home]
           # Home Page Profile
@@ -166,6 +166,92 @@ theme = "LoveIt"
             numPosts = 10
             appId = ""
             languageCode = "en_US"
+
+  [languages.it]  ##to add another language in the main menù i need to repeat this language.it menu.starter
+    weight = 2
+    # language code
+    languageCode = "it"
+    # website title
+    title = "Matteo Totaro"
+    # language name
+    languageName = "Italiano"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # date format
+    dateFormatToUse = "02-01-2006"
+
+    # Menu Info
+    [languages.it.menu]
+      [[languages.it.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is allowed), such as icons
+        pre = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      
+      [[languages.it.menu.main]]
+        identifier = "gallery"
+        pre = ""
+        name = "Gallery"
+        url = "/gallery/"
+        title = ""
+        weight = 2
+      
+      [[languages.it.menu.main]]
+        identifier = "about"
+        pre = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 3
+      
+      [languages.it.params]
+        # site description
+        description = "About LoveIt Theme"
+        # site keywords
+        keywords = ["Theme", "Hugo"]
+        # site default theme ("light", "dark", "auto")
+        defaultTheme = "light"
+        # Home Page Info
+        [languages.it.params.home]
+          # Home Page Profile
+          [languages.it.params.home.profile]
+            enable = true
+            # Gravatar Email for preferred avatar in home page
+            gravatarEmail = ""  #putting the email kills the imageavatar
+            # URL of avatar shown in home page
+            avatarURL = "/images/avatar.jpg"
+            # subtitle shown in home page
+            subtitle = "Benvenuti nel mio angolo nel vasto web"
+            # whether to use typeit animation for subtitle
+            typeit = true
+            # whether to show social links
+            social = true
+          # Home Page Posts
+          [languages.it.params.home.posts] #if enabled it shows list of posts on the home page
+                                            #controllare se possibile far vedere solo le immagini
+            enable = false
+            # special amount of posts in each home posts page
+            paginate = 6
+            # default behavior when you don't set "hiddenFromHomePage" in front matter
+            defaultHiddenFromHomePage = false
+        # Social Info in home page
+        [languages.it.params.social]
+          #GitHub = "xxxx"
+          Linkedin = "xxxx"
+          Twitter = "matteojtotaro"
+          Instagram = "matt.totaro"
+          Email = "tmatteos@gmail.com"
+
 
 
 [params]
