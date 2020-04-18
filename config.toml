@@ -1,13 +1,9 @@
 baseURL = "https://mtotaro.com/"
-
 defaultContentLanguage = "en"
-# language code
-languageCode = "en"
 title = "Matteo Totaro"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
-
 
 [languages]
   [languages.en]  ##to add another language in the main menù i need to repeat this language.it menu.starter
@@ -231,7 +227,7 @@ theme = "LoveIt"
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
             # subtitle shown in home page
-            subtitle = "Benvenuti nel mio angolo nel vasto web"
+            subtitle = "Benvenuti nel mio angolo del web"
             # whether to use typeit animation for subtitle
             typeit = true
             # whether to show social links
