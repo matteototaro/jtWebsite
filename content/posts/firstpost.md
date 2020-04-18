@@ -1,29 +1,28 @@
 ---
-weight: 4
-title: "First Post"
-date: 2020-04-13T22:25:40+02:00
-lastmod: 2020-01-01T16:45:40+08:00
-draft: false
-author: "Matteo"
-authorLink: "https://mtotaro.com"
-description: "This article shows the basic Markdown syntax and format."
 license: ""
-
-tags: ["markdown"]
-categories: ["markdown"]
+draft: false
 hiddenFromHomePage: false
-
-featuredImage: "/images/basic-markdown-syntax/featured-image.png"
-featuredImagePreview: ""
-
-toc: true
-autoCollapseToc: true
-math: false
-lightgallery: true
 linkToMarkdown: true
+authorLink: https://mtotaro.com
+toc: true
+math: false
+author: Matteo
+lastmod: 2020-01-01T08:45:40.000Z
+autoCollapseToc: true
+featuredImage: /images/basic-markdown-syntax/featured-image.png
+date: 2020-04-13T20:25:40.000Z
+title: First Post!!!!!!!!!!!!!
+weight: 4
+tags:
+  - markdown
+featuredImagePreview: ""
+lightgallery: true
+categories:
+  - markdown
+description: This article shows the basic Markdown syntax and format.
+comment: false
 share:
   enable: true
-comment: false
 ---
 
 First post
