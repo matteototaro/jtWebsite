@@ -1,6 +1,6 @@
 ---
 license: ""
-draft: false
+draft: true
 hiddenFromHomePage: false
 linkToMarkdown: true
 authorLink: https://mtotaro.com

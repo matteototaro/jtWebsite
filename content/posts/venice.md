@@ -2,7 +2,7 @@
 title: "Venice - 2017"
 date: 2020-04-14T19:21:09+02:00
 lastmod: 2020-04-14T19:21:09+02:00
-draft: false
+draft: true
 author: "Matteo"
 authorLink: "https://mtotaro.com"
 description: ""
