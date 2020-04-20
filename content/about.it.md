@@ -29,8 +29,8 @@ comment: true
 
 Sono **Matteo Totaro**, ho 23 anni e vivo a Reggio Emilia
 
-Mi sono appena laureato in Ingegneria Elettronica, conseguita ad aprile 2020 a Modena al Dipartimento di Ingegneria "Enzo Ferrari".
+Mi piace molto la fotografia in generale, infatti ho impiegato questo sito principalmente per creare un angolo personale nel vasto *WorldWideWeb* per mettere vari dei miei scatti per dare loro più gloria e crediti. Inoltre volevo salvarle dalle piattaforme di social-media che convertono i file una volta pubblicati, perdendone interamente la qualità iniziale.
 
-Mi piace molto la fotografia in generale, infatti ho creato questo sito principalmente per creare un angolo personale nel vasto *WorldWideWeb* per mettere vari dei miei scatti per dare loro più gloria e crediti. Inoltre volevo salvarle dalle piattaforme di social-media che convertono i file una volta pubblicati, perdendone interamente la qualità iniziale.
+Mi sono appena laureato in Ingegneria Elettronica, conseguita ad aprile 2020 a Modena al Dipartimento di Ingegneria "Enzo Ferrari".
 
 I miei altri interessi sono l'astronomia, spazio, musica, elettronica e la programmazione. Poco dopo la laurea infatti ho creato questo sito quasi da 0 in modo tale da imparare a programmare in altri linguaggi.
