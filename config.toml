@@ -185,22 +185,22 @@ theme = "LoveIt"
     # Menu Info
     [languages.it.menu]
       [[languages.it.menu.main]]
-        identifier = "posts"
+    #    identifier = "posts"
         # you can add extra information before the name (HTML format is allowed), such as icons
-        pre = ""
-        name = "Posts"
-        url = "/posts/"
+    #    pre = ""
+     #   name = "Posts"
+     #   url = "/posts/"
         # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
+    #    title = ""
+     #   weight = 1
       
       [[languages.it.menu.main]]
-        identifier = "gallery"
-        pre = ""
-        name = "Gallery"
-        url = "/gallery/"
-        title = ""
-        weight = 2
+     #   identifier = "gallery"
+     #   pre = ""
+      #  name = "Gallery"
+       # url = "/gallery/"
+       # title = ""
+      #  weight = 2
       
       [[languages.it.menu.main]]
         identifier = "about"
