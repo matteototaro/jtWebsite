@@ -86,7 +86,7 @@ theme = "LoveIt"
         # Social Info in home page
         [languages.en.params.social]
           #GitHub = "xxxx"
-          Linkedin = "xxxx"
+          Linkedin = "m-totaro"
           Twitter = "matteojtotaro"
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
@@ -243,7 +243,7 @@ theme = "LoveIt"
         # Social Info in home page
         [languages.it.params.social]
           #GitHub = "xxxx"
-          Linkedin = "xxxx"
+          Linkedin = "m-totaro"
           Twitter = "matteojtotaro"
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
