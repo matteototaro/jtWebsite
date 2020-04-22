@@ -25,12 +25,13 @@ share:
 comment: true
 ---
 
-![Foto prova](/images/cover_universe.jpg "Foto prova")
+**My name is Matteo Totaro, I'm 23 and I'm from Reggio Emilia, Italy.**
 
-My name is **Matteo Totaro**, I am 23 and I'm from Reggio Emilia, Italy.
+I love photography, in fact this website was built to create a personal angle in the vast WorldWideWeb to place part of my albums in order to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
 
-I love photography, in fact this website was built to create a personal angle in the vast *WorldWideWeb* to place part of my albums in order to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
+Recently I got my bachelor degree in Electronic Engineering obtained in Modena at the Department of Engineering "Enzo Ferrari".
+Shortly after I built this website almost from scratch in order to learn more about other programming languages like HTML and CSS in an alternative way.
 
-I have a bachelor degree in Electronic Engineering obtained at the Department of Engineering "Enzo Ferrari" in Modena.
-
-My other interests are astronomy, space, music,  electronics and programming. After my degree I built this website almost from scratch in order to learn more about other programming languages.
+<h4>Contact:
+<a href="mailto:tmatteos@gmail.com">tmatteos@gmail.com</a>
+</h4>

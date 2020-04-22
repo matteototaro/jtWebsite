@@ -32,11 +32,7 @@ comment: true
   <source srcset="/images/uploads/Venice4_100.webp" alt="Venice webp">
   <img src="/images/uploads/Venice4.png" alt="Venice png" style="">
 </picture> 
-
-    
-
-------------------Test
-
+ 
 
 ### Venezia, Italy, 2017
 
