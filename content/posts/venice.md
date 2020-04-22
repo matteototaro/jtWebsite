@@ -26,10 +26,19 @@ comment: true
 ---
 
 <!--more-->
+	
 
-![Venice](/images/uploads/Venice4.png "Venice PNG")
-![Venice](/images/uploads/Venice4_100.webp "Venice WEBP")
-![Venice](/images/uploads/Venice4_Lossless.png "Venice PNG Lossless")
+ <picture> <!--il comando picture consente diverse sorgenti per la stessa cosa-->
+  <source srcset="/images/uploads/Venice4_100.webp" alt="Venice webp">
+  <source srcset="/images/uploads/Venice4.png" alt="Venice png">
+  <img src="/images/uploads/Venice4.png" alt="Venice png" style="">
+</picture> 
+
+    
+
+------------------Test
+
+
 ### Venezia, Italy, 2017
 
 **In 2017 I went to Venice, Italy for my second time and I shot lots of photos.** It is a magical city, especially if you visit it with someone special to you. In fact I wasn't alone but for obvious reason the following pics represent the beauty of just the city itself.
