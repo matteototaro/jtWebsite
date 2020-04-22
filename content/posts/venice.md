@@ -15,8 +15,8 @@ hiddenFromHomePage: false
 featuredImage: ""
 featuredImagePreview: ""
 
-toc: true
-autoCollapseToc: true
+toc: false
+autoCollapseToc: false
 math: true
 lightgallery: true
 linkToMarkdown: false
