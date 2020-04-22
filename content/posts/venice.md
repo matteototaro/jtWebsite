@@ -30,7 +30,6 @@ comment: true
 
  <picture> <!--il comando picture consente diverse sorgenti per la stessa cosa-->
   <source srcset="/images/uploads/Venice4_100.webp" alt="Venice webp">
-  <source srcset="/images/uploads/Venice4.png" alt="Venice png">
   <img src="/images/uploads/Venice4.png" alt="Venice png" style="">
 </picture> 
 
