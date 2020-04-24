@@ -28,30 +28,22 @@ theme = "LoveIt"
     # Menu Info
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "posts"
-        # you can add extra information before the name (HTML format is allowed), such as icons
-        pre = ""
-        name = "Posts"
-        url = "/posts/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      
-      [[languages.en.menu.main]]
         identifier = "gallery"
+        # you can add extra information before the name (HTML format is allowed), such as icons
         pre = ""
         name = "Gallery"
         url = "/gallery/"
+        # title will be shown when you hover on this menu link.
         title = ""
-        weight = 2
-      
+        weight = 1
+            
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         name = "About"
         url = "/about/"
         title = ""
-        weight = 3
+        weight = 2
       
       [languages.en.params]
         # site description
@@ -185,30 +177,22 @@ theme = "LoveIt"
     # Menu Info
     [languages.it.menu]
       [[languages.it.menu.main]]
-        identifier = "posts"
+        identifier = "gallery"
         # you can add extra information before the name (HTML format is allowed), such as icons
         pre = ""
-        name = "Posts"
-        url = "/posts/"
+        name = "Galleria"
+        url = "/gallery/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
-      
-      [[languages.it.menu.main]]
-        identifier = "gallery"
-        pre = ""
-        name = "Gallery"
-        url = "/gallery/"
-        title = ""
-        weight = 2
-      
+           
       [[languages.it.menu.main]]
         identifier = "about"
         pre = ""
         name = "About"
         url = "/about/"
         title = ""
-        weight = 3
+        weight = 2
       
       [languages.it.params]
         # site description
@@ -221,7 +205,7 @@ theme = "LoveIt"
         [languages.it.params.home]
           # Home Page Profile
           [languages.it.params.home.profile]
-            enable = true
+            enable = false
             # Gravatar Email for preferred avatar in home page
             gravatarEmail = ""  #putting the email kills the imageavatar
             # URL of avatar shown in home page
@@ -235,7 +219,7 @@ theme = "LoveIt"
           # Home Page Posts
           [languages.it.params.home.posts] #if enabled it shows list of posts on the home page
                                             #controllare se possibile far vedere solo le immagini
-            enable = false
+            enable = true
             # special amount of posts in each home posts page
             paginate = 6
             # default behavior when you don't set "hiddenFromHomePage" in front matter
@@ -308,16 +292,16 @@ theme = "LoveIt"
     baidu = ""
 
   # Publisher Info just for SEO
-  [params.publisher]
+  [params.publisher] #cerca già gli url in /static
     name = "Matteo Totaro"
     [params.publisher.logo]
-      url = "logo.png"
+      url = "LogoMT_127_40.png"
       width = 127
       height = 40
 
   # Website Log Info just for SEO
   [params.logo]
-    url = "logo.png"
+    url = "LogoMT_127_40.png"
     width = 127
     height = 40
 
@@ -405,6 +389,7 @@ theme = "LoveIt"
 [author]
   name = "Matteo Totaro"
   link = "/about/"
+  
 
 # Sitemap Info
 [sitemap]
