@@ -1,16 +1,15 @@
 ---
-weight: 4
-title: "Second Post"
-date: 2020-04-13T23:11:49+02:00
-lastmod: 2020-04-13T23:11:49+02:00
+title: "Amsterdam - Ottobre 2018"
+date: 2020-04-25T18:41:43+02:00
+lastmod: 2020-04-25T18:41:43+02:00
 draft: true
 author: "Matteo"
-authorLink: ""
+authorLink: "https://mtotaro.com"
 description: ""
 license: ""
 
-tags: [""]
-categories: [""]
+tags: []
+categories: []
 hiddenFromHomePage: true
 
 featuredImage: ""
@@ -26,15 +25,4 @@ share:
 comment: true
 ---
 
-
-## Second Post!
-
-There you go
-
- <style>
-body {
-  background-image: url(' ');
-  background-size: cover;
-}
-</style> 
 <!--more-->

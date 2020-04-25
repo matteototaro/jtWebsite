@@ -28,11 +28,11 @@ theme = "LoveIt"
     # Menu Info
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "gallery"
+        identifier = "posts"
         # you can add extra information before the name (HTML format is allowed), such as icons
         pre = ""
         name = "Gallery"
-        url = "/gallery/"
+        url = "/posts/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
@@ -70,7 +70,7 @@ theme = "LoveIt"
           # Home Page Posts
           [languages.en.params.home.posts] #if enabled it shows list of posts on the home page
                                             #controllare se possibile far vedere solo le immagini
-            enable = false
+            enable = true
             # special amount of posts in each home posts page
             paginate = 6
             # default behavior when you don't set "hiddenFromHomePage" in front matter
@@ -177,11 +177,11 @@ theme = "LoveIt"
     # Menu Info
     [languages.it.menu]
       [[languages.it.menu.main]]
-        identifier = "gallery"
+        identifier = "posts"
         # you can add extra information before the name (HTML format is allowed), such as icons
         pre = ""
         name = "Galleria"
-        url = "/gallery/"
+        url = "/posts/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1

@@ -27,7 +27,7 @@ comment: true
 
 <!--comment-->
 <body>
-<p style="text-align:justify;"> Sono <mark>Matteo Totaro</mark>, ho 23 anni e vivo a Reggio Emilia.<br><br>
+<p style="text-align:justify;"> Sono Matteo Totaro, ho 23 anni e vivo a Reggio Emilia.<br><br>
 <strong>Mi piace molto la fotografia</strong> e a questo proposito ho creato questo sito per preservare un angolo personale nel vasto WorldWideWeb, per pubblicare alcuni dei miei scatti e per dare loro più gloria e crediti.
 Inoltre volevo salvarle dalle piattaforme di social-media che convertono i file una volta pubblicati, perdendone interamente la qualità iniziale.<br>
 Recentemente ho concluso la laurea triennale in Ingegneria Elettronica conseguita a Modena al Dipartimento di Ingegneria "Enzo Ferrari".
