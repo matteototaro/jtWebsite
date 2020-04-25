@@ -205,7 +205,7 @@ theme = "LoveIt"
         [languages.it.params.home]
           # Home Page Profile
           [languages.it.params.home.profile]
-            enable = false
+            enable = true
             # Gravatar Email for preferred avatar in home page
             gravatarEmail = ""  #putting the email kills the imageavatar
             # URL of avatar shown in home page
