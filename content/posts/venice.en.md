@@ -28,7 +28,7 @@ comment: true
 <!--more-->
 <figure>
     <img src="/images/uploads/venice/Venice4.jpg" alt="Venice Painting" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Painting</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Painting</h6> </figcaption>
 </figure>
 <h3> Venice, Italy, 2017 </h3>
 
@@ -37,26 +37,26 @@ comment: true
 The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br><br>
 <figure>
     <img src="/images/uploads/venice/Venice9.jpg" alt="Venice Skyline" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Skyline</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Skyline</h6> </figcaption>
 </figure>
 I wanted to publish the ones I think I considered the best back in the day more than 3 years ago, in fact the edit in the next image is what I consider being by far the furthest way of editing photos compared to today's standard.
 <figure>
     <img src="/images/uploads/venice/Venice2.jpg" alt="Venice Theatre" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Theatre</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Theatre</h6> </figcaption>
 </figure>
 This is a classic venetian shot from a bridge that connects two different streets. I really like the yellow light that comes from an artisan shop.
 <figure>
     <img src="/images/uploads/venice/Venice7.jpg" alt="Venice Lucetta" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Lucetta</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Lucetta</h6> </figcaption>
 </figure>
 
 <figure>
     <img src="/images/uploads/venice/Venice5.jpg" alt="Venice Barca" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Barca</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Barca</h6> </figcaption>
 </figure>
 The last one is a recent revisitation that I did just because I came across this photo after 3 years and I didn't like the way I edited back in the day. So I took a step back and I edited it again with today's eyes.
 <figure>
     <img src="/images/uploads/venice/VeniceRivisitata.jpg" alt="Venice Ponte" style="">
-    <figcaption> <h5 style="color:lightblue;">Venice Ponte</h5> </figcaption>
+    <figcaption> <h6 style="color:lightgrey;">Venice Ponte</h6> </figcaption>
 </figure>
 </p>

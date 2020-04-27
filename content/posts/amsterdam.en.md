@@ -8,8 +8,8 @@ authorLink: ""
 description: ""
 license: ""
 
-tags: [""]
-categories: [""]
+tags: []
+categories: []
 hiddenFromHomePage: true
 
 featuredImage: ""
