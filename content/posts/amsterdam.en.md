@@ -4,7 +4,7 @@ date: 2020-04-25T18:41:43+02:00
 lastmod: 2020-04-25T18:41:43+02:00
 draft: true
 author: "Matteo"
-authorLink: ""
+authorLink: "https://mtotaro.com"
 description: ""
 license: ""
 
@@ -25,20 +25,17 @@ share:
 comment: true
 ---
 
-<figure class=no-margin><a href= data-lightbox=prova data-alt="prova" data-title="prova" title="prova">
-<img src="" alt="" class="cld-responsive lazyload"> </a>
-
-<figcaption>
-<span class=description-title style=padding-left:0>
-<span>FIG. 1.</span> Clicca per ingrandire.</span>
-</figcaption></figure> </div> </div><section class="single-project row-col-12"><div class="col-md-8 col-md-push-2 no-padding-left">
-
-There you go
-
- <style>
-body {
-  background-image: url(' ');
-  background-size: cover;
-}
-</style> 
 <!--more-->
+
+<figure>
+    <img src="/images/uploads/amsterdam/ " alt="Amsterdam" style="">
+    <figcaption> <h6 style="color:lightgrey;"> Amsterdam </h6> </figcaption>
+</figure>
+<h3> Amsterdam, Netherlands, 2018 </h3>
+
+<p style="text-align:justify;">
+I went to Amsterdam almost 2 years ago and I miss that city a lot. It reminded me about Venice of course because of the canals, quite like the Northern-Europe Venice as someone say.
+
+
+</p>
+
