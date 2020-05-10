@@ -292,14 +292,14 @@ enableEmoji = true
     # ICP info only in China (HTML format is allowed)
     icp = ""
     # license info (HTML format is allowed)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= ''
 
   
   [params.section]
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
-    dateFormat = "02-01"
+    dateFormat = "02-01-2006"
     # amount of RSS pages
     rss = 10
 
@@ -308,7 +308,7 @@ enableEmoji = true
     # special amount of posts in each list page
     paginate = 20
     # date format (month and day)
-    dateFormat = "02-01"
+    dateFormat = "02-01-2006"
     # amount of RSS pages
     rss = 10
 
@@ -350,7 +350,7 @@ enableEmoji = true
    
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
-      enable = true
+      enable = false
       # default block delimiter is $$ ... $$ and \\[ ... \\]
       blockLeftDelimiter = ""
       blockRightDelimiter = ""
@@ -567,7 +567,7 @@ enableEmoji = true
     gitalkCSS = ""
     gitalkJS = ""
     # valine@1.4.14 https://valine.js.org/
-    valineJS = ""
+    valineJS = "https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js"
 
 # Markup related configuration in Hugo
 [markup]
