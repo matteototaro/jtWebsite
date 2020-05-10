@@ -87,7 +87,7 @@ figure, a.lightgallery, img.lazyloaded {
 			data-thumbnail=/images/uploads/amsterdam/9.jpg
 			data-sub-html="Amsterdam">
 			<img class="lazyload"
-				src=/images/uploads/amsterdam/9HD.jpg
+				src=/images/uploads/amsterdam/9.jpg
 				data-src=/images/uploads/amsterdam/9HD.jpg
 				data-sizes=auto
 				alt="Amsterdam"></a>

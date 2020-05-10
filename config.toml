@@ -250,7 +250,7 @@ enableEmoji = true
 
 [params]
   # LoveIt theme version
-    version = "0.2.X"
+    version = "0.2.6"
     # site default theme ("light", "dark", "auto")
     defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
