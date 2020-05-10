@@ -42,7 +42,7 @@ share:
   content: "";
   clear: both;
   display: table;}
-img { width: 100%; }
+img { max-width: 100%; }
 p { text-align:justify; }
 figure, a.lightgallery, img.lazyloaded {
   max-width: 100%;
