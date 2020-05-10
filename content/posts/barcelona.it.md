@@ -96,7 +96,7 @@ figure, a.lightgallery, img.lazyloaded {
 					<code>Casa Battlò</code>
 				</figcaption>
   </figure>
-  {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
+  {{< typeit tag=h3 >}} Barcelona, Spagna, 2019 {{< /typeit >}}
   <p>Ho visitato il capoluogo catalano assieme a due miei amici pochi mesi fa. Gaudì ha letteralmente investito questa città con la sua influenza, è impossibile negarlo che possa piacere o meno.
   Tra le varie attività, abbiamo visitato Casa Battlò, Parc Güell, la Sagrada Familia e il Castell de Montjuïc raggiunto tramite la teleferica.</p>
   <div class="row">
