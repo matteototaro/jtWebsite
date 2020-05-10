@@ -490,7 +490,7 @@ enableEmoji = true
 
  # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics id privacy
     [params.analytics.google]
       id = ""
