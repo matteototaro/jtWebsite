@@ -278,7 +278,6 @@ enableEmoji = true
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
-
       typeit = true
 
   # Footer Copyright Info
@@ -553,7 +552,7 @@ enableEmoji = true
     # sharer.js@0.4.0 https://github.com/ellisonleao/sharer.js
     sharerJS = ""
     # typeit@6.5.1 https://github.com/alexmacarthur/typeit
-    typeitJS = "https://cdnjs.cloudflare.com/ajax/libs/typeit/6.5.1/typeit.min.js"
+    typeitJS = "https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"
     # katex@0.11.1 https://katex.org/
     katexCSS = ""
     katexJS = ""
