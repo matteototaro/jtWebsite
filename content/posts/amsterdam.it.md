@@ -103,7 +103,8 @@ img, figure, a.lightgallery, img.lazyloaded {
 }
 </style>
 
-<div class="container-fluid">
+ <div class="container-fluid">
+ 	<div class="ratio-box fade-box">
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/9HD.jpg
@@ -160,7 +161,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				title="Specchio"
 				data-thumbnail=/images/uploads/amsterdam/11.jpg
 				data-sub-html="Specchio">
-				<img class="lazyload"
+				<img class="lazyload blur-up"
 					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/11HD.jpg
 					data-sizes=auto
@@ -177,7 +178,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				title="Andare di fretta"
 				data-thumbnail=/images/uploads/amsterdam/10.jpg
 				data-sub-html="Andare di fretta">
-				<img class="lazyload"
+				<img class="lazyload blur-up"
 					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/10HD.jpg
 					data-sizes=auto
@@ -193,7 +194,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				title="Vista dal NEMO"
 				data-thumbnail=/images/uploads/amsterdam/12.jpg
 				data-sub-html="Vista dal NEMO">
-				<img class="lazyload"
+				<img class="lazyload blur-up"
 					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/12HD.jpg
 					data-sizes=auto
@@ -203,7 +204,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 					</figcaption>
 		</figure>
 		<p>Concludo questo articolo con una galleria dei classici canali della città da 4 viste differenti.</p>
-		<div class="row">
+		 <div class="row">
 				<div class="scroll-view">
 					<div class="scroll-doc">
 						<div class="scroll-item">
@@ -211,14 +212,14 @@ img, figure, a.lightgallery, img.lazyloaded {
 								<figure>
 									<a class="lightgallery" 
 									href=/images/uploads/amsterdam/5HD.jpg
-									title="Amsterdam canals"
+									title="Canali di Amsterdam"
 									data-thumbnail=/images/uploads/amsterdam/5.jpg
-									data-sub-html="Amsterdam canals">
-										<img class="lazyload"
+									data-sub-html="Canali di Amsterdam">
+										<img class="lazyload blur-up"
 											src=/svg/loading/normal.svg
 											data-src=/images/uploads/amsterdam/5HD.jpg
 											data-sizes=auto
-											alt="Amsterdam canals"></a>
+											alt="Canali di Amsterdam"></a>
 								</figure>
 							</div>
 						</div>
@@ -227,14 +228,14 @@ img, figure, a.lightgallery, img.lazyloaded {
 									<figure>
 										<a class="lightgallery" 
 										href=/images/uploads/amsterdam/2HD.jpg
-										title="Amsterdam canals"
+										title="Canali di Amsterdam"
 										data-thumbnail=/images/uploads/amsterdam/2.jpg
-										data-sub-html="Amsterdam canals">
-											<img class="lazyload"
+										data-sub-html="Canali di Amsterdam">
+											<img class="lazyload blur-up"
 												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/2HD.jpg
 												data-sizes=auto
-												alt="Amsterdam canals"></a>
+												alt="Canali di Amsterdam"></a>
 									</figure>
 								</div>
 						</div>
@@ -243,14 +244,14 @@ img, figure, a.lightgallery, img.lazyloaded {
 									<figure>
 										<a class="lightgallery" 
 											href=/images/uploads/amsterdam/4HD.jpg
-											title="Amsterdam canals"
+											title="Canali di Amsterdam"
 											data-thumbnail=/images/uploads/amsterdam/4.jpg
-											data-sub-html="Amsterdam canals">
-											<img class="lazyload"
+											data-sub-html="Canali di Amsterdam">
+											<img class="lazyload blur-up"
 												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/4HD.jpg
 												data-sizes=auto
-												alt="Amsterdam canals"></a>
+												alt="Canali di Amsterdam"></a>
 									</figure>
 								</div>
 						</div>
@@ -259,22 +260,22 @@ img, figure, a.lightgallery, img.lazyloaded {
 									<figure>
 										<a class="lightgallery" 
 											href=/images/uploads/amsterdam/3HD.jpg
-											title="Amsterdam canals"
+											title="Canali di Amsterdam"
 											data-thumbnail=/images/uploads/amsterdam/3.jpg
-											data-sub-html="Amsterdam canals">
-											<img class="lazyload"
+											data-sub-html="Canali di Amsterdam">
+											<img class="lazyload blur-up"
 												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/3HD.jpg
 												data-sizes=auto
-												alt="Amsterdam canals"></a>
+												alt="Canali di Amsterdam"></a>
 									</figure>
 								</div>
 							</div>
-					</div>
+					 </div>
 			 </div>
 		</div>
-		<h3 style="text-align:center"><code>{{< typeit >}} Amsterdam canals {{< /typeit >}}</code></h3>
- </div>
+		<h3 style="text-align:center"><code>{{< typeit >}} Canali di Amsterdam {{< /typeit >}}</code></h3>
+	</div>
 
 <!--<div class="row">
 				<div class="col-sm-12">
@@ -290,7 +291,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 											<img alt="100%x200" src="/images/uploads/amsterdam/ams2.jpg"
 												data-sizes="auto"
 												data-srcset="/images/uploads/amsterdam/ams2.jpg"
-												class="lazyload" />
+												class="lazyload blur-up" />
 										</div>
 								<div class="carousel-caption">
 									<h5>Amsterdam's canals</h5>
@@ -302,7 +303,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 										src="/images/uploads/amsterdam/ams3.jpg"
 										data-srcset="/images/uploads/amsterdam/ams3.jpg"
 										data-sizes="auto"
-										class="lazyload" />
+										class="lazyload blur-up" />
 								</div>
 								<div class="carousel-caption">
 										<h5>Amsterdam's canals</h5>
@@ -317,3 +318,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 					</div>
 			</div>
 			</div>-->
+
+
+  </div>
