@@ -96,7 +96,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 .lazyload {
 	opacity: 0;
 }
-
 .lazyloading {
 	opacity: 1;
 	transition: opacity 300ms;
@@ -105,15 +104,18 @@ img, figure, a.lightgallery, img.lazyloaded {
 </style>
 
 <div class="container-fluid">
-	<div class="ratio-box fade-box">
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/9HD.jpg
 				title="Amsterdam"
 				data-thumbnail=/images/uploads/amsterdam/9.jpg
 				data-sub-html="Amsterdam">
-				<img class="lazyload"
-					src=/images/uploads/amsterdam/5.jpg
+				<img class="lazyload blur-up"
+					src=/svg/loading/normal.svg
+					data-src=/images/uploads/amsterdam/9HD.jpg
+					data-srcset="/images/uploads/amsterdam/9HD.jpg,
+								/images/uploads/amsterdam/9HD.jpg 1.5x,
+								/images/uploads/amsterdam/9HD.jpg 2x"
 					data-src=/images/uploads/amsterdam/9HD.jpg
 					data-sizes=auto
 					alt="Amsterdam"></a>
@@ -127,7 +129,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/6.jpg
 				data-sub-html="Chiesa ad Amsterdam">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/6.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/6HD.jpg
 					data-sizes=auto
 					alt="Chiesa ad Amsterdam"></a>
@@ -142,8 +144,8 @@ img, figure, a.lightgallery, img.lazyloaded {
 				title="Canali di Amsterdam in un mood autunnale"
 				data-thumbnail=/images/uploads/amsterdam/7.jpg
 				data-sub-html="Canali di Amsterdam in un mood autunnale">
-				<img class="lazyload"
-					src=/images/uploads/amsterdam/7.jpg
+				<img class="lazyload blur-up"
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/7HD.jpg
 					data-sizes=auto
 					alt="Canali di Amsterdam in un mood autunnale"></a>
@@ -272,7 +274,8 @@ img, figure, a.lightgallery, img.lazyloaded {
 			 </div>
 		</div>
 		<h3 style="text-align:center"><code>{{< typeit >}} Amsterdam canals {{< /typeit >}}</code></h3>
-	</div>
+ </div>
+
 
 <!--<div class="row">
 				<div class="col-sm-12">
@@ -315,4 +318,3 @@ img, figure, a.lightgallery, img.lazyloaded {
 					</div>
 			</div>
 			</div>-->
-</div>
