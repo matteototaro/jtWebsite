@@ -72,19 +72,36 @@ figure, a.lightgallery, img.lazyloaded {
 			width: 100%;
 			height: auto;
 		}
-.teaser.lazyloaded {
-  transition: all 700ms;
-}
+	.blur-up {
+		-webkit-filter: blur(5px);
+		filter: blur(5px);
+		transition: filter 400ms, -webkit-filter 400ms;
+	}
+
+	.blur-up.lazyloaded {
+		-webkit-filter: blur(0);
+		filter: blur(0);
+	}
+	.fade-box .lazyload,
+	 .fade-box .lazyloading {
+		opacity: 0;
+		transition: opacity 400ms;
+	}
+
+	.fade-box img.lazyloaded {
+		opacity: 1;
+	}
 </style>
 
 <div class="container-fluid">
+  <div class="ratio-box fade-box">
   <figure>
 	<a class="lightgallery" 
 		href=/images/uploads/barcelona/1HD.jpg
 		title="Casa Battlò"
 		data-thumbnail=/images/uploads/barcelona/1.jpg
 		data-sub-html="Casa Battlò">
-		<img class="lazyload"
+		<img class="lazyload blur-up"
 			src=/images/uploads/barcelona/1.jpg
 			data-src=/images/uploads/barcelona/1HD.jpg
 			data-sizes=auto
@@ -93,6 +110,7 @@ figure, a.lightgallery, img.lazyloaded {
 					<code>Casa Battlò</code>
 				</figcaption>
   </figure>
+  </div>
   {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
   <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has litterally affected every inche of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
   <div class="row">
