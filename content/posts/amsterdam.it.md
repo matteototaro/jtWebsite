@@ -161,7 +161,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/11.jpg
 				data-sub-html="Specchio">
 				<img class="lazyload"
-					src=/images/uploads/amsterdam/11.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/11HD.jpg
 					data-sizes=auto
 					alt="Specchio"></a>
@@ -178,7 +178,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/10.jpg
 				data-sub-html="Andare di fretta">
 				<img class="lazyload"
-					src=/images/uploads/amsterdam/10.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/10HD.jpg
 					data-sizes=auto
 					alt="Andare di fretta"></a>
@@ -194,7 +194,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/12.jpg
 				data-sub-html="Vista dal NEMO">
 				<img class="lazyload"
-					src=/images/uploads/amsterdam/12.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/12HD.jpg
 					data-sizes=auto
 					alt="Vista dal NEMO"></a>
@@ -215,7 +215,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 									data-thumbnail=/images/uploads/amsterdam/5.jpg
 									data-sub-html="Amsterdam canals">
 										<img class="lazyload"
-											src=/images/uploads/amsterdam/5.jpg
+											src=/svg/loading/normal.svg
 											data-src=/images/uploads/amsterdam/5HD.jpg
 											data-sizes=auto
 											alt="Amsterdam canals"></a>
@@ -231,7 +231,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 										data-thumbnail=/images/uploads/amsterdam/2.jpg
 										data-sub-html="Amsterdam canals">
 											<img class="lazyload"
-												src=/images/uploads/amsterdam/2.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/2HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -247,7 +247,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 											data-thumbnail=/images/uploads/amsterdam/4.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload"
-												src=/images/uploads/amsterdam/4.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/4HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -263,7 +263,7 @@ img, figure, a.lightgallery, img.lazyloaded {
 											data-thumbnail=/images/uploads/amsterdam/3.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload"
-												src=/images/uploads/amsterdam/3.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/3HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -275,7 +275,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 		</div>
 		<h3 style="text-align:center"><code>{{< typeit >}} Amsterdam canals {{< /typeit >}}</code></h3>
  </div>
-
 
 <!--<div class="row">
 				<div class="col-sm-12">
