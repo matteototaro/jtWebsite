@@ -520,7 +520,7 @@ enableEmoji = true
     # normalize.css@8.0.1 https://github.com/necolas/normalize.css
     normalizeCSS = ""
     # fontawesome-free@5.13.0 https://fontawesome.com/
-    fontawesomeFreeCSS = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    fontawesomeFreeCSS = ""
     # simple-icons@2.9.0 https://github.com/simple-icons/simple-icons
     # ("https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/")
     simpleIconsPrefix = ""
