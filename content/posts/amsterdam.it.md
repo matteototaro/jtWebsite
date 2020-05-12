@@ -106,20 +106,17 @@ img, figure, a.lightgallery, img.lazyloaded {
 
  <div class="container-fluid">
  	<div class="ratio-box fade-box">
-	 	<image>
+	 	<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/9HD.jpg
 				title="Amsterdam"
 				data-thumbnail=/images/uploads/amsterdam/9.jpg
 				data-sub-html="Amsterdam">
-				<img class="lazyload blur-up" 
-					src="/images/uploads/amsterdam/9.jpg"
-					alt="Amsterdam"
-					caption="<code>Amsterdam</code>"
-					class="lightgallery"
-					src-s="/images/uploads/amsterdam/9.jpg"
-					src-l="/images/uploads/amsterdam/9HD.jpg"></a>
-		</image>
+				<img class="lazyload blur-up"
+					data-src=/images/uploads/amsterdam/9HD.jpg
+					data-sizes=auto
+					alt="Chiesa ad Amsterdam"></a>
+		</figure>
 		{{< typeit tag=h3 >}} Amsterdam, Olanda, 2018 {{< /typeit >}}
 		<p>Sono stato ad Amsterdam circa 2 anni fa e mi è piaciuta così tanto che non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
 		<figure>
@@ -129,7 +126,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/6.jpg
 				data-sub-html="Chiesa ad Amsterdam">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/6HD.jpg
 					data-sizes=auto
 					alt="Chiesa ad Amsterdam"></a>
@@ -145,7 +141,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/7.jpg
 				data-sub-html="Canali di Amsterdam in un mood autunnale">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/7HD.jpg
 					data-sizes=auto
 					alt="Canali di Amsterdam in un mood autunnale"></a>
@@ -161,7 +156,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/11.jpg
 				data-sub-html="Specchio">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/11HD.jpg
 					data-sizes=auto
 					alt="Specchio"></a>
@@ -178,7 +172,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/10.jpg
 				data-sub-html="Andare di fretta">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/10HD.jpg
 					data-sizes=auto
 					alt="Andare di fretta"></a>
@@ -194,7 +187,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/12.jpg
 				data-sub-html="Vista dal NEMO">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/12HD.jpg
 					data-sizes=auto
 					alt="Vista dal NEMO"></a>
@@ -215,7 +207,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 									data-thumbnail=/images/uploads/amsterdam/5.jpg
 									data-sub-html="Canali di Amsterdam">
 										<img class="lazyload blur-up"
-											src=/svg/loading/normal.svg
 											data-src=/images/uploads/amsterdam/5HD.jpg
 											data-sizes=auto
 											alt="Canali di Amsterdam"></a>
@@ -231,7 +222,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 										data-thumbnail=/images/uploads/amsterdam/2.jpg
 										data-sub-html="Canali di Amsterdam">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/2HD.jpg
 												data-sizes=auto
 												alt="Canali di Amsterdam"></a>
@@ -247,7 +237,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 											data-thumbnail=/images/uploads/amsterdam/4.jpg
 											data-sub-html="Canali di Amsterdam">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/4HD.jpg
 												data-sizes=auto
 												alt="Canali di Amsterdam"></a>
@@ -263,7 +252,6 @@ img, figure, a.lightgallery, img.lazyloaded {
 											data-thumbnail=/images/uploads/amsterdam/3.jpg
 											data-sub-html="Canali di Amsterdam">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/3HD.jpg
 												data-sizes=auto
 												alt="Canali di Amsterdam"></a>
