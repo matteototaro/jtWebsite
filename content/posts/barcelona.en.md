@@ -95,289 +95,270 @@ figure, a.lightgallery, img.lazyloaded {
 
 <div class="container-fluid">
   <div class="ratio-box fade-box">
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/1HD.jpg
-		title="Casa Battlò"
-		data-thumbnail=/images/uploads/barcelona/1.jpg
-		data-sub-html="Casa Battlò">
-		<img class="lazyload blur-up"
-			src=/images/uploads/barcelona/1.jpg
-			data-src=/images/uploads/barcelona/1HD.jpg
-			data-sizes=auto
-			alt="Casa Battlò"></a>
-      	<figcaption class=image-caption>
-					<code>Casa Battlò</code>
-				</figcaption>
-  </figure>
-  </div>
-  {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
-  <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has litterally affected every inche of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
-  <div class="row">
-    <div class="scroll-view">
-       <div class="scroll-doc">
-           <div class="scroll-item">
-             <div class="thumbnail">
-                <figure>
-                <a class="lightgallery" 
-                  href=/images/uploads/barcelona/2HD.jpg
-                  title="View from Castell de Montjuïc"
-                  data-thumbnail=/images/uploads/barcelona/2.jpg
-                  data-sub-html="View from Castell de Montjuïc">
-                  <img class="lazyload"
-                    src=/images/uploads/barcelona/2.jpg
-                    data-src=/images/uploads/barcelona/2HD.jpg
-                    data-sizes=auto
-                    alt="View from Castell de Montjuïc"></a>
-                      <figcaption class=image-caption>
-                        <code>View from Castell de Montjuïc</code>
-                      </figcaption>
-                </figure>
-              </div>
-           </div>
-          <div class="scroll-item">
-             <div class="thumbnail">
-                <figure>
-                <a class="lightgallery" 
-                  href=/images/uploads/barcelona/5HD.jpg
-                  title="View from Castell de Montjuïc"
-                  data-thumbnail=/images/uploads/barcelona/5.jpg
-                  data-sub-html="View from Castell de Montjuïc">
-                  <img class="lazyload"
-                    src=/images/uploads/barcelona/5.jpg
-                    data-src=/images/uploads/barcelona/5HD.jpg
-                    data-sizes=auto
-                    alt="View from Castell de Montjuïc"></a>
-                      <figcaption class=image-caption>
-                        <code>View from Castell de Montjuïc</code>
-                      </figcaption>
-                </figure>
-              </div>
-           </div>
-      </div>
-  </div>
- </div>
- <p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it's 200m lower than the parc itself.</p>
- 
-  <!--<figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/11.jpg
-		title="Towards Parc Güell"
-		data-thumbnail=/images/uploads/barcelona/11.jpg
-		data-sub-html="Towards Parc Güell">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/11.jpg
-			data-src=/images/uploads/barcelona/11.jpg
-			data-sizes=auto
-			alt="Towards Parc Güell"></a>
-      	<figcaption class=image-caption>
-					<code>Towards Parc Güell</code>
-				</figcaption>
-  </figure>-->
-  
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/12HD.jpg
-		title="Vallcarca district, near Parc Güell"
-		data-thumbnail=/images/uploads/barcelona/12.jpg
-		data-sub-html="Vallcarca district, near Parc Güell">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/12.jpg
-			data-src=/images/uploads/barcelona/12HD.jpg
-			data-sizes=auto
-			alt="Vallcarca district, near Parc Güell"></a>
-      	<figcaption class=image-caption>
-					<code>Vallcarca district, near Parc Güell</code>
-				</figcaption>
-  </figure>
-  <p>We walked all the way up to the parc, following this hill with escalators and plants.</p>
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/13HD.jpg
-		title="Barcellona"
-		data-thumbnail=/images/uploads/barcelona/13.jpg
-		data-sub-html="Barcellona">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/13.jpg
-			data-src=/images/uploads/barcelona/13HD.jpg
-			data-sizes=auto
-			alt="Barcellona"></a>
-        <figcaption class=image-caption>
-					<code>Barcellona</code>
-				</figcaption>
-  </figure>
-  <p>Once entered the parc we found this panorama. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
-  <figure>
-  <a class="lightgallery" 
-    href=/images/uploads/barcelona/14HD.jpg
-    title="Towards Parc Güell"
-    data-thumbnail=/images/uploads/barcelona/14.jpg
-    data-sub-html="Towards Parc Güell">
-         <img class="lazyload"
-              src=/images/uploads/barcelona/14.jpg
-              data-src=/images/uploads/barcelona/14HD.jpg
-              data-sizes=auto
-              alt="Towards Parc Güell"></a>
-         <figcaption class=image-caption>
-            <code>Towards Parc Güell</code>
-         </figcaption>
-  </figure>
-  <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc.</p>
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/4HD.jpg
-		title="Parc Güell"
-		data-thumbnail=/images/uploads/barcelona/4.jpg
-		data-sub-html="Parc Güell">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/4.jpg
-			data-src=/images/uploads/barcelona/4HD.jpg
-			data-sizes=auto
-			alt="Parc Güell"></a>
-      	<figcaption class=image-caption>
-					<code>Parc Güell</code>
-				</figcaption>
-  </figure>
-  <p>Unfortunately a vast part of the parc was under renovations so the pictures weren't that great. This is the gallery that encloses the main structure of the parc near the entrance.</p>
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/3HD.jpg
-		title="Parc Güell"
-		data-thumbnail=/images/uploads/barcelona/3.jpg
-		data-sub-html="Parc Güell">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/3.jpg
-			data-src=/images/uploads/barcelona/3HD.jpg
-			data-sizes=auto
-			alt="Parc Güell"></a>
-      	<figcaption class=image-caption>
-					<code>Parc Güell</code>
-				</figcaption>
-  </figure>
-
-  <p>La maestosità della cattedrale ci ha davvero spiazzato. Proveniendo dal <i>Passeig de Sant Joan</i>, la Sagrada Familia spunta fuori in mezzo agli alberi quasi come se servissero ad indicare la via da percorrere per raggiungerla, come se non fosse già ovvio dove si trova. Ad ottobre 2019 era ancora in costruzione e lo sarà fino al 2026; a questo proposito ho cercato di togliere le 37 gru gialle attorno al cantiere. E qualcosa è rimasto.</p>
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/10HD.jpg
-		title="Sagrada Familia"
-		data-thumbnail=/images/uploads/barcelona/10.jpg
-		data-sub-html="Sagrada Familia">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/10.jpg
-			data-src=/images/uploads/barcelona/10HD.jpg
-			data-sizes=auto
-			alt="Sagrada Familia"></a>
-      	<figcaption class=image-caption>
-					<code>Sagrada Familia</code>
-				</figcaption>
-  </figure>
-  <p>La parte esterna è piena zeppa di sculture, ma la vera magia di cui tanto si parla avviene all'interno. La foto qui sotto rappresenta l'arcata principale della cattedrale e il gioco di luci delle vetrate crea un'atmosfera surreale. È impossibile descriverla quindi vi toccherà entrarci per capire di che parlo. </p>
-  <figure>
-	<a class="lightgallery" 
-		href=/images/uploads/barcelona/9HD.jpg
-		title="Navata della Sagrada Familia"
-		data-thumbnail=/images/uploads/barcelona/9.jpg
-		data-sub-html="Navata della Sagrada Familia">
-		<img class="lazyload"
-			src=/images/uploads/barcelona/9.jpg
-			data-src=/images/uploads/barcelona/9HD.jpg
-			data-sizes=auto
-			alt="Navata della Sagrada Familia"></a>
-      	<figcaption class=image-caption>
-					<code>Navata della Sagrada Familia</code>
-				</figcaption>
-  </figure>
-  <p>Ho cercato di ricreare quello che vidi alcuni mesi fa tramite saturazione e luminanza di ogni colore. L'idea di Gaudì era quella di ricreare un bosco all'interno, infatti non vi sono quadri sulle pareti e le colonne principali al centro della navata ricordano dei tronchi per forma e colore.<br>Le due navate laterali si oppongono per palette di colori, infatti quella di sinistra con colori freddi come blue e verde si contrappone alla navata destra con colori caldi come rosso e giallo.</p>
-  <div class="row">
-        <div class="scroll-view">
-          <div class="scroll-doc">
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/1HD.jpg
+      title="Casa Battlò"
+      data-thumbnail=/images/uploads/barcelona/1.jpg
+      data-sub-html="Casa Battlò">
+      <img class="lazyload blur-up"
+        src=/images/uploads/barcelona/1.jpg
+        data-src=/images/uploads/barcelona/1HD.jpg
+        data-sizes=auto
+        alt="Casa Battlò"></a>
+          <figcaption class=image-caption>
+            <code>Casa Battlò</code>
+          </figcaption>
+    </figure>
+    </div>
+    {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
+    <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has litterally affected every inche of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
+    <div class="row">
+      <div class="scroll-view">
+        <div class="scroll-doc">
             <div class="scroll-item">
               <div class="thumbnail">
-                <figure>
+                  <figure>
                   <a class="lightgallery" 
-                    href=/images/uploads/barcelona/6HD.jpg
-                    title="Barcellona"
-                    data-thumbnail=/images/uploads/barcelona/6.jpg
-                    data-sub-html="Barcellona">
+                    href=/images/uploads/barcelona/2HD.jpg
+                    title="View from Castell de Montjuïc"
+                    data-thumbnail=/images/uploads/barcelona/2.jpg
+                    data-sub-html="View from Castell de Montjuïc">
                     <img class="lazyload"
-                      src=/images/uploads/barcelona/6.jpg
-                      data-src=/images/uploads/barcelona/6HD.jpg
+                      src=/images/uploads/barcelona/2.jpg
+                      data-src=/images/uploads/barcelona/2HD.jpg
                       data-sizes=auto
-                      alt="Barcellona"></a>
+                      alt="View from Castell de Montjuïc"></a>
+                        <figcaption class=image-caption>
+                          <code>View from Castell de Montjuïc</code>
+                        </figcaption>
                   </figure>
-              </div>
+                </div>
             </div>
             <div class="scroll-item">
               <div class="thumbnail">
-                <figure>
+                  <figure>
                   <a class="lightgallery" 
-                    href=/images/uploads/barcelona/7HD.jpg
-                    title="Barcellona"
-                    data-thumbnail=/images/uploads/barcelona/7.jpg
-                    data-sub-html="Barcellona">
+                    href=/images/uploads/barcelona/5HD.jpg
+                    title="View from Castell de Montjuïc"
+                    data-thumbnail=/images/uploads/barcelona/5.jpg
+                    data-sub-html="View from Castell de Montjuïc">
                     <img class="lazyload"
-                      src=/images/uploads/barcelona/7.jpg
-                      data-src=/images/uploads/barcelona/7HD.jpg
+                      src=/images/uploads/barcelona/5.jpg
+                      data-src=/images/uploads/barcelona/5HD.jpg
                       data-sizes=auto
-                      alt="Barcellona"></a>
-                </figure>
-              </div>
-            </div>
-            <div class="scroll-item">
-              <div class="thumbnail" style="width:150%;height:auto;">
-                <figure>
-                  <a class="lightgallery" 
-                    href=/images/uploads/barcelona/8HD.jpg
-                    title="Barcellona"
-                    data-thumbnail=/images/uploads/barcelona/8.jpg
-                    data-sub-html="Barcellona">
-                    <img class="lazyload"
-                      src=/images/uploads/barcelona/8.jpg
-                      data-src=/images/uploads/barcelona/8HD.jpg
-                      data-sizes=auto
-                      alt="Barcellona"></a>
-                </figure>
-              </div>
+                      alt="View from Castell de Montjuïc"></a>
+                        <figcaption class=image-caption>
+                          <code>View from Castell de Montjuïc</code>
+                        </figcaption>
+                  </figure>
+                </div>
             </div>
         </div>
-       </div>
-      <h3 style="text-align:center"><code>{{< typeit >}} Interno della Sagrada Familia {{< /typeit >}}</code></h3> 
+    </div>
   </div>
-  <p>Spero che questa guida digitale sia stata abbastanza chiara. Ultimamente ho cercato di trovare nuovi metodi alternativi per poter pubblicare diversamente le foto che scatto, ma la verità è che erano tutte soluzioni temporanee per i miei bisogni. Qui sotto c'è un riepilogo generale che ho pubblicato in un unico post su <a href="https://www.instagram.com/p/B7igrvAoDsW/">Instagram</a>. Guardando il post ci si ricorda subito l'ovvia motivazione per il quale ho aperto questo sito.</p><br>
-
-  <div class="row">
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/11-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
+  <p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it's 200m lower than the parc itself.</p>
+     <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/12HD.jpg
+      title="Vallcarca district, near Parc Güell"
+      data-thumbnail=/images/uploads/barcelona/12.jpg
+      data-sub-html="Vallcarca district, near Parc Güell">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/12.jpg
+        data-src=/images/uploads/barcelona/12HD.jpg
+        data-sizes=auto
+        alt="Vallcarca district, near Parc Güell"></a>
+          <figcaption class=image-caption>
+            <code>Vallcarca district, near Parc Güell</code>
+          </figcaption>
+    </figure>
+    <p>We walked all the way up to the parc, following this hill with escalators and plants.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/13HD.jpg
+      title="Barcellona"
+      data-thumbnail=/images/uploads/barcelona/13.jpg
+      data-sub-html="Barcellona">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/13.jpg
+        data-src=/images/uploads/barcelona/13HD.jpg
+        data-sizes=auto
+        alt="Barcellona"></a>
+          <figcaption class=image-caption>
+            <code>Barcellona</code>
+          </figcaption>
+    </figure>
+    <p>Once entered the parc we found this panorama. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/14HD.jpg
+      title="Towards Parc Güell"
+      data-thumbnail=/images/uploads/barcelona/14.jpg
+      data-sub-html="Towards Parc Güell">
+          <img class="lazyload"
+                src=/images/uploads/barcelona/14.jpg
+                data-src=/images/uploads/barcelona/14HD.jpg
+                data-sizes=auto
+                alt="Towards Parc Güell"></a>
+          <figcaption class=image-caption>
+              <code>Towards Parc Güell</code>
+          </figcaption>
+    </figure>
+    <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/4HD.jpg
+      title="Parc Güell"
+      data-thumbnail=/images/uploads/barcelona/4.jpg
+      data-sub-html="Parc Güell">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/4.jpg
+        data-src=/images/uploads/barcelona/4HD.jpg
+        data-sizes=auto
+        alt="Parc Güell"></a>
+          <figcaption class=image-caption>
+            <code>Parc Güell</code>
+          </figcaption>
+    </figure>
+    <p>Unfortunately a vast part of the parc was under renovations so the pictures weren't that great. This is the gallery that encloses the main structure of the parc near the entrance.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/3HD.jpg
+      title="Parc Güell"
+      data-thumbnail=/images/uploads/barcelona/3.jpg
+      data-sub-html="Parc Güell">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/3.jpg
+        data-src=/images/uploads/barcelona/3HD.jpg
+        data-sizes=auto
+        alt="Parc Güell"></a>
+          <figcaption class=image-caption>
+            <code>Parc Güell</code>
+          </figcaption>
+    </figure>
+    <p>The majesty of the cathedral really blew us away. Coming from the <i> Passeig de Sant Joan </i>, the Sagrada Familia appears out among the trees almost as if they were used to indicate the way to reach it, as if it weren't obvious already where the cathedral is. At the time, October 2019, it was still under construction and it will be until 2026; in this regard, I tried to remove the enormous amount of yellow cranes around the construction site. But still there's something left.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/10HD.jpg
+      title="Sagrada Familia"
+      data-thumbnail=/images/uploads/barcelona/10.jpg
+      data-sub-html="Sagrada Familia">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/10.jpg
+        data-src=/images/uploads/barcelona/10HD.jpg
+        data-sizes=auto
+        alt="Sagrada Familia"></a>
+          <figcaption class=image-caption>
+            <code>Sagrada Familia</code>
+          </figcaption>
+    </figure>
+    <p>The outside is fully covered of sculptures, but the real magic that everyone talks about takes place inside. The following photo represents the main arch of the cathedral and the play of light from the windows creates a surreal atmosphere. It is impossible to describe it so you will have to enter it to understand what I am talking about.</p>
+    <figure>
+    <a class="lightgallery" 
+      href=/images/uploads/barcelona/9HD.jpg
+      title="Navata della Sagrada Familia"
+      data-thumbnail=/images/uploads/barcelona/9.jpg
+      data-sub-html="Navata della Sagrada Familia">
+      <img class="lazyload"
+        src=/images/uploads/barcelona/9.jpg
+        data-src=/images/uploads/barcelona/9HD.jpg
+        data-sizes=auto
+        alt="Navata della Sagrada Familia"></a>
+          <figcaption class=image-caption>
+            <code>Navata della Sagrada Familia</code>
+          </figcaption>
+    </figure>
+    <p>I tried to recreate what I saw inside a few months ago via editing saturation and luminance of each color channel. Gaudì's idea was to recreate a forest inside, in fact there are no paintings on the walls and the main columns in the center of the nave are reminiscent of trunks in shape and color.<br>The two glass windows of the two side aisles are opposed by color palette, in fact the one on the left with cold colors like blue and green contrasts with the right aisle with warm colors like red and yellow.</p>
+    <div class="row">
+          <div class="scroll-view">
+            <div class="scroll-doc">
+              <div class="scroll-item">
+                <div class="thumbnail">
+                  <figure>
+                    <a class="lightgallery" 
+                      href=/images/uploads/barcelona/6HD.jpg
+                      title="Barcellona"
+                      data-thumbnail=/images/uploads/barcelona/6.jpg
+                      data-sub-html="Barcellona">
+                      <img class="lazyload"
+                        src=/images/uploads/barcelona/6.jpg
+                        data-src=/images/uploads/barcelona/6HD.jpg
+                        data-sizes=auto
+                        alt="Barcellona"></a>
+                    </figure>
+                </div>
+              </div>
+              <div class="scroll-item">
+                <div class="thumbnail">
+                  <figure>
+                    <a class="lightgallery" 
+                      href=/images/uploads/barcelona/7HD.jpg
+                      title="Barcellona"
+                      data-thumbnail=/images/uploads/barcelona/7.jpg
+                      data-sub-html="Barcellona">
+                      <img class="lazyload"
+                        src=/images/uploads/barcelona/7.jpg
+                        data-src=/images/uploads/barcelona/7HD.jpg
+                        data-sizes=auto
+                        alt="Barcellona"></a>
+                  </figure>
+                </div>
+              </div>
+              <div class="scroll-item">
+                <div class="thumbnail" style="width:150%;height:auto;">
+                  <figure>
+                    <a class="lightgallery" 
+                      href=/images/uploads/barcelona/8HD.jpg
+                      title="Barcellona"
+                      data-thumbnail=/images/uploads/barcelona/8.jpg
+                      data-sub-html="Barcellona">
+                      <img class="lazyload"
+                        src=/images/uploads/barcelona/8.jpg
+                        data-src=/images/uploads/barcelona/8HD.jpg
+                        data-sizes=auto
+                        alt="Barcellona"></a>
+                  </figure>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/22-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
-        </div>
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/33-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
-        </div>
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/44-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
-        </div>
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/55-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
-        </div>
-        <div class="column2"><img class="lazyload" style="width:100%;height:auto"
-			data-src=/images/uploads/barcelona/66-poster.jpg
-			data-sizes=auto
-			alt="Barcellona">
-        </div>
-  </div>
-
+        <h3 style="text-align:center">
+          <code>{{< typeit >}} Inside of the Sagrada Familia {{< /typeit >}}</code></h3> 
+    </div>
+    <p>I hope this digital guide has been clear enough. Lately I've tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there's a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/"> Instagram </a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p><br>
+    <div class="row">
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/11-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/22-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/33-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/44-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/55-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+          <div class="column2"><img class="lazyload" style="width:100%;height:auto"
+        data-src=/images/uploads/barcelona/66-poster.jpg
+        data-sizes=auto
+        alt="Barcellona">
+          </div>
+    </div>
   <br>
    {{< typeit tag=i >}} Adios {{< /typeit >}}
 </div>

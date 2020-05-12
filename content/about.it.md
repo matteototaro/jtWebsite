@@ -63,7 +63,8 @@ height: auto;}
     Poco dopo, ho creato questo sito come hobby personale, in modo tale da imparare a programmare in altri linguaggi come HTML e CSS in un modo alternativo.<br><br><br>
     <strong>Questo è un sito statico</strong> costruito in 3 settimane circa con il framework open source <a href="https://gohugo.io/">Hugo</a> durante aprile 2020 mentre il mondo intero è in quarantena.<br>
     Ho quindi avuto modo di concentrarmi su alcuni progetti personali esattamente come questo che state leggendo. Il sito è ospitato su Netlify, il quale prende tutti i file necessari da un repository pubblico su Github.<br>
-    La mia idea attuale è quella di utilizzare questo spazio per pubblicare progetti passati e futuri; in particolare, le fotografie saranno pubblicate così come sono, con l'intenzione di crearne una sorta di <i>museo personale</i> per poter notare il processo evolutivo nel tempo. Ho una Nikon D5300 con un misero 18-55mm stabilizzato; prima o poi prenderò altre lenti.<br> 
+    La mia idea attuale è quella di utilizzare questo spazio per pubblicare progetti passati e futuri; in particolare, le fotografie saranno pubblicate così come sono, con l'intenzione di crearne una sorta di <i>museo personale</i> per poter notare il processo evolutivo nel tempo. Ho una Nikon D5300 con un misero 18-55mm stabilizzato; prima o poi prenderò altre lenti.
+    Ho cercato di trovare un compromesso tra qualità delle foto e rapidità di caricamento del sito, quindi spero sia di vostro gradimento.<br> 
     Grazie per essere passato di qua e buona giornata!</p><br><br>
   <div class="row" style="text-align:center;">
     <h4>Contatti:</h4>

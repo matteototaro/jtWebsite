@@ -63,7 +63,8 @@ height: auto;}
   <strong>This static site</strong> has been built in about 3 weeks with the open source framework
   <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home.<br>So I took this time to focus on personal projects exactly like this one you're reading.<br>
   The site is hosted on Netlify, which takes all the files from a public repository on Github.<br>
-  The main goal of this space is to publish my previous and future projects so the pictures will be put up just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time. I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.<br>
+  The main goal of this space is to publish my previous and future projects so the pictures will be put up just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time. I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.
+  I tried to find a compromise between photo quality and loading speed of the website, I hope you enjoy it.<br>
   Thanks for stopping by and have a great day!</p><br><br>
   <div class="row" style="text-align:center;">
     <h4>Contacts:</h4>
