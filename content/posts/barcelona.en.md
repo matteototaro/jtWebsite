@@ -162,16 +162,16 @@ figure, a.lightgallery, img.lazyloaded {
   <!--<figure>
 	<a class="lightgallery" 
 		href=/images/uploads/barcelona/11.jpg
-		title="Salita verso Parc Güell"
+		title="Towards Parc Güell"
 		data-thumbnail=/images/uploads/barcelona/11.jpg
-		data-sub-html="Salita verso Parc Güell">
+		data-sub-html="Towards Parc Güell">
 		<img class="lazyload"
 			src=/images/uploads/barcelona/11.jpg
 			data-src=/images/uploads/barcelona/11.jpg
 			data-sizes=auto
-			alt="Salita verso Parc Güell"></a>
+			alt="Towards Parc Güell"></a>
       	<figcaption class=image-caption>
-					<code>Salita verso Parc Güell</code>
+					<code>Towards Parc Güell</code>
 				</figcaption>
   </figure>-->
   
@@ -206,23 +206,23 @@ figure, a.lightgallery, img.lazyloaded {
 					<code>Barcellona</code>
 				</figcaption>
   </figure>
-  <p>Una volta saliti, questa era la vista. Personalmente la foto non è nulla di particolare ma ci tenevo ad includerla. Si notano bene tutte le gru che intrappolano la Sagrada Familia.</p>
+  <p>Once entered the parc we found this panorama. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
   <figure>
   <a class="lightgallery" 
     href=/images/uploads/barcelona/14HD.jpg
-    title="Salita verso Parc Güell"
+    title="Towards Parc Güell"
     data-thumbnail=/images/uploads/barcelona/14.jpg
-    data-sub-html="Salita verso Parc Güell">
+    data-sub-html="Towards Parc Güell">
          <img class="lazyload"
               src=/images/uploads/barcelona/14.jpg
               data-src=/images/uploads/barcelona/14HD.jpg
               data-sizes=auto
-              alt="Salita verso Parc Güell"></a>
+              alt="Towards Parc Güell"></a>
          <figcaption class=image-caption>
-            <code>Salita verso Parc Güell</code>
+            <code>Towards Parc Güell</code>
          </figcaption>
   </figure>
-  <p>Una volta entrati nel parco sembrava di stare in un bagno all'aperto per la quantità innumerabile di piastrelle. Scherzi a parte è stato davvero interessante e la prossima è una classica foto dell'entrata principale al parco.</p>
+  <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc.</p>
   <figure>
 	<a class="lightgallery" 
 		href=/images/uploads/barcelona/4HD.jpg
@@ -238,7 +238,7 @@ figure, a.lightgallery, img.lazyloaded {
 					<code>Parc Güell</code>
 				</figcaption>
   </figure>
-  <p>Purtroppo però aveva parecchie parti in ristrutturazione quindi le foto non sono venute granchè. Questa è la galleria che fa da sentiero esterno per la struttura principale vicino l'entrata.</p>
+  <p>Unfortunately a vast part of the parc was under renovations so the pictures weren't that great. This is the gallery that encloses the main structure of the parc near the entrance.</p>
   <figure>
 	<a class="lightgallery" 
 		href=/images/uploads/barcelona/3HD.jpg

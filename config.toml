@@ -1,4 +1,5 @@
 baseURL = "https://mtotaro.com/"
+googleAnalytics = "UA-164939128-1"
 defaultContentLanguage = "en"
 title = "Matteo Totaro"
 theme = "LoveIt"
@@ -278,7 +279,7 @@ enableEmoji = true
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
-      typeit = true
+      typeit = false
 
   # Footer Copyright Info
   [params.footer]
@@ -535,7 +536,7 @@ enableEmoji = true
     # algoliasearch@4.2.0 https://github.com/algolia/algoliasearch-client-javascript
     algoliasearchJS = ""
     # lazysizes@5.2.0 https://github.com/aFarkas/lazysizes
-    lazysizesJS = "https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js"
+    lazysizesJS = ""
     # object-fit-images@3.2.4 https://github.com/fregante/object-fit-images
     objectFitImagesJS = ""
     # twemoji@12.1.5 https://github.com/twitter/twemoji

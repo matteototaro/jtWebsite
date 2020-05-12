@@ -15,10 +15,11 @@ hiddenFromHomePage: true
 featuredImage: ""
 featuredImagePreview: ""
 
-lightgallery: true
+lightgallery: false
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
+
 ---
    <head>
     <!-- Bootstrap CSS -->
@@ -112,17 +113,14 @@ img, figure, a.lightgallery, img.lazyloaded {
 				data-thumbnail=/images/uploads/amsterdam/9.jpg
 				data-sub-html="Amsterdam">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
+					src=/images/uploads/amsterdam/9.jpg
 					data-src=/images/uploads/amsterdam/9HD.jpg
-					data-srcset="/images/uploads/amsterdam/9HD.jpg,
-								/images/uploads/amsterdam/9HD.jpg 1.5x,
-								/images/uploads/amsterdam/9HD.jpg 2x"
-					data-src=/images/uploads/amsterdam/9HD.jpg
+					src-sizes=auto
 					data-sizes=auto
 					alt="Amsterdam"></a>
 		</figure>
 		{{< typeit tag=h3 >}} Amsterdam, Olanda, 2018 {{< /typeit >}}
-		<p>Sono stato ad Amsterdam ormai quasi 2 anni fa e non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
+		<p>Sono stato ad Amsterdam circa 2 anni fa e mi è piaciuta così tanto che non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/6HD.jpg
