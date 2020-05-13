@@ -19,7 +19,6 @@ lightgallery: true
 linkToMarkdown: false
 share:
   enable: false
-
 ---
 
 <div class="container-fluid">
@@ -190,6 +189,6 @@ share:
 			 </div>
 		</div>
 		<h3 style="text-align:center"><code> Canali di Amsterdam </code></h3>
-	 <i>{{< typeit >}} Grazie per essere passato da qua! {{< /typeit >}}</i>
+	 <i>{{< typeit >}} Grazie per essere passato da qua {{< /typeit >}}</i>
 	 </div>
  </div>

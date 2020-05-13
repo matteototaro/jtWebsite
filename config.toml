@@ -106,6 +106,8 @@ enableEmoji = true
             gravatarEmail = ""  #putting the email kills the imageavatar
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
+            # title shown in home page (HTML format is supported)
+            title = ""
             # subtitle shown in home page
             subtitle = "Welcome to my angle on the web"
             # whether to use typeit animation for subtitle
@@ -222,6 +224,8 @@ enableEmoji = true
             gravatarEmail = ""  #putting the email kills the imageavatar
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
+            # title shown in home page (HTML format is supported)
+            title = ""
             # subtitle shown in home page
             subtitle = "Benvenuti nel mio angolo del web"
             # whether to use typeit animation for subtitle
@@ -480,7 +484,7 @@ enableEmoji = true
         height = 40
       # Image info
       [params.page.seo.image]
-        url = "cover.png"
+        url = "cover.jpg"
         width = 800
         height = 600
 
@@ -505,7 +509,7 @@ enableEmoji = true
 
  # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics id privacy
     [params.analytics.google]
       id = ""

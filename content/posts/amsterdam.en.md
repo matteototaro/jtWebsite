@@ -20,7 +20,7 @@ linkToMarkdown: false
 share:
   enable: true
 ---
-
+<!--cambiare src-->
 <div class="container-fluid">
 	<div class="ratio-box fade-box">
 		<figure>
@@ -30,7 +30,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/9.jpg
 				data-sub-html="Amsterdam">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/9.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/9HD.jpg
 					data-sizes=auto
 					alt="Amsterdam"></a>
@@ -44,7 +44,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/6.jpg
 				data-sub-html="Church in Amsterdam">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/6.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/6HD.jpg
 					data-sizes=auto
 					alt="Church in Amsterdam"></a>
@@ -60,7 +60,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/7.jpg
 				data-sub-html="Amsterdam canals in an autumn">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/7.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/7HD.jpg
 					data-sizes=auto
 					alt="Amsterdam canals in an autumn"></a>
@@ -76,7 +76,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/11.jpg
 				data-sub-html="Mirror">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/11.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/11HD.jpg
 					data-sizes=auto
 					alt="Mirror"></a>
@@ -92,7 +92,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/10.jpg
 				data-sub-html="Running late">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/10.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/10HD.jpg
 					data-sizes=auto
 					alt="Running late"></a>
@@ -108,7 +108,7 @@ share:
 				data-thumbnail=/images/uploads/amsterdam/12.jpg
 				data-sub-html="View from NEMO">
 				<img class="lazyload blur-up"
-					src=/images/uploads/amsterdam/12.jpg
+					src=/svg/loading/normal.svg
 					data-src=/images/uploads/amsterdam/12HD.jpg
 					data-sizes=auto
 					alt="View from NEMO"></a>
@@ -129,7 +129,7 @@ share:
 									data-thumbnail=/images/uploads/amsterdam/5.jpg
 									data-sub-html="Amsterdam canals">
 										<img class="lazyload blur-up"
-											src=/images/uploads/amsterdam/5.jpg
+											src=/svg/loading/normal.svg
 											data-src=/images/uploads/amsterdam/5HD.jpg
 											data-sizes=auto
 											alt="Amsterdam canals"></a>
@@ -145,7 +145,7 @@ share:
 										data-thumbnail=/images/uploads/amsterdam/2.jpg
 										data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/images/uploads/amsterdam/2.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/2HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -161,7 +161,7 @@ share:
 											data-thumbnail=/images/uploads/amsterdam/4.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/images/uploads/amsterdam/4.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/4HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -177,7 +177,7 @@ share:
 											data-thumbnail=/images/uploads/amsterdam/3.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/images/uploads/amsterdam/3.jpg
+												src=/svg/loading/normal.svg
 												data-src=/images/uploads/amsterdam/3HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
@@ -188,6 +188,6 @@ share:
 			</div>
 		</div>
 		<h3 style="text-align:center"><code> Amsterdam canals </code></h3>
-	<i>{{< typeit >}} Thanks for stopping by! {{< /typeit >}}</i>
+	<i>{{< typeit >}} Thanks for stopping by {{< /typeit >}}</i>
 	</div>
 </div>
