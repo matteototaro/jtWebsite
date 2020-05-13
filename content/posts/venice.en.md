@@ -21,8 +21,6 @@ share:
   enable: true
 ---
 
-<!--cambiare src + saluto finale + ratiobox lazyload blurup-->
-
  <div class="container-fluid">
   	<div class="ratio-box fade-box">
       <figure>

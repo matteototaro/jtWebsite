@@ -26,7 +26,6 @@ share:
   width: 16.66%;
   padding: 0px;}
   </style>
-<!--cambiare src + lazyload blurup-->
 
  <div class="container-fluid">
    <div class="ratio-box fade-box">
@@ -297,4 +296,3 @@ share:
       <br>{{< typeit tag=i >}} Adioss {{< /typeit >}}
     </div>
   </div>
-

@@ -20,7 +20,7 @@ linkToMarkdown: false
 share:
   enable: true
 ---
-<!--cambiare src-->
+
 <div class="container-fluid">
 	<div class="ratio-box fade-box">
 		<figure>
