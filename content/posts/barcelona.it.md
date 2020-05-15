@@ -109,7 +109,7 @@ share:
               <code>Quartiere Vallcarca, vicino Parc Güell</code>
             </figcaption>
       </figure>
-      <p>Ci siamo fatti a piedi la salita a piedi intervallata da scale mobili interrotte da flora locale.</p>
+      <p>Ci siamo fatti la salita a piedi intervallata da scale mobili interrotte da flora locale.</p>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/13HD.jpg
