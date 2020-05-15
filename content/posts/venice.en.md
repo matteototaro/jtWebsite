@@ -8,8 +8,8 @@ authorLink: "https://mtotaro.com/about"
 description: "Series of 'ancient' pics from a very fascinating city"
 license: "©2020 Matteo Totaro"
 
-tags: []
-categories: []
+tags: ["Venice","Veneto","Italy","Travels","Photography"]
+categories: ["Travel"]
 hiddenFromHomePage: true
 
 featuredImage: ""

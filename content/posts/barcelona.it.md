@@ -5,11 +5,11 @@ lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
-description: ""
+description: "Guida digitale attraverso alcuni dei più importanti luoghi di Barcellona"
 license: "©2020 Matteo Totaro"
 
-tags: []
-categories: []
+tags: ["Barcellona","Spagna","Sagrada Familia","Casa Battlò","Parc Guell","Viaggi","Fotografia"]
+categories: ["Travel"]
 hiddenFromHomePage: true
 
 featuredImage: ""

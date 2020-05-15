@@ -5,11 +5,11 @@ lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
-description: ""
+description: "A different perspective of the well-known capital of Netherlands"
 license: "©2020 Matteo Totaro"
 
-tags: []
-categories: []
+tags: ["Amsterdam","Netherlands","Travels","Photography"]
+categories: ["Travel"]
 hiddenFromHomePage: true
 
 featuredImage: ""

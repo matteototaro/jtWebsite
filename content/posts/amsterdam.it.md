@@ -5,11 +5,11 @@ lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
-description: ""
+description: "Una prospettiva differente della nota capitale dei Paesi Bassi"
 license: "©2020 Matteo Totaro"
 
-tags: []
-categories: []
+tags: ["Amsterdam","Olanda","Viaggi","Fotografia"]
+categories: ["Travel"]
 hiddenFromHomePage: true
 
 featuredImage: ""
