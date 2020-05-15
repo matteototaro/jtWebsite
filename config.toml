@@ -57,7 +57,7 @@ enableEmoji = true
         # site description
         description = "Personal angle on the web with a gallery of shots presented in a very minimal way"
         # site keywords
-        keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro website","mtotaro","Engineer","Electronic Engineer","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Photography","Reflex","Photo","Engineering","Blog","Personal Blog","Photo Gallery","Museum","Travels","Barcelona","Venice","Italy","Amsterdam"]        
+        keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro website","mtotaro","Engineering","Electronic Engineer","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Photography","Reflex","Photo","Engineering","Blog","Personal Blog","Photo Gallery","Museum","Travels","Barcelona","Venice","Italy","Amsterdam"]        
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -174,7 +174,7 @@ enableEmoji = true
         # site description
         description = "Angolo personale nel vasto web con una raccolta di scatti in un format molto minimal"
         # site keywords
-        keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro sito web","mtotaro","Ingegnere","Ingegnere Elettronico","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Fotografia","Reflex","Foto","Ingegneria","Blog","Blog personale","Galleria Fotografica","Museo","Viaggi","Barcellona","Venezia","Italia","Amsterdam"]
+        keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro sito web","mtotaro","Ingegneria","Ingegnere Elettronico","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Fotografia","Reflex","Foto","Ingegneria","Blog","Blog personale","Galleria Fotografica","Museo","Viaggi","Barcellona","Venezia","Italia","Amsterdam"]
         # App icon config
         [languages.it.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
