@@ -1,7 +1,7 @@
 ---
 title: "Amsterdam - Ottobre 2018"
 date: 2020-04-25T18:40:00+02:00
-lastmod: 2020-05-07T20:30:00+02:00
+lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
@@ -157,22 +157,6 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-											href=/images/uploads/amsterdam/4HD.jpg
-											title="Canali di Amsterdam"
-											data-thumbnail=/images/uploads/amsterdam/4.jpg
-											data-sub-html="Canali di Amsterdam">
-											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/4HD.jpg
-												data-sizes=auto
-												alt="Canali di Amsterdam"></a>
-									</figure>
-								</div>
-						</div>
-						<div class="scroll-item">
-								<div class="thumbnail">
-									<figure>
-										<a class="lightgallery" 
 											href=/images/uploads/amsterdam/3HD.jpg
 											title="Canali di Amsterdam"
 											data-thumbnail=/images/uploads/amsterdam/3.jpg
@@ -184,11 +168,27 @@ share:
 												alt="Canali di Amsterdam"></a>
 									</figure>
 								</div>
+						</div>
+						<div class="scroll-item">
+								<div class="thumbnail">
+									<figure>
+										<a class="lightgallery" 
+											href=/images/uploads/amsterdam/4HD.jpg
+											title="Canali di Amsterdam"
+											data-thumbnail=/images/uploads/amsterdam/4.jpg
+											data-sub-html="Canali di Amsterdam">
+											<img class="lazyload blur-up"
+												src=/svg/loading/normal.svg
+												data-src=/images/uploads/amsterdam/4HD.jpg
+												data-sizes=auto
+												alt="Canali di Amsterdam"></a>
+									</figure>
+								</div>
 							</div>
 					 </div>
 			 </div>
 		</div>
 		<h3 style="text-align:center"><code> Canali di Amsterdam </code></h3>
-	 <i>{{< typeit >}} Grazie per essere passato da qua {{< /typeit >}}</i>
+	 <i>{{< typeit >}} Grazie per essere passato {{< /typeit >}}</i>
 	 </div>
  </div>

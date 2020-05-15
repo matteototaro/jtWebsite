@@ -1,7 +1,7 @@
 ---
 title: "Amsterdam - October 2018"
 date: 2020-04-25T18:40:00+02:00
-lastmod: 2020-05-07T20:30:00+02:00
+lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
@@ -156,13 +156,13 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-											href=/images/uploads/amsterdam/4HD.jpg
+											href=/images/uploads/amsterdam/3HD.jpg
 											title="Amsterdam canals"
-											data-thumbnail=/images/uploads/amsterdam/4.jpg
+											data-thumbnail=/images/uploads/amsterdam/3.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
 												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/4HD.jpg
+												data-src=/images/uploads/amsterdam/3HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
@@ -172,13 +172,13 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-											href=/images/uploads/amsterdam/3HD.jpg
+											href=/images/uploads/amsterdam/4HD.jpg
 											title="Amsterdam canals"
-											data-thumbnail=/images/uploads/amsterdam/3.jpg
+											data-thumbnail=/images/uploads/amsterdam/4.jpg
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
 												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/3HD.jpg
+												data-src=/images/uploads/amsterdam/4HD.jpg
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>

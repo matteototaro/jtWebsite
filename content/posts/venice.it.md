@@ -1,7 +1,7 @@
 ---
 title: "Venezia - Aprile 2017"
 date: 2020-04-14T19:21:20+02:00
-lastmod: 2020-05-06T18:30:00+02:00
+lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
@@ -86,6 +86,7 @@ share:
                 <code>Venice Theatre</code>
               </figcaption>
           </figure>
+          <p>Sia la foto precedente che la successiva sono terribili se comparate ai miei standard attuali di fotografia: il cielo è viola perchè al tempo volevo creare un effetto particolare ma al momento ho un approccio molto più minimale e realistico. Nonostante ciò, come ho già scritto da qualche parte in questo sito, lo scopo principale è quello di mostrare un processo evolutivo della fotografia e dell'editing a distanza di vari anni in modo tale da imparare dagli errori.</p>
           <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/3HD.jpg

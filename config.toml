@@ -55,7 +55,7 @@ enableEmoji = true
       
       [languages.en.params]
         # site description
-        description = "Personal digital museum"
+        description = "A personal angle on the web"
         # site keywords
         keywords = ["Theme", "Hugo"]
         
@@ -125,10 +125,10 @@ enableEmoji = true
         # Social config in home page
         [languages.en.params.social]
           #GitHub = "xxxx"
-          Linkedin = "m-totaro"
           Twitter = "matteojtotaro"
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
+          Linkedin = "m-totaro"
           # Spotify = "xxxx"
 
   [languages.it]  ##to add another language in the main menù i need to repeat this language.it menu.starter
@@ -173,7 +173,7 @@ enableEmoji = true
       
       [languages.it.params]
         # site description
-        description = "Museo digitale personale"
+        description = "Uno spazio personale nel web"
         # site keywords
         keywords = ["Theme", "Hugo"]
         # App icon config
@@ -328,15 +328,15 @@ enableEmoji = true
     # whether to hide a page from search results
     hiddenFromSearch = false
     # whether to enable twemoji
-    twemoji = true
+    twemoji = false
     # whether to enable lightgallery
     lightgallery = true
     # whether to enable the ruby extended syntax
-    ruby = true
+    ruby = false
     # whether to enable the fraction extended syntax
-    fraction = true
+    fraction = false
     # whether to enable the fontawesome extended syntax
-    fontawesome = true
+    fontawesome = false
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = false
     # whether to show the full text content in RSS
@@ -388,11 +388,11 @@ enableEmoji = true
 
     # Social share links in post page
     [params.page.share]
-      enable = false
-      Twitter = false
-      Facebook = false
-      Linkedin = false
-      Whatsapp = false
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = false

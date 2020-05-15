@@ -1,7 +1,7 @@
 ---
 title: "Barcelona - October 2019"
 date: 2020-05-01T21:20:00+02:00
-lastmod: 2020-05-09T18:30:00+02:00
+lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
@@ -106,7 +106,7 @@ share:
               <code>Vallcarca district, near Parc Güell</code>
             </figcaption>
       </figure>
-      <p>We walked all the way up to the parc, following this hill with escalators and plants.</p>
+      <p>We walked all the way up to the parc, following this hill with escalators and plants between streets and buildings. It was very weird while going uphill.</p>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/13HD.jpg
@@ -122,7 +122,7 @@ share:
               <code>Barcellona</code>
             </figcaption>
       </figure>
-      <p>Once entered the parc we found this panorama. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
+      <p>Once we entered the parc we found this amazing view of all Barcelona. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/14HD.jpg
@@ -138,7 +138,7 @@ share:
                 <code>Towards Parc Güell</code>
             </figcaption>
       </figure>
-      <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc.</p>
+      <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc, which of course we missed while doing the escalator-thing.</p>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/4HD.jpg
@@ -259,7 +259,7 @@ share:
           <h3 style="text-align:center">
             <code>{{< typeit >}} Inside of the Sagrada Familia {{< /typeit >}}</code></h3> 
       </div>
-      <p>I hope this digital guide has been clear enough. Lately I've tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there's a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/"> Instagram </a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p><br>
+      <p>I hope this digital guide has been clear enough for you. Lately I've tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there's a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/"> Instagram </a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p><br>
          <div class="row">
                 <div class="column2">
                   <img class="lazyload blur-up" style="width:100%;height:auto"

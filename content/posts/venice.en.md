@@ -1,7 +1,7 @@
 ---
 title: "Venice - April 2017"
 date: 2020-04-14T19:21:10+02:00
-lastmod: 2020-05-06T18:30:00+02:00
+lastmod: 2020-05-15T16:30:00+02:00
 draft: false
 author: "MT"
 authorLink: "https://mtotaro.com/about"
@@ -37,7 +37,7 @@ share:
       </figure>
           {{< typeit tag=h3 >}}Venice, Italy, 2017{{< /typeit >}}
           <p><strong>In 2017 I went to Venice, Italy for my second time and I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn't alone 'cause it's a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself. <br>
-          The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br>This city is very famous but this particular angle that I'm showing you in the next picture is one of the most characteristic.</p>
+          The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br>This city is surely very famous and in particular this specific angle that I'm showing you in the next picture is one of the most characteristic.</p>
             <figure>
                 <a class="lightgallery" 
                   href=/images/uploads/venice/5HD.jpg
@@ -86,6 +86,7 @@ share:
                 <code>Venice Theatre</code>
               </figcaption>
           </figure>
+          <p>The previous and the following shots are terrible if compared to my today's standards: the sky is violet so they're not realistic but, as I mention in one of my article on this website, the main goal was to showcase this evolutionary process in order to look back at my errors and learn from them.</p>
           <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/3HD.jpg
