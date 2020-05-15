@@ -501,7 +501,7 @@ enableEmoji = true
 
   # site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "FJlJwxMy2rXULl5c91sw_X3US7EI2RZSuxVGwmLx-N4"
     bing = ""
     yandex = ""
     pinterest = ""
