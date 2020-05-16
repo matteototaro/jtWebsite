@@ -50,7 +50,7 @@ p {
   <p><strong>I love photography</strong>, in fact this website was built to create a personal angle in the vast web to public parts of my albums in order to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media. Recently I got a bachelor degree in Electronic Engineering acquired in Modena. Shortly after, I built this website almost from scratch in order to learn more about other programming languages like HTML and CSS in an alternative way.<br><br>
   <strong>This static site</strong> has been built in a month more or less with the open source framework
   <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home.<br>So I took this time to focus on personal projects exactly like this one you're reading.<br>
-  The site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which takes all the files from a public repository on Github.<br>
+  The site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which takes all the files from a public repository on Github.
   The main goal of this space is to publish my previous and future projects so the pictures will be put up just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.</p>
   <figure style="max-width:100%;height:auto;display:inline;">
       <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
