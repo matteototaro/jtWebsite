@@ -216,61 +216,61 @@ share:
             </figcaption>
       </figure>
       <p>I tried to recreate what I saw inside a few months ago via editing saturation and luminance of each color channel. Gaudì's idea was to recreate a forest inside, in fact there are no paintings on the walls and the main columns in the center of the nave are reminiscent of trunks in shape and color.<br>The two glass windows of the two side aisles are opposed by color palette, in fact the one on the left with cold colors like blue and green contrasts with the right aisle with warm colors like red and yellow.</p>
-      <div class="row">
-            <div class="scroll-view">
-              <div class="scroll-doc">
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                    <figure>
-                      <a class="lightgallery" 
-                        href=/images/uploads/barcelona/6HD.jpg
-                        title="Barcellona"
-                        data-thumbnail=/images/uploads/barcelona/6.jpg
-                        data-sub-html="Barcellona">
-                        <img class="lazyload blur-up"
-                          src=/svg/loading/normal.svg
-                          data-src=/images/uploads/barcelona/6HD.jpg
-                          data-sizes=auto
-                          alt="Barcellona"></a>
+       <div class="row">
+             <div class="scroll-view">
+               <div class="scroll-doc">
+                  <div class="scroll-item">
+                    <div class="thumbnail">
+                      <figure>
+                        <a class="lightgallery" 
+                          href=/images/uploads/barcelona/6HD.jpg
+                          title="Barcellona"
+                          data-thumbnail=/images/uploads/barcelona/6.jpg
+                          data-sub-html="Barcellona">
+                          <img class="lazyload blur-up"
+                            src=/svg/loading/normal.svg
+                            data-src=/images/uploads/barcelona/6HD.jpg
+                            data-sizes=auto
+                            alt="Barcellona"></a>
+                        </figure>
+                    </div>
+                  </div>
+                  <div class="scroll-item">
+                    <div class="thumbnail">
+                      <figure>
+                        <a class="lightgallery" 
+                          href=/images/uploads/barcelona/7HD.jpg
+                          title="Barcellona"
+                          data-thumbnail=/images/uploads/barcelona/7.jpg
+                          data-sub-html="Barcellona">
+                          <img class="lazyload blur-up"
+                            src=/svg/loading/normal.svg
+                            data-src=/images/uploads/barcelona/7HD.jpg
+                            data-sizes=auto
+                            alt="Barcellona"></a>
                       </figure>
+                    </div>
                   </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                    <figure>
-                      <a class="lightgallery" 
-                        href=/images/uploads/barcelona/7HD.jpg
-                        title="Barcellona"
-                        data-thumbnail=/images/uploads/barcelona/7.jpg
-                        data-sub-html="Barcellona">
-                        <img class="lazyload blur-up"
-                          src=/svg/loading/normal.svg
-                          data-src=/images/uploads/barcelona/7HD.jpg
-                          data-sizes=auto
-                          alt="Barcellona"></a>
-                    </figure>
+                  <div class="scroll-item">
+                    <div class="thumbnail" style="max-width:150%;height:auto;">
+                      <figure>
+                        <a class="lightgallery" 
+                          href=/images/uploads/barcelona/8HD.jpg
+                          title="Barcellona"
+                          data-thumbnail=/images/uploads/barcelona/8.jpg
+                          data-sub-html="Barcellona">
+                          <img class="lazyload blur-up"
+                            src=/svg/loading/normal.svg
+                            data-src=/images/uploads/barcelona/8HD.jpg
+                            data-sizes=auto
+                            alt="Barcellona"></a>
+                      </figure>
+                    </div>
                   </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail" style="width:150%;height:auto;">
-                    <figure>
-                      <a class="lightgallery" 
-                        href=/images/uploads/barcelona/8HD.jpg
-                        title="Barcellona"
-                        data-thumbnail=/images/uploads/barcelona/8.jpg
-                        data-sub-html="Barcellona">
-                        <img class="lazyload blur-up"
-                          src=/svg/loading/normal.svg
-                          data-src=/images/uploads/barcelona/8HD.jpg
-                          data-sizes=auto
-                          alt="Barcellona"></a>
-                    </figure>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <h3 style="text-align:center">
-            <code>{{< typeit >}} Inside of the Sagrada Familia {{< /typeit >}}</code></h3> 
+               </div>
+             </div>
+      <h3 style="text-align:center">
+      <code>{{< typeit >}} Inside of the Sagrada Familia {{< /typeit >}}</code></h3> 
       </div>
       <p>I hope this digital guide has been clear enough for you. Lately I've tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there's a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/"> Instagram </a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p><br>
          <div class="row">

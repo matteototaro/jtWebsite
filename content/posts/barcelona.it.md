@@ -255,7 +255,7 @@ share:
                   </div>
                 </div>
                 <div class="scroll-item">
-                  <div class="thumbnail" style="width:150%;height:auto;">
+                  <div class="thumbnail" style="max-width:150%;height:auto;">
                     <figure>
                       <a class="lightgallery" 
                         href=/images/uploads/barcelona/8HD.jpg

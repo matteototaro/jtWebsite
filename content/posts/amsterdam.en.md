@@ -52,7 +52,7 @@ share:
 						<code>Church in Amsterdam</code>
 					</figcaption>
 		</figure>
-		<p>It's a beautiful city and seeing all these commuters with their bicycles reminds you that all the other countries are in the past. Everyone's calm and mind their own business, unlike in Italy.</p>
+		<p>It's a beautiful city and seeing all these commuters with their bicycles reminds you that all the other countries are in the past. Everyone's calm and minds their own business, unlike in Italy.</p>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/7HD.jpg
