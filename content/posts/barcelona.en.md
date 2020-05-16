@@ -99,10 +99,10 @@ share:
                   </div>
               </div>
           </div>
-          <figcaption class=image-caption style="text-align:center">
-                <code>View from Castell de Montjuïc</code>
-          </figcaption>
-      </div><br>
+      </div>
+      <figcaption class=image-caption style="text-align:center">
+        <code>View from Castell de Montjuïc</code>
+      </figcaption><br>
       <p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it's 200m lower than the parc itself.</p>
       <figure>
       <a class="lightgallery" 

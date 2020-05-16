@@ -100,11 +100,11 @@ share:
                   </div>
                </div>
          </div>
-        <figcaption class=image-caption style="text-align:center">
-               <code>Vista da Castell de Montjuïc</code>
-       </figcaption>
       </div>
-    </div><br>
+    </div>
+    <figcaption class=image-caption style="text-align:center">
+        <code>Vista da Castell de Montjuïc</code>
+    </figcaption><br>
     <p>Dalla collina e lungo la salita si poteva ammirare quasi tutta la città.
     Per raggiungere Parc Güell siamo passati dal quartiere Vallcarca, molto particolare. Si trova ad almeno 200m più in basso rispetto al parco di Gaudì.</p>
       <figure>
