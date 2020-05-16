@@ -52,6 +52,22 @@ share:
         <div class="scroll-view">
           <div class="scroll-doc">
               <div class="scroll-item">
+                 <div class="thumbnail">
+                    <figure>
+                    <a class="lightgallery" 
+                      href=/images/uploads/barcelona/15.jpg
+                      title="Vista da Castell de Montjuïc"
+                      data-thumbnail=/images/uploads/barcelona/15.jpg
+                      data-sub-html="Vista da Castell de Montjuïc">
+                      <img class="lazyload blur-up"
+                        src=/svg/loading/normal.svg
+                        data-src=/images/uploads/barcelona/15.jpg
+                        data-sizes=auto
+                        alt="Vista da Castell de Montjuïc"></a>
+                    </figure>
+                  </div>
+              </div>
+              <div class="scroll-item">
                 <div class="thumbnail">
                     <figure>
                     <a class="lightgallery" 
@@ -64,14 +80,11 @@ share:
                         data-src=/images/uploads/barcelona/2HD.jpg
                         data-sizes=auto
                         alt="Vista da Castell de Montjuïc"></a>
-                          <figcaption class=image-caption>
-                            <code>Vista da Castell de Montjuïc</code>
-                          </figcaption>
                     </figure>
                   </div>
               </div>
               <div class="scroll-item">
-                <div class="thumbnail">
+                 <div class="thumbnail">
                     <figure>
                     <a class="lightgallery" 
                       href=/images/uploads/barcelona/5HD.jpg
@@ -83,15 +96,15 @@ share:
                         data-src=/images/uploads/barcelona/5HD.jpg
                         data-sizes=auto
                         alt="Vista da Castell de Montjuïc"></a>
-                          <figcaption class=image-caption>
-                            <code>Vista da Castell de Montjuïc</code>
-                          </figcaption>
                     </figure>
                   </div>
-              </div>
-          </div>
+               </div>
+         </div>
+        <figcaption class=image-caption style="text-align:center">
+               <code>Vista da Castell de Montjuïc</code>
+       </figcaption>
       </div>
-    </div>
+    </div><br>
     <p>Dalla collina e lungo la salita si poteva ammirare quasi tutta la città.
     Per raggiungere Parc Güell siamo passati dal quartiere Vallcarca, molto particolare. Si trova ad almeno 200m più in basso rispetto al parco di Gaudì.</p>
       <figure>
@@ -109,7 +122,7 @@ share:
               <code>Quartiere Vallcarca, vicino Parc Güell</code>
             </figcaption>
       </figure>
-      <p>Ci siamo fatti la salita a piedi intervallata da scale mobili interrotte da flora locale.</p>
+      <p>Ci siamo fatti la salita a piedi intervallata da scale mobili e da flora locale.</p>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/13HD.jpg

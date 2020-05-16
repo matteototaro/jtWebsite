@@ -51,6 +51,22 @@ share:
         <div class="scroll-view">
           <div class="scroll-doc">
               <div class="scroll-item">
+                 <div class="thumbnail">
+                    <figure>
+                    <a class="lightgallery" 
+                      href=/images/uploads/barcelona/15.jpg
+                      title="View from Castell de Montjuïc"
+                      data-thumbnail=/images/uploads/barcelona/15.jpg
+                      data-sub-html="View from Castell de Montjuïc">
+                      <img class="lazyload blur-up"
+                        src=/svg/loading/normal.svg
+                        data-src=/images/uploads/barcelona/15.jpg
+                        data-sizes=auto
+                        alt="View from Castell de Montjuïc"></a>
+                    </figure>
+                  </div>
+              </div>
+              <div class="scroll-item">
                 <div class="thumbnail">
                     <figure>
                     <a class="lightgallery" 
@@ -63,14 +79,11 @@ share:
                         data-src=/images/uploads/barcelona/2HD.jpg
                         data-sizes=auto
                         alt="View from Castell de Montjuïc"></a>
-                          <figcaption class=image-caption>
-                            <code>View from Castell de Montjuïc</code>
-                          </figcaption>
                     </figure>
                   </div>
               </div>
               <div class="scroll-item">
-                <div class="thumbnail">
+                 <div class="thumbnail">
                     <figure>
                     <a class="lightgallery" 
                       href=/images/uploads/barcelona/5HD.jpg
@@ -82,14 +95,14 @@ share:
                         data-src=/images/uploads/barcelona/5HD.jpg
                         data-sizes=auto
                         alt="View from Castell de Montjuïc"></a>
-                          <figcaption class=image-caption>
-                            <code>View from Castell de Montjuïc</code>
-                          </figcaption>
                     </figure>
                   </div>
               </div>
           </div>
-      </div>
+          <figcaption class=image-caption style="text-align:center">
+                <code>View from Castell de Montjuïc</code>
+          </figcaption>
+      </div><br>
       <p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it's 200m lower than the parc itself.</p>
       <figure>
       <a class="lightgallery" 
