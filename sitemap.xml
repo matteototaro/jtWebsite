@@ -1,18 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://mtotaro.com/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-05-15T16:30:00+02:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://mtotaro.com/it/sitemap.xml</loc>
-		
-	   	<lastmod>2020-05-15T16:30:00+02:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <url>
+    <loc>https://www.mtotaro.com/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/posts/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/about/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/barcelona/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/amsterdam/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/venice/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+ 
+  <url>
+    <loc>https://www.mtotaro.com/it/posts/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/it/about/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/it/barcelona/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/it/amsterdam/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.mtotaro.com/it/venice/</loc>
+    <lastmod>2020-05-18T07:53:55+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+</urlset>

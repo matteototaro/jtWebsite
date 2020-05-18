@@ -8,8 +8,8 @@ authorLink: "https://mtotaro.com/about"
 description: "Digital tour guide through many of the famous spots in Barcelona"
 license: "©2020 Matteo Totaro"
 
-tags: ["Barcelona","Spain","Sagrada Familia","Casa Battlò","Parc Guell","Travels","Photography"]
-categories: ["Travel"]
+tags: [""]
+categories: [""]
 hiddenFromHomePage: true
 
 featuredImage: ""

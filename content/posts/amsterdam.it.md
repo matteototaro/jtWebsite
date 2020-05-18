@@ -8,8 +8,8 @@ authorLink: "https://mtotaro.com/about"
 description: "Una prospettiva differente della nota capitale dei Paesi Bassi"
 license: "©2020 Matteo Totaro"
 
-tags: ["Amsterdam","Olanda","Viaggi","Fotografia"]
-categories: ["Travel"]
+tags: [""]
+categories: [""]
 hiddenFromHomePage: true
 
 featuredImage: ""

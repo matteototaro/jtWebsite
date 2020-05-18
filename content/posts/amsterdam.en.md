@@ -8,8 +8,8 @@ authorLink: "https://mtotaro.com/about"
 description: "A different perspective of the well-known capital of Netherlands"
 license: "©2020 Matteo Totaro"
 
-tags: ["Amsterdam","Netherlands","Travels","Photography"]
-categories: ["Travel"]
+tags: [""]
+categories: [""]
 hiddenFromHomePage: true
 
 featuredImage: ""

@@ -8,8 +8,8 @@ authorLink: "https://mtotaro.com/about"
 description: "Raccolta di scatti ormai antichi di una città molto affascinante"
 license: "©2020 Matteo Totaro"
 
-tags: ["Venezia","Veneto","Italia","Viaggi","Fotografia"]
-categories: ["Travel"]
+tags: [""]
+categories: [""]
 hiddenFromHomePage: true
 
 featuredImage: ""

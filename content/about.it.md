@@ -8,7 +8,7 @@ authorLink: "https://mtotaro.com/about"
 description: ""
 license: ""
 
-tags: ["Chi Sono","Chi è","About Me","Who is"]
+tags: [""]
 hiddenFromHomePage: true
 
 featuredImage: ""
