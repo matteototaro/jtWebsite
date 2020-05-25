@@ -3,17 +3,17 @@ title: "Venezia - Aprile 2017"
 date: 2020-04-14T19:21:20+02:00
 lastmod: 2020-05-15T16:30:00+02:00
 draft: false
-author: "MT"
+author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: "Raccolta di scatti ormai antichi di una città molto affascinante"
 license: "©2020 Matteo Totaro"
 
-tags: [""]
-categories: [""]
-hiddenFromHomePage: true
+tags:
+categories:
+hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: ""
+featuredImagePreview: "/images/uploads/venice/2.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -36,7 +36,7 @@ share:
             alt="Venice Painting"></a>
       </figure>
           {{< typeit tag=h3 >}} Venezia, Italia, 2017{{< /typeit >}}
-          <p><strong>Nell'aprile 2017 andai a Venezia per la mia seconda volta e scattai un sacco di foto.</strong> È una città magica, specialmente se condivisa con qualcuno di speciale. Infatti non ero da solo e del resto è una città visitata principalmente dalle coppie ma, per ragioni lasciate intendere al lettore, le seguenti immagini rappresentano la bellezza della sola città.<br>
+          <p><strong>Tre anni fa andai a Venezia per la mia seconda volta e come sempre scattai un sacco di foto.</strong> È una città magica, specialmente se condivisa con qualcuno di speciale. Infatti non ero da solo e del resto è una città visitata principalmente dalle coppie ma, per ragioni lasciate intendere al lettore, le seguenti immagini rappresentano la bellezza della sola città.<br>
           L'immagine d'apertura è una rivisitazione personale della città ottenuta tramite piccole variazioni su Photoshop della saturazione e delle ombre dei principali canali di colore. L'obiettivo era quello di ricreare un dipinto e personalmente il risultato mi piace parecchio.<br>Questa città è incredibilmente famosa, ma questo angolo particolare della seguente foto è uno dei più caratteristici.</p>
             <figure>
                 <a class="lightgallery" 

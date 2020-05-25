@@ -3,48 +3,38 @@ title: "Barcelona - October 2019"
 date: 2020-05-01T21:20:00+02:00
 lastmod: 2020-05-15T16:30:00+02:00
 draft: false
-author: "MT"
+author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: "Digital tour guide through many of the famous spots in Barcelona"
 license: "©2020 Matteo Totaro"
 
-tags: [""]
-categories: [""]
-hiddenFromHomePage: true
+tags:
+categories:
+hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: ""
+featuredImagePreview: "/images/uploads/barcelona/1.jpg"
 
 lightgallery: true
 linkToMarkdown: false
 share:
   enable: true
 ---
-<style>
-.column2 {
-  float: left;
-  width: 16.66%;
-  padding: 0px;}
-  </style>
 
  <div class="container-fluid">
    <div class="ratio-box fade-box">
       <figure>
-      <a class="lightgallery" 
-        href=/images/uploads/barcelona/1HD.jpg
-        title="Casa Battlò"
-        data-thumbnail=/images/uploads/barcelona/1.jpg
-        data-sub-html="Casa Battlò">
-        <img class="lazyload blur-up"
-          src=/svg/loading/normal.svg
-          data-src=/images/uploads/barcelona/1HD.jpg
-          data-sizes=auto
-          alt="Casa Battlò"></a>
-            <figcaption class=image-caption>
-              <code>Casa Battlò</code>
-            </figcaption>
+        <a class="lightgallery" 
+          href=/images/uploads/barcelona/1HD.jpg
+          title="Casa Battlò"
+          data-thumbnail=/images/uploads/barcelona/1.jpg
+          data-sub-html="Casa Battlò">
+          <img class="lazyload blur-up"
+            src=/svg/loading/normal.svg
+            data-src=/images/uploads/barcelona/1HD.jpg
+            data-sizes=auto
+            alt="Casa Battlò"></a>
       </figure>
-      </div>
       {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
       <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has litterally affected every inche of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
       <div class="row">

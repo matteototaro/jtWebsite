@@ -3,12 +3,12 @@ title: "Chi Sono"
 date: 2020-04-13T22:25:49+02:00
 lastmod: 2020-05-15T16:25:00+02:00
 draft: false
-author: "MT"
+author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: ""
 license: ""
 
-tags: [""]
+tags:
 hiddenFromHomePage: true
 
 featuredImage: ""
@@ -54,7 +54,7 @@ p {
     La mia idea attuale è quella di utilizzare questo spazio per pubblicare progetti passati e futuri; in particolare, le fotografie saranno pubblicate così come sono, con l'intenzione di crearne una sorta di <i>museo personale</i> per poter notare il processo evolutivo nel tempo.</p><br>
     <figure style="max-width:100%;height:auto;display:inline;">
       <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
-      <figcaption><code> Selfie in una casa al mare nella contea di Cardiff, Wales (11/2016) </code></figcaption>
+      <figcaption><code> Selfie in una casa al mare nella contea di<br>Cardiff, Wales (11/2016) </code></figcaption>
     </figure>
     <br><p>Ho una Nikon D5300 con un misero 18-55mm stabilizzato otticamente; prima o poi prenderò altre lenti.
     Ho cercato di trovare un compromesso tra qualità delle foto e rapidità di caricamento del sito, quindi spero sia di vostro gradimento.<br> 

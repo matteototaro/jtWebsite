@@ -3,17 +3,17 @@ title: "Amsterdam - Ottobre 2018"
 date: 2020-04-25T18:40:00+02:00
 lastmod: 2020-05-15T16:30:00+02:00
 draft: false
-author: "MT"
+author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: "Una prospettiva differente della nota capitale dei Paesi Bassi"
 license: "©2020 Matteo Totaro"
 
-tags: [""]
-categories: [""]
-hiddenFromHomePage: true
+tags:
+categories:
+hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: ""
+featuredImagePreview: "/images/uploads/amsterdam/11.jpg"
 
 lightgallery: true
 linkToMarkdown: false

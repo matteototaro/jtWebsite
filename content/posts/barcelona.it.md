@@ -3,30 +3,23 @@ title: "Barcellona - Ottobre 2019"
 date: 2020-05-01T21:20:00+02:00
 lastmod: 2020-05-15T16:30:00+02:00
 draft: false
-author: "MT"
+author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: "Guida digitale attraverso alcuni dei più importanti luoghi di Barcellona"
 license: "©2020 Matteo Totaro"
 
-tags: [""]
-categories: [""]
-hiddenFromHomePage: true
+tags:
+categories:
+hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: ""
+featuredImagePreview: "/images/uploads/barcelona/1.jpg"
 
 lightgallery: true
 linkToMarkdown: false
 share:
   enable: true
 ---
-
-<style>
-.column2 {
-  float: left;
-  width: 16.66%;
-  padding: 0px;}
-  </style>
 
  <div class="container-fluid">
    <div class="ratio-box fade-box">
@@ -41,9 +34,6 @@ share:
           data-src=/images/uploads/barcelona/1HD.jpg
           data-sizes=auto
           alt="Casa Battlò"></a>
-            <figcaption class=image-caption>
-              <code>Casa Battlò</code>
-            </figcaption>
       </figure>
       {{< typeit tag=h3 >}} Barcelona, Spagna, 2019 {{< /typeit >}}
       <p>Ho visitato il capoluogo catalano assieme a due miei amici pochi mesi fa. Gaudì ha letteralmente investito questa città con la sua influenza, è impossibile negarlo che possa piacere o meno.
