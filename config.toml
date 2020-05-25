@@ -339,7 +339,7 @@ enableEmoji = true
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = false
     # whether to show the full text content in RSS
-    rssFullText = false
+    rssFullText = true
     # Table of the contents config
 
     [params.page.toc]

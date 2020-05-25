@@ -36,7 +36,7 @@ share:
             alt="Casa Battlò"></a>
       </figure>
       {{< typeit tag=h3 >}} Barcellona, Spagna, 2019 {{< /typeit >}}
-      <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has litterally affected every inche of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
+      <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has literally affected every inch of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
       <div class="row">
         <div class="scroll-view">
           <div class="scroll-doc">
