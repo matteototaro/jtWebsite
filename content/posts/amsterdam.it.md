@@ -1,7 +1,7 @@
 ---
 title: "Amsterdam - Ottobre 2018"
 date: 2020-04-25T18:40:00+02:00
-lastmod: 2020-05-15T16:30:00+02:00
+lastmod: 2020-05-25T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
