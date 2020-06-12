@@ -1,0 +1,199 @@
+---
+title: "London - October 2016"
+date: 2020-05-27T13:20:00+02:00
+lastmod: 2020-06-12T10:30:00+02:00
+draft: false
+author: "Matteo"
+authorLink: "https://mtotaro.com/about"
+description: ""
+license: "©2020 Matteo Totaro"
+
+tags:
+categories:
+hiddenFromHomePage: false
+
+featuredImage: ""
+featuredImagePreview: "/images/uploads/london/3HD.jpg"
+
+lightgallery: true
+linkToMarkdown: false
+share:
+  enable: true
+---
+
+<div class="container-fluid">
+    <div class="ratio-box fade-box">
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/1HD.jpg
+                  title="Big Ben"
+                  data-thumbnail=/images/uploads/london/1.jpg
+                  data-sub-html="Big Ben">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/1HD.jpg
+                      data-sizes=auto
+                      alt="Big Ben"></a>
+        </figure>
+        {{< typeit tag=h3 >}} London, UK, 2016 {{< /typeit >}}
+        <p>I've been in the United Kingdom almost 4 years ago and during my erasmus journey in Cardiff I visited the city of London.
+        </p>
+      <div class="row">
+            <div class="scroll-view">
+              <div class="scroll-doc">
+                <div class="scroll-item">
+                  <div class="thumbnail">
+                      <figure>
+                        <a class="lightgallery" 
+                                href=/images/uploads/london/3HD.jpg
+                                title="Camden Town"
+                                data-thumbnail=/images/uploads/london/3.jpg
+                                data-sub-html="Camden Town">
+                                <img class="lazyload blur-up"
+                                    src=/svg/loading/normal.svg
+                                    data-src=/images/uploads/london/3HD.jpg
+                                    data-sizes=auto
+                                    alt="Camden Town"></a>
+                      </figure>
+                  </div>
+                </div>
+                <div class="scroll-item">
+                  <div class="thumbnail">
+                      <figure>
+                        <a class="lightgallery" 
+                                href=/images/uploads/london/4HD.jpg
+                                title="Camden Town"
+                                data-thumbnail=/images/uploads/london/4.jpg
+                                data-sub-html="Camden Town">
+                                <img class="lazyload blur-up"
+                                    src=/svg/loading/normal.svg
+                                    data-src=/images/uploads/london/4HD.jpg
+                                    data-sizes=auto
+                                    alt="Camden Town"></a>
+                      </figure>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <figcaption class=image-caption style="text-align:center">
+          <code>Camden Town, original and warm tones</code>
+      </figcaption><br>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/6HD.jpg
+                  title="Camden Market"
+                  data-thumbnail=/images/uploads/london/6.jpg
+                  data-sub-html="Camden Market">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/6HD.jpg
+                      data-sizes=auto
+                      alt="Camden Market"></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Camden Market</code>
+              </figcaption>
+        </figure>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/7HD.jpg
+                  title="Super-warm-tones invaded London"
+                  data-thumbnail=/images/uploads/london/7.jpg
+                  data-sub-html="Super-warm-tones invaded London">
+                  <img class="lazyload blur-up"
+                       src=/svg/loading/normal.svg
+                       data-src=/images/uploads/london/7HD.jpg
+                       data-sizes=auto
+                       alt="Super-warm-tones invaded London"></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Super-warm-tones invaded London</code>
+              </figcaption>
+          </figure>
+      <div class="row">
+            <div class="scroll-view">
+              <div class="scroll-doc">
+                <div class="scroll-item">
+                  <div class="thumbnail">
+                    <figure>
+                      <a class="lightgallery" 
+                              href=/images/uploads/london/11HD.jpg
+                              title="Big Ben showing off"
+                              data-thumbnail=/images/uploads/london/11.jpg
+                              data-sub-html="Big Ben showing off">
+                              <img class="lazyload blur-up"
+                                  src=/svg/loading/normal.svg
+                                  data-src=/images/uploads/london/11HD.jpg
+                                  data-sizes=auto
+                                  alt="Big Ben showing off"></a>
+                    </figure>
+                  </div>
+                </div>
+                <div class="scroll-item">
+                  <div class="thumbnail">
+                    <figure>
+                      <a class="lightgallery" 
+                              href=/images/uploads/london/8HD.jpg
+                              title="Big Ben showing off"
+                              data-thumbnail=/images/uploads/london/8.jpg
+                              data-sub-html="Big Ben showing off">
+                              <img class="lazyload blur-up"
+                                  src=/svg/loading/normal.svg
+                                  data-src=/images/uploads/london/8HD.jpg
+                                  data-sizes=auto
+                                  alt="Big Ben showing off"></a>
+                    </figure>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <figcaption class=image-caption style="text-align:center">
+          <code>Big Ben showing off</code>
+      </figcaption><br>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/9.jpg
+                  title="Towards Piccadilly Circus"
+                  data-thumbnail=/images/uploads/london/9.jpg
+                  data-sub-html="Towards Piccadilly Circus">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/9.jpg
+                      data-sizes=auto
+                      alt="Towards Piccadilly Circus"></a>
+              <figcaption class=image-caption style="text-align:center">
+                 <code>Towards Piccadilly Circus</code>
+              </figcaption>
+        </figure>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/5HD.jpg
+                  title="Life in Camden Town"
+                  data-thumbnail=/images/uploads/london/5.jpg
+                  data-sub-html="Life in Camden Town">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/5HD.jpg
+                      data-sizes=auto
+                      alt="Life in Camden Town"></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Life in Camden Town</code>
+              </figcaption>
+        </figure>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/10HD.jpg
+                  title="Tower of London"
+                  data-thumbnail=/images/uploads/london/10.jpg
+                  data-sub-html="Tower of London">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/10HD.jpg
+                      data-sizes=auto
+                      alt="Tower of London"></a>
+              <figcaption class=image-caption style="text-align:center">
+                  <code>Tower of London</code>
+              </figcaption>
+        </figure>
+    </div>
+ </div>
