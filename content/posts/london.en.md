@@ -165,6 +165,7 @@ share:
                  <code>Towards Piccadilly Circus</code>
               </figcaption>
         </figure>
+        <p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/london/5HD.jpg
@@ -193,6 +194,22 @@ share:
                       alt="Tower of London"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Tower of London</code>
+              </figcaption>
+        </figure>
+        <p> On one hand, the first two panos are 4 different shots merged togheter; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/2.jpg
+                  title="Buckingham Palace"
+                  data-thumbnail=/images/uploads/london/2.jpg
+                  data-sub-html="Buckingham Palace">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/2.jpg
+                      data-sizes=auto
+                      alt="Buckingham Palace"></a>
+              <figcaption class=image-caption style="text-align:center">
+                  <code>Buckingham Palace</code>
               </figcaption>
         </figure>
     </div>

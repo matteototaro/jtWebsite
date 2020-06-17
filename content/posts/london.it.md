@@ -36,8 +36,7 @@ share:
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} Londra, UK, 2016 {{< /typeit >}}
-        <p>Sono stato nel Regno Unito circa 4 anni fa e durante il mio erasmus a Cardiff ho avuto modo di visitare anche Londra.
-        </p>
+        <p>Sono stato nel Regno Unito circa 4 anni fa e durante l'erasmus a Cardiff ho avuto modo di visitare anche Londra.</p>
       <div class="row">
             <div class="scroll-view">
               <div class="scroll-doc">
@@ -165,6 +164,7 @@ share:
                  <code>Verso Piccadilly Circus</code>
               </figcaption>
         </figure>
+        <p>Le tre seguenti foto sono delle panoramiche scattate rispettivamente a Camden Town, alla Tower of London e nel buco della Regina.</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/london/5HD.jpg
@@ -193,6 +193,22 @@ share:
                       alt="Tower of London"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Tower of London</code>
+              </figcaption>
+        </figure>
+        <p> On one hand, the first two panos are 4 different shots merged togheter; dall'altra l'ultima foto è letteralmente un macello e la foto ad <strong>alta</strong> qualità la si può trovare qui <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>qui</i></a>.</p>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/2.jpg
+                  title="Buckingham Palace"
+                  data-thumbnail=/images/uploads/london/2.jpg
+                  data-sub-html="Buckingham Palace">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/2.jpg
+                      data-sizes=auto
+                      alt="Buckingham Palace"></a>
+              <figcaption class=image-caption style="text-align:center">
+                  <code>Buckingham Palace</code>
               </figcaption>
         </figure>
     </div>
