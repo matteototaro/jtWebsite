@@ -1,7 +1,7 @@
 ---
 title: "London - October 2016"
 date: 2020-05-27T13:20:00+02:00
-lastmod: 2020-06-12T10:30:00+02:00
+lastmod: 2020-06-18T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -36,7 +36,7 @@ share:
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} London, UK, 2016 {{< /typeit >}}
-        <p>I've been in the United Kingdom almost 4 years ago and during my erasmus journey in Cardiff I visited the city of London.
+        <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.
         </p>
       <div class="row">
             <div class="scroll-view">

@@ -1,7 +1,7 @@
 ---
 title: "London - Ottobre 2016"
 date: 2020-05-27T13:20:00+02:00
-lastmod: 2020-06-12T10:30:00+02:00
+lastmod: 2020-06-18T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -36,7 +36,7 @@ share:
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} Londra, UK, 2016 {{< /typeit >}}
-        <p>Sono stato nel Regno Unito circa 4 anni fa e durante l'erasmus a Cardiff ho avuto modo di visitare anche Londra.</p>
+        <p>Sono stato nel Regno Unito circa 4 anni fa e durante la mia permanenza a Cardiff ho avuto modo di visitare anche Londra.</p>
       <div class="row">
             <div class="scroll-view">
               <div class="scroll-doc">
@@ -116,14 +116,14 @@ share:
                     <figure>
                       <a class="lightgallery" 
                               href=/images/uploads/london/11HD.jpg
-                              title="Il Big Ben spunta fuori"
+                              title="Il Big Ben che spunta fuori"
                               data-thumbnail=/images/uploads/london/11.jpg
-                              data-sub-html="Il Big Ben spunta fuori">
+                              data-sub-html="Il Big Ben che spunta fuori">
                               <img class="lazyload blur-up"
                                   src=/svg/loading/normal.svg
                                   data-src=/images/uploads/london/11HD.jpg
                                   data-sizes=auto
-                                  alt="Il Big Ben spunta fuori"></a>
+                                  alt="Il Big Ben che spunta fuori"></a>
                     </figure>
                   </div>
                 </div>
@@ -132,14 +132,14 @@ share:
                     <figure>
                       <a class="lightgallery" 
                               href=/images/uploads/london/8HD.jpg
-                              title="Il Big Ben spunta fuori"
+                              title="Il Big Ben che spunta fuori"
                               data-thumbnail=/images/uploads/london/8.jpg
-                              data-sub-html="Il Big Ben spunta fuori">
+                              data-sub-html="Il Big Ben che spunta fuori">
                               <img class="lazyload blur-up"
                                   src=/svg/loading/normal.svg
                                   data-src=/images/uploads/london/8HD.jpg
                                   data-sizes=auto
-                                  alt="Il Big Ben spunta fuori"></a>
+                                  alt="Il Big Ben che spunta fuori"></a>
                     </figure>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ share:
         </div>
       </div>
       <figcaption class=image-caption style="text-align:center">
-          <code>Il Big Ben spunta fuori</code>
+          <code>Il Big Ben che spunta fuori</code>
       </figcaption><br>
         <figure>
           <a class="lightgallery" 
@@ -195,7 +195,7 @@ share:
                   <code>Tower of London</code>
               </figcaption>
         </figure>
-        <p> On one hand, the first two panos are 4 different shots merged togheter; dall'altra l'ultima foto è letteralmente un macello e la foto ad <strong>alta</strong> qualità la si può trovare qui <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>qui</i></a>.</p>
+        <p>On one hand, the first two panos are 4 different shots merged togheter; dall'altra l'ultima foto è letteralmente un macello e la foto ad <strong>alta</strong> qualità la si può trovare <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>qui</i></a>.</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/london/2.jpg
