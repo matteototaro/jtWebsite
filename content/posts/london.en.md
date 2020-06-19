@@ -1,7 +1,7 @@
 ---
 title: "London - October 2016"
 date: 2020-05-27T13:20:00+02:00
-lastmod: 2020-06-18T10:30:00+02:00
+lastmod: 2020-06-19T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"

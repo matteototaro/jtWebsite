@@ -263,7 +263,7 @@ enableEmoji = true
   # date format
     dateFormat = "02/01/2006"
   # website images for Open Graph and Twitter Cards
-  images = [""]
+    images = [""]
 
   # Header info
   [params.header]
