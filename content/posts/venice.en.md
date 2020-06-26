@@ -35,7 +35,7 @@ share:
             data-sizes=auto
             alt="Venice Painting"></a>
       </figure>
-          {{< typeit tag=h3 >}}Venice, Italy, 2017{{< /typeit >}}
+          {{< typeit tag=h3 >}}Venice, Veneto, Italy{{< /typeit >}}
           <p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn't alone 'cause it's a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself. <br>
           The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br>This city is surely very famous and in particular this specific angle that I'm showing you in the next picture is one of the most characteristic.</p>
             <figure>

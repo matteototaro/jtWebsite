@@ -35,9 +35,8 @@ share:
                       data-sizes=auto
                       alt="Big Ben"></a>
         </figure>
-        {{< typeit tag=h3 >}} London, UK, 2016 {{< /typeit >}}
-        <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.
-        </p>
+        {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
+        <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
       <div class="row">
             <div class="scroll-view">
               <div class="scroll-doc">
@@ -212,5 +211,22 @@ share:
                   <code>Buckingham Palace</code>
               </figcaption>
         </figure>
+        <p>I also decided to include this project that I did 3 years ago with various images of London. I don't considerate it good, just interesting I think.</p>
+        <figure>
+          <a class="lightgallery"
+                  href=/images/uploads/london/sixtupla.jpg
+                  title="Sixtupla"
+                  data-thumbnail=/images/uploads/london/sixtupla.jpg
+                  data-sub-html="Buckingham Palace">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/sixtupla.jpg
+                      data-sizes=auto
+                      alt="Sixtupla"></a>
+              <figcaption class=image-caption style="text-align:center">
+                  <code>Sixtupla</code>
+              </figcaption>
+        </figure>
+        <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> here </i></a>.</p>
     </div>
  </div>

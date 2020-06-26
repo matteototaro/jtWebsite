@@ -35,7 +35,7 @@ share:
 					data-sizes=auto
 					alt="Amsterdam"></a>
 		</figure>
-		{{< typeit tag=h3 >}} Amsterdam, Netherlands, 2018 {{< /typeit >}}
+		{{< typeit tag=h3 >}} Amsterdam, Netherlands {{< /typeit >}}
 		<p>I went to Amsterdam almost two years ago and I hope I'll visit it again as soon as possible. As someone says, it's the Venice of the  Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn't the cheapest trip we've ever done.</p>
 		<figure>
 			<a class="lightgallery" 

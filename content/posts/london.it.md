@@ -35,7 +35,7 @@ share:
                       data-sizes=auto
                       alt="Big Ben"></a>
         </figure>
-        {{< typeit tag=h3 >}} Londra, UK, 2016 {{< /typeit >}}
+        {{< typeit tag=h3 >}} Londra, UK {{< /typeit >}}
         <p>Sono stato nel Regno Unito circa 4 anni fa e durante la mia permanenza a Cardiff ho avuto modo di visitare anche Londra.</p>
       <div class="row">
             <div class="scroll-view">
@@ -211,5 +211,22 @@ share:
                   <code>Buckingham Palace</code>
               </figcaption>
         </figure>
+        <p>Ho deciso di includere anche quest'altro progetto fatto ormai 3 anni fa con alcune immagini londinesi. Non è granchè ma sicuramente è interessante.</p>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/london/sixtupla.jpg
+                  title="Sixtupla"
+                  data-thumbnail=/images/uploads/london/sixtupla.jpg
+                  data-sub-html="Buckingham Palace">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/london/sixtupla.jpg
+                      data-sizes=auto
+                      alt="Sixtupla"></a>
+              <figcaption class=image-caption style="text-align:center">
+                  <code>Sixtupla</code>
+              </figcaption>
+        </figure>
+        <p>La versione ad alta risoluzione potete trovarla <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> qui </i></a>.</p>
     </div>
  </div>

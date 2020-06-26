@@ -35,7 +35,7 @@ share:
 						data-sizes=auto
 						alt="Amsterdam"></a>
 		 </figure>
-		{{< typeit tag=h3 >}} Amsterdam, Olanda, 2018 {{< /typeit >}}
+		{{< typeit tag=h3 >}} Amsterdam, Olanda {{< /typeit >}}
 		<p>Sono stato ad Amsterdam circa due anni fa e mi è piaciuta così tanto che non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
 		<figure>
 			<a class="lightgallery" 

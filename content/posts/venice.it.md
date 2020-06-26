@@ -35,7 +35,7 @@ share:
             data-sizes=auto
             alt="Venice Painting"></a>
       </figure>
-          {{< typeit tag=h3 >}} Venezia, Italia, 2017{{< /typeit >}}
+          {{< typeit tag=h3 >}} Venezia, Veneto, Italia{{< /typeit >}}
           <p><strong>Tre anni fa andai a Venezia per la mia seconda volta e come sempre scattai un sacco di foto.</strong> È una città magica, specialmente se condivisa con qualcuno di speciale. Infatti non ero da solo e del resto è una città visitata principalmente dalle coppie ma, per ragioni lasciate intendere al lettore, le seguenti immagini rappresentano la bellezza della sola città.<br>
           L'immagine d'apertura è una rivisitazione personale della città ottenuta tramite piccole variazioni su Photoshop della saturazione e delle ombre dei principali canali di colore. L'obiettivo era quello di ricreare un dipinto e personalmente il risultato mi piace parecchio.<br>Questa città è incredibilmente famosa, ma questo angolo particolare della seguente foto è uno dei più caratteristici.</p>
             <figure>
