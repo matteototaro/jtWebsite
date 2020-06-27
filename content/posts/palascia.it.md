@@ -26,76 +26,76 @@ share:
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/6HD.jpg
-                  title=""
+                  title="Tridente"
                   data-thumbnail=/images/uploads/ppalascia/6.jpg
-                  data-sub-html="">
+                  data-sub-html="Tridente">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
                       data-src=/images/uploads/ppalascia/6HD.jpg
                       data-sizes=auto
-                      alt=""></a>
+                      alt="Tridente"></a>
         </figure>
         {{< typeit tag=h3 >}} Otranto, Puglia, Italia, 2019 {{< /typeit >}}
         <p>
-        Il faro di Punta Palascìa rappresenta uno dei simboli di Otranto. Si trova a 40 km da Lecce ed è il punto più ad Est d'Italia, o più precisamente alle coordinate <i>40°06'26" N, 18°31'14" E</i> </p>
+        Il faro di Punta Palascìa rappresenta uno dei simboli di Otranto. Si trova a 40 km da Lecce ed è il punto più ad Est d'Italia, o più precisamente alle coordinate <i>40°06'26" N, 18°31'14" E</i>.<br>Dopo aver parcheggiato vicino alla base militare adiacente si percorre un sentiero a piedi a zig zag in discesa per una decina di minuti.</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/4HD.jpg
-                  title=""
+                  title="Sentiero verso il faro"
                   data-thumbnail=/images/uploads/ppalascia/4.jpg
-                  data-sub-html="">
+                  data-sub-html="Sentiero verso il faro">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
                       data-src=/images/uploads/ppalascia/4HD.jpg
                       data-sizes=auto
-                      alt=""></a>
+                      alt="Sentiero verso il faro"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code></code>
+                <code>Sentiero verso il faro</code>
               </figcaption>
         </figure>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/5HD.jpg
-                  title=""
+                  title="Sentiero verso il faro"
                   data-thumbnail=/images/uploads/ppalascia/5.jpg
-                  data-sub-html="">
+                  data-sub-html="Sentiero verso il faro">
                   <img class="lazyload blur-up"
                        src=/svg/loading/normal.svg
                        data-src=/images/uploads/ppalascia/5HD.jpg
                        data-sizes=auto
-                       alt=""></a>
+                       alt="Sentiero verso il faro"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code></code>
+                <code>Sentiero verso il faro</code>
               </figcaption>
           </figure>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/3HD.jpg
-                  title=""
+                  title="Barca"
                   data-thumbnail=/images/uploads/ppalascia/3.jpg
-                  data-sub-html="">
+                  data-sub-html="Barca">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
                       data-src=/images/uploads/ppalascia/3HD.jpg
                       data-sizes=auto
-                      alt=""></a>
+                      alt="Barca"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code></code>
+                <code>Barca</code>
               </figcaption>
         </figure>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/1HD.jpg
-                  title=""
+                  title="Vista dalla collina"
                   data-thumbnail=/images/uploads/ppalascia/1.jpg
-                  data-sub-html="">
+                  data-sub-html="Vista dalla collina">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
                       data-src=/images/uploads/ppalascia/1HD.jpg
                       data-sizes=auto
-                      alt=""></a>
+                      alt="Vista dalla collina"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code></code>
+                <code>Vista dalla collina</code>
               </figcaption>
         </figure>
  </div>
