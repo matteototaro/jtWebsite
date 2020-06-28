@@ -35,7 +35,7 @@ share:
                       data-sizes=auto
                       alt="Trident"></a>
         </figure>
-        {{< typeit tag=h3 >}} Otranto, Puglia, Italia, 2019 {{< /typeit >}}
+        {{< typeit tag=h3 >}} Otranto, Puglia, Italy {{< /typeit >}}
         <p>
         The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy.<br>It is located at <i> 40°06'26" N, 18°31'14" E</i>.<br>When parked near the military base literally on the main street it starts the main path to the lighthouse; it's a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
         <figure>
