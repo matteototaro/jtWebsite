@@ -29,8 +29,8 @@ share:
                   title="Trident"
                   data-thumbnail=/images/uploads/ppalascia/6.jpg
                   data-sub-html="Trident">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
+                  <img class="progressive replace"
+                      src=/images/uploads/ppalascia/6.jpg
                       data-src=/images/uploads/ppalascia/6HD.jpg
                       data-sizes=auto
                       alt="Trident"></a>
@@ -44,8 +44,8 @@ share:
                   title="Path towards the lighthouse"
                   data-thumbnail=/images/uploads/ppalascia/4.jpg
                   data-sub-html="Path towards the lighthouse">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
+                  <img class="progressive replace"
+                      src=/images/uploads/ppalascia/4.jpg
                       data-src=/images/uploads/ppalascia/4HD.jpg
                       data-sizes=auto
                       alt="Path towards the lighthouse"></a>
@@ -59,8 +59,8 @@ share:
                   title="Path towards the lighthouse"
                   data-thumbnail=/images/uploads/ppalascia/5.jpg
                   data-sub-html="Path towards the lighthouse">
-                  <img class="lazyload blur-up"
-                       src=/svg/loading/normal.svg
+                  <img class="progressive replace"
+                       src=/images/uploads/ppalascia/5.jpg
                        data-src=/images/uploads/ppalascia/5HD.jpg
                        data-sizes=auto
                        alt="Path towards the lighthouse"></a>
@@ -74,8 +74,8 @@ share:
                   title="Boat"
                   data-thumbnail=/images/uploads/ppalascia/3.jpg
                   data-sub-html="Boat">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
+                  <img class="progressive replace"
+                      src=/images/uploads/ppalascia/3.jpg
                       data-src=/images/uploads/ppalascia/3HD.jpg
                       data-sizes=auto
                       alt="Boat"></a>
@@ -89,8 +89,8 @@ share:
                   title="View from the top of the hill"
                   data-thumbnail=/images/uploads/ppalascia/1.jpg
                   data-sub-html="View from the top of the hill">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
+                  <img class="progressive replace"
+                      src=/images/uploads/ppalascia/1.jpg
                       data-src=/images/uploads/ppalascia/1HD.jpg
                       data-sizes=auto
                       alt="View from the top of the hill"></a>

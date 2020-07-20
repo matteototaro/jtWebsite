@@ -1,0 +1,3 @@
+libFiles:
+  progressiveimageCSS: https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css
+  progressiveimageJS: https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js
