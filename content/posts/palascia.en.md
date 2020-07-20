@@ -29,7 +29,7 @@ share:
                   title="Trident"
                   data-thumbnail=/images/uploads/ppalascia/6.jpg
                   data-sub-html="Trident">
-                  <img class="progressive replace"
+                  <img class="lazyload blur-up"
                       src=/images/uploads/ppalascia/6.jpg
                       data-src=/images/uploads/ppalascia/6HD.jpg
                       data-sizes=auto
@@ -44,7 +44,7 @@ share:
                   title="Path towards the lighthouse"
                   data-thumbnail=/images/uploads/ppalascia/4.jpg
                   data-sub-html="Path towards the lighthouse">
-                  <img class="progressive replace"
+                  <img class="lazyload blur-up"
                       src=/images/uploads/ppalascia/4.jpg
                       data-src=/images/uploads/ppalascia/4HD.jpg
                       data-sizes=auto
@@ -59,7 +59,7 @@ share:
                   title="Path towards the lighthouse"
                   data-thumbnail=/images/uploads/ppalascia/5.jpg
                   data-sub-html="Path towards the lighthouse">
-                  <img class="progressive replace"
+                  <img class="lazyload blur-up"
                        src=/images/uploads/ppalascia/5.jpg
                        data-src=/images/uploads/ppalascia/5HD.jpg
                        data-sizes=auto
@@ -74,7 +74,7 @@ share:
                   title="Boat"
                   data-thumbnail=/images/uploads/ppalascia/3.jpg
                   data-sub-html="Boat">
-                  <img class="progressive replace"
+                  <img class="lazyload blur-up"
                       src=/images/uploads/ppalascia/3.jpg
                       data-src=/images/uploads/ppalascia/3HD.jpg
                       data-sizes=auto
@@ -89,7 +89,7 @@ share:
                   title="View from the top of the hill"
                   data-thumbnail=/images/uploads/ppalascia/1.jpg
                   data-sub-html="View from the top of the hill">
-                  <img class="progressive replace"
+                  <img class="lazyload blur-up"
                       src=/images/uploads/ppalascia/1.jpg
                       data-src=/images/uploads/ppalascia/1HD.jpg
                       data-sizes=auto
