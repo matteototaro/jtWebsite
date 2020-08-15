@@ -35,9 +35,11 @@ share:
             data-sizes=auto
             alt="Venice Painting"></a>
       </figure>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
           {{< typeit tag=h3 >}} Venezia, Veneto, Italia{{< /typeit >}}
           <p><strong>Tre anni fa andai a Venezia per la mia seconda volta e come sempre scattai un sacco di foto.</strong> È una città magica, specialmente se condivisa con qualcuno di speciale. Infatti non ero da solo e del resto è una città visitata principalmente dalle coppie ma, per ragioni lasciate intendere al lettore, le seguenti immagini rappresentano la bellezza della sola città.<br>
           L'immagine d'apertura è una rivisitazione personale della città ottenuta tramite piccole variazioni su Photoshop della saturazione e delle ombre dei principali canali di colore. L'obiettivo era quello di ricreare un dipinto e personalmente il risultato mi piace parecchio.<br>Questa città è incredibilmente famosa, ma questo angolo particolare della seguente foto è uno dei più caratteristici.</p>
+        </div>
             <figure>
                 <a class="lightgallery" 
                   href=/images/uploads/venice/5HD.jpg
@@ -54,7 +56,9 @@ share:
                   <code>Venice Skyline</code>
                 </figcaption>
             </figure>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
           <p>La mia idea era quella di ripubblicare le immagini che consideravo migliori quando le scattai ormai più di 3 anni fa, infatti l'editing della seguente immagine è al momento ciò che più si allontana dal mio attuale approccio alla modifica di una foto. Aldilà di ciò, ci tenevo a pubblicarla perchè lo considerò comunque un buono scatto.</p>
+        </div>
             <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/1HD.jpg
@@ -70,7 +74,9 @@ share:
                 <code>Venice Theatre</code>
               </figcaption>
             </figure>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >    
           <p>Questa invece è un classico scorcio veneziano visto dal ponte che collega le due estremità del canale. Mi piaceva parecchio il contrasto della via semivuota rispetto all'unico negozietto aperto a quell'ora. Quella luce gialla mi è rimasta impressa.</p>
+        </div>  
           <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/4HD.jpg
@@ -86,7 +92,9 @@ share:
                 <code>Venice Theatre</code>
               </figcaption>
           </figure>
+       <div class="col-md-8 col-md-push-2 no-padding-left" >
           <p>Sia la foto precedente che la successiva sono terribili se comparate ai miei standard attuali di fotografia: il cielo è viola perchè al tempo volevo creare un effetto particolare ma al momento ho un approccio molto più minimale e realistico. Nonostante ciò, come ho già scritto da qualche parte in questo sito, lo scopo principale è quello di mostrare un processo evolutivo della fotografia e dell'editing a distanza di vari anni in modo tale da imparare dagli errori.</p>
+         </div>
           <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/3HD.jpg
@@ -102,7 +110,9 @@ share:
                 <code>Venice Barca</code>
               </figcaption>
           </figure>
+       <div class="col-md-8 col-md-push-2 no-padding-left" >
           <p>L'ultima foto è una rivisitazione recente che ho fatto poichè mi è capitata questa foto dopo 3 anni e non mi piaceva il modo in cui la avevo modificata a suo tempo. Gli ho dato quindi una rinfrescata modificandola nuovamente in modo più morbido con gli occhi di adesso.</p>
+        </div>
           <figure>
               <a class=lightgallery
                 href=/images/uploads/venice/6HD.jpg

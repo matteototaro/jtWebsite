@@ -35,9 +35,10 @@ share:
           data-sizes=auto
           alt="Casa Battlò"></a>
       </figure>
-      {{< typeit tag=h3 >}} Barcelona, Catalogna, Spagna {{< /typeit >}}
-      <p>Ho visitato il capoluogo catalano assieme a due miei amici pochi mesi fa. Gaudì ha letteralmente investito questa città con la sua influenza, è impossibile negarlo che possa piacere o meno.
-      Tra le varie attività, abbiamo visitato Casa Battlò, Parc Güell, la Sagrada Familia e il Castell de Montjuïc raggiunto tramite la teleferica.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        {{< typeit tag=h3 >}} Barcelona, Catalogna, Spagna {{< /typeit >}}
+        <p>Ho visitato il capoluogo catalano assieme a due miei amici pochi mesi fa. Gaudì ha letteralmente investito questa città con la sua influenza, è impossibile negarlo che possa piacere o meno.<br>Tra le varie attività, abbiamo visitato Casa Battlò, Parc Güell, la Sagrada Familia e il Castell de Montjuïc raggiunto tramite la teleferica.</p>
+      </div>
       <div class="row">
         <div class="scroll-view">
           <div class="scroll-doc">
@@ -95,8 +96,9 @@ share:
     <figcaption class=image-caption style="text-align:center">
         <code>Vista da Castell de Montjuïc</code>
     </figcaption><br>
-    <p>Dalla collina e lungo la salita si poteva ammirare quasi tutta la città.
-    Per raggiungere Parc Güell siamo passati dal quartiere Vallcarca, molto particolare. Si trova ad almeno 200m più in basso rispetto al parco di Gaudì.</p>
+    <div class="col-md-8 col-md-push-2 no-padding-left" >
+      <p>Dalla collina e lungo la salita si poteva ammirare quasi tutta la città.<br>Per raggiungere Parc Güell siamo passati dal quartiere Vallcarca, molto particolare. Si trova ad almeno 200m più in basso rispetto al parco di Gaudì.</p>
+    </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/12HD.jpg
@@ -112,7 +114,9 @@ share:
               <code>Quartiere Vallcarca, vicino Parc Güell</code>
             </figcaption>
       </figure>
-      <p>Ci siamo fatti la salita a piedi intervallata da scale mobili e da flora locale.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Ci siamo fatti la salita a piedi intervallata da scale mobili e da flora locale.</p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/13HD.jpg
@@ -128,7 +132,9 @@ share:
               <code>Barcellona</code>
             </figcaption>
       </figure>
-      <p>Una volta saliti, questa era la vista. Personalmente la foto non è nulla di particolare ma ci tenevo ad includerla. Si notano bene tutte le gru che intrappolano la Sagrada Familia.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Una volta saliti, questa era la vista. Personalmente la foto non è nulla di particolare ma ci tenevo ad includerla. Si notano bene tutte le gru che intrappolano la Sagrada Familia.</p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/14HD.jpg
@@ -144,7 +150,9 @@ share:
                 <code>Salita verso Parc Güell</code>
             </figcaption>
       </figure>
-      <p>Una volta entrati nel parco sembrava di stare in un bagno all'aperto per la quantità innumerabile di piastrelle. Scherzi a parte è stato davvero interessante e la prossima è una classica foto dell'entrata principale al parco.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Una volta entrati nel parco sembrava di stare in un bagno all'aperto per la quantità innumerabile di piastrelle. Scherzi a parte è stato davvero interessante e la prossima è una classica foto dell'entrata principale al parco.</p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/4HD.jpg
@@ -160,7 +168,9 @@ share:
               <code>Parc Güell</code>
             </figcaption>
       </figure>
-      <p>Purtroppo però aveva parecchie parti in ristrutturazione quindi le foto non sono venute granchè. Questa è la galleria che fa da sentiero esterno per la struttura principale vicino l'entrata.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Purtroppo però aveva parecchie parti in ristrutturazione quindi le foto non sono venute granchè. Questa è la galleria che fa da sentiero esterno per la struttura principale vicino l'entrata.</p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/3HD.jpg
@@ -176,7 +186,9 @@ share:
               <code>Parc Güell</code>
             </figcaption>
       </figure>
-      <p>La maestosità della cattedrale ci ha davvero spiazzato. Proveniendo dal <i>Passeig de Sant Joan</i>, la Sagrada Familia spunta fuori in mezzo agli alberi quasi come se servissero ad indicare la via da percorrere per raggiungerla, come se non fosse già ovvio dove si trova. Ad ottobre 2019 era ancora in costruzione e lo sarà fino al 2026; a questo proposito ho cercato di togliere le 37 gru gialle attorno al cantiere. E qualcosa è rimasto.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>La maestosità della cattedrale ci ha davvero spiazzato. Proveniendo dal <i>Passeig de Sant Joan</i>, la Sagrada Familia spunta fuori in mezzo agli alberi quasi come se servissero ad indicare la via da percorrere per raggiungerla, come se non fosse già ovvio dove si trova. Ad ottobre 2019 era ancora in costruzione e lo sarà fino al 2026; a questo proposito ho cercato di togliere le 37 gru gialle attorno al cantiere. E qualcosa è rimasto.</p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/10HD.jpg
@@ -192,7 +204,9 @@ share:
               <code>Sagrada Familia</code>
             </figcaption>
       </figure>
-      <p>La parte esterna è piena zeppa di sculture, ma la vera magia di cui tanto si parla avviene all'interno. La foto qui sotto rappresenta l'arcata principale della cattedrale e il gioco di luci delle vetrate crea un'atmosfera surreale. È impossibile descriverla quindi vi toccherà entrarci per capire di che parlo. </p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>La parte esterna è piena zeppa di sculture, ma la vera magia di cui tanto si parla avviene all'interno. La foto qui sotto rappresenta l'arcata principale della cattedrale e il gioco di luci delle vetrate crea un'atmosfera surreale. È impossibile descriverla quindi vi toccherà entrarci per capire di che parlo. </p>
+      </div>
       <figure>
       <a class="lightgallery" 
         href=/images/uploads/barcelona/9HD.jpg
@@ -208,7 +222,9 @@ share:
               <code>Navata della Sagrada Familia</code>
             </figcaption>
       </figure>
-      <p>Ho cercato di ricreare quello che vidi alcuni mesi fa tramite saturazione e luminanza di ogni colore. L'idea di Gaudì era quella di ricreare un bosco all'interno, infatti non vi sono quadri sulle pareti e le colonne principali al centro della navata ricordano dei tronchi per forma e colore.<br>Le due navate laterali si oppongono per palette di colori, infatti quella di sinistra con colori freddi come blue e verde si contrappone alla navata destra con colori caldi come rosso e giallo.</p>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Ho cercato di ricreare quello che vidi alcuni mesi fa tramite saturazione e luminanza di ogni colore. L'idea di Gaudì era quella di ricreare un bosco all'interno, infatti non vi sono quadri sulle pareti e le colonne principali al centro della navata ricordano dei tronchi per forma e colore.<br>Le due navate laterali si oppongono per palette di colori, infatti quella di sinistra con colori freddi come blue e verde si contrappone alla navata destra con colori caldi come rosso e giallo.</p>
+      </div>
       <div class="row">
             <div class="scroll-view">
               <div class="scroll-doc">
@@ -264,7 +280,9 @@ share:
           </div>
           <h3 style="text-align:center"><code>{{< typeit >}} Interno della Sagrada Familia {{< /typeit >}}</code></h3> 
       </div>
-      <p>Spero che questa guida digitale sia stata abbastanza chiara. Ultimamente ho cercato di trovare nuovi metodi alternativi per poter pubblicare diversamente le foto che scatto, ma la verità è che erano tutte soluzioni temporanee per i miei bisogni. Qui sotto c'è un riepilogo generale che ho pubblicato in un unico post su <a href="https://www.instagram.com/p/B7igrvAoDsW/">Instagram</a>. Guardando il post ci si ricorda subito l'ovvia motivazione per il quale ho aperto questo sito.</p><br>
+      <div class="col-md-8 col-md-push-2 no-padding-left" >
+        <p>Spero che questa guida digitale sia stata abbastanza chiara. Ultimamente ho cercato di trovare nuovi metodi alternativi per poter pubblicare diversamente le foto che scatto, ma la verità è che erano tutte soluzioni temporanee per i miei bisogni. Qui sotto c'è un riepilogo generale che ho pubblicato in un unico post su <a href="https://www.instagram.com/p/B7igrvAoDsW/">Instagram</a>. Guardando il post ci si ricorda subito l'ovvia motivazione per il quale ho aperto questo sito.</p>
+      </div><br>
       <div class="row">
             <div class="column2"><img class="lazyload blur-up" style="width:100%;height:auto"
           data-src=/images/uploads/barcelona/11-poster.jpg

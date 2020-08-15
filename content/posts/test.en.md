@@ -1,8 +1,8 @@
 ---
 title: "test"
-date: 2020-05-26T13:20:00+02:00
-lastmod: 2020-05-31T10:30:00+02:00
-draft: false
+date: 2020-07-21T13:20:00+02:00
+lastmod: 2020-07-22T10:30:00+02:00
+draft: true
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: ""
@@ -51,13 +51,14 @@ seo:
 
 <style>
 .oneForth{
-    width:25%;
+    width:45%;
     float:left;
-    margin:.5%;
+    margin:2%;
 }
 .oneForth img{
     width:100%;
 }
+
 @media only screen and (max-width: 1440px) {
   .page {
     width: 56%;
@@ -97,105 +98,63 @@ seo:
 }
 </style>
 
-<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery progressive replace" 
-                  href=/images/uploads/ppalascia/6HD.jpg
-                  title="Trident"
-                  data-thumbnail=/images/uploads/ppalascia/6.jpg
-                  data-sub-html="Trident">
-                  <img class="preview lazyload blur-up"
-                      src=/images/uploads/ppalascia/6.jpg
-                      data-src=/images/uploads/ppalascia/6HD.jpg
-                      data-sizes=auto
-                      alt="Trident"></a>
-        </figure>
-        {{< typeit tag=h3 >}} Otranto, Puglia, Italy {{< /typeit >}}
-        <p>
-        The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy.<br>It is located at <i> 40°06'26" N, 18°31'14" E</i>.<br>When parked near the military base literally on the main street it starts the main path to the lighthouse; it's a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
-        <figure>
-          <a class="lightgallery progressive replace" 
-                  href=/images/uploads/ppalascia/4HD.jpg
-                  title="Path towards the lighthouse"
-                  data-thumbnail=/images/uploads/ppalascia/4.jpg
-                  data-sub-html="Path towards the lighthouse">
-                  <img class="preview"
-                      src=/images/uploads/ppalascia/4.jpg
-                      data-src=/images/uploads/ppalascia/4HD.jpg
-                      data-sizes=auto
-                      alt="Path towards the lighthouse"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Path towards the lighthouse</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery progressive replace" 
-                  href=/images/uploads/ppalascia/5HD.jpg
-                  title="Path towards the lighthouse"
-                  data-thumbnail=/images/uploads/ppalascia/5.jpg
-                  data-sub-html="Path towards the lighthouse">
-                  <img class="preview"
-                       src=/images/uploads/ppalascia/5.jpg
-                       data-src=/images/uploads/ppalascia/5HD.jpg
-                       data-sizes=auto
-                       alt="Path towards the lighthouse"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Path towards the lighthouse</code>
-              </figcaption>
-          </figure>
-        <figure>
-          <a class="lightgallery progressive replace" 
-                  href=/images/uploads/ppalascia/3HD.jpg
-                  title="Boat"
-                  data-thumbnail=/images/uploads/ppalascia/3.jpg
-                  data-sub-html="Boat">
-                  <img class="preview"
-                      src=/images/uploads/ppalascia/3.jpg
-                      data-src=/images/uploads/ppalascia/3HD.jpg
-                      data-sizes=auto
-                      alt="Boat"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Boat</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery progressive replace" 
-                  href=/images/uploads/ppalascia/1HD.jpg
-                  title="View from the top of the hill"
-                  data-thumbnail=/images/uploads/ppalascia/1.jpg
-                  data-sub-html="View from the top of the hill">
-                  <img class="preview"
-                      src=/images/uploads/ppalascia/1.jpg
-                      data-src=/images/uploads/ppalascia/1HD.jpg
-                      data-sizes=auto
-                      alt="View from the top of the hill"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>View from the top of the hill</code>
-              </figcaption>
-        </figure>
- </div>
+<div class="container">
+    <div class="row">
+          <div class="oneForth">
+              <figure class="progressive replace" >
+                <a class="lightgallery" 
+                        href=/images/uploads/ppalascia/5HD.jpg
+                        title="Trident"
+                        data-thumbnail=/images/uploads/ppalascia/5.jpg
+                        data-sub-html="Trident">
+                        <img class="preview"
+                            src=/images/uploads/ppalascia/5.jpg
+                            data-src=/images/uploads/ppalascia/5HD.jpg
+                            data-sizes=auto
+                            alt="Trident"></a>
+              </figure>
+          </div>
+          <div class="oneForth">
+              <figure class="progressive replace" >
+                <a class="lightgallery progressive replace" 
+                        href=/images/uploads/ppalascia/6HD.jpg
+                        title="Trident"
+                        data-thumbnail=/images/uploads/ppalascia/6.jpg
+                        data-sub-html="Trident">
+                        <img class="preview"
+                            src=/images/uploads/ppalascia/6.jpg
+                            data-src=/images/uploads/ppalascia/6HD.jpg
+                            data-sizes=auto
+                            alt="Trident"></a>
+              </figure>
+          </div>
+          <div class="oneForth">
+              <figure class="progressive replace" >
+                <a class="lightgallery progressive replace" 
+                        href=/images/uploads/ppalascia/6HD.jpg
+                        title="Trident"
+                        data-thumbnail=/images/uploads/ppalascia/6.jpg
+                        data-sub-html="Trident">
+                        <img class="preview"
+                            src=/images/uploads/ppalascia/6.jpg
+                            data-src=/images/uploads/ppalascia/6HD.jpg
+                            data-sizes=auto
+                            alt="Trident"></a>
+              </figure>
+          </div>
+          <div class="oneForth">
+              <figure class="progressive replace" >
+                <a class="lightgallery progressive replace" 
+                        href=/images/uploads/ppalascia/6HD.jpg
+                        title="Trident"
+                        data-thumbnail=/images/uploads/ppalascia/6.jpg
+                        data-sub-html="Trident">
+                        <img class="preview"
+                            src=/images/uploads/ppalascia/6.jpg
+                            data-src=/images/uploads/ppalascia/6HD.jpg
+                            data-sizes=auto
+                            alt="Trident"></a>
+              </figure>
+           </div>
+    </div>
 </div>
-
-<!-- <div class="container">
-      <div class="row">
-          <div class="oneForth">
-          <div class="oneForth">
-                <img class="preview" src="/images/uploads/amsterdam/1.jpg">
-                <p>Caption</p>
-          </div>
-          </div>
-          <div class="oneForth">
-                <img class="preview" src="/images/uploads/amsterdam/1.jpg">
-                <p>Caption</p>
-          </div>
-          <div class="oneForth">
-                <img class="preview" src="/images/uploads/amsterdam/1.jpg">
-                <p>Caption</p>
-          </div>
-          <div class="oneForth">
-                <img class="preview" src="/images/uploads/amsterdam/1.jpg">
-                <p>Caption</p>
-          </div>
-      </div>
-  </div> -->

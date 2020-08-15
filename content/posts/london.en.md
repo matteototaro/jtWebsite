@@ -36,7 +36,9 @@ share:
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
-        <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
+        </div>
       <div class="row">
             <div class="scroll-view">
               <div class="scroll-doc">
@@ -164,7 +166,9 @@ share:
                  <code>Towards Piccadilly Circus</code>
               </figcaption>
         </figure>
-        <p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          <p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
+        </div>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/london/5HD.jpg
@@ -195,7 +199,9 @@ share:
                   <code>Tower of London</code>
               </figcaption>
         </figure>
-        <p> On one hand, the first two panos are 4 different shots merged togheter; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          <p> On one hand, the first two panos are 4 different shots merged togheter; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
+        </div>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/london/2.jpg
@@ -211,7 +217,9 @@ share:
                   <code>Buckingham Palace</code>
               </figcaption>
         </figure>
-        <p>I also decided to include this project that I did 3 years ago with various images of London. I don't considerate it good, just interesting I think.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          <p>I also decided to include this project that I did 3 years ago with various images of London. I don't considerate it good, just interesting I think.</p>
+        </div>
         <figure>
           <a class="lightgallery"
                   href=/images/uploads/london/sixtupla.jpg
@@ -227,6 +235,8 @@ share:
                   <code>Sixtupla</code>
               </figcaption>
         </figure>
-        <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> here </i></a>.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> here </i></a>.</p>
+        </div>
     </div>
  </div>

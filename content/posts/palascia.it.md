@@ -35,9 +35,10 @@ share:
                       data-sizes=auto
                       alt="Tridente"></a>
         </figure>
-        {{< typeit tag=h3 >}} Otranto, Puglia, Italia {{< /typeit >}}
-        <p>
-        Il faro di Punta Palascìa rappresenta uno dei simboli di Otranto. Si trova a 40 km da Lecce ed è il punto più ad Est d'Italia, o più precisamente alle coordinate <i>40°06'26" N, 18°31'14" E</i>.<br>Dopo aver parcheggiato vicino alla base militare adiacente si percorre un sentiero a piedi a zig zag in discesa per una decina di minuti.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+          {{< typeit tag=h3 >}} Otranto, Puglia, Italia {{< /typeit >}}
+          <p>Il faro di Punta Palascìa rappresenta uno dei simboli di Otranto. Si trova a 40 km da Lecce ed è il punto più ad Est d'Italia, o più precisamente alle coordinate <i>40°06'26" N, 18°31'14" E</i>.<br>Dopo aver parcheggiato vicino alla base militare adiacente si percorre un sentiero a piedi a zig zag in discesa per una decina di minuti.</p>
+        </div>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/ppalascia/4HD.jpg

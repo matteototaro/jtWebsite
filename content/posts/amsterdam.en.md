@@ -35,8 +35,10 @@ share:
 					data-sizes=auto
 					alt="Amsterdam"></a>
 		</figure>
-		{{< typeit tag=h3 >}} Amsterdam, Netherlands {{< /typeit >}}
-		<p>I went to Amsterdam almost two years ago and I hope I'll visit it again as soon as possible. As someone says, it's the Venice of the  Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn't the cheapest trip we've ever done.</p>
+		<div class="col-md-8 col-md-push-2 no-padding-left" >
+			{{< typeit tag=h3 >}} Amsterdam, Netherlands {{< /typeit >}}
+			<p>I went to Amsterdam almost two years ago and I hope I'll visit it again as soon as possible. As someone says, it's the Venice of the  Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn't the cheapest trip we've ever done.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/6HD.jpg
@@ -52,7 +54,9 @@ share:
 						<code>Church in Amsterdam</code>
 					</figcaption>
 		</figure>
-		<p>It's a beautiful city and seeing all these commuters with their bicycles reminds you that all the other countries are in the past. Everyone's calm and minds their own business, unlike in Italy.</p>
+	    <div class="col-md-8 col-md-push-2 no-padding-left" >
+			other countries are in the past. Everyone's calm and minds their own business, unlike in Italy.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/7HD.jpg
@@ -68,7 +72,9 @@ share:
 						<code>Amsterdam canals in an autumn mood</code>
 					</figcaption>
 		</figure>
-		<p>After walking for at least 20km we rented two bicycles and with our backpacks we were perfectly mixed in the crowd, like Tom Cruise when he's running away from someone. After few blocks we encountered this modern building that captured my attention so of course I took a picture. I really do like it.</p>
+	    <div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>After walking for at least 20km we rented two bicycles and with our backpacks we were perfectly mixed in the crowd, like Tom Cruise when he's running away from someone. After few blocks we encountered this modern building that captured my attention so of course I took a picture. I really do like it.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/11HD.jpg
@@ -84,7 +90,9 @@ share:
 						<code>Mirror</code>
 					</figcaption>
 		</figure>
-		<p>In my opinion the next pic is one the best I've made so far. The .RAW file needed lots of corrections because the street was almost completely dark in the shadow, so I had to enhance those two children so they could be the main subjects of the composition.</p>
+     	<div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>In my opinion the next pic is one the best I've made so far. The .RAW file needed lots of corrections because the street was almost completely dark in the shadow, so I had to enhance those two children so they could be the main subjects of the composition.</p>
+		</div>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/10HD.jpg
@@ -100,7 +108,9 @@ share:
 						<code>Running late</code>
 					</figcaption>
 		</figure>
-		<p>Once you look closely, you can see that is a very beautiful and well-maintained street, with the characteristic dutch building mixed with plants and trees. During the process I wasn't able to tell if this photo would have been one the best to my eyes, in fact at the end of the editing I was surprised myself.<br>We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>Once you look closely, you can see that is a very beautiful and well-maintained street, with the characteristic dutch building mixed with plants and trees. During the process I wasn't able to tell if this photo would have been one the best to my eyes, in fact at the end of the editing I was surprised myself.<br>We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 				href=/images/uploads/amsterdam/12HD.jpg
@@ -116,7 +126,9 @@ share:
 						<code>View from NEMO</code>
 					</figcaption>
 		</figure>
-		<p>I wrap up this article with a gallery of the classics canals from 4 different views.</p>
+		<div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>I wrap up this article with a gallery of the classics canals from 4 different views.</p>
+		 </div>
 		<div class="row">
 				<div class="scroll-view">
 					<div class="scroll-doc">

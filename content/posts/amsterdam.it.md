@@ -35,8 +35,10 @@ share:
 						data-sizes=auto
 						alt="Amsterdam"></a>
 		 </figure>
-		{{< typeit tag=h3 >}} Amsterdam, Olanda {{< /typeit >}}
-		<p>Sono stato ad Amsterdam circa due anni fa e mi è piaciuta così tanto che non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+			{{< typeit tag=h3 >}} Amsterdam, Olanda {{< /typeit >}}
+			<p>Sono stato ad Amsterdam circa due anni fa e mi è piaciuta così tanto che non vedo l'ora di tornare in questa città che qualcuno chiama "la Venezia del Nord Europa" per ovvi motivi. Assieme ad un amico abbiamo prenotato volo e ostello solo una settimana prima per beccare la ADE week (Amsterdam Dance Event) quindi posso tranquillamente dire che non è stato il viaggio più economico che io abbia mai fatto.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 					href=/images/uploads/amsterdam/6HD.jpg
@@ -52,7 +54,9 @@ share:
 						<code>Chiesa ad Amsterdam</code>
 					</figcaption>
 		 </figure>
-		<p>È una città fantastica e vedere tutti questi pendolari in bici mi ha ricordato quanto gli altri stati siano indietro rispetto all'olanda da questo punto di vista.	Sono tutti calmi e ognuno si fa i fatti suoi a differenza dell'Italia.</p>
+	    <div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>È una città fantastica e vedere tutti questi pendolari in bici mi ha ricordato quanto gli altri stati siano indietro rispetto all'olanda da questo punto di vista. Sono tutti calmi e ognuno si fa i fatti suoi a differenza dell'Italia.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 					href=/images/uploads/amsterdam/7HD.jpg
@@ -68,7 +72,9 @@ share:
 						<code>Canali di Amsterdam in un mood autunnale</code>
 					</figcaption>
 		 </figure>
-		<p>Dopo aver camminato per una ventina di km abbiamo affittato 2 bici e coi nostri zaini siamo riusciti a mischiarci nella folla, come Tom Cruise quando scappa da qualcuno. Dopo alcuni minuti abbiamo incontrato questo palazzo molto moderno che spuntava tra gli altri e avendo catturato la mia attenzione gli ho ovviamente fatto una foto. Mi piace parecchio com'è venuta.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>Dopo aver camminato per una ventina di km abbiamo affittato 2 bici e coi nostri zaini siamo riusciti a mischiarci nella folla, come Tom Cruise quando scappa da qualcuno. Dopo alcuni minuti abbiamo incontrato questo palazzo molto moderno che spuntava tra gli altri e avendo catturato la mia attenzione gli ho ovviamente fatto una foto. Mi piace parecchio com'è venuta.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 					href=/images/uploads/amsterdam/11HD.jpg
@@ -84,8 +90,9 @@ share:
 					<code>Specchio</code>
 				</figcaption>
 		  </figure>
-		<p>La prossima immagine è sicuramente tra le mie preferite. Lo scatto aveva bisogno di molte correzioni e partivo da uno scatto grezzo .RAW molto scuro in cui la strada era quasi completamente all'ombra.
-		Ho dovuto quindi portare in primo piano quei due ragazzi affinchè fossero il soggetto principale della composizione.</p>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>La prossima immagine è sicuramente tra le mie preferite. Lo scatto aveva bisogno di molte correzioni e partivo da uno scatto grezzo .RAW molto scuro in cui la strada era quasi completamente all'ombra. <br>Ho dovuto quindi portare in primo piano quei due ragazzi affinchè fossero il soggetto principale della composizione.</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 					href=/images/uploads/amsterdam/10HD.jpg
@@ -101,7 +108,9 @@ share:
 						<code>Andare di fretta</code>
 					</figcaption>
 		 </figure>
-		<p>Guardandola attentamente si può notare che di fatto è una strada ben tenuta e ricca di piante assieme ai classici palazzi olandesi. Durante l'editing non credevo che sarei riuscito a tirare fuori quello che ad ora considero una bella atmosfera, e infatti alla fine del processo ne sono rimasto piacevolmente sorpreso.<br>Abbiamo poi finito il giro in bici vicino al museo della scienza (NEMO).</p>
+		<div class="col-md-8 col-md-push-2 no-padding-left" >
+			<p>Guardandola attentamente si può notare che di fatto è una strada ben tenuta e ricca di piante assieme ai classici palazzi olandesi. Durante l'editing non credevo che sarei riuscito a tirare fuori quello che ad ora considero una bella atmosfera, e infatti alla fine del processo ne sono rimasto piacevolmente sorpreso.<br>Abbiamo poi finito il giro in bici vicino al museo della scienza (NEMO).</p>
+		 </div>
 		<figure>
 			<a class="lightgallery" 
 					href=/images/uploads/amsterdam/12HD.jpg
@@ -117,7 +126,9 @@ share:
 						<code>Vista dal NEMO</code>
 					</figcaption>
 		</figure>
-		<p>Concludo questo articolo con una galleria dei classici canali della città da 4 viste differenti.</p>
+		<div class="col-md-8 col-md-push-2 no-padding-left" >
+			 <p>Concludo questo articolo con una galleria dei classici canali della città da 4 viste differenti.</p>
+		 </div>
 		 <div class="row">
 				<div class="scroll-view">
 					<div class="scroll-doc">
