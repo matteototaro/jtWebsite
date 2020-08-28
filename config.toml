@@ -108,7 +108,7 @@ enableEmoji = true
             # title shown in home page (HTML format is supported)
             title = ""
             # subtitle shown in home page
-            subtitle = "Welcome to my angle on the web"
+            subtitle = "Welcome to my space on the web"
             # whether to use typeit animation for subtitle
             typeit = true
             # whether to show social links
@@ -226,7 +226,7 @@ enableEmoji = true
             # title shown in home page (HTML format is supported)
             title = ""
             # subtitle shown in home page
-            subtitle = "Benvenuti nel mio angolo del web"
+            subtitle = "Benvenuti nel mio angolo sul web"
             # whether to use typeit animation for subtitle
             typeit = true
             # whether to show social links
