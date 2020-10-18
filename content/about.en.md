@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2020-05-25T10:30:00+02:00
+lastmod: 2020-10-18T15:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -65,19 +65,20 @@ p {
             <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
             <figcaption><code>Selfie in a house near the beach in the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
           </figure>
-        <br><p>I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.
+        <br><p>At the moment I'm studying Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/v2/"  target="_blank">AAEE</a>) at the University of Bologna.<br>I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.
         I tried to find a compromise between photo quality and loading speed of the website, I hope you enjoy it.<br>
-        Thanks for stopping by and have a great day!</p><br><br>
-     </div>
+        Thanks for stopping by and have a great day!</p><br>
+        <p style="font-size:85%;text-align:right;">Last page update: 18 october 2020</p><br>
+      </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">
       <h4><mark>Contacts:</mark></h4>
     </div>
     <div class="column">
-       <h5><a href="mailto:tmatteos@gmail.com"> Mail</a></h5>
+       <h5><a href="mailto:tmatteos@gmail.com" target="_blank"> Mail</a></h5>
     </div>
     <div class="column" style="text-align:left;">
-      <h5><a href="https://it.linkedin.com/in/m-totaro">Linkedin</a></h5>
+      <h5><a href="https://it.linkedin.com/in/m-totaro" target="_blank">Linkedin</a></h5>
     </div>
    </div>
 </div>
