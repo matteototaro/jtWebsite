@@ -1,7 +1,7 @@
 ---
-title: ""
-date: 2020-04-25T18:40:00+02:00
-lastmod: 2020-05-25T10:30:00+02:00
+title: "Roma - Novembre 2018"
+date: 2020-11-16T10:30:00+02:00
+lastmod: 2020-11-18T10:30:00+02:00
 draft: true
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -20,5 +20,3 @@ linkToMarkdown: false
 share:
   enable: true
 ---
-matera
-craco
