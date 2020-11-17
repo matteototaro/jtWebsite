@@ -71,6 +71,24 @@ share:
                 <code>Craco</code>
               </figcaption>
         </figure>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+            <p>Nowadays, it's just a tourist attraction and a popular filming location.</p>
+         </div>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/craco/16HD.jpg
+                  title="Buildings still standing "
+                  data-thumbnail=/images/uploads/craco/16.jpg              
+                  data-sub-html="Buildings still standing ">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/craco/16HD.jpg
+                      data-sizes=auto
+                      alt="Buildings still standing "></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Buildings still standing </code>
+              </figcaption>
+        </figure>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/8HD.jpg
@@ -84,24 +102,6 @@ share:
                       alt="Craco Hills"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Craco Hills</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Nowadays, it's just a tourist attraction and a popular filming location.</p>
-         </div>
-        <figure>
-          <a class="lightgallery" 
-                  href=/images/uploads/craco/16HD.jpg
-                  title="Old Ruins"
-                  data-thumbnail=/images/uploads/craco/16.jpg              
-                  data-sub-html="Old Ruins">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/craco/16HD.jpg
-                      data-sizes=auto
-                      alt="Old Ruins"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Old Ruins</code>
               </figcaption>
         </figure>
         <div class="row">
@@ -177,6 +177,8 @@ share:
         <figcaption class=image-caption style="text-align:center">
            <code>Craco views and ravines</code>
         </figcaption>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+            <p>The panorama was amazing. These shots are from all around the hill of the town.</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/2HD.jpg
@@ -195,18 +197,20 @@ share:
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/17HD.jpg
-                  title="Craco"
+                  title="sin(x)cos(y)"
                   data-thumbnail=/images/uploads/craco/17.jpg              
-                  data-sub-html="Craco">
+                  data-sub-html="sin(x)cos(y)">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
                       data-src=/images/uploads/craco/17HD.jpg
                       data-sizes=auto
-                      alt="Craco"></a>
+                      alt="sin(x)cos(y)"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code>Craco</code>
+                <code>sin(x)cos(y)</code>
               </figcaption>
         </figure>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+            <p>Is it just me or these hills on the right look like <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank"><i>this graph </a></i>?</p>
         <div class="row">
              <div class="scroll-view">
                 <div class="scroll-doc">
@@ -279,5 +283,7 @@ share:
                 <code>Craco in its entirety</code>
               </figcaption>
         </figure>
+        <br>
+    	  {{< typeit tag=i >}} Thanks for stopping by {{< /typeit >}}
  </div>
 </div>

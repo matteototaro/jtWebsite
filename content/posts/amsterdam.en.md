@@ -199,7 +199,7 @@ share:
 					</div>
 			</div>
 		</div>
-		<h3 style="text-align:center"><code> Amsterdam canals </code></h3>
-	<i>{{< typeit >}} Thanks for stopping by {{< /typeit >}}</i>
+		<h3 style="text-align:center"><code> Amsterdam canals </code></h3><br>
+	{{< typeit tag=i >}} Thanks for stopping by {{< /typeit >}}
 	</div>
 </div>
