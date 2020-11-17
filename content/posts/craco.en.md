@@ -41,47 +41,21 @@ share:
           due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation
           and after the earthquake of the 1980's Craco was completely abandoned.</p>
         </div>
-        <div class="row">
-          <div class="scroll-view">
-            <div class="scroll-doc">
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                        <figure>
-                          <a class="lightgallery" 
-                                  href=/images/uploads/craco/6HD.jpg
-                                  title="Craco"
-                                  data-thumbnail=/images/uploads/craco/6.jpg              
-                                  data-sub-html="Craco">
-                                  <img class="lazyload blur-up"
-                                      src=/svg/loading/normal.svg
-                                      data-src=/images/uploads/craco/6HD.jpg
-                                      data-sizes=auto
-                                      alt="Craco"></a>
-                         </figure>
-                      </div>
-                  </div>
-                  <div class="scroll-item">
-                     <div class="thumbnail">
-                        <figure>
-                          <a class="lightgallery" 
-                                  href=/images/uploads/craco/5HD.jpg
-                                  title="Craco"
-                                  data-thumbnail=/images/uploads/craco/5.jpg              
-                                  data-sub-html="Craco">
-                                  <img class="lazyload blur-up"
-                                      src=/svg/loading/normal.svg
-                                      data-src=/images/uploads/craco/5HD.jpg
-                                      data-sizes=auto
-                                      alt="Craco"></a>
-                         </figure>
-                     </div>
-                 </div>
-             </div>
-          </div>
-        </div>
-        <h3 style="text-align:center">
-          <code>Craco from the road</code>
-        </h3>
+        <figure>
+            <a class="lightgallery" 
+               href=/images/uploads/craco/6HD.jpg
+               title="Craco from the road"
+               data-thumbnail=/images/uploads/craco/6.jpg              
+               data-sub-html="Craco from the road">
+                   <img class="lazyload blur-up"
+                        src=/svg/loading/normal.svg
+                        data-src=/images/uploads/craco/6HD.jpg
+                        data-sizes=auto
+                        alt="Craco from the road"></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Craco from the road</code>
+              </figcaption>
+         </figure>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/14HD.jpg
@@ -97,50 +71,24 @@ share:
                 <code>Craco</code>
               </figcaption>
         </figure>
+        <figure>
+          <a class="lightgallery" 
+                  href=/images/uploads/craco/8HD.jpg
+                  title="Craco Hills"
+                  data-thumbnail=/images/uploads/craco/8.jpg              
+                  data-sub-html="Craco Hills">
+                  <img class="lazyload blur-up"
+                      src=/svg/loading/normal.svg
+                      data-src=/images/uploads/craco/8HD.jpg
+                      data-sizes=auto
+                      alt="Craco Hills"></a>
+              <figcaption class=image-caption style="text-align:center">
+                <code>Craco Hills</code>
+              </figcaption>
+        </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Nowadays, it's a tourist attraction and a popular filming location.</p>
+            <p>Nowadays, it's just a tourist attraction and a popular filming location.</p>
          </div>
-        <div class="row">
-             <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href=/images/uploads/craco/7HD.jpg
-                                    title="Craco"
-                                    data-thumbnail=/images/uploads/craco/7.jpg              
-                                    data-sub-html="Craco">
-                                    <img class="lazyload blur-up"
-                                        src=/svg/loading/normal.svg
-                                        data-src=/images/uploads/craco/7HD.jpg
-                                        data-sizes=auto
-                                        alt="Craco"></a>
-                          </figure>
-                        </div>
-                    </div>
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href=/images/uploads/craco/8HD.jpg
-                                    title="Craco"
-                                    data-thumbnail=/images/uploads/craco/8.jpg              
-                                    data-sub-html="Craco">
-                                    <img class="lazyload blur-up"
-                                        src=/svg/loading/normal.svg
-                                        data-src=/images/uploads/craco/8HD.jpg
-                                        data-sizes=auto
-                                        alt="Craco"></a>
-                          </figure>
-                      </div>
-                    </div>
-               </div>
-             </div>
-         </div>
-        <figcaption class=image-caption style="text-align:center">
-           <code>Craco Hills</code>
-        </figcaption>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/16HD.jpg
@@ -206,22 +154,6 @@ share:
                                           alt="Craco"></a>
                           </figure>
                         </div>
-                     </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href=/images/uploads/craco/12HD.jpg
-                                      title="Craco"
-                                      data-thumbnail=/images/uploads/craco/12.jpg              
-                                      data-sub-html="Craco">
-                                      <img class="lazyload blur-up"
-                                          src=/svg/loading/normal.svg
-                                          data-src=/images/uploads/craco/12HD.jpg
-                                          data-sizes=auto
-                                          alt="Craco"></a>
-                            </figure>
-                         </div>
                      </div>
                     <div class="scroll-item">
                         <div class="thumbnail">
