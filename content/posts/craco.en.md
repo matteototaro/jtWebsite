@@ -35,7 +35,7 @@ share:
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
           {{< typeit tag=h3 >}} Matera, Basilicata, Italy {{< /typeit >}}
-          <p>In the middle of the Basilicata region there's a place called Craco, the <i>Ghost Town</i>. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after the earthquake of the 1980's Craco was completely abandoned.</p>
+          <p>In the middle of Basilicata region there's a place called Craco, the <i>Ghost Town</i>. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980's Craco was completely abandoned.</p>
         </div>
         <figure>
             <a class="lightgallery" 
