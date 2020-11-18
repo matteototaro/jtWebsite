@@ -1,7 +1,7 @@
 ---
 title: "Craco - August 2020"
 date: 2020-11-16T10:30:00+02:00
-lastmod: 2020-11-18T10:30:00+02:00
+lastmod: 2020-11-18T12:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"

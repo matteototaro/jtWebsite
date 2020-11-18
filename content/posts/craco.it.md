@@ -1,7 +1,7 @@
 ---
 title: "Craco - Agosto 2020"
 date: 2020-11-16T10:30:00+02:00
-lastmod: 2020-11-18T10:30:00+02:00
+lastmod: 2020-11-18T12:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -38,7 +38,7 @@ share:
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
           {{< typeit tag=h3 >}} Matera, Basilicata, Italia {{< /typeit >}}
-          <p>A pochi passi da Matera c'è un piccolo paese chiamato Craco, <i>il Paese Fantasma</i>. Gli è stato attributito questo nome particolare a causa di una frana accaduta negli anni 60. Solo dieci anni dopo un'alluvione peggiorò la situazione e dopo il terremoto degli anni 80 il paesino fu definitivamente abbandonato.</p>
+          <p>A pochi passi da Matera c'è un piccolo paese chiamato Craco, <i>il Paese Fantasma</i>. Gli è stato attributito questo nome particolare a causa di una frana accaduta negli anni '60. Solo dieci anni dopo un'alluvione peggiorò la situazione e dopo il terremoto degli anni '80 il paesino fu definitivamente abbandonato.</p>
         </div>
         <figure>
             <a class="lightgallery" 

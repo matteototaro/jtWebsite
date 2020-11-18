@@ -63,12 +63,12 @@ p {
         The main goal of this space is to publish my previous and future projects so the pictures will be put up just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.</p>
         <figure style="max-width:100%;height:auto;display:inline;">
             <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
-            <figcaption><code>Selfie in a house near the beach in the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
+            <figcaption><code>Selfie in a beach-house near the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
           </figure>
         <br><p>At the moment I'm studying Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/v2/"  target="_blank">AAEE</a>) at the University of Bologna.<br>I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.
         I tried to find a compromise between photo quality and loading speed of the website, I hope you enjoy it.<br>
         Thanks for stopping by and have a great day!</p><br>
-        <p style="font-size:85%;text-align:right;">Last page update: 18 october 2020</p><br>
+        <p style="font-size:85%;text-align:right;">Last page update: 18th November 2020</p><br>
       </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">
