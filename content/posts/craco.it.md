@@ -38,7 +38,7 @@ share:
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
           {{< typeit tag=h3 >}} Matera, Basilicata, Italia {{< /typeit >}}
-          <p>A pochi passi da Matera c'è un piccolo paese chiamato Craco <i>il Paese Fantasma</i>. Gli è stato attributito questo nome particolare a causa di una frana accaduta negli anni 60. Solo dieci anni dopo un'alluvione peggiorò la situazione e dopo il terremoto degli anni 80 il paesino fu definitivamente abbandonato.</p>
+          <p>A pochi passi da Matera c'è un piccolo paese chiamato Craco, <i>il Paese Fantasma</i>. Gli è stato attributito questo nome particolare a causa di una frana accaduta negli anni 60. Solo dieci anni dopo un'alluvione peggiorò la situazione e dopo il terremoto degli anni 80 il paesino fu definitivamente abbandonato.</p>
         </div>
         <figure>
             <a class="lightgallery" 
@@ -193,6 +193,8 @@ share:
                 <code>Calanchi</code>
               </figcaption>
         </figure>
+        <div class="col-md-8 col-md-push-2 no-padding-left" >
+            <p>Sbaglio o quelle colline sulla destra mi ricordano <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank"><i> questo grafico</a></i>?</p>
         <figure>
           <a class="lightgallery" 
                   href=/images/uploads/craco/17HD.jpg
@@ -208,8 +210,6 @@ share:
                 <code>sin(x)cos(y)</code>
               </figcaption>
         </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Sbaglio o quelle colline sulla destra mi ricordano <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank"><i> questo grafico</a></i>?</p>
         <div class="row">
              <div class="scroll-view">
                 <div class="scroll-doc">
@@ -250,7 +250,7 @@ share:
              </div>
          </div>
         <figcaption class=image-caption style="text-align:center">
-               <code>Rizla a Craco</code>
+               <code>Rizla e Craco</code>
         </figcaption>
         <figure>
           <a class="lightgallery" 
