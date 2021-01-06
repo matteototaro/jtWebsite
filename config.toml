@@ -106,7 +106,7 @@ enableEmoji = true
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
             # title shown in home page (HTML format is supported)
-            title = ""
+            title = "Matteo Totaro"
             # subtitle shown in home page
             subtitle = "Welcome to my space on the web"
             # whether to use typeit animation for subtitle
@@ -224,7 +224,7 @@ enableEmoji = true
             # URL of avatar shown in home page
             avatarURL = "/images/avatar.jpg"
             # title shown in home page (HTML format is supported)
-            title = ""
+            title = "Matteo Totaro"
             # subtitle shown in home page
             subtitle = "Benvenuti nel mio angolo sul web"
             # whether to use typeit animation for subtitle
@@ -273,7 +273,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "/static/LogoMT_127_40.png"
       # title name
       name = "Matteo Totaro"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -392,10 +392,10 @@ enableEmoji = true
       Facebook = true
       Linkedin = true
       Whatsapp = true
-      Pinterest = false
-      Tumblr = false
+      Pinterest = true
+      Tumblr = true
       HackerNews = false
-      Reddit = false
+      Reddit = true
       VK = false
       Buffer = false
       Xing = false
