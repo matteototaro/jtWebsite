@@ -45,9 +45,10 @@ share:
                data-thumbnail=/images/uploads/roma/2.jpg              
                data-sub-html="Rome">
                    <img class="lazyload blur-up"
+                        data-pin-media=/images/uploads/roma/2HD.jpg
                         data-src=/images/uploads/roma/2HD.jpg
                         data-sizes=auto
-                        alt="Rome"></a>
+                        alt="Rome" nopin></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Rome</code>
               </figcaption>
