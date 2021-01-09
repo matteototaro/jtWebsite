@@ -45,7 +45,6 @@ share:
                data-thumbnail=/images/uploads/roma/2.jpg              
                data-sub-html="Rome">
                    <img class="lazyload blur-up"
-                        src=/svg/loading/normal.svg
                         data-src=/images/uploads/roma/2HD.jpg
                         data-sizes=auto
                         alt="Rome"></a>
