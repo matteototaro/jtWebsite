@@ -4,87 +4,113 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://www.mtotaro.com/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/posts/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/about/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/roma/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/craco/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/palascia/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/london/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/barcelona/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/amsterdam/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/page/2/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mtotaro.com/venice/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/posts/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-  <url>
-    <loc>https://www.mtotaro.com/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/posts/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/about/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-  <loc>https://www.mtotaro.com/it/palascia/</loc>
-  <lastmod>2020-07-09T15:20:00+00:00</lastmod>
+<url>
+  <loc>https://www.mtotaro.com/it/about/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
   <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/barcelona/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/amsterdam/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/venice/</loc>
-    <lastmod>2020-07-09T15:20:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.mtotaro.com/it/london/</loc>
-    <lastmod>2020-06-19T10:30:00+02:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/roma/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/craco/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/palascia/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/london/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/barcelona/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/amsterdam/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/page/2/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mtotaro.com/it/venice/</loc>
+  <lastmod>2021-01-09T23:14:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
