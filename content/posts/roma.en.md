@@ -1,7 +1,7 @@
 ---
 title: "Rome - November 2018"
-date: 2020-11-16T10:30:00+02:00
-lastmod: 2021-01-02T10:30:00+02:00
+date: 2020-12-16T10:30:00+02:00
+lastmod: 2021-01-09T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -28,7 +28,7 @@ share:
                href=/images/uploads/roma/1HD.jpg
                title="Rome"
                data-thumbnail=/images/uploads/roma/1.jpg              
-               data-sub-html="Rome">
+               data-sub-html="Rome"> <!--- in order to show on pinterest my images, src must be linked to images, no javascript or processing (svg) involved-->
                    <img class="lazyload blur-up"
                         src=/images/uploads/roma/1.jpg
                         data-src=/images/uploads/roma/1HD.jpg

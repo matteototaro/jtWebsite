@@ -1,7 +1,7 @@
 ---
 title: "Roma - Novembre 2018"
-date: 2020-11-16T10:30:00+02:00
-lastmod: 2021-01-02T10:30:00+02:00
+date: 2020-12-16T10:30:00+02:00
+lastmod: 2021-01-09T10:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -23,7 +23,7 @@ share:
 
  <div class="container-fluid">
      <div class="ratio-box fade-box">
-        <p>Questa breve raccolta è composta da alcuni scatti molto particolari che più hanno colto la mia attenzione tra tutti. Non sono di certo tra i più famosi e non rappresentano in alcun modo la città nella sua interezza.</p>
+        <p>Questa breve raccolta è composta da alcuni scatti molto particolari che più hanno colto la mia attenzione tra tutti. Sono scatti molto soggettivi e non rappresentano di certo la città nella sua interezza.</p>
         <figure>
             <a class="lightgallery" 
                href=/images/uploads/roma/1HD.jpg

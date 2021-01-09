@@ -19,6 +19,26 @@ linkToMarkdown: false
 share:
   enable: true
 ---
+<meta property="og:type" content="website" /> 
+<meta name="author" content="{{ .Site.Params.author }}" />
+<script defer type="application/ld+json">
+  { 
+    "@context": "http://schema.org", 
+    "@type": "WebSite", 
+    "url": "{{ .Permalink }}", 
+    "sameAs": [
+      "{{ .Site.Params.facebook }}", 
+      "{{ .Site.Params.github }}"
+    ], 
+    "name": "{{ .Title }}", 
+    "logo": "https://www.example.com/images/brand/favicon.png" 
+  }
+</script>
+
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
+<meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
 <style>
 p {
   max-width: auto;
