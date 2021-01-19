@@ -6,7 +6,7 @@ draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: ""
+license: "©2021 Matteo Totaro"
 
 tags:
 hiddenFromHomePage: true
