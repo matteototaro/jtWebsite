@@ -39,6 +39,7 @@ share:
                 <code>Musei Vaticani</code>
               </figcaption>
          </figure>
+        {{< typeit tag=h3 >}} Rome, Lazio, Italy {{< /typeit >}}
         <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
         <figure>
             <a class="lightgallery" 
@@ -115,6 +116,6 @@ share:
                 <code>Piazza San Pietro</code>
               </figcaption>
          </figure>
-         <p>A nice contrast to the sacredness of the Vatican? <br> The tacky pink of the Populous album - W, for <i>Women</i></p><br>
+         <p>A nice contrast to the sacredness of the Vatican? <br> This flashy pink Populous album - W, for <i>Women</i></p><br>
         <iframe style="display: block; margin: auto;" src="https://open.spotify.com/embed/track/3AlvS0vW8hpC1q6wMLlMym" width="343" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><br>
 </div>

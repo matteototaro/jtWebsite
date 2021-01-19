@@ -38,6 +38,7 @@ share:
                 <code>Musei Vaticani</code>
               </figcaption>
          </figure>
+        {{< typeit tag=h3 >}} Roma, Lazio, Italia {{< /typeit >}}
         <p>Questa breve raccolta è composta da alcuni scatti molto particolari che più hanno colto la mia attenzione tra tutti. Sono scatti molto soggettivi e non rappresentano di certo la città nella sua interezza.</p>
         <figure>
             <a class="lightgallery" 
