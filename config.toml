@@ -527,16 +527,22 @@ enableEmoji = true
       # whether to anonymize IP
       anonymizeIP = true
       # whether to use cookie
-      cookie = false
+      cookie = true
  
   # Cookie consent config
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
-      message = ""
-      dismiss = ""
-      link = ""  
+      message = "We use cookies on this website to give you the best experience on our site and show you relevant ads."
+      dismiss = "Dismiss"
+      link = ""
+   
+   [services]
+   #If simple mode is enabled, a static and no-JS version of the Instagram image card will be built. 
+   #Note that this only supports image cards and the image itself will be fetched from Instagram’s servers.
+      [services.instagram]
+          disableInlineCSS = false
 
   # CDN config for third-party library files
 
