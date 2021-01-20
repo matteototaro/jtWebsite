@@ -531,12 +531,12 @@ enableEmoji = true
  
   # Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
-      message = "We use cookies on this website to give you the best experience on our site and show you relevant ads."
+      message = "We use first and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Websites to operate, and we refer to these as <i>essential</i> or <i>strictly necessary</i> cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Online Properties. <a href=https://mtotaro.com/privacypolicy/>Click to learn more about it</a>"
       dismiss = "Dismiss"
-      link = ""
+      link = "What are cookies?"
    
    [services]
    #If simple mode is enabled, a static and no-JS version of the Instagram image card will be built. 
