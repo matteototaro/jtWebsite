@@ -1,19 +1,19 @@
 ---
-title: "London - October 2016"
-date: 2020-05-27T13:20:00+02:00
-lastmod: 2020-06-19T10:30:00+02:00
-draft: false
+title: "Leuca - Agosto 2020"
+date: 2021-05-15T13:30:00+02:00
+lastmod: 2021-05-18T10:30:00+02:00
+draft: true
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2020 Matteo Totaro"
+license: "©2021 Matteo Totaro"
 
 tags:
 categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/london/3.jpg"
+featuredImagePreview: "/images/uploads/leuca/3.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -25,19 +25,19 @@ share:
     <div class="ratio-box fade-box">
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/1HD.jpg
-                  title="Big Ben"
-                  data-thumbnail=/images/uploads/london/1.jpg
-                  data-sub-html="Big Ben">
+                  href=/images/uploads/leuca/1HD.jpg
+                  title="leuca"
+                  data-thumbnail=/images/uploads/leuca/1.jpg
+                  data-sub-html="leuca">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/1HD.jpg
+                      data-src=/images/uploads/leuca/1HD.jpg
                       data-sizes=auto
-                      alt="Big Ben"></a>
+                      alt="leuca"></a>
         </figure>
-        {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
+          {{< typeit tag=h3 >}} Leuca, Salento, Italia {{< /typeit >}}
+          <p></p>
         </div>
       <div class="row">
             <div class="scroll-view">
@@ -46,13 +46,13 @@ share:
                   <div class="thumbnail">
                       <figure>
                         <a class="lightgallery" 
-                                href=/images/uploads/london/3HD.jpg
+                                href=/images/uploads/leuca/3HD.jpg
                                 title="Camden Town"
-                                data-thumbnail=/images/uploads/london/3.jpg
+                                data-thumbnail=/images/uploads/leuca/3.jpg
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
                                     src=/svg/loading/normal.svg
-                                    data-src=/images/uploads/london/3HD.jpg
+                                    data-src=/images/uploads/leuca/3HD.jpg
                                     data-sizes=auto
                                     alt="Camden Town"></a>
                       </figure>
@@ -62,13 +62,13 @@ share:
                   <div class="thumbnail">
                       <figure>
                         <a class="lightgallery" 
-                                href=/images/uploads/london/4HD.jpg
+                                href=/images/uploads/leuca/4HD.jpg
                                 title="Camden Town"
-                                data-thumbnail=/images/uploads/london/4.jpg
+                                data-thumbnail=/images/uploads/leuca/4.jpg
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
                                     src=/svg/loading/normal.svg
-                                    data-src=/images/uploads/london/4HD.jpg
+                                    data-src=/images/uploads/leuca/4HD.jpg
                                     data-sizes=auto
                                     alt="Camden Town"></a>
                       </figure>
@@ -78,17 +78,17 @@ share:
         </div>
       </div>
       <figcaption class=image-caption style="text-align:center">
-          <code>Camden Town, original and warm tones</code>
+          <code>Camden Town, originale e a toni caldi</code>
       </figcaption><br>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/6HD.jpg
+                  href=/images/uploads/leuca/6HD.jpg
                   title="Camden Market"
-                  data-thumbnail=/images/uploads/london/6.jpg
+                  data-thumbnail=/images/uploads/leuca/6.jpg
                   data-sub-html="Camden Market">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/6HD.jpg
+                      data-src=/images/uploads/leuca/6HD.jpg
                       data-sizes=auto
                       alt="Camden Market"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -97,17 +97,17 @@ share:
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/7HD.jpg
-                  title="Super-warm-tones invaded London"
-                  data-thumbnail=/images/uploads/london/7.jpg
-                  data-sub-html="Super-warm-tones invaded London">
+                  href=/images/uploads/leuca/7HD.jpg
+                  title="Londra invasa da toni super caldi"
+                  data-thumbnail=/images/uploads/leuca/7.jpg
+                  data-sub-html="Londra invasa da toni super caldi">
                   <img class="lazyload blur-up"
                        src=/svg/loading/normal.svg
-                       data-src=/images/uploads/london/7HD.jpg
+                       data-src=/images/uploads/leuca/7HD.jpg
                        data-sizes=auto
-                       alt="Super-warm-tones invaded London"></a>
+                       alt="Londra invasa da toni super caldi"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code>Super-warm-tones invaded London</code>
+                <code>Londra invasa da toni super caldi</code>
               </figcaption>
           </figure>
       <div class="row">
@@ -117,15 +117,15 @@ share:
                   <div class="thumbnail">
                     <figure>
                       <a class="lightgallery" 
-                              href=/images/uploads/london/11HD.jpg
-                              title="Big Ben showing off"
-                              data-thumbnail=/images/uploads/london/11.jpg
-                              data-sub-html="Big Ben showing off">
+                              href=/images/uploads/leuca/11HD.jpg
+                              title="Il leuca che spunta fuori"
+                              data-thumbnail=/images/uploads/leuca/11.jpg
+                              data-sub-html="Il leuca che spunta fuori">
                               <img class="lazyload blur-up"
                                   src=/svg/loading/normal.svg
-                                  data-src=/images/uploads/london/11HD.jpg
+                                  data-src=/images/uploads/leuca/11HD.jpg
                                   data-sizes=auto
-                                  alt="Big Ben showing off"></a>
+                                  alt="Il leuca che spunta fuori"></a>
                     </figure>
                   </div>
                 </div>
@@ -133,15 +133,15 @@ share:
                   <div class="thumbnail">
                     <figure>
                       <a class="lightgallery" 
-                              href=/images/uploads/london/8HD.jpg
-                              title="Big Ben showing off"
-                              data-thumbnail=/images/uploads/london/8.jpg
-                              data-sub-html="Big Ben showing off">
+                              href=/images/uploads/leuca/8HD.jpg
+                              title="Il leuca che spunta fuori"
+                              data-thumbnail=/images/uploads/leuca/8.jpg
+                              data-sub-html="Il leuca che spunta fuori">
                               <img class="lazyload blur-up"
                                   src=/svg/loading/normal.svg
-                                  data-src=/images/uploads/london/8HD.jpg
+                                  data-src=/images/uploads/leuca/8HD.jpg
                                   data-sizes=auto
-                                  alt="Big Ben showing off"></a>
+                                  alt="Il leuca che spunta fuori"></a>
                     </figure>
                   </div>
                 </div>
@@ -149,68 +149,68 @@ share:
         </div>
       </div>
       <figcaption class=image-caption style="text-align:center">
-          <code>Big Ben showing off</code>
+          <code>Il leuca che spunta fuori</code>
       </figcaption><br>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/9.jpg
-                  title="Towards Piccadilly Circus"
-                  data-thumbnail=/images/uploads/london/9.jpg
-                  data-sub-html="Towards Piccadilly Circus">
+                  href=/images/uploads/leuca/9.jpg
+                  title="Verso Piccadilly Circus"
+                  data-thumbnail=/images/uploads/leuca/9.jpg
+                  data-sub-html="Verso Piccadilly Circus">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/9.jpg
+                      data-src=/images/uploads/leuca/9.jpg
                       data-sizes=auto
-                      alt="Towards Piccadilly Circus"></a>
+                      alt="Verso Piccadilly Circus"></a>
               <figcaption class=image-caption style="text-align:center">
-                 <code>Towards Piccadilly Circus</code>
+                 <code>Verso Piccadilly Circus</code>
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
+          <p>Le tre seguenti foto sono delle panoramiche scattate rispettivamente a Camden Town, alla Tower of Leuca e nel buco della Regina.</p>
         </div>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/5HD.jpg
-                  title="Life in Camden Town"
-                  data-thumbnail=/images/uploads/london/5.jpg
-                  data-sub-html="Life in Camden Town">
+                  href=/images/uploads/leuca/5HD.jpg
+                  title="Gente di Camden Town"
+                  data-thumbnail=/images/uploads/leuca/5.jpg
+                  data-sub-html="Gente di Camden Town">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/5HD.jpg
+                      data-src=/images/uploads/leuca/5HD.jpg
                       data-sizes=auto
-                      alt="Life in Camden Town"></a>
+                      alt="Gente di Camden Town"></a>
               <figcaption class=image-caption style="text-align:center">
-                <code>Life in Camden Town</code>
+                <code>Gente di Camden Town</code>
               </figcaption>
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/10HD.jpg
-                  title="Tower of London"
-                  data-thumbnail=/images/uploads/london/10.jpg
-                  data-sub-html="Tower of London">
+                  href=/images/uploads/leuca/10HD.jpg
+                  title="Tower of Leuca"
+                  data-thumbnail=/images/uploads/leuca/10.jpg
+                  data-sub-html="Tower of Leuca">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/10HD.jpg
+                      data-src=/images/uploads/leuca/10HD.jpg
                       data-sizes=auto
-                      alt="Tower of London"></a>
+                      alt="Tower of Leuca"></a>
               <figcaption class=image-caption style="text-align:center">
-                  <code>Tower of London</code>
+                  <code>Tower of Leuca</code>
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p> On one hand, the first two panos are 4 different shots merged togheter; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
+          <p>On one hand, the first two panos are 4 different shots merged togheter; dall'altra l'ultima foto è letteralmente un macello e la foto ad <strong>alta</strong> qualità la si può trovare <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>qui</i></a>.</p>
         </div>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/2.jpg
+                  href=/images/uploads/leuca/2.jpg
                   title="Buckingham Palace"
-                  data-thumbnail=/images/uploads/london/2.jpg
+                  data-thumbnail=/images/uploads/leuca/2.jpg
                   data-sub-html="Buckingham Palace">
                   <img class="lazyload blur-up"
                       src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/2.jpg
+                      data-src=/images/uploads/leuca/2.jpg
                       data-sizes=auto
                       alt="Buckingham Palace"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -218,25 +218,7 @@ share:
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I also decided to include this project that I did 3 years ago with various images of London. I don't considerate it good, just interesting I think.</p>
-        </div>
-        <figure>
-          <a class="lightgallery"
-                  href=/images/uploads/london/sixtupla.jpg
-                  title="Sixtupla"
-                  data-thumbnail=/images/uploads/london/sixtupla.jpg
-                  data-sub-html="Buckingham Palace">
-                  <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/sixtupla.jpg
-                      data-sizes=auto
-                      alt="Sixtupla"></a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Sixtupla</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> here </i></a>.</p>
+          <p> </p>
         </div>
     </div>
  </div>

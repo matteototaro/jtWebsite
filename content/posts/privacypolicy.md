@@ -4,7 +4,7 @@ date: 2021-01-16T10:30:00+02:00
 hiddenFromHomePage: true
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
-description: ""
+description: "Privacy policy"
 license: "©2021 Matteo Totaro"
 
 tags:
@@ -149,6 +149,6 @@ share:
                 <div style="line-height: 1.5;"><br></div>
                 <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(0, 0, 0);"><strong><span data-custom-class="heading_1">Where can I get further information?</span></strong></span></span></span></div>
                 <div style="line-height: 1.5;"><br></div>
-                <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">If you have any questions about our use of cookies or other technologies, please email us at <a href="mailto:tmatteos@gmail.com" target="_blank">tmatteos@gmail.com</tmatteos@gmai></a></div>
+                <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">If you have any questions about our use of cookies or other technologies, please email us at <a href="mailto:tmatteos@gmail.com" style="color: rgb(89,89,89)">tmatteos@gmail.com</a></div>
                 <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">This cookie policy was created using <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/en/products/cookie-consent-manager/?ftseo">Termly’s Cookie Consent Manager</a>.</div>
         </div>

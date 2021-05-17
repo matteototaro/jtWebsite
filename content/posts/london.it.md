@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/london/3HD.jpg"
+featuredImagePreview: "/images/uploads/london/3.jpg"
 
 lightgallery: true
 linkToMarkdown: false

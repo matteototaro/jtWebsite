@@ -23,7 +23,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 24
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = "UA-164939128-1"
     # copyright description used only for seo schema
@@ -120,7 +120,7 @@ enableEmoji = true
                                             #controllare se possibile far vedere solo le immagini
             enable = true
             # special amount of posts in each home posts page
-            paginate = 6
+            paginate = 10
         # Social config in home page
         [languages.en.params.social]
           #GitHub = "xxxx"
@@ -141,7 +141,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 24
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = "UA-164939128-1"
     # copyright description used only for seo schema
@@ -238,7 +238,7 @@ enableEmoji = true
                                             #controllare se possibile far vedere solo le immagini
             enable = true
             # special amount of posts in each home posts page
-            paginate = 6
+            paginate = 10
 
         # Social config in home page
         [languages.it.params.social]
