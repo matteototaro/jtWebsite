@@ -34,9 +34,6 @@ share:
                         data-src=/images/uploads/roma/1HD.jpg
                         data-sizes=auto
                         alt="Musei Vaticani"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Musei Vaticani</code>
-              </figcaption>
          </figure>
         {{< typeit tag=h3 >}} Roma, Lazio, Italia {{< /typeit >}}
         <p>Questa breve raccolta è composta da alcuni scatti molto particolari che più hanno colto la mia attenzione tra tutti. Sono scatti molto soggettivi e non rappresentano di certo la città nella sua interezza.</p>

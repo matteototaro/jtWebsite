@@ -1,53 +1,52 @@
-# Translations for Italian
-# Traduzioni per l'italiano
+# Translations for English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
 [backToTop]
-other = "Torna all'inizio"
+other = "Back to Top"
 
 [viewComments]
-other = "Vedi commenti"
+other = "View Comments"
 # === baseof ==
 
 # === Post ===
 [posts]
-other = "Articoli"
+other = "Posts"
 # === Post ===
 
 # === Taxonomy ===
 [allSome]
-other = "Tutti gli {{ .Some }}"
+other = "All {{ .Some }}"
 
 [tag]
-other = "Etichetta"
+other = "Tag"
 
 [tags]
-other = "Etichette"
+other = "Tags"
 
 [category]
-other = "Categoria"
+other = "Category"
 
 [categories]
-other = "Categorie"
+other = "Categories"
 # === Taxonomy ===
 
 # === Pagination ===
 [more]
-other = "Più"
+other = "More"
 # === Pagination ===
 
 # === partials/header.html ===
 [selectLanguage]
-other = "Scegli la lingua"
+other = "Select Language"
 
 [switchTheme]
-other = "Cambia il tema"
+other = "Switch Theme"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Realizzato da {{ .Hugo }} | Tema - {{ .Theme }}"
+other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
@@ -55,98 +54,95 @@ other = "Realizzato da {{ .Hugo }} | Tema - {{ .Theme }}"
 other = "en"
 
 [valinePlaceholder]
-other = "Il tuo commento ..."
+other = "Your comment ..."
 
 [facebookLanguageCode]
-other = "it"
+other = "en_US"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
 [search]
-other = "Cerca"
+other = "Search"
 
 [searchPlaceholder]
-other = "Cerca il titolo o il contenuto dell'articolo ..."
+other = "Search titles or contents..."
 
 [clear]
-other = "Chiaro"
+other = "Clear"
 
 [cancel]
-other = "Annulla"
+other = "Cancel"
 
 [noResultsFound]
-other = "Nessun risultato trovato"
+other = "No results found"
 
 [lunrLanguageCode]
-other = "it"
-
-[lunrLanguageLib]
-other = "lib/lunr/lunr.it.js"
+other = "en"
 
 [copyToClipboard]
-other = "Copia negli appunti"
+other = "Copy to clipboard"
 
 [cookieconsentMessage]
-other = "Questo sito Web utilizza i Cookies per migliorare la tua esperienza."
+other = "This website uses Cookies to improve your experience."
 
 [cookieconsentDismiss]
-other = "Essere d'accordo"
+other = "Got it!"
 
 [cookieconsentLink]
-other = "Per saperne di più"
+other = "Learn more"
 # === partials/assets.html ===
 
 # === partials/plugin/share.html ===
 [shareOn]
-other = "Condividi su"
+other = "Share on"
 # === partials/plugin/share.html ===
 
 # === posts/single.html ===
 [contents]
-other = "Contenuti"
+other = "Contents"
 
 [publishedOnDate]
-other = "Pubblicato il {{ .Date }}"
+other = "Published on {{ .Date }}"
 
 [includedInCategories]
-other = "incluso in {{ .Categories }}"
+other = "Included in {{ .Categories }}"
 
 [wordCount]
-one = "Una parola"
-other = "{{ .Count }} parole"
+one = "One word"
+other = "{{ .Count }} words"
 
 [readingTime]
-one = "Un minuto"
-other = "{{ .Count }} minuti"
+one = "One minute"
+other = "{{ .Count }} minutes"
 
 [views]
-other = "visualizzazioni"
+other = "views"
 
 [author]
-other = "Autore"
+other = "Author"
 
 [updatedOnDate]
-other = "Aggiornato il {{ .Date }}"
+other = "Updated on {{ .Date }}"
 
 [readMarkdown]
-other = "Leggi Markdown"
+other = "Read Markdown"
 
 [back]
-other = "Indietro"
+other = "Back"
 
 [home]
 other = "Home"
 
 [readMore]
-other = "Continua a leggere"
+other = "Read More"
 # === posts/single.html ===
 
 # === 404.html ===
 [pageNotFound]
-other = "Pagina non trovata"
+other = "Page not found"
 
 [pageNotFoundText]
-other = "Mi spiace, la pagina cercata non esiste."
+other = "The page you're looking for doesn't exist. Sorry."
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
@@ -154,46 +150,46 @@ other = "Mi spiace, la pagina cercata non esiste."
 other = "Note"
 
 [abstract]
-other = "Sommario"
+other = "Abstract"
 
 [info]
 other = "Info"
 
 [tip]
-other = "Suggerimenti"
+other = "Tip"
 
 [success]
-other = "Successo"
+other = "Success"
 
 [question]
-other = "Domande"
+other = "Question"
 
 [warning]
-other = "Avvertimento"
+other = "Warning"
 
 [failure]
-other = "Fallimento"
+other = "Failure"
 
 [danger]
-other = "Pericolo"
+other = "Danger"
 
 [bug]
 other = "Bug"
 
 [example]
-other = "Esempio"
+other = "Example"
 
 [quote]
-other = "Citazione"
+other = "Quote"
 # === shortcodes/admonition.html ===
 
 # === shortcodes/version.html ===
 [new]
-other = "NUOVO"
+other = "NEW"
 
 [changed]
-other = "CAMBIATO"
+other = "CHANGED"
 
 [deleted]
-other = "CANCELLATO"
+other = "DELETED"
 # === shortcodes/version.html ===

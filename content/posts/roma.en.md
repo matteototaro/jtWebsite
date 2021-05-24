@@ -35,9 +35,6 @@ share:
                         data-src=/images/uploads/roma/1HD.jpg
                         data-sizes=auto
                         alt="Musei Vaticani"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Musei Vaticani</code>
-              </figcaption>
          </figure>
         {{< typeit tag=h3 >}} Rome, Lazio, Italy {{< /typeit >}}
         <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
