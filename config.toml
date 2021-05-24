@@ -120,7 +120,7 @@ enableEmoji = true
                                             #controllare se possibile far vedere solo le immagini
             enable = true
             # special amount of posts in each home posts page
-            paginate = 10
+            paginate = 5
         # Social config in home page
         [languages.en.params.social]
           #GitHub = "xxxx"
@@ -238,7 +238,7 @@ enableEmoji = true
                                             #controllare se possibile far vedere solo le immagini
             enable = true
             # special amount of posts in each home posts page
-            paginate = 10
+            paginate = 5
 
         # Social config in home page
         [languages.it.params.social]
