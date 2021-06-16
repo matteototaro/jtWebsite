@@ -113,14 +113,13 @@ share:
          </div>
         <figure>
         <a class="lightgallery" 
-          href=/images/uploads/barcelona/13HD.jpg
+          href="https://res.cloudinary.com/matteototaro/image/upload/v1623766012/barcelona/13.jpg"
           title="Barcellona"
-          data-thumbnail=/images/uploads/barcelona/13.jpg
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766012/barcelona/13.jpg"
           data-sub-html="Barcellona">
           <img class="lazyload blur-up cld-responsive"
-            src=/svg/loading/normal.svg
-            data-src=/images/uploads/barcelona/13HD.jpg
-            data-sizes=auto
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766012/barcelona/13.jpg"
+            srcset="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766012/barcelona/13.jpg 300w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/v1623766012/barcelona/13.jpg 500w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/v1623766012/barcelona/13.jpg 800w"
             alt="Barcellona"></a>
               <figcaption class=image-caption>
                 <code>Barcellona</code>
@@ -131,14 +130,13 @@ share:
         </div>
         <figure>
         <a class="lightgallery" 
-          href=/images/uploads/barcelona/14HD.jpg
+          href="https://res.cloudinary.com/matteototaro/image/upload/v1623766013/barcelona/14.jpg"
           title="Towards Parc Güell"
-          data-thumbnail=/images/uploads/barcelona/14.jpg
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766013/barcelona/14.jpg"
           data-sub-html="Towards Parc Güell">
               <img class="lazyload blur-up cld-responsive"
-                    src=/svg/loading/normal.svg
-                    data-src=/images/uploads/barcelona/14HD.jpg
-                    data-sizes=auto
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766013/barcelona/14.jpg"
+                    srcset="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766013/barcelona/14.jpg 300w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/v1623766013/barcelona/14.jpg 500w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_1000/v1623766013/barcelona/14.jpg 1000w"
                     alt="Towards Parc Güell"></a>
               <figcaption class=image-caption>
                   <code>Towards Parc Güell</code>
