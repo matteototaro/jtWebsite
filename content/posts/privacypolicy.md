@@ -1,7 +1,6 @@
 ---
 title: Cookie Policy
 date: 2021-01-16T10:30:00+02:00
-hiddenFromHomePage: true
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: "Privacy policy"
@@ -9,7 +8,7 @@ license: "©2021 Matteo Totaro"
 
 tags:
 hiddenFromHomePage: true
-
+unlisted: true
 featuredImage: ""
 featuredImagePreview: ""
 

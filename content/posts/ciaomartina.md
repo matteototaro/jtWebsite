@@ -1,23 +1,28 @@
 ---
-license: ©2021 Matteo Totaro
-draft: true
-hiddenFromHomePage: true
-linkToMarkdown: false
-authorLink: https://mtotaro.com/about
-author: Matteo
-lastmod: 2021-06-22T18:30:00+02:00
-thumbnail: /images/uploads/img_20201118_185705_192.jpg
-featuredImage: ""
 title: Ciao Martina, Ciao
 date: 2021-06-22T13:30:00+02:00
-tags: null
+lastmod: 2021-06-22T18:30:00+02:00
+author: Matteo
+authorLink: https://mtotaro.com/about
+description: ""
+license: ©2021 Matteo Totaro
+
+draft: false
+hiddenFromHomePage: true
+linkToMarkdown: false
+unlisted: true
+
+thumbnail:
+featuredImage: ""
+
+tags: 
 featuredImagePreview: ""
 lightgallery: false
-categories: null
-description: ""
+categories:
 share:
   enable: false
 ---
+
 <style>.row {
   display: flex;
 vertical-align: middle;
