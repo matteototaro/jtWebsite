@@ -1,7 +1,7 @@
 ---
 title: "Chi Sono"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2020-10-18T15:30:00+02:00
+lastmod: 2022-01-24T15:30:00+02:00
 draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
@@ -74,7 +74,7 @@ p {
 
 <div class="container-fluid">
      <div class="col-md-8 col-md-push-2 no-padding-left" >
-        {{< typeit >}} Sono Matteo Totaro, ho 23 anni e vivo a Reggio Emilia. {{< /typeit >}}
+        {{< typeit >}} Sono Matteo Totaro, ho 24 anni e vivo a Reggio Emilia. {{< /typeit >}}
         <br>
         <p><strong>Mi piace molto fotografare</strong> per questo motivo ho creato un angolo personale nel vasto web per pubblicare alcuni dei miei scatti e per dare loro più gloria e credito.
         Volevo inoltre salvarle dalle piattaforme di social-media che convertono i file una volta pubblicati, perdendone interamente la qualità iniziale. Mi sono laureato in Ingegneria Elettronica a Modena. Poco dopo ho creato questo sito come hobby personale, in modo tale da avvicinarmi ad altri linguaggi come HTML e CSS in un modo alternativo ed avere il pieno controllo del sito.<br><br>
@@ -88,7 +88,7 @@ p {
         <br><p>Al momento sono uno studente di Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/"  target="_blank">AAEE</a>) all'Università di Bologna.<br>Ho una Nikon D5300 con un misero 18-55mm stabilizzato otticamente; prima o poi prenderò altre lenti.
         Ho cercato di trovare un compromesso tra qualità delle foto e rapidità di caricamento del sito, quindi spero sia di vostro gradimento.<br> 
         Grazie per essere passato e buona giornata!</p><br>
-        <p style="font-size:85%;text-align:right;">Ultimo aggiornamento della pagina: 18 novembre 2020</p><br>
+        <p style="font-size:85%;text-align:right;">Ultimo aggiornamento della pagina: 24 gennaio 2022</p><br>
       </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">

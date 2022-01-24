@@ -40,9 +40,18 @@ enableEmoji = true
         name = "Gallery"
         url = "/posts/"
         # title will be shown when you hover on this menu link.
-        title = ""
+        title = "What photos I took"
         weight = 1
        
+
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        pre = ""
+        post = ""
+        name = "Projects"
+        url = "/projects/"
+        title = "Uni, Hobbies and Stuff"
+        weight = 2
             
       [[languages.en.menu.main]]
         identifier = "about"
@@ -50,9 +59,10 @@ enableEmoji = true
         post = ""
         name = "About"
         url = "/about/"
-        title = ""
-        weight = 2
+        title = "Who am I"
+        weight = 3
       
+
       [languages.en.params]
         # site description
         description = "Personal angle on the web with a gallery of shots presented in a very minimal way"
@@ -158,17 +168,28 @@ enableEmoji = true
         name = "Galleria"
         url = "/posts/"
         # title will be shown when you hover on this menu link.
-        title = ""
+        title = "Che foto faccio?"
         weight = 1
-           
+      
+      
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        pre = ""
+        post = ""
+        name = "Progetti"
+        url = "/projects/"
+        title = "Uni, Hobby e altro"
+        weight = 2
+
+
       [[languages.it.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
         name = "About"
         url = "/about/"
-        title = ""
-        weight = 2
+        title = "Chi sono?"
+        weight = 3
       
       [languages.it.params]
         # site description
