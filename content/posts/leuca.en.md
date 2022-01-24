@@ -25,7 +25,7 @@ share:
     <div class="ratio-box fade-box">
         <div class="col-md-8 col-md-push-2 no-padding-left" >
           {{< typeit tag=h3 >}} Lecce, Apulia, Italy {{< /typeit >}}
-          <p>Last summer I finally managed to get tanned also in Leuca, Italy's far-est end. This town is a gem. I hope you agree with me!</p>
+          <p>Last summer I finally managed to get tanned also in Leuca, Italy's south-est end. This town is a gem. I hope you agree with me!</p>
           <figure>
               <a class="lightgallery" 
                     href="https://res.cloudinary.com/matteototaro/image/upload/v1624310335/leuca/4.jpg"

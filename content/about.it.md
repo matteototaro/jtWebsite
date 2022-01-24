@@ -85,7 +85,7 @@ p {
           <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
           <figcaption><code> Selfie in una casa al mare nella contea di<br>Cardiff, Wales (11/2016) </code></figcaption>
         </figure>
-        <br><p>Al momento sono uno studente di Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/v2/"  target="_blank">AAEE</a>) all'Università di Bologna.<br>Ho una Nikon D5300 con un misero 18-55mm stabilizzato otticamente; prima o poi prenderò altre lenti.
+        <br><p>Al momento sono uno studente di Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/"  target="_blank">AAEE</a>) all'Università di Bologna.<br>Ho una Nikon D5300 con un misero 18-55mm stabilizzato otticamente; prima o poi prenderò altre lenti.
         Ho cercato di trovare un compromesso tra qualità delle foto e rapidità di caricamento del sito, quindi spero sia di vostro gradimento.<br> 
         Grazie per essere passato e buona giornata!</p><br>
         <p style="font-size:85%;text-align:right;">Ultimo aggiornamento della pagina: 18 novembre 2020</p><br>

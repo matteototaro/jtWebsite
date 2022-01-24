@@ -545,7 +545,7 @@ enableEmoji = true
           disableInlineCSS = false
 
   # CDN config for third-party library files
-
+  
   [params.cdn]
     # CDN data file name, disabled by default
     # ("jsdelivr.yml")
