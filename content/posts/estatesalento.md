@@ -18,8 +18,8 @@ featuredImagePreview: "/images/uploads/"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
-leuca
+
 santa cesarea
 cava bauxite        

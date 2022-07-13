@@ -18,7 +18,7 @@ featuredImagePreview: "/images/uploads/roma/6.jpg"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
  <div class="container-fluid">

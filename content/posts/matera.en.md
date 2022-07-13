@@ -18,7 +18,7 @@ featuredImagePreview: "/images/uploads/"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
 matera

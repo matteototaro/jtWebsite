@@ -18,7 +18,7 @@ featuredImagePreview: "/images/uploads/ppalascia/5.jpg"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
 <div class="container-fluid">

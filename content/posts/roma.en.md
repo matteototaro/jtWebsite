@@ -18,7 +18,7 @@ featuredImagePreview: "/images/uploads/roma/6.jpg"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
  <!--- in order to show on pinterest my images, src must be linked to images, no javascript or processing (svg) involved-->
  

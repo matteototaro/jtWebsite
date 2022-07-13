@@ -18,7 +18,7 @@ featuredImagePreview: "/images/uploads/craco/14.jpg"
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
 

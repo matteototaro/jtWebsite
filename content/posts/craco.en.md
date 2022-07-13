@@ -16,7 +16,7 @@ lightgallery: true
 categories: null
 description: An abandoned place in the middle of Basilicata
 share:
-  enable: true
+  enable: false
 ---
 
 <div class="container-fluid">

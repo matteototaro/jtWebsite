@@ -6,7 +6,7 @@ draft: false
 author: "Matteo"
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2021 Matteo Totaro"
+license: "©2020 Matteo Totaro"
 
 tags: 
 hiddenFromHomePage: true
@@ -17,7 +17,7 @@ featuredImagePreview: ""
 lightgallery: false
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
 <meta property="og:type" content="website" /> 

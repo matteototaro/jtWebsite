@@ -18,7 +18,7 @@ featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_sc
 lightgallery: true
 linkToMarkdown: false
 share:
-  enable: true
+  enable: false
 ---
 
  <div class="container-fluid">
