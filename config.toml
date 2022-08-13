@@ -294,15 +294,15 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      logo = "/static/LogoMT_127_40.png"
+      logo = ""#/static/LogoMT_127_40.png"
       # title name
-      name = "Matteo Totaro"
+      name = "📷"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
-      typeit = false
+      typeit = true
 
   # Footer Copyright Info
   [params.footer]
