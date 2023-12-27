@@ -1,12 +1,12 @@
 ---
 title: "Rome - November 2018"
 date: 2021-01-18T10:30:00+02:00
-lastmod: 2021-01-19T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:001-01-19T10:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: "A very small and personal collection of pictures about this magical city"
-license: "©2021 Matteo Totaro"
+license: "©2023 Matteo Totaro"
 
 tags:
 categories:

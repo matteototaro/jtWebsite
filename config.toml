@@ -40,7 +40,7 @@ enableEmoji = true
         name = "Gallery"
         url = "/posts/"
         # title will be shown when you hover on this menu link.
-        title = "What photos I took"
+        title = "Analog & Digital pics"
         weight = 1
        
 
@@ -65,7 +65,7 @@ enableEmoji = true
 
       [languages.en.params]
         # site description
-        description = "Personal angle on the web with a gallery of shots presented in a very minimal way"
+        description = "Personal space on the web with a gallery of shots presented in a very minimal way"
         # site keywords
         keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro website","mtotaro","Engineering","Electronic Engineer","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Photography","Reflex","Photo","Engineering","Blog","Personal Blog","Photo Gallery","Museum","Travels","Barcelona","Venice","Italy","Amsterdam"]        
       # App icon config
@@ -140,138 +140,6 @@ enableEmoji = true
           Linkedin = "m-totaro"
           # Spotify = "xxxx"
 
-  [languages.it]  ##to add another language in the main menù i need to repeat this language.it menu.starter
-    weight = 2
-    # language code
-    languageCode = "it"
-    # website title
-    title = "Matteo Totaro"
-    # language name
-    languageName = "Italiano"
-    # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
-    # default amount of posts in each pages
-    paginate = 24
-    # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "UA-164939128-1"
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    
-    # Menu Info
-    [languages.it.menu]
-      [[languages.it.menu.main]]
-        identifier = "posts"
-        # you can add extra information before the name (HTML format is allowed), such as icons
-        pre = ""
-        # you can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        name = "Galleria"
-        url = "/posts/"
-        # title will be shown when you hover on this menu link.
-        title = "Che foto faccio?"
-        weight = 1
-      
-      
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        pre = ""
-        post = ""
-        name = "Progetti"
-        url = "/projects/"
-        title = "Uni, Hobby e altro"
-        weight = 2
-
-
-      [[languages.it.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = "Chi sono?"
-        weight = 3
-      
-      [languages.it.params]
-        # site description
-        description = "Angolo personale nel vasto web con una raccolta di scatti in un format molto minimal"
-        # site keywords
-        keywords = ["Matteo Totaro","Matteo","Totaro","Matteo Totaro sito web","mtotaro","Ingegneria","Ingegnere Elettronico","Reggio Emilia","Università degli studi di Modena e Reggio Emilia","Hugo","Fotografia","Reflex","Foto","Ingegneria","Blog","Blog personale","Galleria Fotografica","Museo","Viaggi","Barcellona","Venezia","Italia","Amsterdam"]
-        # App icon config
-        [languages.it.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "Matteo Totaro"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-        
-        # Search config
-        [languages.it.params.search]
-        enable = false
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-          [languages.it.params.search.algolia]
-            index = "index.en"
-            appID = "PASDMWALPK"
-            searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-
-        # Home Page Info
-        [languages.it.params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-          [languages.it.params.home.profile]
-            enable = true
-            # Gravatar Email for preferred avatar in home page
-            gravatarEmail = ""  #putting the email kills the imageavatar
-            # URL of avatar shown in home page
-            avatarURL = "/images/avatar.jpg"
-            # title shown in home page (HTML format is supported)
-            title = "Matteo Totaro"
-            # subtitle shown in home page
-            subtitle = "Benvenuti nel mio angolo sul web"
-            # whether to use typeit animation for subtitle
-            typeit = true
-            # whether to show social links
-            social = true
-            # disclaimer (HTML format is supported)
-            disclaimer = ""
-          # Home Page Posts
-          [languages.it.params.home.posts] #if enabled it shows list of posts on the home page
-                                            #controllare se possibile far vedere solo le immagini
-            enable = true
-            # special amount of posts in each home posts page
-            paginate = 5
-
-        # Social config in home page
-        [languages.it.params.social]
-          #GitHub = "xxxx"
-          Linkedin = "m-totaro"
-          Twitter = "matteojtotaro"
-          Instagram = "matt.totaro"
-          #Spotify = ""
-          Email = "tmatteos@gmail.com"
-
-
-
 [params]
   # LoveIt theme version
     version = "0.2.X"
@@ -314,7 +182,7 @@ enableEmoji = true
     # whether to show copyright info
     copyright = true
     # whether to show the author
-    author = true
+    author = false
     # site creation time
     since = 2020
     # ICP info only in China (HTML format is allowed)

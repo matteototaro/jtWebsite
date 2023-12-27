@@ -1,9 +1,9 @@
 ---
 title: "Automotive Electronics Project"
 date: 2022-01-24T18:40:00+02:00
-lastmod: 2022-02-01T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:002-02-01T10:30:00+02:00
 draft: true
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: ""
 license: "©2022 Matteo Totaro"

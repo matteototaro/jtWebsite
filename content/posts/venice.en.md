@@ -1,12 +1,12 @@
 ---
 title: "Venice - April 2017"
 date: 2020-04-14T19:21:10+02:00
-lastmod: 2020-05-25T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:000-05-25T10:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: "Series of 'ancient' pics from a very fascinating city"
-license: "©2020 Matteo Totaro"
+
 
 tags:
 categories:

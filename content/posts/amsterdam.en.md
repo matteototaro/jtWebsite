@@ -1,12 +1,12 @@
 ---
 title: "Amsterdam - October 2018"
 date: 2020-04-25T18:40:00+02:00
-lastmod: 2020-05-25T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:000-05-25T10:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: "A different perspective of the well-known capital of Netherlands"
-license: "©2020 Matteo Totaro"
+license: "©2023 Matteo Totaro"
 
 tags:
 categories:

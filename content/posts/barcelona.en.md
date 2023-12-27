@@ -1,12 +1,12 @@
 ---
 title: "Barcelona - October 2019"
 date: 2020-05-01T21:20:00+02:00
-lastmod: 2021-06-18T14:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:001-06-18T14:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: "Digital tour guide through many of the famous spots in Barcelona"
-license: "©2020 Matteo Totaro"
+license: "©2023 Matteo Totaro"
 
 tags:
 categories:

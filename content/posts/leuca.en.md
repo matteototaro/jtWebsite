@@ -1,12 +1,12 @@
 ---
 title: "Leuca - August 2020"
 date: 2021-05-20T13:30:00+02:00
-lastmod: 2021-05-24T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:001-05-24T10:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2021 Matteo Totaro"
+license: "©2023 Matteo Totaro"
 
 tags:
 categories:

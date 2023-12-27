@@ -1,17 +1,18 @@
 ---
-license: ©2020 Matteo Totaro
+license: "©2023 Matteo Totaro"
 draft: false
 hiddenFromHomePage: false
 linkToMarkdown: false
 authorLink: https://mtotaro.com/about
 author: Matteo
-lastmod: 2020-11-18T12:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:000-11-18T12:30:00+02:00
 thumbnail: /images/uploads/img_20201118_185705_192.jpg
 featuredImage: ""
 title: Craco - August 2020
 date: 2020-11-18T18:03:23.610Z
 tags: null
 featuredImagePreview: /images/uploads/craco/14.jpg
+
 lightgallery: true
 categories: null
 description: An abandoned place in the middle of Basilicata

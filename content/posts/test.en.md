@@ -1,12 +1,12 @@
 ---
 title: "test"
 date: 2020-07-21T13:20:00+02:00
-lastmod: 2020-07-22T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:000-07-22T10:30:00+02:00
 draft: true
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2020 Matteo Totaro"
+
 
 tags: []
 categories: []

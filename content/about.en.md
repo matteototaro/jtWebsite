@@ -1,12 +1,12 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2022-01-24T15:30:00+02:00
+lastmod: 2023-12-27T17:30:00+02:003-12-27T17:30:00+02:00
 draft: false
-author: "Matteo"
+
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2020 Matteo Totaro"
+license: "©2023 Matteo Totaro"
 
 tags: 
 hiddenFromHomePage: true
@@ -89,7 +89,7 @@ p {
         <br><p>At the moment I'm studying Advanced Automotive Electronic Engineering (<a href="https://motorvehicleuniversity.com/"  target="_blank">AAEE</a>) at the University of Bologna.<br>I have a Nikon D5300 with a super boring 18-55mm, eventually I'll buy more lenses.
         I tried to find a compromise between photo quality and loading speed of the website, I hope you enjoy it.<br>
         Thanks for stopping by and have a great day!</p><br>
-        <p style="font-size:85%;text-align:right;">Last page update: 24th January 2022</p><br>
+        <p style="font-size:85%;text-align:right;">Last page update: 27th December 2023</p><br>
       </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">
