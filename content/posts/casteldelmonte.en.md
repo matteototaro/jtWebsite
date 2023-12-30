@@ -1,7 +1,7 @@
 ---
 title: "Castel del Monte - August 2020"
 date: 2020-11-16T10:30:00+02:00
-lastmod: 2023-12-27T17:30:00+02:000-11-18T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: true
 
 authorLink: "https://mtotaro.com/about"

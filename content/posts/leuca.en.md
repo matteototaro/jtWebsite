@@ -1,7 +1,7 @@
 ---
 title: "Leuca - August 2020"
 date: 2021-05-20T13:30:00+02:00
-lastmod: 2023-12-27T17:30:00+02:001-05-24T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"

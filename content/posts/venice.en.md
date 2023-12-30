@@ -1,7 +1,7 @@
 ---
 title: "Venice - April 2017"
 date: 2020-04-14T19:21:10+02:00
-lastmod: 2023-12-27T17:30:00+02:000-05-25T10:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"

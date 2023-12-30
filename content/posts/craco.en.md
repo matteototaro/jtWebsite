@@ -5,7 +5,7 @@ hiddenFromHomePage: false
 linkToMarkdown: false
 authorLink: https://mtotaro.com/about
 author: Matteo
-lastmod: 2023-12-27T17:30:00+02:000-11-18T12:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 thumbnail: /images/uploads/img_20201118_185705_192.jpg
 featuredImage: ""
 title: Craco - August 2020

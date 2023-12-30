@@ -1,7 +1,7 @@
 ---
 title: "Barcelona - October 2019"
 date: 2020-05-01T21:20:00+02:00
-lastmod: 2023-12-27T17:30:00+02:001-06-18T14:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"

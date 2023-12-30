@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2023-12-27T17:30:00+02:003-12-27T17:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"

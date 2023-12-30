@@ -1,7 +1,7 @@
 ---
 title: "Punta Palascìa - August 2019"
 date: 2020-06-22T23:20:00+02:00
-lastmod: 2023-12-27T17:30:00+02:000-06-26T21:30:00+02:00
+lastmod: 2023-12-27T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"
