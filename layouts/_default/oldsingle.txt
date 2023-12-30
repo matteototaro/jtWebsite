@@ -19,7 +19,17 @@
     {{- end -}}
 
     <article class="page single">
-        &nbsp;
+                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164939128-1"></script>
+                        <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                
+                        gtag('config', 'UA-164939128-1');
+                        </script>
+                        <a href="https://www.iubenda.com/privacy-policy/10446653" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                
         {{- /* Title */ -}}
         <h1 class="single-title animate__animated animate__flipInX">{{ .Title | emojify }}</h1>
 
@@ -31,11 +41,6 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
-                {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
-                <span class="post-author">
-                    {{- $options := dict "Class" "author" "Destination" $authorLink "Title" "Author" "Rel" "author" "Icon" (dict "Class" "fas fa-user-circle fa-fw") "Content" $author -}}
-                    {{- partial "plugin/a.html" $options -}}
                 </span>
 
                 {{- $categories := slice -}}
@@ -98,5 +103,54 @@
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
+        <script defer type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Article",
+                "headline": {{ .Title }},
+                "author": {
+                    "@type": "Person",
+                    "name": "{{ .Site.Params.github }}"
+                },
+                "datePublished": "{{ .Date.Format "2006-01-02" }}",
+                "description": {{ .Description }},
+                "wordCount": {{ .WordCount }},
+                "mainEntityOfPage": "True",
+                "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+                "image": {
+                    "@type": "imageObject",
+                    "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "{{ .Site.Title }}",
+                    "logo": {
+                    "@type": "imageObject",
+                    "url": "https://www.example.com/images/brand/favicon.png"
+                    }
+                }
+            }
+        </script>
     </article>
+
+    <div class="page single special">
+        {{- /* Title */ -}}
+        <h1 class="single-title animate__animated animate__pulse animate__faster">
+            {{- .Title -}}
+        </h1>
+
+        {{- /* Subtitle */ -}}
+        {{- with $params.subtitle -}}
+            <h2 class="single-subtitle">{{ . }}</h2>
+        {{- end -}}
+
+        {{- /* Content */ -}}
+        <div class="content" id="content">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+        </div>
+
+        {{- /* Comment */ -}}
+        {{- partial "comment.html" . -}}
+    </div>
+
 {{- end -}}
