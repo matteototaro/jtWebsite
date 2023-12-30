@@ -25,7 +25,7 @@ enableEmoji = true
     # default amount of posts in each pages
     paginate = 24
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "UA-164939128-1"
+    googleAnalytics = "390763854" #"UA-164939128-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
@@ -412,7 +412,7 @@ enableEmoji = true
     enable = true
     # Google Analytics id privacy
     [params.analytics.google]
-      id = ""
+      id = "390763854"
       # whether to anonymize IP
       anonymizeIP = true
       # whether to use cookie
