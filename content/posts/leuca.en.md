@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/leuca/3.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/leuca/3.jpg"
 
 lightgallery: true
 linkToMarkdown: false

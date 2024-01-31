@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/amsterdam/11.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11"
 
 lightgallery: true
 linkToMarkdown: false
@@ -25,13 +25,12 @@ share:
 	<div class="ratio-box fade-box">
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/9HD.jpg
+				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
 				title="Amsterdam"
-				data-thumbnail=/images/uploads/amsterdam/9.jpg
+				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
 				data-sub-html="Amsterdam">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/9HD.jpg
+					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
 					data-sizes=auto
 					alt="Amsterdam"></a>
 		</figure>
@@ -41,13 +40,13 @@ share:
 		 </div>
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/6HD.jpg
+				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
 				title="Church in Amsterdam"
-				data-thumbnail=/images/uploads/amsterdam/6.jpg
+				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
 				data-sub-html="Church in Amsterdam">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/6HD.jpg
+					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
+					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
 					data-sizes=auto
 					alt="Church in Amsterdam"></a>
 					<figcaption class=image-caption>
@@ -55,17 +54,17 @@ share:
 					</figcaption>
 		</figure>
 	    <div class="col-md-8 col-md-push-2 no-padding-left" >
-			other countries are in the past. Everyone's calm and minds their own business, unlike in Italy.</p>
+			<p>Everyone's calm and minds their own business, unlike in Italy.</p>
 		 </div>
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/7HD.jpg
+				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
 				title="Amsterdam canals in an autumn"
-				data-thumbnail=/images/uploads/amsterdam/7.jpg
+				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
 				data-sub-html="Amsterdam canals in an autumn">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/7HD.jpg
+					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
+					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
 					data-sizes=auto
 					alt="Amsterdam canals in an autumn"></a>
 					<figcaption class=image-caption>
@@ -77,13 +76,12 @@ share:
 		 </div>
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/11HD.jpg
+				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11"
 				title="Mirror"
-				data-thumbnail=/images/uploads/amsterdam/11.jpg
+				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11"
 				data-sub-html="Mirror">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/11HD.jpg
+					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11
 					data-sizes=auto
 					alt="Mirror"></a>
 					<figcaption class=image-caption>
@@ -95,13 +93,13 @@ share:
 		</div>
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/10HD.jpg
+				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
 				title="Running late"
-				data-thumbnail=/images/uploads/amsterdam/10.jpg
+				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
 				data-sub-html="Running late">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/10HD.jpg
+					src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
+					data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
 					data-sizes=auto
 					alt="Running late"></a>
 					<figcaption class=image-caption>
@@ -113,13 +111,13 @@ share:
 		 </div>
 		<figure>
 			<a class="lightgallery" 
-				href=/images/uploads/amsterdam/12HD.jpg
+				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
 				title="View from NEMO"
-				data-thumbnail=/images/uploads/amsterdam/12.jpg
+				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
 				data-sub-html="View from NEMO">
 				<img class="lazyload blur-up"
-					src=/svg/loading/normal.svg
-					data-src=/images/uploads/amsterdam/12HD.jpg
+					src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
+					data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
 					data-sizes=auto
 					alt="View from NEMO"></a>
 					<figcaption class=image-caption>
@@ -136,13 +134,13 @@ share:
 							<div class="thumbnail">
 								<figure>
 									<a class="lightgallery" 
-									href=/images/uploads/amsterdam/5HD.jpg
+									href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
 									title="Amsterdam canals"
-									data-thumbnail=/images/uploads/amsterdam/5.jpg
+									data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
 									data-sub-html="Amsterdam canals">
 										<img class="lazyload blur-up"
-											src=/svg/loading/normal.svg
-											data-src=/images/uploads/amsterdam/5HD.jpg
+											src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
+											data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
 											data-sizes=auto
 											alt="Amsterdam canals"></a>
 								</figure>
@@ -152,13 +150,13 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-										href=/images/uploads/amsterdam/2HD.jpg
+										href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
 										title="Amsterdam canals"
-										data-thumbnail=/images/uploads/amsterdam/2.jpg
+										data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
 										data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/2HD.jpg
+												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
+												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
@@ -168,13 +166,13 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-											href=/images/uploads/amsterdam/3HD.jpg
+											href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
 											title="Amsterdam canals"
-											data-thumbnail=/images/uploads/amsterdam/3.jpg
+											data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/3HD.jpg
+												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
+												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
@@ -184,13 +182,13 @@ share:
 								<div class="thumbnail">
 									<figure>
 										<a class="lightgallery" 
-											href=/images/uploads/amsterdam/4HD.jpg
+											href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
 											title="Amsterdam canals"
-											data-thumbnail=/images/uploads/amsterdam/4.jpg
+											data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
 											data-sub-html="Amsterdam canals">
 											<img class="lazyload blur-up"
-												src=/svg/loading/normal.svg
-												data-src=/images/uploads/amsterdam/4HD.jpg
+												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
+												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
 												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
