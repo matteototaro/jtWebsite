@@ -34,7 +34,6 @@ share:
                     data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
                       <img class="lazyload blur-up"
                            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310335/leuca/4.jpg"
-                           srcset="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310335/leuca/4.jpg 300w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/v1624310335/leuca/4.jpg 500w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_1000/v1624310335/leuca/4.jpg 1000w"
                            alt="Sanctuary of Santa Maria de Finibus Terrae"></a>
           </figure>
       <figcaption class=image-caption style="text-align:center">
@@ -48,7 +47,6 @@ share:
                   data-sub-html="Mediterranean Flora">
                   <img class="lazyload blur-up"
                       src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/6.jpg"
-                      srcset="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/6.jpg 300w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/v1624310334/leuca/6.jpg 500w, https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_1000/v1624310334/leuca/6.jpg 1000w"
                       alt="Mediterranean Flora"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Mediterranean Flora</code>
@@ -62,9 +60,7 @@ share:
                   data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/7.jpg"
                   data-sub-html="Harbour of Leuca">
                   <img class="lazyload blur-up"
-                       src=/svg/loading/normal.svg
-                       data-src=/images/uploads/leuca/7HD.jpg
-                       data-sizes=auto
+                       src="https://res.cloudinary.com/matteototaro/image/upload/v1624310334/leuca/7.jpg"
                        alt="Harbour of Leuca"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Harbour of Leuca</code>
@@ -77,14 +73,12 @@ share:
                     <div class="thumbnail">
                       <figure>
                         <a class="lightgallery" 
-                                href=/images/uploads/leuca/1HD.jpg
+                                href="https://res.cloudinary.com/matteototaro/image/upload/v1624310331/leuca/1.jpg"
                                 title="Leuca Lighthouse"
-                                data-thumbnail=/images/uploads/leuca/1.jpg
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310331/leuca/1.jpg"
                                 data-sub-html="Leuca Lighthouse">
                                 <img class="lazyload blur-up"
-                                    src=/svg/loading/normal.svg
-                                    data-src=/images/uploads/leuca/1HD.jpg
-                                    data-sizes=auto
+                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/v1624310331/leuca/1.jpg"
                                     alt="Leuca Lighthouse"></a>
                       </figure>
                     </div>

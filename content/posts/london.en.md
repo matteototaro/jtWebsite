@@ -1,7 +1,7 @@
 ---
 title: "London - October 2016"
 date: 2020-05-27T13:20:00+02:00
-lastmod: 2023-12-27T17:30:00
+lastmod: 2024-08-17T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"
@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/london/3.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -25,14 +25,12 @@ share:
     <div class="ratio-box fade-box">
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/1HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
                   title="Big Ben"
-                  data-thumbnail=/images/uploads/london/1.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/111.jpg"
                   data-sub-html="Big Ben">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/1HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/111.jpg"
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
@@ -46,14 +44,12 @@ share:
                   <div class="thumbnail">
                       <figure>
                         <a class="lightgallery" 
-                                href=/images/uploads/london/3HD.jpg
+                                href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
                                 title="Camden Town"
-                                data-thumbnail=/images/uploads/london/3.jpg
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/3.jpg"
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
-                                    src=/svg/loading/normal.svg
-                                    data-src=/images/uploads/london/3HD.jpg
-                                    data-sizes=auto
+                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/3.jpg"
                                     alt="Camden Town"></a>
                       </figure>
                   </div>
@@ -62,14 +58,12 @@ share:
                   <div class="thumbnail">
                       <figure>
                         <a class="lightgallery" 
-                                href=/images/uploads/london/4HD.jpg
+                                href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
                                 title="Camden Town"
-                                data-thumbnail=/images/uploads/london/4.jpg
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/44.jpg"
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
-                                    src=/svg/loading/normal.svg
-                                    data-src=/images/uploads/london/4HD.jpg
-                                    data-sizes=auto
+                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/44.jpg"
                                     alt="Camden Town"></a>
                       </figure>
                   </div>
@@ -82,14 +76,12 @@ share:
       </figcaption><br>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/6HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
                   title="Camden Market"
-                  data-thumbnail=/images/uploads/london/6.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/6.jpg"
                   data-sub-html="Camden Market">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/6HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/6.jpg"
                       alt="Camden Market"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Camden Market</code>
@@ -97,14 +89,12 @@ share:
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/7HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
                   title="Super-warm-tones invaded London"
-                  data-thumbnail=/images/uploads/london/7.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/7.jpg"
                   data-sub-html="Super-warm-tones invaded London">
                   <img class="lazyload blur-up"
-                       src=/svg/loading/normal.svg
-                       data-src=/images/uploads/london/7HD.jpg
-                       data-sizes=auto
+                       src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/7.jpg"
                        alt="Super-warm-tones invaded London"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Super-warm-tones invaded London</code>
@@ -117,14 +107,12 @@ share:
                   <div class="thumbnail">
                     <figure>
                       <a class="lightgallery" 
-                              href=/images/uploads/london/11HD.jpg
+                              href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail=/images/uploads/london/11.jpg
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/11.jpg"
                               data-sub-html="Big Ben showing off">
                               <img class="lazyload blur-up"
-                                  src=/svg/loading/normal.svg
-                                  data-src=/images/uploads/london/11HD.jpg
-                                  data-sizes=auto
+                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/11.jpg"
                                   alt="Big Ben showing off"></a>
                     </figure>
                   </div>
@@ -133,14 +121,12 @@ share:
                   <div class="thumbnail">
                     <figure>
                       <a class="lightgallery" 
-                              href=/images/uploads/london/8HD.jpg
+                              href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail=/images/uploads/london/8.jpg
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/8.jpg"
                               data-sub-html="Big Ben showing off">
                               <img class="lazyload blur-up"
-                                  src=/svg/loading/normal.svg
-                                  data-src=/images/uploads/london/8HD.jpg
-                                  data-sizes=auto
+                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/8.jpg"
                                   alt="Big Ben showing off"></a>
                     </figure>
                   </div>
@@ -153,14 +139,12 @@ share:
       </figcaption><br>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/9.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
                   title="Towards Piccadilly Circus"
-                  data-thumbnail=/images/uploads/london/9.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/9.jpg"
                   data-sub-html="Towards Piccadilly Circus">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/9.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/9.jpg"
                       alt="Towards Piccadilly Circus"></a>
               <figcaption class=image-caption style="text-align:center">
                  <code>Towards Piccadilly Circus</code>
@@ -171,14 +155,12 @@ share:
         </div>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/5HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
                   title="Life in Camden Town"
-                  data-thumbnail=/images/uploads/london/5.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/5.jpg"
                   data-sub-html="Life in Camden Town">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/5HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/5.jpg"
                       alt="Life in Camden Town"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Life in Camden Town</code>
@@ -186,57 +168,51 @@ share:
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/london/10HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
                   title="Tower of London"
-                  data-thumbnail=/images/uploads/london/10.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/10.jpg"
                   data-sub-html="Tower of London">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/10HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/10.jpg"
                       alt="Tower of London"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Tower of London</code>
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p> On one hand, the first two panos are 4 different shots merged togheter; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49HDeVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
+          <p> On one hand, the first two panos are 4 different shots merged together; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49eVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
         </div>
         <figure>
-          <a class="lightgallery" 
-                  href=/images/uploads/london/2.jpg
+          <a class="lightgallery"
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
                   title="Buckingham Palace"
-                  data-thumbnail=/images/uploads/london/2.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/2.jpg"
                   data-sub-html="Buckingham Palace">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/2.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/2.jpg"
                       alt="Buckingham Palace"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Buckingham Palace</code>
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I also decided to include this project that I did 3 years ago with various images of London. I don't considerate it good, just interesting I think.</p>
+          <p>I also decided to include this project that I did 3 years ago with various images of London. I don't consider it good, just interesting I think.</p>
         </div>
         <figure>
           <a class="lightgallery"
-                  href=/images/uploads/london/sixtupla.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
                   title="Sixtupla"
-                  data-thumbnail=/images/uploads/london/sixtupla.jpg
-                  data-sub-html="Buckingham Palace">
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/sixtupla.jpg"
+                  data-sub-html="Sixtupla">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/london/sixtupla.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/sixtupla.jpg"
                       alt="Sixtupla"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Sixtupla</code>
               </figcaption>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i> here </i></a>.</p>
+          <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i>here</i></a>.</p>
         </div>
     </div>
- </div>
+</div>

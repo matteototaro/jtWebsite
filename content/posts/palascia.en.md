@@ -1,7 +1,7 @@
 ---
 title: "Punta Palascìa - August 2019"
 date: 2020-06-22T23:20:00+02:00
-lastmod: 2023-12-27T17:30:00
+lastmod: 2024-08-17T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"
@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/ppalascia/5.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -25,14 +25,12 @@ share:
     <div class="ratio-box fade-box">
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/ppalascia/6HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
                   title="Trident"
-                  data-thumbnail=/images/uploads/ppalascia/6.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/6.jpg"
                   data-sub-html="Trident">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/ppalascia/6HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/palascia/6.jpg"
                       alt="Trident"></a>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
@@ -42,14 +40,12 @@ share:
         </div>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/ppalascia/4HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
                   title="Path towards the lighthouse"
-                  data-thumbnail=/images/uploads/ppalascia/4.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/4.jpg"
                   data-sub-html="Path towards the lighthouse">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/ppalascia/4HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/palascia/4.jpg"
                       alt="Path towards the lighthouse"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Path towards the lighthouse</code>
@@ -57,14 +53,12 @@ share:
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/ppalascia/5HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
                   title="Path towards the lighthouse"
-                  data-thumbnail=/images/uploads/ppalascia/5.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/5.jpg"
                   data-sub-html="Path towards the lighthouse">
                   <img class="lazyload blur-up"
-                       src=/svg/loading/normal.svg
-                       data-src=/images/uploads/ppalascia/5HD.jpg
-                       data-sizes=auto
+                       src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/palascia/5.jpg"
                        alt="Path towards the lighthouse"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Path towards the lighthouse</code>
@@ -72,14 +66,12 @@ share:
           </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/ppalascia/3HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
                   title="Boat"
-                  data-thumbnail=/images/uploads/ppalascia/3.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/3.jpg"
                   data-sub-html="Boat">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/ppalascia/3HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/palascia/3.jpg"
                       alt="Boat"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Boat</code>
@@ -87,14 +79,12 @@ share:
         </figure>
         <figure>
           <a class="lightgallery" 
-                  href=/images/uploads/ppalascia/1HD.jpg
+                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
                   title="View from the top of the hill"
-                  data-thumbnail=/images/uploads/ppalascia/1.jpg
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/1.jpg"
                   data-sub-html="View from the top of the hill">
                   <img class="lazyload blur-up"
-                      src=/svg/loading/normal.svg
-                      data-src=/images/uploads/ppalascia/1HD.jpg
-                      data-sizes=auto
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/palascia/1.jpg"
                       alt="View from the top of the hill"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>View from the top of the hill</code>
