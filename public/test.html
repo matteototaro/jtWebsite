@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <link rel="stylesheet" href="/css/test.css">
+</head>
+<body>
+    <h1>Real-time Object Detection</h1>
+    <div class="video-container">
+        <video id="webcam" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+    </div>
+    <button id="startButton">Start Camera</button>
+    <button id="stopButton" style="display:none;">Stop Camera</button>
+    <script src="/js/test.js"></script>
+</body>
+</html>

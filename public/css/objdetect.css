@@ -1,0 +1,32 @@
+.video-container {
+    position: relative;
+    width: 640px;
+    max-width: 100%;
+}
+
+video, canvas {
+    border: 5px solid #010101;
+    border-radius: 10px;
+    background-color: #d7ccc8;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent; /* Make the canvas transparent */
+}
+
+@media (orientation: landscape) {
+    .video-container {
+        height: 100%;
+        width: auto;
+    }
+    video, canvas {
+        width: auto;
+        height: 100%;
+    }
+}

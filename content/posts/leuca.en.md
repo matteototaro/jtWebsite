@@ -28,12 +28,12 @@ share:
           <p>Last summer I finally managed to get tanned also in Leuca, Italy's south-est end. This town is a gem. I hope you agree with me!</p>
           <figure>
               <a class="lightgallery" 
-                    href="https://res.cloudinary.com/matteototaro/image/upload/v1624310335/leuca/4.jpg"
+                    href="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
                     title="Sanctuary of Santa Maria de Finibus Terrae"
-                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310335/leuca/4.jpg"
+                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/4.jpg"
                     data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
                       <img class="lazyload blur-up"
-                           src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310335/leuca/4.jpg"
+                           src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/4.jpg"
                            alt="Sanctuary of Santa Maria de Finibus Terrae"></a>
           </figure>
       <figcaption class=image-caption style="text-align:center">
@@ -41,12 +41,12 @@ share:
       </figcaption><br>
           <figure>
             <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/v1624310334/leuca/6.jpg"
+                  href="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
                   title="Mediterranean Flora"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/6.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/6.jpg"
                   data-sub-html="Mediterranean Flora">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/6.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/6.jpg"
                       alt="Mediterranean Flora"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Mediterranean Flora</code>
@@ -55,12 +55,12 @@ share:
         </div>
         <figure>
           <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/v1624310334/leuca/7.jpg"
+                  href="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
                   title="Harbour of Leuca"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310334/leuca/7.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/7.jpg"
                   data-sub-html="Harbour of Leuca">
                   <img class="lazyload blur-up"
-                       src="https://res.cloudinary.com/matteototaro/image/upload/v1624310334/leuca/7.jpg"
+                       src="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
                        alt="Harbour of Leuca"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Harbour of Leuca</code>

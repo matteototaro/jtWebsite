@@ -1,12 +1,12 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2023-12-27T17:30:00
+lastmod: 2024-08-26T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2023 Matteo Totaro"
+license: "©2024 Matteo Totaro"
 
 tags: 
 hiddenFromHomePage: true
@@ -75,21 +75,20 @@ p {
 
 <div class="container-fluid">
     <div class="col-md-8 col-md-push-2 no-padding-left" >
-        {{< typeit >}} My name is Matteo Totaro, I'm 26 and I'm from Reggio Emilia, Italy. {{< /typeit >}}
-        <p><strong>I love photography</strong>, in fact this website was built to create a personal space in the vast web to public parts of my albums in order to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
+        {{< typeit >}} My name is Matteo Totaro, I'm 27 and I'm from Reggio Emilia, Italy. {{< /typeit >}}
+        <p><strong>I like photography</strong>, so  this website was built to create a personal space in the web to post parts of my albums, to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
         <br><br>
-        <strong>This static site</strong> has been built in a month more or less with the open source framework
-        <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home, so I took this time to focus on personal projects exactly like this one you're reading.
+        <strong>This is a static site</strong>built in less than a month with the open source framework <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home, so I took this time to focus on personal projects exactly like this one you're reading.
         <br>
-        The main goal of this space is to publish my previous and future projects so the pictures will be put up just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.<br>
-        I tried to find a compromise between photo quality and loading speed of the website, I hope you enjoy it.<br>
+        The main goal of this space is to publish my previous and future projects just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.<br><br>
+        I tried to find a compromise between photo quality and loading speed of the website. Hope you like it.<br>
         Thanks for stopping by and have a great day.<br>
         </p>
         <figure style="max-width:100%;height:auto;display:inline;">
             <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
-            <figcaption><code>Selfie in a beach-house near the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
+            <br><figcaption><code>Selfie in a beach-house near the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
           </figure>
-        <p style="font-size:85%;text-align:right;">Last page update: 10th March 2024</p><br>
+        <p style="font-size:85%;text-align:right;">Last page update: 13th October 2024</p><br>
       </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">
