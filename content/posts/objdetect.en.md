@@ -1,5 +1,5 @@
 ---
-title: "Post con script JS"
+title: "Object Detection"
 date: 2024-04-06T13:30:00+02:00
 lastmod: 2024-09-01T17:30:00
 draft: false
@@ -20,12 +20,10 @@ linkToMarkdown: false
 share:
   enable: false
 ---
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Post con script JS - Matteo Totaro</title>
     <!-- Include CSS -->
     <link rel="stylesheet" href="/css/objdetect.css">
     <!-- Include JavaScript Libraries -->

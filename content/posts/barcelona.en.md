@@ -13,7 +13,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/barcelona/1.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -27,10 +27,10 @@ share:
           <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
             title="Casa Battlò"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/1.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
             data-sub-html="Casa Battlò">
             <img class="cld-responsive lazyload blur-up"
-              src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/barcelona/1.jpg"
+              src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
               alt="Casa Battlò"></a>
         </figure>
          <div class="col-md-8 col-md-push-2 no-padding-left" >
@@ -46,10 +46,10 @@ share:
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/15.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         <img class="lazyload blur-up cld-responsive"
-                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/15.jpg"
+                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
                           alt="View from Castell de Montjuïc"></a>
                       </figure>
                     </div>
@@ -60,10 +60,10 @@ share:
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/barcelona/2.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_500/barcelona/2.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         <img class="lazyload blur-up cld-responsive"
-                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/2.jpg"
+                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/2.jpg"
                           alt="View from Castell de Montjuïc"></a>
                       </figure>
                     </div>
@@ -74,10 +74,10 @@ share:
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/5.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         <img class="lazyload blur-up cld-responsive"
-                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/5.jpg"
+                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
                           alt="View from Castell de Montjuïc"></a>
                       </figure>
                     </div>
@@ -94,10 +94,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/v1623766011/barcelona/12.jpg"
           title="Vallcarca district, near Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766011/barcelona/12.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
           data-sub-html="Vallcarca district, near Parc Güell">
           <img class="lazyload blur-up cld-responsive"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766011/barcelona/12.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
             alt="Vallcarca district, near Parc Güell"></a>
               <figcaption class=image-caption>
                 <code>Vallcarca district, near Parc Güell</code>
@@ -110,10 +110,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
           title="Barcelona"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/13.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
           data-sub-html="Barcelona">
           <img class="lazyload blur-up cld-responsive"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/13.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
             alt="Barcelona"></a>
               <figcaption class=image-caption>
                 <code>Barcelona</code>
@@ -126,10 +126,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
           title="Towards Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/14.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
           data-sub-html="Towards Parc Güell">
               <img class="lazyload blur-up cld-responsive"
-                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/14.jpg"
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
                     alt="Towards Parc Güell"></a>
               <figcaption class=image-caption>
                   <code>Towards Parc Güell</code>
@@ -142,10 +142,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
           title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/4.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
           data-sub-html="Parc Güell">
           <img class="cld-responsive lazyload blur-up"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/4.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
             alt="Parc Güell"></a>
               <figcaption class=image-caption>
                 <code>Parc Güell</code>
@@ -158,10 +158,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
           title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/3.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
           data-sub-html="Parc Güell">
           <img class="cld-responsive lazyload blur-up"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/3.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
             alt="Parc Güell"></a>
               <figcaption class=image-caption>
                 <code>Parc Güell</code>
@@ -174,10 +174,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
           title="Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/10.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
           data-sub-html="Sagrada Familia">
           <img class="lazyload blur-up cld-responsive"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/10.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
             alt="Sagrada Familia"></a>
               <figcaption class=image-caption>
                 <code>Sagrada Familia</code>
@@ -190,10 +190,10 @@ share:
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
           title="Navata della Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/9.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
           data-sub-html="Navata della Sagrada Familia">
           <img class="lazyload blur-up cld-responsive"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/9.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
             alt="Navata della Sagrada Familia"></a>
               <figcaption class=image-caption>
                 <code>Navata della Sagrada Familia</code>
@@ -211,10 +211,10 @@ share:
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/6.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
                             data-sub-html="Barcellona">
                             <img class="lazyload blur-up cld-responsive"
-                              src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/6.jpg"
+                              src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
                               alt="Barcellona"></a>
                           </figure>
                       </div>
@@ -225,10 +225,10 @@ share:
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/7.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
                             data-sub-html="Barcellona">
                             <img class="lazyload blur-up cld-responsive"
-                              src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/7.jpg"
+                              src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
                               alt="Barcellona"></a>
                         </figure>
                       </div>
@@ -239,10 +239,10 @@ share:
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/8.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
                             data-sub-html="Barcellona">
                             <img class="lazyload blur-up cld-responsive"
-                              src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/8.jpg"
+                              src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
                               alt="Barcellona"></a>
                         </figure>
                       </div>
@@ -258,27 +258,27 @@ share:
           <div class="row">
                   <div class="column2">
                     <img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/11_poster.jpg"
+                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/11_poster.jpg"
                           alt="Barcellona">
                   </div>
                 <div class="column2"><img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/22_poster.jpg"
+                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/22_poster.jpg"
                           alt="Barcellona">
                   </div>
                 <div class="column2"><img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/33_poster.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/33_poster.jpg"
                         alt="Barcellona">
                   </div>
                 <div class="column2"><img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/44_poster.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/44_poster.jpg"
                         alt="Barcellona">
                   </div>
                 <div class="column2"><img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/55_poster.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/55_poster.jpg"
                         alt="Barcellona">
                   </div>
                 <div class="column2"><img class="lazyload blur-up cld-responsive" style="width:100%;height:auto"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_150/barcelona/66_poster.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_150/barcelona/66_poster.jpg"
                         alt="Barcellona">
                   </div>
           </div>

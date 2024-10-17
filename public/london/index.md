@@ -7,10 +7,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
                   title="Big Ben"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/111.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
                   data-sub-html="Big Ben">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/111.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
                       alt="Big Ben"></a>
         </figure>
         {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
@@ -26,10 +26,10 @@
                         <a class="lightgallery" 
                                 href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
                                 title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/3.jpg"
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
-                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/3.jpg"
+                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
                                     alt="Camden Town"></a>
                       </figure>
                   </div>
@@ -40,10 +40,10 @@
                         <a class="lightgallery" 
                                 href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
                                 title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/44.jpg"
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
                                 data-sub-html="Camden Town">
                                 <img class="lazyload blur-up"
-                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/44.jpg"
+                                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
                                     alt="Camden Town"></a>
                       </figure>
                   </div>
@@ -58,10 +58,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
                   title="Camden Market"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/6.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
                   data-sub-html="Camden Market">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/6.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
                       alt="Camden Market"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Camden Market</code>
@@ -71,10 +71,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
                   title="Super-warm-tones invaded London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/7.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
                   data-sub-html="Super-warm-tones invaded London">
                   <img class="lazyload blur-up"
-                       src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/7.jpg"
+                       src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
                        alt="Super-warm-tones invaded London"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Super-warm-tones invaded London</code>
@@ -89,10 +89,10 @@
                       <a class="lightgallery" 
                               href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/11.jpg"
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
                               data-sub-html="Big Ben showing off">
                               <img class="lazyload blur-up"
-                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/11.jpg"
+                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
                                   alt="Big Ben showing off"></a>
                     </figure>
                   </div>
@@ -103,10 +103,10 @@
                       <a class="lightgallery" 
                               href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/8.jpg"
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
                               data-sub-html="Big Ben showing off">
                               <img class="lazyload blur-up"
-                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/8.jpg"
+                                  src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
                                   alt="Big Ben showing off"></a>
                     </figure>
                   </div>
@@ -121,10 +121,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
                   title="Towards Piccadilly Circus"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/9.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
                   data-sub-html="Towards Piccadilly Circus">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/9.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
                       alt="Towards Piccadilly Circus"></a>
               <figcaption class=image-caption style="text-align:center">
                  <code>Towards Piccadilly Circus</code>
@@ -137,10 +137,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
                   title="Life in Camden Town"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/5.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
                   data-sub-html="Life in Camden Town">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/5.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
                       alt="Life in Camden Town"></a>
               <figcaption class=image-caption style="text-align:center">
                 <code>Life in Camden Town</code>
@@ -150,10 +150,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
                   title="Tower of London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/10.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
                   data-sub-html="Tower of London">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/10.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
                       alt="Tower of London"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Tower of London</code>
@@ -166,10 +166,10 @@
           <a class="lightgallery"
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
                   title="Buckingham Palace"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/2.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
                   data-sub-html="Buckingham Palace">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/2.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
                       alt="Buckingham Palace"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Buckingham Palace</code>
@@ -182,10 +182,10 @@
           <a class="lightgallery"
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
                   title="Sixtupla"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/sixtupla.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
                   data-sub-html="Sixtupla">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/london/sixtupla.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
                       alt="Sixtupla"></a>
               <figcaption class=image-caption style="text-align:center">
                   <code>Sixtupla</code>

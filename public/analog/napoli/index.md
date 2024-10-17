@@ -32,10 +32,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_1.jpg"
             title="Napoli Analog 1"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
             data-sub-html="Napoli Analog 1">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
                alt="Napoli Analog 1">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 1</figcaption>
@@ -45,10 +45,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_2.jpg"
             title="Napoli Analog 2"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
             data-sub-html="Napoli Analog 2">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
                alt="Napoli Analog 2">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 2</figcaption>
@@ -58,10 +58,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_3.jpg"
             title="Napoli Analog 3"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
             data-sub-html="Napoli Analog 3">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
                alt="Napoli Analog 3">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 3</figcaption>
@@ -71,10 +71,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_4.jpg"
             title="Napoli Analog 4"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
             data-sub-html="Napoli Analog 4">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
                alt="Napoli Analog 4">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 4</figcaption>
@@ -84,10 +84,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_5.jpg"
             title="Napoli Analog 5"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_5.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_5.jpg"
             data-sub-html="Napoli Analog 5">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_5.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_5.jpg"
                alt="Napoli Analog 5">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 5</figcaption>
@@ -97,10 +97,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteotototaro/image/upload/napoli/napoli_analog_6.jpg"
             title="Napoli Analog 6"
-            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_6.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_6.jpg"
             data-sub-html="Napoli Analog 6">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_6.jpg"
+               src="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_6.jpg"
                alt="Napoli Analog 6">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 6</figcaption>
@@ -111,10 +111,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_1.jpg"
             title="Napoli Analog 1"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
             data-sub-html="Napoli Analog 1">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
                alt="Napoli Analog 1">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 1</figcaption>
@@ -124,10 +124,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_2.jpg"
             title="Napoli Analog 2"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
             data-sub-html="Napoli Analog 2">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
                alt="Napoli Analog 2">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 2</figcaption>
@@ -137,10 +137,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_3.jpg"
             title="Napoli Analog 3"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
             data-sub-html="Napoli Analog 3">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
                alt="Napoli Analog 3">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 3</figcaption>
@@ -150,10 +150,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_4.jpg"
             title="Napoli Analog 4"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
             data-sub-html="Napoli Analog 4">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
                alt="Napoli Analog 4">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 4</figcaption>
@@ -163,10 +163,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_5.jpg"
             title="Napoli Analog 5"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_5.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_5.jpg"
             data-sub-html="Napoli Analog 5">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_5.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_5.jpg"
                alt="Napoli Analog 5">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 5</figcaption>
@@ -176,10 +176,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteotototaro/image/upload/napoli/napoli_analog_6.jpg"
             title="Napoli Analog 6"
-            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_6.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_6.jpg"
             data-sub-html="Napoli Analog 6">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_6.jpg"
+               src="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_6.jpg"
                alt="Napoli Analog 6">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 6</figcaption>
@@ -190,10 +190,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_1.jpg"
             title="Napoli Analog 1"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
             data-sub-html="Napoli Analog 1">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_1.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_1.jpg"
                alt="Napoli Analog 1">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 1</figcaption>
@@ -203,10 +203,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_2.jpg"
             title="Napoli Analog 2"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
             data-sub-html="Napoli Analog 2">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_2.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_2.jpg"
                alt="Napoli Analog 2">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 2</figcaption>
@@ -216,10 +216,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_3.jpg"
             title="Napoli Analog 3"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
             data-sub-html="Napoli Analog 3">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_3.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_3.jpg"
                alt="Napoli Analog 3">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 3</figcaption>
@@ -229,10 +229,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_4.jpg"
             title="Napoli Analog 4"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
             data-sub-html="Napoli Analog 4">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_4.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_4.jpg"
                alt="Napoli Analog 4">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 4</figcaption>
@@ -242,10 +242,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_17.jpg"
             title="Napoli Analog 17"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_17.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_17.jpg"
             data-sub-html="Napoli Analog 17">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_17.jpg"
+               src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_17.jpg"
                alt="Napoli Analog 17">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 17</figcaption>
@@ -255,10 +255,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteotototaro/image/upload/napoli/napoli_analog_18.jpg"
             title="Napoli Analog 18"
-            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_18.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_18.jpg"
             data-sub-html="Napoli Analog 18">
           <img class="lazyload blur-up"
-               src="https://res.cloudinary.com/matteotototaro/image/upload/c_scale,w_300/napoli/napoli_analog_18.jpg"
+               src="https://res.cloudinary.com/matteotototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_18.jpg"
                alt="Napoli Analog 18">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog 6</figcaption>
@@ -273,10 +273,10 @@
         <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/napoli/napoli_analog_{{ $i }}.jpg"
             title="Napoli Analog {{ $i }}"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_{{ $i }}.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_{{ $i }}.jpg"
             data-sub-html="Napoli Analog {{ $i }}">
             <img class="lazyload blur-up"
-                 src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/napoli/napoli_analog_{{ $i }}.jpg"
+                 src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/napoli/napoli_analog_{{ $i }}.jpg"
                  alt="Napoli Analog {{ $i }}">
         </a>
         <figcaption class="image-caption" style="text-align:center">Napoli Analog {{ $i }}</figcaption>

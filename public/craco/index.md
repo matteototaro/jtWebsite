@@ -7,10 +7,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
                   title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/15.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
                   data-sub-html="Craco">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/15.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
                       alt="Craco"></a>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
@@ -21,10 +21,10 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
                title="Craco from the road"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/6.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"              
                data-sub-html="Craco from the road">
                    <img class="lazyload blur-up"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/6.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"
                         data-sizes=auto
                         alt="Craco from the road"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -35,10 +35,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
                   title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/14.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"              
                   data-sub-html="Craco">
                   <img class="lazyload blur-up"
-                      data-src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/14.jpg"
+                      data-src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"
                       data-sizes=auto
                       alt="Craco"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -52,10 +52,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
                   title="Buildings still standing"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/16.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"              
                   data-sub-html="Buildings still standing">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/16.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"
                       data-sizes=auto
                       alt="Buildings still standing"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -66,10 +66,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
                   title="Craco Hills"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/8.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"              
                   data-sub-html="Craco Hills">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/8.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"
                       data-sizes=auto
                       alt="Craco Hills"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -85,10 +85,10 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
                                     title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/9.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"              
                                     data-sub-html="Craco">
                                     <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/9.jpg"
+                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"
                                         data-sizes=auto
                                         alt="Craco"></a>
                           </figure>
@@ -100,10 +100,10 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/10.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"              
                                       data-sub-html="Craco">
                                       <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/10.jpg"
+                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"
                                           data-sizes=auto
                                           alt="Craco"></a>
                             </figure>
@@ -115,10 +115,10 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/11.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"              
                                       data-sub-html="Craco">
                                       <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/11.jpg"
+                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"
                                           data-sizes=auto
                                           alt="Craco"></a>
                           </figure>
@@ -130,10 +130,10 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/13.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"              
                                       data-sub-html="Craco">
                                       <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/13.jpg"
+                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"
                                           data-sizes=auto
                                           alt="Craco"></a>
                             </figure>
@@ -151,10 +151,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
                   title="Ravines near Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/2.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"              
                   data-sub-html="Ravines near Craco">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/2.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"
                       data-sizes=auto
                       alt="Ravines near Craco"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -165,10 +165,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
                   title="sin(x)cos(y)"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/17.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"              
                   data-sub-html="sin(x)cos(y)">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/17.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"
                       data-sizes=auto
                       alt="sin(x)cos(y)"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -186,10 +186,10 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
                                     title="Rizla"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/19.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"              
                                     data-sub-html="Rizla">
                                     <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/19.jpg"
+                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"
                                         data-sizes=auto
                                         alt="Rizla"></a>
                           </figure>   
@@ -201,10 +201,10 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
                                     title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/18.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"              
                                     data-sub-html="Craco">
                                     <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/18.jpg"
+                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"
                                         data-sizes=auto
                                         alt="Craco"></a>
                           </figure>
@@ -220,10 +220,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
                   title="Old House"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/1.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"              
                   data-sub-html="Old House">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/1.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"
                       data-sizes=auto
                       alt="Old House"></a>
               <figcaption class=image-caption style="text-align:center">
@@ -234,10 +234,10 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
                   title="Craco in its entirety"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/4.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"              
                   data-sub-html="Craco in its entirety">
                   <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_800/craco/4.jpg"
+                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"
                       data-sizes=auto
                       alt="Craco in its entirety"></a>
               <figcaption class=image-caption style="text-align:center">

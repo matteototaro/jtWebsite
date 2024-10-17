@@ -54,7 +54,7 @@
               <a class="lightgallery" 
                     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
                     title="Sanctuary of Santa Maria de Finibus Terrae"
-                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/4.jpg"
+                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/4.jpg"
                     data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
                       </a>
           </figure>
@@ -65,7 +65,7 @@
             <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
                   title="Mediterranean Flora"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/6.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/6.jpg"
                   data-sub-html="Mediterranean Flora">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -77,7 +77,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
                   title="Harbour of Leuca"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/leuca/7.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/7.jpg"
                   data-sub-html="Harbour of Leuca">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -93,7 +93,7 @@
                         <a class="lightgallery" 
                                 href="https://res.cloudinary.com/matteototaro/image/upload/v1624310331/leuca/1.jpg"
                                 title="Leuca Lighthouse"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1624310331/leuca/1.jpg"
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1624310331/leuca/1.jpg"
                                 data-sub-html="Leuca Lighthouse">
                                 </a>
                       </figure>
@@ -197,7 +197,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/roma/1.jpg"
                title="Musei Vaticani"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/roma/1.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/1.jpg"              
                data-sub-html="Musei Vaticani">
                    </a>
          </figure>
@@ -208,7 +208,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/roma/2.jpg"
                title="Via della Conciliazione"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/roma/2.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/2.jpg"              
                data-sub-html="Via della Conciliazione">
                    </a>
               <figcaption class=image-caption style="text-align:center">
@@ -230,7 +230,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/roma/4.jpg"
                title="Basilica di San Pietro, Inside"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/roma/4.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/4.jpg"              
                data-sub-html="Basilica di San Pietro, Inside">
                    </a>
               <figcaption class=image-caption style="text-align:center">
@@ -241,7 +241,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/roma/5.jpg"
                title="Largo del Colonnato"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/roma/5.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/5.jpg"              
                data-sub-html="Largo del Colonnato">
                    </a>
               <figcaption class=image-caption style="text-align:center">
@@ -252,7 +252,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
                title="Piazza San Pietro"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/roma/6.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/6.jpg"              
                data-sub-html="Piazza San Pietro">
                    </a>
               <figcaption class=image-caption style="text-align:center">
@@ -276,7 +276,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
                   title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/15.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
                   data-sub-html="Craco">
                   </a>
         </figure>
@@ -289,7 +289,7 @@
             <a class="lightgallery" 
                href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
                title="Craco from the road"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/6.jpg"              
+               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"              
                data-sub-html="Craco from the road">
                    </a>
               <figcaption class=image-caption style="text-align:center">
@@ -300,7 +300,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
                   title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/14.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"              
                   data-sub-html="Craco">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -314,7 +314,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
                   title="Buildings still standing"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/16.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"              
                   data-sub-html="Buildings still standing">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -325,7 +325,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
                   title="Craco Hills"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/8.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"              
                   data-sub-html="Craco Hills">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -341,7 +341,7 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
                                     title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/9.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"              
                                     data-sub-html="Craco">
                                     </a>
                           </figure>
@@ -353,7 +353,7 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/10.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"              
                                       data-sub-html="Craco">
                                       </a>
                             </figure>
@@ -365,7 +365,7 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/11.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"              
                                       data-sub-html="Craco">
                                       </a>
                           </figure>
@@ -377,7 +377,7 @@
                               <a class="lightgallery" 
                                       href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
                                       title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/13.jpg"              
+                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"              
                                       data-sub-html="Craco">
                                       </a>
                             </figure>
@@ -395,7 +395,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
                   title="Ravines near Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/2.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"              
                   data-sub-html="Ravines near Craco">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -406,7 +406,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
                   title="sin(x)cos(y)"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/17.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"              
                   data-sub-html="sin(x)cos(y)">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -424,7 +424,7 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
                                     title="Rizla"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/19.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"              
                                     data-sub-html="Rizla">
                                     </a>
                           </figure>   
@@ -436,7 +436,7 @@
                             <a class="lightgallery" 
                                     href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
                                     title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/18.jpg"              
+                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"              
                                     data-sub-html="Craco">
                                     </a>
                           </figure>
@@ -452,7 +452,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
                   title="Old House"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/1.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"              
                   data-sub-html="Old House">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -463,7 +463,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
                   title="Craco in its entirety"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/craco/4.jpg"              
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"              
                   data-sub-html="Craco in its entirety">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -488,7 +488,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
                   title="Trident"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/6.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/6.jpg"
                   data-sub-html="Trident">
                   </a>
         </figure>
@@ -502,7 +502,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
                   title="Path towards the lighthouse"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/4.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/4.jpg"
                   data-sub-html="Path towards the lighthouse">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -513,7 +513,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
                   title="Path towards the lighthouse"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/5.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/5.jpg"
                   data-sub-html="Path towards the lighthouse">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -524,7 +524,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
                   title="Boat"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/3.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/3.jpg"
                   data-sub-html="Boat">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -535,7 +535,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
                   title="View from the top of the hill"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/palascia/1.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/1.jpg"
                   data-sub-html="View from the top of the hill">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -558,7 +558,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
                   title="Big Ben"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/111.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
                   data-sub-html="Big Ben">
                   </a>
         </figure>
@@ -576,7 +576,7 @@
                         <a class="lightgallery" 
                                 href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
                                 title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/3.jpg"
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
                                 data-sub-html="Camden Town">
                                 </a>
                       </figure>
@@ -588,7 +588,7 @@
                         <a class="lightgallery" 
                                 href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
                                 title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/44.jpg"
+                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
                                 data-sub-html="Camden Town">
                                 </a>
                       </figure>
@@ -604,7 +604,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
                   title="Camden Market"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/6.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
                   data-sub-html="Camden Market">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -615,7 +615,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
                   title="Super-warm-tones invaded London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/7.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
                   data-sub-html="Super-warm-tones invaded London">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -631,7 +631,7 @@
                       <a class="lightgallery" 
                               href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/11.jpg"
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
                               data-sub-html="Big Ben showing off">
                               </a>
                     </figure>
@@ -643,7 +643,7 @@
                       <a class="lightgallery" 
                               href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
                               title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/8.jpg"
+                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
                               data-sub-html="Big Ben showing off">
                               </a>
                     </figure>
@@ -659,7 +659,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
                   title="Towards Piccadilly Circus"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/9.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
                   data-sub-html="Towards Piccadilly Circus">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -673,7 +673,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
                   title="Life in Camden Town"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/5.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
                   data-sub-html="Life in Camden Town">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -684,7 +684,7 @@
           <a class="lightgallery" 
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
                   title="Tower of London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/10.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
                   data-sub-html="Tower of London">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -698,7 +698,7 @@
           <a class="lightgallery"
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
                   title="Buckingham Palace"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/2.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
                   data-sub-html="Buckingham Palace">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -712,7 +712,7 @@
           <a class="lightgallery"
                   href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
                   title="Sixtupla"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/london/sixtupla.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
                   data-sub-html="Sixtupla">
                   </a>
               <figcaption class=image-caption style="text-align:center">
@@ -738,7 +738,7 @@
           <a class="lightgallery" 
             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
             title="Casa Battlò"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/1.jpg"
+            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
             data-sub-html="Casa Battlò">
             </a>
         </figure>
@@ -756,7 +756,7 @@
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/15.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         </a>
                       </figure>
@@ -768,7 +768,7 @@
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_500/barcelona/2.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_500/barcelona/2.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         </a>
                       </figure>
@@ -780,7 +780,7 @@
                       <a class="lightgallery" 
                         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
                         title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/5.jpg"
+                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
                         data-sub-html="View from Castell de Montjuïc">
                         </a>
                       </figure>
@@ -798,7 +798,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/v1623766011/barcelona/12.jpg"
           title="Vallcarca district, near Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/v1623766011/barcelona/12.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
           data-sub-html="Vallcarca district, near Parc Güell">
           </a>
               <figcaption class=image-caption>
@@ -812,7 +812,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
           title="Barcelona"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/13.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
           data-sub-html="Barcelona">
           </a>
               <figcaption class=image-caption>
@@ -826,7 +826,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
           title="Towards Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/14.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
           data-sub-html="Towards Parc Güell">
               </a>
               <figcaption class=image-caption>
@@ -840,7 +840,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
           title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/4.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
           data-sub-html="Parc Güell">
           </a>
               <figcaption class=image-caption>
@@ -854,7 +854,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
           title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/3.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
           data-sub-html="Parc Güell">
           </a>
               <figcaption class=image-caption>
@@ -868,7 +868,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
           title="Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/10.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
           data-sub-html="Sagrada Familia">
           </a>
               <figcaption class=image-caption>
@@ -882,7 +882,7 @@
         <a class="lightgallery" 
           href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
           title="Navata della Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/9.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
           data-sub-html="Navata della Sagrada Familia">
           </a>
               <figcaption class=image-caption>
@@ -901,7 +901,7 @@
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/6.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
                             data-sub-html="Barcellona">
                             </a>
                           </figure>
@@ -913,7 +913,7 @@
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/7.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
                             data-sub-html="Barcellona">
                             </a>
                         </figure>
@@ -925,7 +925,7 @@
                           <a class="lightgallery" 
                             href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
                             title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_scale,w_300/barcelona/8.jpg"
+                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
                             data-sub-html="Barcellona">
                             </a>
                         </figure>
