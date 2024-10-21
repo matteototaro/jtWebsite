@@ -1,5 +1,5 @@
 ---
-title: Cookie Policy
+title: "Cookie Policy"
 date: 2021-01-16T10:30:00+02:00
 
 authorLink: "https://mtotaro.com/about"

@@ -1,4 +1,5 @@
 ---
+title: "Craco"
 license: "©2023 Matteo Totaro"
 draft: false
 hiddenFromHomePage: false
@@ -8,7 +9,6 @@ author: Matteo
 lastmod: 2024-08-17T17:30:00
 thumbnail: /images/uploads/img_20201118_185705_192.jpg
 featuredImage: ""
-title: Craco - August 2020
 date: 2020-11-18T18:03:23.610Z
 tags: null
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
@@ -33,7 +33,7 @@ share:
                       alt="Craco"></a>
         </figure>
         <div class="col-md-8 col-md-push-2 no-padding-left" >
-          {{< typeit tag=h3 >}} Matera, Basilicata, Italy {{< /typeit >}}
+          {{< typeit tag=h3 >}} August '20 - Matera, Italy {{< /typeit >}}
           <p>In the middle of Basilicata region there's a place called Craco, the <i>Ghost Town</i>. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980's Craco was completely abandoned.</p>
         </div>
         <figure>

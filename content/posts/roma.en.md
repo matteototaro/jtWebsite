@@ -1,5 +1,5 @@
 ---
-title: "Rome - November 2018"
+title: "Rome"
 date: 2021-01-18T10:30:00+02:00
 lastmod: 2024-08-17T17:30:00
 draft: false
@@ -20,8 +20,7 @@ linkToMarkdown: false
 share:
   enable: false
 ---
- <!--- in order to show on pinterest my images, src must be linked to images, no javascript or processing (svg) involved-->
- 
+
  <div class="container-fluid">
      <div class="ratio-box fade-box">
         <figure>
@@ -34,7 +33,7 @@ share:
                         src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/1.jpg"
                         alt="Musei Vaticani"></a>
          </figure>
-        {{< typeit tag=h3 >}} Rome, Lazio, Italy {{< /typeit >}}
+        {{< typeit tag=h3 >}} November '18 - Lazio, Italy {{< /typeit >}}
         <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
         <figure>
             <a class="lightgallery" 

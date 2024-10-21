@@ -1,5 +1,5 @@
 ---
-title: "Barcelona - October 2019"
+title: "Barcelona"
 date: 2020-05-01T21:20:00+02:00
 lastmod: 2023-12-27T17:30:00
 draft: false
@@ -34,7 +34,7 @@ share:
               alt="Casa Battlò"></a>
         </figure>
          <div class="col-md-8 col-md-push-2 no-padding-left" >
-            {{< typeit tag=h3 >}} Barcelona, Catalonia, Spagna {{< /typeit >}}
+            {{< typeit tag=h3 >}} October '19 - Spain {{< /typeit >}}
             <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has literally affected every inch of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
          </div>
         <div class="row">
@@ -92,12 +92,12 @@ share:
          </div>
         <figure>
         <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/v1623766011/barcelona/12.jpg"
+          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/12.jpg"
           title="Vallcarca district, near Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/12.jpg"
           data-sub-html="Vallcarca district, near Parc Güell">
           <img class="lazyload blur-up cld-responsive"
-            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/12.jpg"
             alt="Vallcarca district, near Parc Güell"></a>
               <figcaption class=image-caption>
                 <code>Vallcarca district, near Parc Güell</code>

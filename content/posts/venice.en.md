@@ -1,5 +1,5 @@
 ---
-title: "Venice - April 2017"
+title: "Venice"
 date: 2020-04-14T19:21:10+02:00
 lastmod: 2024-08-17T17:30:00
 draft: false
@@ -12,7 +12,7 @@ categories:
 hiddenFromHomePage: false
 
 featuredImage: ""
-featuredImagePreview: "/images/uploads/venezia/2.jpg"
+featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
 
 lightgallery: true
 linkToMarkdown: false
@@ -24,30 +24,28 @@ share:
   	<div class="ratio-box fade-box">
       <figure>
         <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
+          href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
           title="Venice Painting"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
+          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
           data-sub-html="Venice Painting">
           <img class="lazyload blur-up"
-            src="/svg/loading/normal.svg"
-            data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
+            src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
             data-sizes="auto"
             alt="Venice Painting"></a>
       </figure>
       <div class="col-md-8 col-md-push-2 no-padding-left">
-          {{< typeit tag=h3 >}}Venice, Veneto, Italy{{< /typeit >}}
+          {{< typeit tag=h3 >}} April '17 - Veneto, Italy{{< /typeit >}}
           <p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn't alone 'cause it's a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself. <br>
           The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br>This city is surely very famous and in particular this specific angle that I'm showing you in the next picture is one of the most characteristic.</p>
        </div>
             <figure>
                 <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
+                  href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/5.jpg"
                   title="Venice Skyline"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
+                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/5.jpg"
                   data-sub-html="Venice Skyline">
                       <img class="lazyload blur-up"
-                        src="/svg/loading/normal.svg"
-                        data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
+                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/5.jpg"
                         data-sizes="auto"
                         alt="Venice Skyline">
                   </a>
@@ -60,13 +58,12 @@ share:
         </div>
             <figure>
               <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
+                href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/1.jpg"
                 title="Venice Theatre"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg" 
+                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/1.jpg" 
                 data-sub-html="Venice Theatre">
                     <img class="lazyload blur-up" 
-                    src="/svg/loading/normal.svg"
-                    data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/1.jpg"
                     data-sizes="auto"
                     alt="Venice Theatre"></a>
               <figcaption class=image-caption>
@@ -78,13 +75,12 @@ share:
          </div>
           <figure>
               <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
+                href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/4.jpg"
                 title="Venice Lucetta"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg" 
+                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/4.jpg" 
                 data-sub-html="Venice Lucetta">
                     <img class="lazyload blur-up" 
-                    src="/svg/loading/normal.svg"
-                    data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/4.jpg"
                     data-sizes="auto"
                     alt="Venice Lucetta"></a>
               <figcaption class=image-caption>
@@ -96,13 +92,12 @@ share:
          </div>
           <figure>
               <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
+                href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/3.jpg"
                 title="Venice Barca"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg" 
+                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/3.jpg" 
                 data-sub-html="Venice Barca">
                     <img class="lazyload blur-up" 
-                    src="/svg/loading/normal.svg"
-                    data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/3.jpg"
                     data-sizes="auto"
                     alt="Venice Barca"></a>
               <figcaption class=image-caption>
@@ -114,13 +109,12 @@ share:
          </div>
           <figure>
               <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
+                href="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/6.jpg"
                 title="Venice Ponte"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
+                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/6.jpg"
                 data-sub-html="Venice Ponte">
                     <img class="lazyload blur-up" 
-                    src="/svg/loading/normal.svg"
-                    data-src="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
+                    src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/6.jpg"
                     data-sizes="auto"
                     alt="Venice Ponte"></a>
               <figcaption class=image-caption>

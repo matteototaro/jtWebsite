@@ -55,11 +55,11 @@ enableEmoji = true
 
 
       [[languages.en.menu.main]]
-        identifier = "analog"
+        identifier = "analogs"
         pre = ""
         post = ""
         name = "🎞️ Analog Wall"
-        url = "/analog/"
+        url = "/analogs/"
         title = "Analog"
         weight = 1         
 

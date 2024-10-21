@@ -1,5 +1,5 @@
 ---
-title: "Napoli - April 2024"
+title: "Napoli"
 date: 2024-04-06T13:30:00+02:00
 lastmod: 2024-09-01T17:30:00
 draft: false
@@ -22,7 +22,8 @@ share:
 ---
 
 <div class="container-fluid">
-    {{< typeit tag=h3 >}} Napoli, Campania, Italy {{< /typeit >}}
+  <div class="col-md-8 col-md-push-2 no-padding-left" >
+    {{< typeit tag=h3 >}} April '24 - Campania, Italy {{< /typeit >}}
      <!-- 8th Image -->
       <figure>
         <a class="lightgallery" 
@@ -218,7 +219,6 @@ share:
         </a>
       </figure>
     </div>
-  </div>
         <!-- 3rd Image -->
         <figure>
           <a class="lightgallery" 
@@ -231,6 +231,7 @@ share:
                 alt="Napoli Analog 3">
           </a>
         </figure>
+   </div>
 </div>
 
 <style>

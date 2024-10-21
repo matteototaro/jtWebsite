@@ -1,5 +1,5 @@
 ---
-title: "Amsterdam - October 2018"
+title: "Amsterdam"
 date: 2020-04-25T18:40:00+02:00
 lastmod: 2023-12-27T17:30:00
 draft: false
@@ -31,11 +31,10 @@ share:
 				data-sub-html="Amsterdam">
 				<img class="lazyload blur-up"
 					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
-					data-sizes=auto
 					alt="Amsterdam"></a>
 		</figure>
 		<div class="col-md-8 col-md-push-2 no-padding-left" >
-			{{< typeit tag=h3 >}} Amsterdam, Netherlands {{< /typeit >}}
+			{{< typeit tag=h3 >}} October '18 - Netherlands {{< /typeit >}}
 			<p>I went to Amsterdam almost two years ago and I hope I'll visit it again as soon as possible. As someone says, it's the Venice of the  Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn't the cheapest trip we've ever done.</p>
 		 </div>
 		<figure>
@@ -47,7 +46,6 @@ share:
 				<img class="lazyload blur-up"
 					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
 					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
-					data-sizes=auto
 					alt="Church in Amsterdam"></a>
 					<figcaption class=image-caption>
 						<code>Church in Amsterdam</code>
@@ -65,7 +63,6 @@ share:
 				<img class="lazyload blur-up"
 					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
 					data-src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
-					data-sizes=auto
 					alt="Amsterdam canals in an autumn"></a>
 					<figcaption class=image-caption>
 						<code>Amsterdam canals in an autumn mood</code>
@@ -82,7 +79,6 @@ share:
 				data-sub-html="Mirror">
 				<img class="lazyload blur-up"
 					src=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11
-					data-sizes=auto
 					alt="Mirror"></a>
 					<figcaption class=image-caption>
 						<code>Mirror</code>
@@ -100,7 +96,6 @@ share:
 				<img class="lazyload blur-up"
 					src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
 					data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
-					data-sizes=auto
 					alt="Running late"></a>
 					<figcaption class=image-caption>
 						<code>Running late</code>
@@ -118,7 +113,6 @@ share:
 				<img class="lazyload blur-up"
 					src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
 					data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
-					data-sizes=auto
 					alt="View from NEMO"></a>
 					<figcaption class=image-caption>
 						<code>View from NEMO</code>
@@ -141,7 +135,6 @@ share:
 										<img class="lazyload blur-up"
 											src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
 											data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
-											data-sizes=auto
 											alt="Amsterdam canals"></a>
 								</figure>
 							</div>
@@ -157,7 +150,6 @@ share:
 											<img class="lazyload blur-up"
 												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
 												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
-												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
 								</div>
@@ -173,7 +165,6 @@ share:
 											<img class="lazyload blur-up"
 												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
 												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
-												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
 								</div>
@@ -189,7 +180,6 @@ share:
 											<img class="lazyload blur-up"
 												src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
 												data-src="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
-												data-sizes=auto
 												alt="Amsterdam canals"></a>
 									</figure>
 								</div>

@@ -1,5 +1,5 @@
 ---
-title: "London - October 2016"
+title: "London"
 date: 2020-05-27T13:20:00+02:00
 lastmod: 2024-08-17T17:30:00
 draft: false
@@ -33,7 +33,7 @@ share:
                       src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
                       alt="Big Ben"></a>
         </figure>
-        {{< typeit tag=h3 >}} London, UK {{< /typeit >}}
+        {{< typeit tag=h3 >}} October '16 - UK {{< /typeit >}}
         <div class="col-md-8 col-md-push-2 no-padding-left" >
           <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
         </div>
