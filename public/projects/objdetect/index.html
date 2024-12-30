@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Real-time Object Detection - Matteo Totaro</title><meta property="og:title" content="Real-time Object Detection" />
+<meta property="og:description" content="Real-time object detection using TensorFlow.js" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mtotaro.com/projects/objdetect/" /><meta property="og:image" content="https://mtotaro.com/cover.jpg"/><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2024-04-06T13:30:00+02:00" />
+<meta property="article:modified_time" content="2024-09-01T17:30:00+00:00" /><meta property="og:site_name" content="Matteo Totaro" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://mtotaro.com/cover.jpg"/>
+
+<meta name="twitter:title" content="Real-time Object Detection"/>
+<meta name="twitter:description" content="Real-time object detection using TensorFlow.js"/>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '390763854', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<meta name="application-name" content="Matteo Totaro">
+<meta name="apple-mobile-web-app-title" content="Matteo Totaro">
+
+<meta property="og:title" content="Real-time Object Detection | Matteo Totaro" />
+<meta name="twitter:title" content="Real-time Object Detection | Matteo Totaro" />
+<meta itemprop="name" content="Real-time Object Detection | Matteo Totaro" />
+<meta property="og:site_name" content="" />
+
+
+<meta name="description" content="Real-time object detection using TensorFlow.js" />
+<meta itemprop="description" content="Real-time object detection using TensorFlow.js" />
+<meta property="og:description" content="Real-time object detection using TensorFlow.js" />
+<meta name="twitter:description" content="Real-time object detection using TensorFlow.js" />
+
+
+<base href="https://mtotaro.com/projects/objdetect/">
+<link rel="canonical" href="https://mtotaro.com/projects/objdetect/" itemprop="url" /> 
+<meta name="url" content="https://mtotaro.com/projects/objdetect/" />
+<meta name="twitter:url" content="https://mtotaro.com/projects/objdetect/" /> 
+<meta property="og:url" content="https://mtotaro.com/projects/objdetect/" />
+
+
+<meta property="og:locale" content="en">
+<meta name="language" content="English">
+
+
+
+
+  <meta itemprop="image" content="https://mtotaro.com/" />
+  <meta property="og:image" content="https://mtotaro.com/" />
+  <meta name="twitter:image" content="https://mtotaro.com/" />
+  <meta name="twitter:image:src" content="https://mtotaro.com/" /> 
+
+
+
+
+<meta property="og:updated_time" content=2024-09-01T17:30:00Z />
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://mtotaro.com/sitemap.xml" /> 
+
+<meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://mtotaro.com/projects/objdetect/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><meta name="google-site-verification" content="FJlJwxMy2rXULl5c91sw_X3US7EI2RZSuxVGwmLx-N4" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Real-time Object Detection",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/mtotaro.com\/projects\/objdetect\/"
+        },"image": ["https:\/\/mtotaro.com\/images\/cover.jpg"],"genre": "projects","wordcount":  10 ,
+        "url": "https:\/\/mtotaro.com\/projects\/objdetect\/","datePublished": "2024-04-06T13:30:00+02:00","dateModified": "2024-09-01T17:30:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Matteo Totaro","logo": "https:\/\/mtotaro.com\/avatar.jpg"},"author": {
+                "@type": "Person",
+                "name": "Matteo Totaro"
+            },"description": "Real-time object detection using TensorFlow.js"
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"consentOnContinuedBrowsing":false,"countryDetection":true,"enableCcpa":true,"enableTcf":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"lang":"en","perPurposeConsent":true,"siteId":2764725,"tcfPurposes":{"1":true,"2":"consent_only","3":"consent_only","4":"consent_only","5":"consent_only","6":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only"},"whitelabel":false,"cookiePolicyId":10446653,"cookiePolicyUrl":"https://www.mtotaro.com/privacypolicy/","privacyPolicyUrl":"https://www.mtotaro.com/privacypolicy/", "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":null,"position":"float-bottom-center","rejectButtonDisplay":true }};
+        </script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Matteo Totaro"><span id="id-2" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/analogs/" title="Analog"> 🎞️ Analog Wall </a><a class="menu-item" href="/posts/" title="Digital pics"> 📷 Gallery </a><a class="menu-item" href="/projects/" title="Uni, Hobbies and Stuff"> 💻 Projects </a><a class="menu-item" href="/about/" title="Who am I"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"consentOnContinuedBrowsing":false,"countryDetection":true,"enableCcpa":true,"enableTcf":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"lang":"en","perPurposeConsent":true,"siteId":2764725,"tcfPurposes":{"1":true,"2":"consent_only","3":"consent_only","4":"consent_only","5":"consent_only","6":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only"},"whitelabel":false,"cookiePolicyId":10446653,"cookiePolicyUrl":"https://www.mtotaro.com/privacypolicy/","privacyPolicyUrl":"https://www.mtotaro.com/privacypolicy/", "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":null,"position":"float-bottom-center","rejectButtonDisplay":true }};
+        </script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Matteo Totaro"><span id="id-3" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/analogs/" title="Analog">🎞️ Analog Wall</a><a class="menu-item" href="/posts/" title="Digital pics">📷 Gallery</a><a class="menu-item" href="/projects/" title="Uni, Hobbies and Stuff">💻 Projects</a><a class="menu-item" href="/about/" title="Who am I">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container">&nbsp;<div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Real-time Object Detection</h1><div class="content" id="content"><div class="typeit"><h3 id="id-1"></h3></div>
+
+<div class="video-container">
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+</div>
+<p><button id="startButton">Start Camera</button>
+This is literally just for fun.
+<button id="stopButton" style="display:none;">Stop Camera</button></p>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2024</span>&nbsp;|&nbsp;<a href="https://www.iubenda.com/privacy-policy/10446653" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/object-fit-images@3.2.4/dist/ofi.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.6.0/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"data":{"id-1":"Real-time Object Detection","id-2":"MT","id-3":"MT"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"],"id-3":["id-3"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', '390763854', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=390763854" async></script></body>
+</html>

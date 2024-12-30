@@ -1,269 +1,118 @@
 ---
 title: "Craco"
-license: "©2023 Matteo Totaro"
-draft: false
-hiddenFromHomePage: false
-linkToMarkdown: false
-authorLink: https://mtotaro.com/about
-author: Matteo
-lastmod: 2024-08-17T17:30:00
-thumbnail: /images/uploads/img_20201118_185705_192.jpg
-featuredImage: ""
 date: 2020-11-18T18:03:23.610Z
-tags: null
+lastmod: 2024-08-17T17:30:00
+draft: false
+author: "Matteo Totaro"
+authorLink: "https://mtotaro.com/about"
+description: "An abandoned place in the middle of Basilicata"
+license: "©2024 Matteo Totaro"
+
+# SEO
+keywords: ["craco", "basilicata", "italy", "ghost town"]
+#tags: ["travel", "italy", "basilicata", "photography"]
+#categories: ["Travel Guides"]
+
+# Performance
+outputs: ["HTML", "AMP"]
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
 
+# Layout
+layout: gallery
+toc: false
 lightgallery: true
-categories: null
-description: An abandoned place in the middle of Basilicata
+linkToMarkdown: false
 share:
   enable: false
 ---
 
-<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
-                  title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
-                  data-sub-html="Craco">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
-                      alt="Craco"></a>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          {{< typeit tag=h3 >}} August '20 - Matera, Italy {{< /typeit >}}
-          <p>In the middle of Basilicata region there's a place called Craco, the <i>Ghost Town</i>. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980's Craco was completely abandoned.</p>
-        </div>
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
-               title="Craco from the road"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"              
-               data-sub-html="Craco from the road">
-                   <img class="lazyload blur-up"
-                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"
-                        data-sizes=auto
-                        alt="Craco from the road"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco from the road</code>
-              </figcaption>
-         </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
-                  title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"              
-                  data-sub-html="Craco">
-                  <img class="lazyload blur-up"
-                      data-src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"
-                      data-sizes=auto
-                      alt="Craco"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Nowadays, it's just a tourist attraction and a popular filming location.</p>
-         </div>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
-                  title="Buildings still standing"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"              
-                  data-sub-html="Buildings still standing">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"
-                      data-sizes=auto
-                      alt="Buildings still standing"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Buildings still standing</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
-                  title="Craco Hills"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"              
-                  data-sub-html="Craco Hills">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"
-                      data-sizes=auto
-                      alt="Craco Hills"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco Hills</code>
-              </figcaption>
-        </figure>
-        <div class="row">
-            <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
-                                    title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"              
-                                    data-sub-html="Craco">
-                                    <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"
-                                        data-sizes=auto
-                                        alt="Craco"></a>
-                          </figure>
-                        </div>
-                     </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"              
-                                      data-sub-html="Craco">
-                                      <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"
-                                          data-sizes=auto
-                                          alt="Craco"></a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"              
-                                      data-sub-html="Craco">
-                                      <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"
-                                          data-sizes=auto
-                                          alt="Craco"></a>
-                          </figure>
-                        </div>
-                     </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"              
-                                      data-sub-html="Craco">
-                                      <img class="lazyload blur-up"
-                                          src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"
-                                          data-sizes=auto
-                                          alt="Craco"></a>
-                            </figure>
-                         </div>
-                     </div>
-                 </div>
-              </div>
-          </div>
-        <figcaption class=image-caption style="text-align:center">
-           <code>Craco views and ravines</code>
-        </figcaption>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>The panorama was amazing. These shots are from all around the hill of the town.</p>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
-                  title="Ravines near Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"              
-                  data-sub-html="Ravines near Craco">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"
-                      data-sizes=auto
-                      alt="Ravines near Craco"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Ravines near Craco</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
-                  title="sin(x)cos(y)"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"              
-                  data-sub-html="sin(x)cos(y)">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"
-                      data-sizes=auto
-                      alt="sin(x)cos(y)"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>sin(x)cos(y)</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Is it just me or these hills on the right look like <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank"><i>this graph </a></i>?</p>
-        <div class="row">
-             <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
-                                    title="Rizla"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"              
-                                    data-sub-html="Rizla">
-                                    <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"
-                                        data-sizes=auto
-                                        alt="Rizla"></a>
-                          </figure>   
-                        </div>
-                    </div>
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
-                                    title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"              
-                                    data-sub-html="Craco">
-                                    <img class="lazyload blur-up"
-                                        src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"
-                                        data-sizes=auto
-                                        alt="Craco"></a>
-                          </figure>
-                      </div>
-                    </div>
-               </div>
-             </div>
-         </div>
-        <figcaption class=image-caption style="text-align:center">
-               <code>Rizla & views from Craco</code>
-        </figcaption>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
-                  title="Old House"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"              
-                  data-sub-html="Old House">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"
-                      data-sizes=auto
-                      alt="Old House"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Old House</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
-                  title="Craco in its entirety"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"              
-                  data-sub-html="Craco in its entirety">
-                  <img class="lazyload blur-up"
-                      src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"
-                      data-sizes=auto
-                      alt="Craco in its entirety"></a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco in its entirety</code>
-              </figcaption>
-        </figure>
-        <br>
-    	  {{< typeit tag=i >}} Thanks for stopping by {{< /typeit >}}
- </div>
-</div>
+{{< gallery-image 
+    src="craco/15.jpg"
+    title="Craco"
+    caption="Craco" >}}
+
+{{< typeit tag=h3 >}}
+August '20 - Matera, Italy
+{{< /typeit >}}
+
+In the middle of Basilicata region there's a place called Craco, the *Ghost Town*. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980's Craco was completely abandoned.
+
+{{< gallery-image 
+    src="craco/6.jpg"
+    title="Craco from the road"
+    caption="Craco from the road" >}}
+
+{{< gallery-image 
+    src="craco/14.jpg"
+    title="Craco"
+    caption="Craco" >}}
+
+Nowadays, it's just a tourist attraction and a popular filming location.
+
+{{< gallery-image 
+    src="craco/16.jpg"
+    title="Buildings still standing"
+    caption="Buildings still standing" >}}
+
+{{< gallery-image 
+    src="craco/8.jpg"
+    title="Craco Hills"
+    caption="Craco Hills" >}}
+
+{{< gallery-grid >}}
+    {{< gallery-image 
+        src="craco/9.jpg"
+        title="Craco"
+        caption="Craco" >}}
+    {{< gallery-image 
+        src="craco/10.jpg"
+        title="Craco"
+        caption="Craco" >}}
+    {{< gallery-image 
+        src="craco/11.jpg"
+        title="Craco"
+        caption="Craco" >}}
+    {{< gallery-image 
+        src="craco/13.jpg"
+        title="Craco"
+        caption="Craco views and ravines" >}}
+{{< /gallery-grid >}}
+
+The panorama was amazing. These shots are from all around the hill of the town.
+
+{{< gallery-image 
+    src="craco/2.jpg"
+    title="Ravines near Craco"
+    caption="Ravines near Craco" >}}
+
+{{< gallery-image 
+    src="craco/17.jpg"
+    title="sin(x)cos(y)"
+    caption="sin(x)cos(y)" >}}
+
+Is it just me or these hills on the right look like [*this graph*](https://www.wolframalpha.com/input/?i=sinxcosy)?
+
+{{< gallery-grid >}}
+    {{< gallery-image 
+        src="craco/19.jpg"
+        title="Rizla"
+        caption="Rizla" >}}
+    {{< gallery-image 
+        src="craco/18.jpg"
+        title="Craco"
+        caption="Views from Craco" >}}
+{{< /gallery-grid >}}
+
+{{< gallery-image 
+    src="craco/1.jpg"
+    title="Old House"
+    caption="Old House" >}}
+
+{{< gallery-image 
+    src="craco/4.jpg"
+    title="Craco in its entirety"
+    caption="Craco in its entirety" >}}
+
+{{< typeit tag=i >}}
+Thanks for stopping by
+{{< /typeit >}}

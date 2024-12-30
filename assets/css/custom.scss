@@ -1,0 +1,87 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gallery components */
+.gallery-figure {
+    margin: 2rem 0;
+    position: relative;
+    width: 100%;
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        loading: lazy;
+    }
+
+    figcaption {
+        text-align: center;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 1rem;
+    margin: 2rem 0;
+
+    .gallery-figure {
+        margin: 0;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* First image full width */
+        &:nth-child(1) {
+            grid-column: 1 / span 3;
+            grid-row: 1;
+        }
+
+        /* Middle grid 3x5 */
+        @for $i from 2 through 16 {
+            &:nth-child(#{$i}) {
+                grid-column: ((($i - 2) % 3) + 1);
+                grid-row: floor(($i - 2) / 3) + 2;
+            }
+        }
+
+        /* Last image full width */
+        &:nth-child(17) {
+            grid-column: 1 / span 3;
+            grid-row: 7;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        
+        .gallery-figure {
+            grid-column: 1 !important;
+            grid-row: auto !important;
+        }
+    }
+}

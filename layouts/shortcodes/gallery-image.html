@@ -1,0 +1,25 @@
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" }}
+{{ $caption := .Get "caption" }}
+{{ $width := .Get "width" | default "1200" }}
+{{ $height := .Get "height" | default "800" }}
+
+<figure class="gallery-figure" style="aspect-ratio: {{ $width }}/{{ $height }};">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/{{ $src }}"
+     title="{{ $title }}"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/{{ $src }}"
+     data-sub-html="{{ $caption }}">
+    <img class="lazyload blur-up"
+         src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/{{ $src }}"
+         alt="{{ $title }}"
+         width="{{ $width }}"
+         height="{{ $height }}"
+         loading="lazy">
+  </a>
+  {{ with $caption }}
+    <figcaption class="image-caption">
+      <code>{{ . }}</code>
+    </figcaption>
+  {{ end }}
+</figure>

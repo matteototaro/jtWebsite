@@ -2,7 +2,7 @@
 title: "Projects Intro"
 date: 2024-10-17T10:00:00+02:00
 lastmod: 2024-10-17T23:30:00+02:00
-draft: false
+draft: true
 
 authorLink: "https://mtotaro.com/about"
 description: ""

@@ -4,1205 +4,1838 @@
         <link>https://mtotaro.com/posts/</link>
         <description>All Posts | Matteo Totaro</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>tmatteos@gmail.com (Matteo Totaro)</managingEditor>
-            <webMaster>tmatteos@gmail.com (Matteo Totaro)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Apr 2024 13:30:00 &#43;0200</lastBuildDate><atom:link href="https://mtotaro.com/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Post con script JS</title>
-    <link>https://mtotaro.com/objdetect/</link>
-    <pubDate>Sat, 06 Apr 2024 13:30:00 &#43;0200</pubDate>
+            <webMaster>tmatteos@gmail.com (Matteo Totaro)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</lastBuildDate><atom:link href="https://mtotaro.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Leuca</title>
+    <link>https://mtotaro.com/leuca/</link>
+    <pubDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/objdetect/</guid>
-    <description><![CDATA[<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Post con script JS - Matteo Totaro</title>
-    <!-- Include CSS -->
-    <link rel="stylesheet" href="/css/objdetect.css">
-    <!-- Include JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
-</head>
-<body>
-    <h1>Real-time Object Detection</h1>
-    <div class="video-container">
-        <video id="webcam" autoplay playsinline></video>
-        <canvas id="canvas"></canvas>
-    </div>
-    <button id="startButton">Start Camera</button>
-    <button id="stopButton" style="display:none;">Stop Camera</button>
-    <!-- Include Custom JavaScript -->
-    <script src="/js/objdetect.js"></script>
-</body>
-</html>
+    <guid>https://mtotaro.com/leuca/</guid>
+    <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
+
+<p>This summer I finally managed to get tanned also in Leuca, Italy&rsquo;s south-est end. This town is a gem. I hope you agree with me!</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
+     title="Sanctuary of Santa Maria de Finibus Terrae"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/4.jpg"
+     data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Sanctuary of Santa Maria de Finibus Terrae</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
+     title="Mediterranean Flora"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/6.jpg"
+     data-sub-html="Mediterranean Flora">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Mediterranean Flora</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
+     title="Harbour of Leuca"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/7.jpg"
+     data-sub-html="Harbour of Leuca">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Harbour of Leuca</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/2.jpg"
+     title="Leuca Harbour"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/2.jpg"
+     data-sub-html="Leuca Harbour">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Leuca Harbour</code>
+    </figcaption>
+  
+</figure>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/leuca/1.jpg"
+         title="Leuca Lighthouse"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/1.jpg"
+         data-sub-html="Leuca Lighthouse">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Leuca Lighthouse</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/leuca/8.jpg"
+         title="Leuca Lighthouse"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/8.jpg"
+         data-sub-html="Leuca Lighthouse">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Leuca Lighthouse</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/9.jpg"
+     title="Leuca Lighthouse"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/9.jpg"
+     data-sub-html="Leuca Lighthouse">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Leuca Lighthouse</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/10.jpg"
+     title="Leuca Lighthouse"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/10.jpg"
+     data-sub-html="Leuca Lighthouse">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Leuca Lighthouse</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/5.jpg"
+     title="Leuca Business Call"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/5.jpg"
+     data-sub-html="Leuca Business Call">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Leuca Business Call</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/leuca/3.jpg"
+     title="Sanctuary of Santa Maria de Finibus Terrae"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/3.jpg"
+     data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Sanctuary of Santa Maria de Finibus Terrae</code>
+    </figcaption>
+  
+</figure>
 ]]></description>
 </item>
 <item>
-    <title>Leuca - August 2020</title>
-    <link>https://mtotaro.com/leuca/</link>
-    <pubDate>Thu, 20 May 2021 13:30:00 &#43;0200</pubDate>
-    <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/leuca/</guid>
-    <description><![CDATA[<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <div class="typeit"><h3 id="id-1"></h3></div>
-
-          <p>Last summer I finally managed to get tanned also in Leuca, Italy's south-est end. This town is a gem. I hope you agree with me!</p>
-          <figure>
-              <a class="lightgallery" 
-                    href="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
-                    title="Sanctuary of Santa Maria de Finibus Terrae"
-                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/4.jpg"
-                    data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
-                      </a>
-          </figure>
-      <figcaption class=image-caption style="text-align:center">
-          <code>Sanctuary of Santa Maria de Finibus Terrae</code>
-      </figcaption><br>
-          <figure>
-            <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
-                  title="Mediterranean Flora"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/6.jpg"
-                  data-sub-html="Mediterranean Flora">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Mediterranean Flora</code>
-              </figcaption>
-        </figure>
-        </div>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
-                  title="Harbour of Leuca"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/7.jpg"
-                  data-sub-html="Harbour of Leuca">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Harbour of Leuca</code>
-              </figcaption>
-          </figure>
-      <div class="row">
-            <div class="scroll-view">
-              <div class="scroll-doc">
-                <div class="scroll-item">
-                    <div class="thumbnail">
-                      <figure>
-                        <a class="lightgallery" 
-                                href="https://res.cloudinary.com/matteototaro/image/upload/v1624310331/leuca/1.jpg"
-                                title="Leuca Lighthouse"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1624310331/leuca/1.jpg"
-                                data-sub-html="Leuca Lighthouse">
-                                </a>
-                      </figure>
-                    </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                    <figure>
-                      <a class="lightgallery" 
-                              href=https://mtotaro.com/images/uploads/leuca/8HD.jpg
-                              title="Leuca Lighthouse"
-                              data-thumbnail=/images/uploads/leuca/8.jpg
-                              data-sub-html="Leuca Lighthouse">
-                              </a>
-                    </figure>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      <figcaption class=image-caption style="text-align:center">
-              <code>Leuca Lighthouse</code>
-      </figcaption><br>
-        <figure>
-          <a class="lightgallery" 
-                  href=https://mtotaro.com/images/uploads/leuca/9.jpg
-                  title="Leuca Lighthouse"
-                  data-thumbnail=/images/uploads/leuca/9.jpg
-                  data-sub-html="Leuca Lighthouse">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                 <code>Leuca Lighthouse</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p> </p>
-        </div>
-        <figure>
-          <a class="lightgallery" 
-                  href=https://mtotaro.com/images/uploads/leuca/5HD.jpg
-                  title="Leuca Business Call"
-                  data-thumbnail=/images/uploads/leuca/5.jpg
-                  data-sub-html="Leuca Business Call">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Leuca Business Call</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href=https://mtotaro.com/images/uploads/leuca/10HD.jpg
-                  title="Leuca Lighthouse"
-                  data-thumbnail=/images/uploads/leuca/10.jpg
-                  data-sub-html="Leuca Lighthouse">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Leuca Lighthouse</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p></p>
-        </div>
-        <figure>
-          <a class="lightgallery" 
-                  href=https://mtotaro.com/images/uploads/leuca/2.jpg
-                  title="Leuca Harbour"
-                  data-thumbnail=/images/uploads/leuca/2.jpg
-                  data-sub-html="Leuca Harbour">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Leuca Harbour</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p> </p>
-        </div>
-            <figure>
-                <a class="lightgallery" 
-                   href=https://mtotaro.com/images/uploads/leuca/3HD.jpg
-                   title="Sanctuary of Santa Maria de Finibus Terrae"
-                   data-thumbnail=/images/uploads/leuca/3.jpg
-                   data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
-                      </a>
-                      </figure>
-      <figcaption class=image-caption style="text-align:center">
-          <code>Sanctuary of Santa Maria de Finibus Terrae</code>
-      </figcaption><br>
-    </div>
- </div>]]></description>
-</item>
-<item>
-    <title>Rome - November 2018</title>
+    <title>Rome</title>
     <link>https://mtotaro.com/roma/</link>
     <pubDate>Mon, 18 Jan 2021 10:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/roma/</guid>
-    <description><![CDATA[ <!--- in order to show on pinterest my images, src must be linked to images, no javascript or processing (svg) involved-->
- <div class="container-fluid">
-     <div class="ratio-box fade-box">
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/roma/1.jpg"
-               title="Musei Vaticani"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/1.jpg"              
-               data-sub-html="Musei Vaticani">
-                   </a>
-         </figure>
-        <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
-        <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/roma/2.jpg"
-               title="Via della Conciliazione"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/2.jpg"              
-               data-sub-html="Via della Conciliazione">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Via della Conciliazione</code>
-              </figcaption>
-         </figure>
-        <!--<figure>
-            <a class="lightgallery" 
-               href=https://mtotaro.com/images/uploads/roma/3.jpg
-               title="Giardini Musei Vaticani"
-               data-thumbnail=/images/uploads/roma/3.jpg              
-               data-sub-html="Giardini Musei Vaticani">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Giardini Musei Vaticani</code>
-              </figcaption>
-         </figure>-->
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/roma/4.jpg"
-               title="Basilica di San Pietro, Inside"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/4.jpg"              
-               data-sub-html="Basilica di San Pietro, Inside">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Basilica di San Pietro, Inside</code>
-              </figcaption>
-         </figure>
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/roma/5.jpg"
-               title="Largo del Colonnato"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/5.jpg"              
-               data-sub-html="Largo del Colonnato">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Largo del Colonnato</code>
-              </figcaption>
-         </figure>
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
-               title="Piazza San Pietro"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/6.jpg"              
-               data-sub-html="Piazza San Pietro">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Piazza San Pietro</code>
-              </figcaption>
-         </figure>
-         <p>A nice contrast to the sacredness of the Vatican? <br> This flashy pink Populous album - W, for <i>Women</i></p><br>
-        <iframe style="display: block; margin: auto;" src="https://open.spotify.com/embed/track/3AlvS0vW8hpC1q6wMLlMym" width="343" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><br>
-</div>
+<p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/roma/1.jpg"
+     title="Musei Vaticani"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/1.jpg"
+     data-sub-html="Musei Vaticani">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Musei Vaticani</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/roma/2.jpg"
+     title="Via della Conciliazione"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/2.jpg"
+     data-sub-html="Via della Conciliazione">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Via della Conciliazione</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/roma/4.jpg"
+     title="Basilica di San Pietro"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/4.jpg"
+     data-sub-html="Basilica di San Pietro, Inside">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Basilica di San Pietro, Inside</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/roma/5.jpg"
+     title="Largo del Colonnato"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/5.jpg"
+     data-sub-html="Largo del Colonnato">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Largo del Colonnato</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
+     title="Piazza San Pietro"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/6.jpg"
+     data-sub-html="Piazza San Pietro">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Piazza San Pietro</code>
+    </figcaption>
+  
+</figure>
+<p>A nice contrast to the sacredness of the Vatican?<br>
+This flashy pink Populous album - W, for <em>Women</em></p>
+<iframe 
+    style="display: block; margin: auto;" 
+    src="https://open.spotify.com/embed/track/3AlvS0vW8hpC1q6wMLlMym" 
+    width="343" 
+    height="380" 
+    frameborder="0" 
+    allowtransparency="true" 
+    allow="encrypted-media">
+</iframe>
 ]]></description>
 </item>
 <item>
-    <title>Craco - August 2020</title>
+    <title>Craco</title>
     <link>https://mtotaro.com/craco/</link>
     <pubDate>Wed, 18 Nov 2020 18:03:23 &#43;0000</pubDate>
-    <author>Matteo</author>
+    <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/craco/</guid>
-    <description><![CDATA[<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
-                  title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
-                  data-sub-html="Craco">
-                  </a>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[
 
-          <p>In the middle of Basilicata region there's a place called Craco, the <i>Ghost Town</i>. It earned this particular name due to a landslide that happened back in the 1960's. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980's Craco was completely abandoned.</p>
-        </div>
-        <figure>
-            <a class="lightgallery" 
-               href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
-               title="Craco from the road"
-               data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"              
-               data-sub-html="Craco from the road">
-                   </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco from the road</code>
-              </figcaption>
-         </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
-                  title="Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"              
-                  data-sub-html="Craco">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Nowadays, it's just a tourist attraction and a popular filming location.</p>
-         </div>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
-                  title="Buildings still standing"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"              
-                  data-sub-html="Buildings still standing">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Buildings still standing</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
-                  title="Craco Hills"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"              
-                  data-sub-html="Craco Hills">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco Hills</code>
-              </figcaption>
-        </figure>
-        <div class="row">
-            <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
-                                    title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"              
-                                    data-sub-html="Craco">
-                                    </a>
-                          </figure>
-                        </div>
-                     </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"              
-                                      data-sub-html="Craco">
-                                      </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"              
-                                      data-sub-html="Craco">
-                                      </a>
-                          </figure>
-                        </div>
-                     </div>
-                    <div class="scroll-item">
-                        <div class="thumbnail">
-                            <figure>
-                              <a class="lightgallery" 
-                                      href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
-                                      title="Craco"
-                                      data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"              
-                                      data-sub-html="Craco">
-                                      </a>
-                            </figure>
-                         </div>
-                     </div>
-                 </div>
-              </div>
-          </div>
-        <figcaption class=image-caption style="text-align:center">
-           <code>Craco views and ravines</code>
-        </figcaption>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>The panorama was amazing. These shots are from all around the hill of the town.</p>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
-                  title="Ravines near Craco"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"              
-                  data-sub-html="Ravines near Craco">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Ravines near Craco</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
-                  title="sin(x)cos(y)"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"              
-                  data-sub-html="sin(x)cos(y)">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>sin(x)cos(y)</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>Is it just me or these hills on the right look like <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank"><i>this graph </a></i>?</p>
-        <div class="row">
-             <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
-                                    title="Rizla"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"              
-                                    data-sub-html="Rizla">
-                                    </a>
-                          </figure>   
-                        </div>
-                    </div>
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                          <figure>
-                            <a class="lightgallery" 
-                                    href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
-                                    title="Craco"
-                                    data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"              
-                                    data-sub-html="Craco">
-                                    </a>
-                          </figure>
-                      </div>
-                    </div>
-               </div>
-             </div>
-         </div>
-        <figcaption class=image-caption style="text-align:center">
-               <code>Rizla & views from Craco</code>
-        </figcaption>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
-                  title="Old House"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"              
-                  data-sub-html="Old House">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Old House</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
-                  title="Craco in its entirety"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"              
-                  data-sub-html="Craco in its entirety">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Craco in its entirety</code>
-              </figcaption>
-        </figure>
-        <br>
-    	  <div class="typeit"><i id="id-2"></i></div>
 
- </div>
-</div>]]></description>
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
+     title="Craco"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
+     data-sub-html="Craco">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Craco</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><h3 id="id-1"></h3></div>
+
+<p>In the middle of Basilicata region there&rsquo;s a place called Craco, the <em>Ghost Town</em>. It earned this particular name due to a landslide that happened back in the 1960&rsquo;s. Ten years later, a flood worsened the already critical situation and after an earthquake of the 1980&rsquo;s Craco was completely abandoned.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
+     title="Craco from the road"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"
+     data-sub-html="Craco from the road">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Craco from the road</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
+     title="Craco"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"
+     data-sub-html="Craco">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Craco</code>
+    </figcaption>
+  
+</figure>
+<p>Nowadays, it&rsquo;s just a tourist attraction and a popular filming location.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
+     title="Buildings still standing"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"
+     data-sub-html="Buildings still standing">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Buildings still standing</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
+     title="Craco Hills"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"
+     data-sub-html="Craco Hills">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Craco Hills</code>
+    </figcaption>
+  
+</figure>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
+         title="Craco"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"
+         data-sub-html="Craco">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Craco</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
+         title="Craco"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"
+         data-sub-html="Craco">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Craco</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
+         title="Craco"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"
+         data-sub-html="Craco">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Craco</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
+         title="Craco"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"
+         data-sub-html="Craco views and ravines">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Craco views and ravines</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+<p>The panorama was amazing. These shots are from all around the hill of the town.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
+     title="Ravines near Craco"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"
+     data-sub-html="Ravines near Craco">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Ravines near Craco</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
+     title="sin(x)cos(y)"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"
+     data-sub-html="sin(x)cos(y)">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>sin(x)cos(y)</code>
+    </figcaption>
+  
+</figure>
+<p>Is it just me or these hills on the right look like <a href="https://www.wolframalpha.com/input/?i=sinxcosy" target="_blank" rel="noopener noreffer "><em>this graph</em></a>?</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
+         title="Rizla"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"
+         data-sub-html="Rizla">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Rizla</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
+         title="Craco"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"
+         data-sub-html="Views from Craco">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Views from Craco</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
+     title="Old House"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"
+     data-sub-html="Old House">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Old House</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
+     title="Craco in its entirety"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"
+     data-sub-html="Craco in its entirety">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Craco in its entirety</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><i id="id-2"></i></div>
+
+]]></description>
 </item>
 <item>
-    <title>Punta Palascìa - August 2019</title>
+    <title>Punta Palascìa</title>
     <link>https://mtotaro.com/palascia/</link>
     <pubDate>Mon, 22 Jun 2020 23:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/palascia/</guid>
-    <description><![CDATA[<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
-                  title="Trident"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/6.jpg"
-                  data-sub-html="Trident">
-                  </a>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
-            <p>
-            The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy.<br>It is located at <i> 40°06'26" N, 18°31'14" E</i>.<br>When parked near the military base literally on the main street it starts the main path to the lighthouse; it's a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
-        </div>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
-                  title="Path towards the lighthouse"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/4.jpg"
-                  data-sub-html="Path towards the lighthouse">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Path towards the lighthouse</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
-                  title="Path towards the lighthouse"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/5.jpg"
-                  data-sub-html="Path towards the lighthouse">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Path towards the lighthouse</code>
-              </figcaption>
-          </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
-                  title="Boat"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/3.jpg"
-                  data-sub-html="Boat">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Boat</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
-                  title="View from the top of the hill"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/1.jpg"
-                  data-sub-html="View from the top of the hill">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>View from the top of the hill</code>
-              </figcaption>
-        </figure>
- </div>
-</div>
+<p>The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy. It is located at <em>40°06'26&quot; N, 18°31'14&quot; E</em>. When parked near the military base literally on the main street it starts the main path to the lighthouse; it&rsquo;s a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
+     title="Trident"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/6.jpg"
+     data-sub-html="Trident">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Trident</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
+     title="Path towards the lighthouse"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/4.jpg"
+     data-sub-html="Path towards the lighthouse">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Path towards the lighthouse</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
+     title="Path towards the lighthouse"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/5.jpg"
+     data-sub-html="Path towards the lighthouse">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Path towards the lighthouse</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
+     title="Boat"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/3.jpg"
+     data-sub-html="Boat">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Boat</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
+     title="View from the top of the hill"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/1.jpg"
+     data-sub-html="View from the top of the hill">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>View from the top of the hill</code>
+    </figcaption>
+  
+</figure>
 ]]></description>
 </item>
 <item>
-    <title>London - October 2016</title>
+    <title>London</title>
     <link>https://mtotaro.com/london/</link>
     <pubDate>Wed, 27 May 2020 13:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/london/</guid>
-    <description><![CDATA[<div class="container-fluid">
-    <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
-                  title="Big Ben"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
-                  data-sub-html="Big Ben">
-                  </a>
-        </figure>
-        <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[
 
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I've been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
-        </div>
-      <div class="row">
-            <div class="scroll-view">
-              <div class="scroll-doc">
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                      <figure>
-                        <a class="lightgallery" 
-                                href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
-                                title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
-                                data-sub-html="Camden Town">
-                                </a>
-                      </figure>
-                  </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                      <figure>
-                        <a class="lightgallery" 
-                                href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
-                                title="Camden Town"
-                                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
-                                data-sub-html="Camden Town">
-                                </a>
-                      </figure>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      <figcaption class=image-caption style="text-align:center">
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
+     title="Big Ben"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
+     data-sub-html="Big Ben">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Big Ben</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><h3 id="id-1"></h3></div>
+
+<p>I&rsquo;ve been in the United Kingdom almost 4 years ago and during my journey in Cardiff I visited the city of London.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
+         title="Camden Town"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
+         data-sub-html="Camden Town">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Camden Town</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
+         title="Camden Town"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
+         data-sub-html="Camden Town, original and warm tones">
+        
+      </a>
+      
+        <figcaption class="image-caption">
           <code>Camden Town, original and warm tones</code>
-      </figcaption><br>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
-                  title="Camden Market"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
-                  data-sub-html="Camden Market">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Camden Market</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
-                  title="Super-warm-tones invaded London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
-                  data-sub-html="Super-warm-tones invaded London">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Super-warm-tones invaded London</code>
-              </figcaption>
-          </figure>
-      <div class="row">
-            <div class="scroll-view">
-              <div class="scroll-doc">
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                    <figure>
-                      <a class="lightgallery" 
-                              href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
-                              title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
-                              data-sub-html="Big Ben showing off">
-                              </a>
-                    </figure>
-                  </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                    <figure>
-                      <a class="lightgallery" 
-                              href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
-                              title="Big Ben showing off"
-                              data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
-                              data-sub-html="Big Ben showing off">
-                              </a>
-                    </figure>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      <figcaption class=image-caption style="text-align:center">
+        </figcaption>
+      
+    </figure>
+
+  </div>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
+     title="Camden Market"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
+     data-sub-html="Camden Market">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Camden Market</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
+     title="Super-warm-tones invaded London"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
+     data-sub-html="Super-warm-tones invaded London">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Super-warm-tones invaded London</code>
+    </figcaption>
+  
+</figure>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
+         title="Big Ben showing off"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
+         data-sub-html="Big Ben showing off">
+        
+      </a>
+      
+        <figcaption class="image-caption">
           <code>Big Ben showing off</code>
-      </figcaption><br>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
-                  title="Towards Piccadilly Circus"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
-                  data-sub-html="Towards Piccadilly Circus">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                 <code>Towards Piccadilly Circus</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
-        </div>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
-                  title="Life in Camden Town"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
-                  data-sub-html="Life in Camden Town">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                <code>Life in Camden Town</code>
-              </figcaption>
-        </figure>
-        <figure>
-          <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
-                  title="Tower of London"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
-                  data-sub-html="Tower of London">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Tower of London</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p> On one hand, the first two panos are 4 different shots merged together; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49eVrF9cCUz8/view?usp=sharing"><i>here</i></a>.</p>
-        </div>
-        <figure>
-          <a class="lightgallery"
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
-                  title="Buckingham Palace"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
-                  data-sub-html="Buckingham Palace">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Buckingham Palace</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I also decided to include this project that I did 3 years ago with various images of London. I don't consider it good, just interesting I think.</p>
-        </div>
-        <figure>
-          <a class="lightgallery"
-                  href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
-                  title="Sixtupla"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
-                  data-sub-html="Sixtupla">
-                  </a>
-              <figcaption class=image-caption style="text-align:center">
-                  <code>Sixtupla</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing"><i>here</i></a>.</p>
-        </div>
-    </div>
-</div>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
+         title="Big Ben showing off"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
+         data-sub-html="Big Ben showing off">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Big Ben showing off</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
+     title="Towards Piccadilly Circus"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
+     data-sub-html="Towards Piccadilly Circus">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Towards Piccadilly Circus</code>
+    </figcaption>
+  
+</figure>
+<p>The following three photos are three panoramic views respectively from Camden Town, the Tower of London and the bathroom of the Queen.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
+     title="Life in Camden Town"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
+     data-sub-html="Life in Camden Town">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Life in Camden Town</code>
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
+     title="Tower of London"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
+     data-sub-html="Tower of London">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Tower of London</code>
+    </figcaption>
+  
+</figure>
+<p>On one hand, the first two panos are 4 different shots merged together; on the other hand the last pic is quite a mess and the <strong>full</strong> quality project can be found <a href="https://drive.google.com/file/d/1sIa2JbRFzuH99andlX49eVrF9cCUz8/view?usp=sharing" target="_blank" rel="noopener noreffer "><em>here</em></a>.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
+     title="Buckingham Palace"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
+     data-sub-html="Buckingham Palace">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Buckingham Palace</code>
+    </figcaption>
+  
+</figure>
+<p>I also decided to include this project that I did 3 years ago with various images of London. I don&rsquo;t consider it good, just interesting I think.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
+     title="Sixtupla"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
+     data-sub-html="Sixtupla">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Sixtupla</code>
+    </figcaption>
+  
+</figure>
+<p>The full resolution version is <a href="https://drive.google.com/file/d/1kTo4QCHPyoSI9ekO2sQO7pvci7CyEHkZ/view?usp=sharing" target="_blank" rel="noopener noreffer "><em>here</em></a>.</p>
 ]]></description>
 </item>
 <item>
-    <title>Barcelona - October 2019</title>
+    <title>Barcelona</title>
     <link>https://mtotaro.com/barcelona/</link>
     <pubDate>Fri, 01 May 2020 21:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/barcelona/</guid>
-    <description><![CDATA[ <div class="container-fluid">
-   <div class="ratio-box fade-box">
-        <figure>
-          <a class="lightgallery" 
-            href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
-            title="Casa Battlò"
-            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
-            data-sub-html="Casa Battlò">
-            </a>
-        </figure>
-         <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[
 
-            <p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has literally affected every inch of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
-         </div>
-        <div class="row">
-          <div class="scroll-view">
-            <div class="scroll-doc">
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                      <figure>
-                      <a class="lightgallery" 
-                        href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
-                        title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
-                        data-sub-html="View from Castell de Montjuïc">
-                        </a>
-                      </figure>
-                    </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                      <figure>
-                      <a class="lightgallery" 
-                        href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
-                        title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_500/barcelona/2.jpg"
-                        data-sub-html="View from Castell de Montjuïc">
-                        </a>
-                      </figure>
-                    </div>
-                </div>
-                <div class="scroll-item">
-                  <div class="thumbnail">
-                      <figure>
-                      <a class="lightgallery" 
-                        href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
-                        title="View from Castell de Montjuïc"
-                        data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
-                        data-sub-html="View from Castell de Montjuïc">
-                        </a>
-                      </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <figcaption class=image-caption style="text-align:center">
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
+     title="Casa Battlò"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
+     data-sub-html="Casa Battlò">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Casa Battlò</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><h3 id="id-1"></h3></div>
+
+<p>I visited the catalan capital with two of my closest friends a few months ago. Gaudì has literally affected every inch of this city with his influence. Among various activities, we visited Casa Battlò, Parc Güell, Sagrada Familia and the Castell de Montjuïc reached by cableway.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
+         title="View from Castell de Montjuïc"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
+         data-sub-html="View from Castell de Montjuïc">
+        
+      </a>
+      
+        <figcaption class="image-caption">
           <code>View from Castell de Montjuïc</code>
-        </figcaption><br>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-            <p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it's 200m lower than the parc itself.</p>
-         </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/v1623766011/barcelona/12.jpg"
-          title="Vallcarca district, near Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/v1623766011/barcelona/12.jpg"
-          data-sub-html="Vallcarca district, near Parc Güell">
-          </a>
-              <figcaption class=image-caption>
-                <code>Vallcarca district, near Parc Güell</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>We walked all the way up to the parc, following this hill with escalators and plants between streets and buildings. It was very weird while going uphill.</p>
-         </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
-          title="Barcelona"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
-          data-sub-html="Barcelona">
-          </a>
-              <figcaption class=image-caption>
-                <code>Barcelona</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>Once we entered the parc we found this amazing view of all Barcelona. Personally I think it's a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
-        </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
-          title="Towards Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
-          data-sub-html="Towards Parc Güell">
-              </a>
-              <figcaption class=image-caption>
-                  <code>Towards Parc Güell</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc, which of course we missed while doing the escalator-thing.</p>
-        </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
-          title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
-          data-sub-html="Parc Güell">
-          </a>
-              <figcaption class=image-caption>
-                <code>Parc Güell</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>Unfortunately a vast part of the parc was under renovations so the pictures weren't that great. This is the gallery that encloses the main structure of the parc near the entrance.</p>
-        </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
-          title="Parc Güell"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
-          data-sub-html="Parc Güell">
-          </a>
-              <figcaption class=image-caption>
-                <code>Parc Güell</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The majesty of the cathedral really blew us away. Coming from the <i> Passeig de Sant Joan </i>, the Sagrada Familia appears out among the trees almost as if they were used to indicate the way to reach it, as if it weren't obvious already where the cathedral is. At the time, October 2019, it was still under construction and it will be until 2026; in this regard, I tried to remove the enormous amount of yellow cranes around the construction site. But still there's something left.</p>
-        </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
-          title="Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
-          data-sub-html="Sagrada Familia">
-          </a>
-              <figcaption class=image-caption>
-                <code>Sagrada Familia</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>The outside is fully covered of sculptures, but the real magic that everyone talks about takes place inside. The following photo represents the main arch of the cathedral and the play of light from the windows creates a surreal atmosphere. It is impossible to describe it so you will have to enter it to understand what I am talking about.</p>
-        </div>
-        <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
-          title="Navata della Sagrada Familia"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
-          data-sub-html="Navata della Sagrada Familia">
-          </a>
-              <figcaption class=image-caption>
-                <code>Navata della Sagrada Familia</code>
-              </figcaption>
-        </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I tried to recreate what I saw inside a few months ago via editing saturation and luminance of each color channel. Gaudì's idea was to recreate a forest inside, in fact there are no paintings on the walls and the main columns in the center of the nave are reminiscent of trunks in shape and color.<br>The two glass windows of the two side aisles are opposed by color palette, in fact the one on the left with cold colors like blue and green contrasts with the right aisle with warm colors like red and yellow.</p>
-        </div>
-        <div class="row">
-              <div class="scroll-view">
-                <div class="scroll-doc">
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                        <figure>
-                          <a class="lightgallery" 
-                            href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
-                            title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
-                            data-sub-html="Barcellona">
-                            </a>
-                          </figure>
-                      </div>
-                    </div>
-                    <div class="scroll-item">
-                      <div class="thumbnail">
-                        <figure>
-                          <a class="lightgallery" 
-                            href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
-                            title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
-                            data-sub-html="Barcellona">
-                            </a>
-                        </figure>
-                      </div>
-                    </div>
-                    <div class="scroll-item">
-                      <div class="thumbnail" style="max-width:150%;height:auto;">
-                        <figure>
-                          <a class="lightgallery" 
-                            href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
-                            title="Barcellona"
-                            data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
-                            data-sub-html="Barcellona">
-                            </a>
-                        </figure>
-                      </div>
-                    </div>
-                </div>
-              </div>
-        <h3 style="text-align:center">
-        <code><div class="typeit"><div id="id-2"></div></div>
-</code></h3> 
-        </div>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-          <p>I hope this digital guide has been clear enough for you. Lately I've tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there's a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/"> Instagram </a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p>
-        </div><br>
-          <div class="row">
-                  <div class="column2">
-                    
-                  </div>
-                <div class="column2">
-                  </div>
-                <div class="column2">
-                  </div>
-                <div class="column2">
-                  </div>
-                <div class="column2">
-                  </div>
-                <div class="column2">
-                  </div>
-          </div>
-        <br><div class="typeit"><i id="id-3"></i></div>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
+         title="View from Castell de Montjuïc"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/2.jpg"
+         data-sub-html="View from Castell de Montjuïc">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>View from Castell de Montjuïc</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
+         title="View from Castell de Montjuïc"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
+         data-sub-html="View from Castell de Montjuïc">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>View from Castell de Montjuïc</code>
+        </figcaption>
+      
+    </figure>
 
-      </div>
-  </div>]]></description>
+  </div>
+<p>While reaching the Castell of Montjuïc by cableway you were able to see a beautiful panorama of all the buildings in Barcelona, including the Sagrada Familia; to reach Parc Güell we took the metro and we stopped at the Vallcarca station. The Vallcarca district is the secondary entrance to the parc, in fact it&rsquo;s 200m lower than the parc itself.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/12.jpg"
+     title="Vallcarca district, near Parc Güell"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/12.jpg"
+     data-sub-html="Vallcarca district, near Parc Güell">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Vallcarca district, near Parc Güell</code>
+    </figcaption>
+  
+</figure>
+<p>We walked all the way up to the parc, following this hill with escalators and plants between streets and buildings. It was very weird while going uphill.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
+     title="Barcelona"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
+     data-sub-html="Barcelona">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Barcelona</code>
+    </figcaption>
+  
+</figure>
+<p>Once we entered the parc we found this amazing view of all Barcelona. Personally I think it&rsquo;s a normal shot but I wanted to include it as to finish the storytelling through photos that I just did. From here you can notice the tower cranes that trap the Sagrada Familia.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
+     title="Towards Parc Güell"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
+     data-sub-html="Towards Parc Güell">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Towards Parc Güell</code>
+    </figcaption>
+  
+</figure>
+<p>The parc was completely covered in bathroom tiles. Jokes aside it was very interesting and the following pic is from the main entrance to the parc, which of course we missed while doing the escalator-thing.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
+     title="Parc Güell"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
+     data-sub-html="Parc Güell">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Parc Güell</code>
+    </figcaption>
+  
+</figure>
+<p>Unfortunately a vast part of the parc was under renovations so the pictures weren&rsquo;t that great. This is the gallery that encloses the main structure of the parc near the entrance.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
+     title="Parc Güell"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
+     data-sub-html="Parc Güell">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Parc Güell</code>
+    </figcaption>
+  
+</figure>
+<p>The majesty of the cathedral really blew us away. Coming from the <em>Passeig de Sant Joan</em>, the Sagrada Familia appears out among the trees almost as if they were used to indicate the way to reach it, as if it weren&rsquo;t obvious already where the cathedral is. At the time, October 2019, it was still under construction and it will be until 2026; in this regard, I tried to remove the enormous amount of yellow cranes around the construction site. But still there&rsquo;s something left.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
+     title="Sagrada Familia"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
+     data-sub-html="Sagrada Familia">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Sagrada Familia</code>
+    </figcaption>
+  
+</figure>
+<p>The outside is fully covered of sculptures, but the real magic that everyone talks about takes place inside. The following photo represents the main arch of the cathedral and the play of light from the windows creates a surreal atmosphere. It is impossible to describe it so you will have to enter it to understand what I am talking about.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
+     title="Navata della Sagrada Familia"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
+     data-sub-html="Navata della Sagrada Familia">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Navata della Sagrada Familia</code>
+    </figcaption>
+  
+</figure>
+<p>I tried to recreate what I saw inside a few months ago via editing saturation and luminance of each color channel. Gaudì&rsquo;s idea was to recreate a forest inside, in fact there are no paintings on the walls and the main columns in the center of the nave are reminiscent of trunks in shape and color.<br>
+The two glass windows of the two side aisles are opposed by color palette, in fact the one on the left with cold colors like blue and green contrasts with the right aisle with warm colors like red and yellow.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
+         title="Inside of the Sagrada Familia"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
+         data-sub-html="Inside of the Sagrada Familia">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Inside of the Sagrada Familia</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
+         title="Inside of the Sagrada Familia"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
+         data-sub-html="Inside of the Sagrada Familia">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Inside of the Sagrada Familia</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
+         title="Inside of the Sagrada Familia"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
+         data-sub-html="Inside of the Sagrada Familia">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Inside of the Sagrada Familia</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+<p>I hope this digital guide has been clear enough for you. Lately I&rsquo;ve tried to find new alternative methods to publish the photos I take, but the truth is that they were all temporary solutions for my special needs. At the bottom there&rsquo;s a general summary that I published in a single post on <a href="https://www.instagram.com/p/B7igrvAoDsW/" target="_blank" rel="noopener noreffer ">Instagram</a>. Looking at the post you immediately understand the obvious reason why I opened this website.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/11_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/11_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/22_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/22_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/33_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/33_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/44_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/44_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/55_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/55_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/66_poster.jpg"
+         title="Barcelona Summary"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/66_poster.jpg"
+         data-sub-html="Barcelona Summary">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Barcelona Summary</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+<div class="typeit"><i id="id-2"></i></div>
+
+]]></description>
 </item>
 <item>
-    <title>Amsterdam - October 2018</title>
+    <title>Amsterdam</title>
     <link>https://mtotaro.com/amsterdam/</link>
     <pubDate>Sat, 25 Apr 2020 18:40:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/amsterdam/</guid>
-    <description><![CDATA[<div class="container-fluid">
-	<div class="ratio-box fade-box">
-		<figure>
-			<a class="lightgallery" 
-				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
-				title="Amsterdam"
-				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/9
-				data-sub-html="Amsterdam">
-				</a>
-		</figure>
-		<div class="col-md-8 col-md-push-2 no-padding-left" >
-			<div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[
 
-			<p>I went to Amsterdam almost two years ago and I hope I'll visit it again as soon as possible. As someone says, it's the Venice of the  Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn't the cheapest trip we've ever done.</p>
-		 </div>
-		<figure>
-			<a class="lightgallery" 
-				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
-				title="Church in Amsterdam"
-				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/6
-				data-sub-html="Church in Amsterdam">
-				</a>
-					<figcaption class=image-caption>
-						<code>Church in Amsterdam</code>
-					</figcaption>
-		</figure>
-	    <div class="col-md-8 col-md-push-2 no-padding-left" >
-			<p>Everyone's calm and minds their own business, unlike in Italy.</p>
-		 </div>
-		<figure>
-			<a class="lightgallery" 
-				href=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
-				title="Amsterdam canals in an autumn"
-				data-thumbnail=https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/7
-				data-sub-html="Amsterdam canals in an autumn">
-				</a>
-					<figcaption class=image-caption>
-						<code>Amsterdam canals in an autumn mood</code>
-					</figcaption>
-		</figure>
-	    <div class="col-md-8 col-md-push-2 no-padding-left" >
-			<p>After walking for at least 20km we rented two bicycles and with our backpacks we were perfectly mixed in the crowd, like Tom Cruise when he's running away from someone. After few blocks we encountered this modern building that captured my attention so of course I took a picture. I really do like it.</p>
-		 </div>
-		<figure>
-			<a class="lightgallery" 
-				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11"
-				title="Mirror"
-				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/11"
-				data-sub-html="Mirror">
-				</a>
-					<figcaption class=image-caption>
-						<code>Mirror</code>
-					</figcaption>
-		</figure>
-     	<div class="col-md-8 col-md-push-2 no-padding-left" >
-			<p>In my opinion the next pic is one the best I've made so far. The .RAW file needed lots of corrections because the street was almost completely dark in the shadow, so I had to enhance those two children so they could be the main subjects of the composition.</p>
-		</div>
-		<figure>
-			<a class="lightgallery" 
-				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
-				title="Running late"
-				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/10"
-				data-sub-html="Running late">
-				</a>
-					<figcaption class=image-caption>
-						<code>Running late</code>
-					</figcaption>
-		</figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left" >
-			<p>Once you look closely, you can see that is a very beautiful and well-maintained street, with the characteristic dutch building mixed with plants and trees. During the process I wasn't able to tell if this photo would have been one the best to my eyes, in fact at the end of the editing I was surprised myself.<br>We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
-		 </div>
-		<figure>
-			<a class="lightgallery" 
-				href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
-				title="View from NEMO"
-				data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/12"
-				data-sub-html="View from NEMO">
-				</a>
-					<figcaption class=image-caption>
-						<code>View from NEMO</code>
-					</figcaption>
-		</figure>
-		<div class="col-md-8 col-md-push-2 no-padding-left" >
-			<p>I wrap up this article with a gallery of the classics canals from 4 different views.</p>
-		 </div>
-		<div class="row">
-				<div class="scroll-view">
-					<div class="scroll-doc">
-						<div class="scroll-item">
-							<div class="thumbnail">
-								<figure>
-									<a class="lightgallery" 
-									href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
-									title="Amsterdam canals"
-									data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/5"
-									data-sub-html="Amsterdam canals">
-										</a>
-								</figure>
-							</div>
-						</div>
-						<div class="scroll-item">
-								<div class="thumbnail">
-									<figure>
-										<a class="lightgallery" 
-										href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
-										title="Amsterdam canals"
-										data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/2"
-										data-sub-html="Amsterdam canals">
-											</a>
-									</figure>
-								</div>
-						</div>
-						<div class="scroll-item">
-								<div class="thumbnail">
-									<figure>
-										<a class="lightgallery" 
-											href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
-											title="Amsterdam canals"
-											data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/3"
-											data-sub-html="Amsterdam canals">
-											</a>
-									</figure>
-								</div>
-						</div>
-						<div class="scroll-item">
-								<div class="thumbnail">
-									<figure>
-										<a class="lightgallery" 
-											href="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
-											title="Amsterdam canals"
-											data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/f_auto,q_auto/v1/amsterdam/4"
-											data-sub-html="Amsterdam canals">
-											</a>
-									</figure>
-								</div>
-							</div>
-					</div>
-			</div>
-		</div>
-		<h3 style="text-align:center"><code> Amsterdam canals </code></h3><br>
-	<div class="typeit"><i id="id-2"></i></div>
 
-	</div>
-</div>]]></description>
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/9.jpg"
+     title="Amsterdam"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/9.jpg"
+     data-sub-html="Amsterdam">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Amsterdam</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><h3 id="id-1"></h3></div>
+
+<p>I went to Amsterdam almost two years ago and I hope I&rsquo;ll visit it again as soon as possible. As someone says, it&rsquo;s the Venice of the Northern-Europe. Me and a friend booked the ticket and the hostel just the week before, so I can say it wasn&rsquo;t the cheapest trip we&rsquo;ve ever done.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/6.jpg"
+     title="Church in Amsterdam"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/6.jpg"
+     data-sub-html="Church in Amsterdam">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Church in Amsterdam</code>
+    </figcaption>
+  
+</figure>
+<p>Everyone&rsquo;s calm and minds their own business, unlike in Italy.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/7.jpg"
+     title="Amsterdam canals in an autumn"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/7.jpg"
+     data-sub-html="Amsterdam canals in an autumn mood">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Amsterdam canals in an autumn mood</code>
+    </figcaption>
+  
+</figure>
+<p>After walking for at least 20km we rented two bicycles and with our backpacks we were perfectly mixed in the crowd, like Tom Cruise when he&rsquo;s running away from someone. After few blocks we encountered this modern building that captured my attention so of course I took a picture. I really do like it.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/11.jpg"
+     title="Mirror"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/11.jpg"
+     data-sub-html="Mirror">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Mirror</code>
+    </figcaption>
+  
+</figure>
+<p>In my opinion the next pic is one the best I&rsquo;ve made so far. The .RAW file needed lots of corrections because the street was almost completely dark in the shadow, so I had to enhance those two children so they could be the main subjects of the composition.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/10.jpg"
+     title="Running late"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/10.jpg"
+     data-sub-html="Running late">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Running late</code>
+    </figcaption>
+  
+</figure>
+<p>Once you look closely, you can see that is a very beautiful and well-maintained street, with the characteristic dutch building mixed with plants and trees. During the process I wasn&rsquo;t able to tell if this photo would have been one the best to my eyes, in fact at the end of the editing I was surprised myself.<br>
+We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/12.jpg"
+     title="View from NEMO"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/12.jpg"
+     data-sub-html="View from NEMO">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>View from NEMO</code>
+    </figcaption>
+  
+</figure>
+<p>I wrap up this article with a gallery of the classics canals from 4 different views.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/5.jpg"
+         title="Amsterdam canals"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/5.jpg"
+         data-sub-html="Amsterdam canals">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Amsterdam canals</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/2.jpg"
+         title="Amsterdam canals"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/2.jpg"
+         data-sub-html="Amsterdam canals">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Amsterdam canals</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/3.jpg"
+         title="Amsterdam canals"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/3.jpg"
+         data-sub-html="Amsterdam canals">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Amsterdam canals</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/4.jpg"
+         title="Amsterdam canals"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/4.jpg"
+         data-sub-html="Amsterdam canals">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Amsterdam canals</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+<div class="typeit"><i id="id-2"></i></div>
+
+]]></description>
 </item>
 <item>
-    <title>Venice - April 2017</title>
+    <title>Venice</title>
     <link>https://mtotaro.com/venice/</link>
     <pubDate>Tue, 14 Apr 2020 19:21:10 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/venice/</guid>
-    <description><![CDATA[<div class="container-fluid">
-  	<div class="ratio-box fade-box">
-      <figure>
-        <a class="lightgallery" 
-          href="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
-          title="Venice Painting"
-          data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
-          data-sub-html="Venice Painting">
-          </a>
-      </figure>
-      <div class="col-md-8 col-md-push-2 no-padding-left">
-          <div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
-          <p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn't alone 'cause it's a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself. <br>
-          The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it.<br>This city is surely very famous and in particular this specific angle that I'm showing you in the next picture is one of the most characteristic.</p>
-       </div>
-            <figure>
-                <a class="lightgallery" 
-                  href="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
-                  title="Venice Skyline"
-                  data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
-                  data-sub-html="Venice Skyline">
-                      
-                  </a>
-                <figcaption class=image-caption>
-                  <code>Venice Skyline</code>
-                </figcaption>
-            </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left">
-          <p>I wanted to publish the ones I considered the best back in the day more than 3 years ago, in fact the edit in the next image is what I consider being by far the furthest way of editing photos compared to today's standard.</p>
-        </div>
-            <figure>
-              <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
-                title="Venice Theatre"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg" 
-                data-sub-html="Venice Theatre">
-                    </a>
-              <figcaption class=image-caption>
-                <code>Venice Theatre</code>
-              </figcaption>
-            </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left">
-          <p>This is a classic venetian shot from a bridge that connects two different streets. I really like the yellow light that comes from an artisan shop.</p>
-         </div>
-          <figure>
-              <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
-                title="Venice Lucetta"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg" 
-                data-sub-html="Venice Lucetta">
-                    </a>
-              <figcaption class=image-caption>
-                <code>Venice Lucetta</code>
-              </figcaption>
-          </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left">    
-          <p>The previous and the following shots are terrible if compared to my today's standards: the sky is violet so they're not realistic but, as I mention in one of my article on this website, the main goal was to showcase this evolutionary process in order to look back at my errors and learn from them.</p>
-         </div>
-          <figure>
-              <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
-                title="Venice Barca"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg" 
-                data-sub-html="Venice Barca">
-                    </a>
-              <figcaption class=image-caption>
-                <code>Venice Barca</code>
-              </figcaption>
-          </figure>
-        <div class="col-md-8 col-md-push-2 no-padding-left">
-          <p>The last one is a recent revisitation that I did just because I came across this photo after 3 years and I didn't like the way I edited back in the day. So I took a step back and I edited it again with today's eyes.</p>
-         </div>
-          <figure>
-              <a class="lightgallery"
-                href="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
-                title="Venice Ponte"
-                data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
-                data-sub-html="Venice Ponte">
-                    </a>
-              <figcaption class=image-caption>
-                <code>Venice Ponte</code>
-              </figcaption>
-          </figure>
-    <i><div class="typeit"><div id="id-2"></div></div>
-</i>
-    </div>
-</div>
+<p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn&rsquo;t alone &lsquo;cause it&rsquo;s a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
+     title="Venice Painting"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
+     data-sub-html="A personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>A personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors</code>
+    </figcaption>
+  
+</figure>
+<p>The entry image is a personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors. The main goal was obviously to recreate a painting and, in my opinion, I think I reached it. This city is surely very famous and in particular this specific angle that I&rsquo;m showing you in the next picture is one of the most characteristic.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
+     title="Venice Skyline"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/5.jpg"
+     data-sub-html="Venice Skyline">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Venice Skyline</code>
+    </figcaption>
+  
+</figure>
+<p>I wanted to publish the ones I considered the best back in the day more than 3 years ago, in fact the edit in the next image is what I consider being by far the furthest way of editing photos compared to today&rsquo;s standard.</p>
+<div class="gallery-grid">
+    
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
+         title="Venice Theatre"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/1.jpg"
+         data-sub-html="Venice Theatre">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Venice Theatre</code>
+        </figcaption>
+      
+    </figure>
+    
+    
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery" 
+         href="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
+         title="Venice Lucetta"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/4.jpg"
+         data-sub-html="A classic venetian shot from a bridge with yellow light from an artisan shop">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>A classic venetian shot from a bridge with yellow light from an artisan shop</code>
+        </figcaption>
+      
+    </figure>
+
+  </div>
+<p>The previous and the following shots are terrible if compared to my today&rsquo;s standards: the sky is violet so they&rsquo;re not realistic but, as I mention in one of my article on this website, the main goal was to showcase this evolutionary process in order to look back at my errors and learn from them.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
+     title="Venice Barca"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/3.jpg"
+     data-sub-html="Venice Barca">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Venice Barca</code>
+    </figcaption>
+  
+</figure>
+<p>The last one is a recent revisitation that I did just because I came across this photo after 3 years and I didn&rsquo;t like the way I edited back in the day. So I took a step back and I edited it again with today&rsquo;s eyes.</p>
+
+
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery" 
+     href="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
+     title="Venice Ponte"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/6.jpg"
+     data-sub-html="Venice Ponte">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Venice Ponte</code>
+    </figcaption>
+  
+</figure>
+<div class="typeit"><div id="id-2"></div></div>
+
 ]]></description>
 </item>
 </channel>
