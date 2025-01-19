@@ -1,5 +1,5 @@
 ---
-title: "Rome"
+title: "Roma"
 date: 2021-01-18T10:30:00+02:00
 lastmod: 2024-08-17T17:30:00
 draft: false
@@ -9,7 +9,7 @@ description: "A very small and personal collection of pictures about this magica
 license: "©2024 Matteo Totaro"
 
 # SEO
-keywords: ["rome", "italy", "travel", "vatican"]
+keywords: ["rome", "italy", "travel", "vatican","roma","italia","viaggi"]
 #tags: ["travel", "italy", "rome", "photography"]
 #categories: ["Travel Guides"]
 

@@ -25,7 +25,7 @@ share:
         {{< typeit >}} My name is Matteo Totaro, I'm 27 and I'm from Reggio Emilia, Italy. {{< /typeit >}}
         <p><strong>I like photography</strong>, so  this website was built to create a personal space in the web to post parts of my albums, to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
         <br><br>
-        <strong>This is a static site</strong>built in less than a month with the open source framework <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home, so I took this time to focus on personal projects exactly like this one you're reading.
+        <strong>This is a static site </strong>built in less than a month with the open source framework <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home, so I took this time to focus on personal projects exactly like this one you're reading.
         <br>
         The main goal of this space is to publish my previous and future projects just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.<br><br>
         I tried to find a compromise between photo quality and loading speed of the website. Hope you like it.<br>

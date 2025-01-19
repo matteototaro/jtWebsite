@@ -17,17 +17,6 @@ keywords: ["leuca", "puglia", "italy", "travel", "lighthouse"]
 # Performance
 outputs: ["HTML", "AMP"]
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/q_auto,f_auto,w_auto/leuca/3.jpg"
-images:
-  - "https://res.cloudinary.com/matteototaro/image/upload/q_auto,f_auto,w_auto/leuca/3.jpg"
-
-# Image settings
-resources:
-  - src: "**.jpg"
-    params:
-      loading: lazy
-      quality: 85
-      sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 768px, 1200px"
-      format: ["webp", "jpg"]
 
 # Layout
 layout: gallery

@@ -1,15 +1,15 @@
 ---
-title: "Venice"
+title: "Venezia"
 date: 2020-04-14T19:21:10+02:00
 lastmod: 2024-08-17T17:30:00
 draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
-description: "Series of 'ancient' pics from a very fascinating city"
+description: "Series of pics from a very fascinating city"
 license: "©2024 Matteo Totaro"
 
 # SEO
-keywords: ["venice", "italy", "travel", "photography"]
+keywords: ["venice", "italy", "travel", "photography", "venezia", "italia", "fotografia", "viaggi"]
 #tags: ["travel", "italy", "venice", "photography"]
 #categories: ["Travel Guides"]
 

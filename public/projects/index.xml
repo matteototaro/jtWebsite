@@ -11,12 +11,12 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 06 Apr 2024 13:30:00 +0200</lastBuildDate><atom:link href="https://mtotaro.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Real-time Object Detection</title>
+      <title>Objectify Yourself</title>
       <link>https://mtotaro.com/projects/objdetect/</link>
       <pubDate>Sat, 06 Apr 2024 13:30:00 +0200</pubDate>
       <author>tmatteos@gmail.com (Matteo Totaro)</author>
       <guid>https://mtotaro.com/projects/objdetect/</guid>
-      <description>Start Camera This is literally just for fun. Stop Camera</description>
+      <description> Loading model... Start Camera Stop Camera Photo Record </description>
     </item>
     
   </channel>
