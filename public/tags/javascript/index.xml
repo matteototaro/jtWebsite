@@ -4,32 +4,48 @@
         <link>https://mtotaro.com/tags/javascript/</link>
         <description>javascript - Tag - Matteo Totaro</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>tmatteos@gmail.com (Matteo Totaro)</managingEditor>
-            <webMaster>tmatteos@gmail.com (Matteo Totaro)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Apr 2024 13:30:00 &#43;0200</lastBuildDate><atom:link href="https://mtotaro.com/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>tmatteos@gmail.com (Matteo Totaro)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Apr 2025 13:30:00 &#43;0200</lastBuildDate><atom:link href="https://mtotaro.com/tags/javascript/" rel="self" type="application/rss+xml" /><item>
     <title>Objectify Yourself</title>
     <link>https://mtotaro.com/projects/objdetect/</link>
-    <pubDate>Sat, 06 Apr 2024 13:30:00 &#43;0200</pubDate>
+    <pubDate>Sun, 06 Apr 2025 13:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
     <guid>https://mtotaro.com/projects/objdetect/</guid>
-    <description><![CDATA[<p><div class="typeit"><h3 id="id-1"></h3></div>
+    <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.2/dist/coco-ssd.min.js"></script>
-<script>
-    window.modelConfig = {
-        base: 'lite_mobilenet_v2'
-    };
-</script>
-<script src="/js/objdetect.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0"></script>
+
 <style>
+    :root {
+        --camera-bg: #111;
+        --camera-accent: #ffffff;  
+        --camera-accent-hover: #f0f0f0;
+        --record-color: #ff3b30;
+        --record-hover: #ff5e54;
+    }
+    
+    .video-app-container {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        background-color: var(--camera-bg);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        aspect-ratio: 9/13;
+        height: auto;
+    }
+
     .video-container {
         position: relative;
         width: 100%;
-        max-width: 800px;
-        margin: 2rem auto;
-        aspect-ratio: 4/5;
+        height: 100%;
         overflow: hidden;
+        background-color: black;
     }
 
     #webcam {
@@ -51,75 +67,486 @@
         z-index: 2;
         pointer-events: none;
     }
+    
+    #loading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: rgba(255,255,255,0.2);
+        z-index: 10;
+    }
+    
+    #loading-progress {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #4CAF50, #8BC34A);
+        transition: width 0.3s;
+    }
+
     .controls {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+        z-index: 4;
+    }
+
+    .control-main {
         display: flex;
         justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        margin: 1rem 0;
+        flex-grow: 1;
+        gap: 2rem;
     }
 
-    .control-group {
+    .control-side {
+        width: 80px;
         display: flex;
-        gap: 0.5rem;
+        justify-content: center;
     }
-
-    button {
-        padding: 0.75rem 1.5rem;
-        border-radius: 4px;
+    
+    .control-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
         border: none;
-        background: #2d96bd;
-        color: white;
+        background: var(--camera-accent);
+        color: #333;  
         cursor: pointer;
         transition: all 0.2s;
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        justify-content: center;
+        font-size: 1.5rem;
     }
-
-    button i {
-        font-size: 1.1em;
+    
+    #recordButton {
+        background: var(--record-color);
+        color: white;
     }
-
-    button:hover {
-        background: #3aafd9;
+    
+    #recordButton:hover {
+        background: var(--record-hover);
     }
-
-    @media (max-width: 768px) {
-        .controls {
-            flex-direction: column;
-            padding: 0 1rem;
-        }
-        
-        .control-group {
-            width: 100%;
-            justify-content: center;
-        }
-        
-        button {
-            flex: 1;
+    
+    .control-button.small {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .control-button.small:hover {
+        background: rgba(255,255,255,0.1);
+    }
+    
+    .control-button:hover {
+        background: var(--camera-accent-hover);
+    }
+    
+    .control-button.recording {
+        animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7); }
+        70% { box-shadow: 0 0 0 15px rgba(255, 59, 48, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); }
+    }
+    
+     
+    .status-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 2rem);
+        padding: 0.8rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        z-index: 10;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    #startCameraBtn {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        background: var(--camera-accent);
+        border: none;
+        color: #333;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    #startCameraBtn:hover {
+        background: var(--camera-accent-hover);
+    }
+    
+     
+    @media (min-width: 768px) {
+        .video-app-container {
+            max-width: 400px;
+            aspect-ratio: 9/13;
         }
     }
 </style>
 
-<div class="video-container">
-    <div id="loading">Loading model...</div>
-    <video id="webcam" autoplay playsinline></video>
-    <canvas id="canvas"></canvas>
+<div class="video-app-container">
+    <div class="status-bar">
+        <span class="current-time">14:30</span>
+        <div class="status-icons">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-battery-three-quarters" style="margin-left: 8px;"></i>
+        </div>
+    </div>
+    
+    <div id="loading"><div id="loading-progress"></div></div>
+    
+    <div class="video-container">
+        <button id="startCameraBtn">
+            <i class="fas fa-camera" style="margin-right: 8px;"></i> Start Camera
+        </button>
+        <video id="webcam" autoplay playsinline style="display: none;"></video>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="controls">
+        <div class="control-side">
+            <button class="control-button small" id="flipButton" title="Flip Camera">
+                <i class="fas fa-camera-rotate"></i>
+            </button>
+        </div>
+        
+        <div class="control-main">
+            <button class="control-button" id="photoButton" title="Take Photo">
+                <i class="fas fa-camera"></i>
+            </button>
+            <button class="control-button" id="recordButton" title="Record Video">
+                <i class="fas fa-video"></i>
+            </button>
+        </div>
+        
+        <div class="control-side">
+            <button class="control-button small" id="modelToggle" title="Switch Model">
+                <i class="fas fa-robot"></i>
+            </button>
+        </div>
+    </div>
 </div>
 
-<div class="controls">
-    <div class="control-group">
-        <button id="startButton">Start Camera</button>
-        <button id="stopButton" style="display:none;">Stop Camera</button>
-    </div>
-    <div class="control-group">
-        <button id="photoButton"><i class="fas fa-camera"></i> Photo</button>
-        <button id="recordButton"><i class="fas fa-video"></i> Record</button>
-    </div>
-</div>
+<script>
+    
+    let model;
+    let mobileNetModel;
+    let webcam;
+    let canvas;
+    let ctx;
+    let isModelLoading = false;
+    let isCameraOn = false;
+    let isRecording = false;
+    let mediaRecorder;
+    let recordedChunks = [];
+    let isFrontCamera = false;
+    let loadingProgress = 0;
+    let loadingInterval;
+    let currentModel = 'coco-ssd'; 
+
+    
+    const loadingElement = document.getElementById('loading');
+    const loadingProgressElement = document.getElementById('loading-progress');
+    const startCameraBtn = document.getElementById('startCameraBtn');
+    const webcamElement = document.getElementById('webcam');
+    const canvasElement = document.getElementById('canvas');
+    const photoButton = document.getElementById('photoButton');
+    const recordButton = document.getElementById('recordButton');
+    const flipButton = document.getElementById('flipButton');
+    const modelToggle = document.getElementById('modelToggle');
+
+    
+    document.addEventListener('DOMContentLoaded', async () => {
+        updateTime();
+        setInterval(updateTime, 1000);
+        
+        startLoadingAnimation();
+        await loadModels();
+        stopLoadingAnimation();
+    });
+
+    
+    function updateTime() {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, '0');
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        document.querySelector('.current-time').textContent = `${hours}:${minutes}`;
+    }
+
+    
+    function startLoadingAnimation() {
+        loadingProgress = 0;
+        loadingElement.style.display = 'block';
+        loadingInterval = setInterval(() => {
+            loadingProgress += Math.random() * 5;
+            if (loadingProgress > 95) loadingProgress = 95;
+            loadingProgressElement.style.width = `${loadingProgress}%`;
+        }, 200);
+    }
+
+    function stopLoadingAnimation() {
+        clearInterval(loadingInterval);
+        loadingProgressElement.style.width = '100%';
+        setTimeout(() => {
+            loadingElement.style.display = 'none';
+        }, 300);
+    }
+
+    
+    async function loadModels() {
+        if (isModelLoading) return;
+        isModelLoading = true;
+        
+        try {
+            
+            model = await cocoSsd.load(window.modelConfig);
+            mobileNetModel = await mobilenet.load();
+            console.log("All models loaded successfully");
+        } catch (error) {
+            console.error("Failed to load models:", error);
+        }
+    }
+
+    
+    async function toggleModel() {
+        currentModel = currentModel === 'coco-ssd' ? 'mobilenet' : 'coco-ssd';
+        modelToggle.innerHTML = currentModel === 'coco-ssd' ? 
+            '<i class="fas fa-robot"></i>' : 
+            '<i class="fas fa-bolt"></i>';
+        
+        if (isCameraOn) {
+            
+            detectObjects();
+        }
+    }
+
+    
+    async function startCamera() {
+        if (isCameraOn) return;
+        
+        try {
+            startCameraBtn.style.display = 'none';
+            
+            const stream = await navigator.mediaDevices.getUserMedia({
+                video: {
+                    facingMode: isFrontCamera ? "user" : "environment",
+                    width: { ideal: 1280 },
+                    height: { ideal: 720 }
+                }
+            });
+            
+            webcamElement.srcObject = stream;
+            webcamElement.style.display = 'block';
+            
+            webcamElement.onloadedmetadata = () => {
+                webcamElement.play();
+                adjustCanvasSize();
+                isCameraOn = true;
+                detectObjects();
+            };
+            
+        } catch (error) {
+            console.error("Camera error:", error);
+            startCameraBtn.style.display = 'flex';
+        }
+    }
+
+    function adjustCanvasSize() {
+        canvasElement.width = webcamElement.videoWidth;
+        canvasElement.height = webcamElement.videoHeight;
+        ctx = canvasElement.getContext('2d');
+    }
+
+    
+    async function detectObjects() {
+        if (!isCameraOn || !model || !mobileNetModel) return;
+        
+        try {
+            
+            ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+            
+            
+            ctx.drawImage(webcamElement, 0, 0, canvasElement.width, canvasElement.height);
+            
+            
+            let predictions;
+            if (currentModel === 'coco-ssd') {
+                predictions = await model.detect(webcamElement);
+            } else {
+                
+                predictions = await mobileNetModel.classify(webcamElement);
+                
+                predictions = predictions.map(pred => ({
+                    bbox: [0, 0, 0, 0], 
+                    class: pred.className,
+                    score: pred.probability
+                }));
+            }
+            
+            
+            drawDetections(predictions);
+        } catch (error) {
+            console.error("Detection error:", error);
+        }
+        
+        requestAnimationFrame(detectObjects);
+    }
+
+    function drawDetections(predictions) {
+        predictions.forEach(prediction => {
+            if (currentModel === 'coco-ssd') {
+                
+                const [x, y, width, height] = prediction.bbox;
+                
+                
+                ctx.strokeStyle = '#00FF00';
+                ctx.lineWidth = 4;
+                ctx.strokeRect(x, y, width, height);
+                
+                
+                const label = `${prediction.class} ${Math.round(prediction.score * 100)}%`;
+                ctx.font = '16px Arial';
+                const textWidth = ctx.measureText(label).width;
+                
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                ctx.fillRect(x, y > 20 ? y - 20 : 0, textWidth + 10, 20);
+                
+                ctx.fillStyle = '#00FF00';
+                ctx.fillText(label, x + 5, y > 20 ? y - 5 : 15);
+            } else {
+                
+                const label = `${prediction.class} ${Math.round(prediction.score * 100)}%`;
+                ctx.font = '16px Arial';
+                const textWidth = ctx.measureText(label).width;
+                const x = 10;
+                const y = 30 * (predictions.indexOf(prediction) + 30);
+                
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                ctx.fillRect(x, y - 20, textWidth + 10, 20);
+                
+                ctx.fillStyle = '#00FF00';
+                ctx.fillText(label, x + 5, y - 5);
+            }
+        });
+    }
+
+    
+    async function takePhotoWithDetection() {
+        if (!isCameraOn) return;
+        
+        const photoCanvas = document.createElement('canvas');
+        photoCanvas.width = canvasElement.width;
+        photoCanvas.height = canvasElement.height;
+        const photoCtx = photoCanvas.getContext('2d');
+        
+        
+        photoCtx.drawImage(canvasElement, 0, 0);
+        
+        
+        const link = document.createElement('a');
+        link.download = `detection-${new Date().toISOString()}.png`;
+        link.href = photoCanvas.toDataURL('image/png');
+        link.click();
+    }
+
+    
+    function toggleRecording() {
+        if (!isCameraOn) return;
+        
+        if (!isRecording) {
+            startRecording();
+        } else {
+            stopRecording();
+        }
+    }
+
+    function startRecording() {
+        recordedChunks = [];
+        const stream = webcamElement.srcObject;
+        mediaRecorder = new MediaRecorder(stream);
+        
+        mediaRecorder.ondataavailable = (e) => {
+            if (e.data.size > 0) recordedChunks.push(e.data);
+        };
+        
+        mediaRecorder.onstop = () => {
+            const blob = new Blob(recordedChunks, { type: 'video/webm' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.download = `recording-${new Date().toISOString()}.webm`;
+            link.href = url;
+            link.click();
+        };
+        
+        mediaRecorder.start();
+        isRecording = true;
+        recordButton.classList.add('recording');
+    }
+
+    function stopRecording() {
+        mediaRecorder.stop();
+        isRecording = false;
+        recordButton.classList.remove('recording');
+    }
+
+    
+    async function flipCamera() {
+        if (!isCameraOn) return;
+        
+        isFrontCamera = !isFrontCamera;
+        await stopCamera();
+        await startCamera();
+    }
+
+    async function stopCamera() {
+        if (!isCameraOn) return;
+        
+        if (isRecording) {
+            stopRecording();
+        }
+        
+        const stream = webcamElement.srcObject;
+        const tracks = stream.getTracks();
+        tracks.forEach(track => track.stop());
+        
+        webcamElement.srcObject = null;
+        ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+        isCameraOn = false;
+        startCameraBtn.style.display = 'flex';
+    }
+
+    
+    startCameraBtn.addEventListener('click', startCamera);
+    photoButton.addEventListener('click', takePhotoWithDetection);
+    recordButton.addEventListener('click', toggleRecording);
+    flipButton.addEventListener('click', flipCamera);
+    modelToggle.addEventListener('click', toggleModel);
+</script>
 <div class="typeit"><h4 id="id-2"></h4></div>
-</p>
+
 ]]></description>
 </item>
 </channel>

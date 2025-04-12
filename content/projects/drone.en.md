@@ -22,5 +22,6 @@ share:
 ---
 
 <strong>DIY Drone</strong>
-<p>This section has the main purpose of explaining various project that I did previously in life both as a student at University and as an hobbyist.
+<p>
+s
 </p>

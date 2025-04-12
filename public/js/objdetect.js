@@ -7,6 +7,10 @@ let mediaRecorder;
 let recordedChunks = [];
 let isRecording = false;
 
+// Make these available globally
+window.takePhoto = takePhoto;
+window.toggleRecording = toggleRecording;
+
 function updateLoadingTime() {
     const loading = document.querySelector('#loading');
     if (loading && !model) {
@@ -26,8 +30,6 @@ async function init() {
         canvas = document.querySelector('#canvas');
         const startButton = document.querySelector('#startButton');
         const stopButton = document.querySelector('#stopButton');
-        const photoButton = document.querySelector('#photoButton');
-        const recordButton = document.querySelector('#recordButton');
         const loading = document.querySelector('#loading');
         
         if (!webcam || !canvas || !startButton || !stopButton || !loading) {
@@ -44,17 +46,15 @@ async function init() {
         console.log(`Model loaded in ${loadTime}s`);
         loading.style.display = 'none';
         
-        // Add event listeners
-        startButton.addEventListener('click', startCamera);
-        stopButton.addEventListener('click', stopCamera);
-        photoButton.addEventListener('click', takePhoto);
-        recordButton.addEventListener('click', toggleRecording);
+        // Start camera automatically (removed start/stop button dependency)
+        startCamera();
         
         console.log('Initialization complete');
     } catch (err) {
         console.error('Init error:', err);
     }
 }
+
 
 async function detectFrame() {
     if (!webcam.srcObject) return;

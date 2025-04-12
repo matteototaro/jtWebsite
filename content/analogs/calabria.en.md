@@ -32,7 +32,7 @@ August '24 - Calabria, Italy
 {{< /typeit >}}
 
 <small>
-    <i>Kodak Ektra 200 & Lomgography 110mm film</i>
+    <i>Kodak Ektra 200 & Lomography 110mm film</i>
 </small>
 
 {{< photo-grid >}}
