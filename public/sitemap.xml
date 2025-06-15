@@ -2,24 +2,24 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://mtotaro.com/tags/javascript/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/tags/ml/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/tags/objectdetection/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/projects/objdetect/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/projects/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/tags/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
-            <loc>https://mtotaro.com/analogs/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/analogs/calabria/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/analogs/napoli/</loc><lastmod>2024-09-01T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/leuca/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/posts/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/roma/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/craco/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/palascia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/london/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/barcelona/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/amsterdam/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/venezia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/about/</loc><lastmod>2024-08-26T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://mtotaro.com/categories/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://localhost:56413/tags/javascript/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/tags/ml/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/tags/objectdetection/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/projects/objdetect/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/projects/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/tags/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/analogs/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/analogs/calabria/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/analogs/napoli/</loc><lastmod>2024-09-01T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/leuca/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/posts/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/roma/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/craco/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/palascia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/london/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/barcelona/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/amsterdam/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/venezia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/about/</loc><lastmod>2024-08-26T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:56413/categories/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>

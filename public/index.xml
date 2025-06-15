@@ -1,17 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Matteo Totaro</title>
-        <link>https://mtotaro.com/</link>
+        <link>http://localhost:56413/</link>
         <description>Personal space on the web with a gallery of shots presented in a very minimal way</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>tmatteos@gmail.com (Matteo Totaro)</managingEditor>
-            <webMaster>tmatteos@gmail.com (Matteo Totaro)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Apr 2025 13:30:00 &#43;0200</lastBuildDate>
-            <atom:link href="https://mtotaro.com/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Apr 2025 13:30:00 &#43;0200</lastBuildDate>
+            <atom:link href="http://localhost:56413/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Leuca</title>
-    <link>https://mtotaro.com/leuca/</link>
+    <link>http://localhost:56413/leuca/</link>
     <pubDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/leuca/</guid>
+    <guid>http://localhost:56413/leuca/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>This summer I finally managed to get tanned also in Leuca, Italy&rsquo;s south-est end. This town is a gem. I hope you agree with me!</p>
@@ -223,10 +222,10 @@
 </item>
 <item>
     <title>Roma</title>
-    <link>https://mtotaro.com/roma/</link>
+    <link>http://localhost:56413/roma/</link>
     <pubDate>Mon, 18 Jan 2021 10:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/roma/</guid>
+    <guid>http://localhost:56413/roma/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
@@ -345,10 +344,10 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Craco</title>
-    <link>https://mtotaro.com/craco/</link>
+    <link>http://localhost:56413/craco/</link>
     <pubDate>Wed, 18 Nov 2020 18:03:23 &#43;0000</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/craco/</guid>
+    <guid>http://localhost:56413/craco/</guid>
     <description><![CDATA[
 
 
@@ -669,10 +668,10 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Punta Palascìa</title>
-    <link>https://mtotaro.com/palascia/</link>
+    <link>http://localhost:56413/palascia/</link>
     <pubDate>Mon, 22 Jun 2020 23:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/palascia/</guid>
+    <guid>http://localhost:56413/palascia/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy. It is located at <em>40°06'26&quot; N, 18°31'14&quot; E</em>. When parked near the military base literally on the main street it starts the main path to the lighthouse; it&rsquo;s a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
@@ -780,10 +779,10 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>London</title>
-    <link>https://mtotaro.com/london/</link>
+    <link>http://localhost:56413/london/</link>
     <pubDate>Wed, 27 May 2020 13:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/london/</guid>
+    <guid>http://localhost:56413/london/</guid>
     <description><![CDATA[
 
 
@@ -1043,10 +1042,10 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Barcelona</title>
-    <link>https://mtotaro.com/barcelona/</link>
+    <link>http://localhost:56413/barcelona/</link>
     <pubDate>Fri, 01 May 2020 21:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/barcelona/</guid>
+    <guid>http://localhost:56413/barcelona/</guid>
     <description><![CDATA[
 
 
@@ -1478,10 +1477,10 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 </item>
 <item>
     <title>Amsterdam</title>
-    <link>https://mtotaro.com/amsterdam/</link>
+    <link>http://localhost:56413/amsterdam/</link>
     <pubDate>Sat, 25 Apr 2020 18:40:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/amsterdam/</guid>
+    <guid>http://localhost:56413/amsterdam/</guid>
     <description><![CDATA[
 
 
@@ -1701,10 +1700,10 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 </item>
 <item>
     <title>Venezia</title>
-    <link>https://mtotaro.com/venezia/</link>
+    <link>http://localhost:56413/venezia/</link>
     <pubDate>Tue, 14 Apr 2020 19:21:10 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>https://mtotaro.com/venezia/</guid>
+    <guid>http://localhost:56413/venezia/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn&rsquo;t alone &lsquo;cause it&rsquo;s a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself.</p>

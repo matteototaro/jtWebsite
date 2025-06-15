@@ -31,8 +31,8 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
-                {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
+                {{- $author := $params.author | default .Site.Params.Author.name | default (T "author") -}}
+                {{- $authorLink := $params.authorlink | default .Site.Params.Author.link | default .Site.Home.RelPermalink -}}
 
                 {{- $categories := slice -}}
                 {{- range .Params.categories -}}

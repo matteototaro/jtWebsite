@@ -23,7 +23,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 24
+    pagination.pagerSize = 24
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = "390763854" #"UA-164939128-1"
     # copyright description used only for seo schema
@@ -141,7 +141,7 @@ enableEmoji = true
                                             #controllare se possibile far vedere solo le immagini
             enable = false
             # special amount of posts in each home posts page
-            paginate = 5
+            pagination.pagerSize = 5
         # Social config in home page
         [languages.en.params.social]
           #GitHub = "xxxx"
@@ -204,7 +204,7 @@ enableEmoji = true
   
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    pagination.pagerSize = 20
     # date format (month and day)
     dateFormat = "02/01"
     # amount of RSS pages
@@ -213,7 +213,7 @@ enableEmoji = true
   # List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
-    paginate = 20
+    pagination.pagerSize = 20
     # date format (month and day)
     dateFormat = "02/01/2006"
     # amount of RSS pages
@@ -504,14 +504,14 @@ enableEmoji = true
 # Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":contentbasename"
 
 # Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
   # privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
@@ -533,4 +533,3 @@ enableEmoji = true
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
