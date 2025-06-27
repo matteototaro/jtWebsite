@@ -2,24 +2,24 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:56413/tags/javascript/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/tags/ml/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/tags/objectdetection/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/projects/objdetect/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/projects/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/tags/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/analogs/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/analogs/calabria/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/analogs/napoli/</loc><lastmod>2024-09-01T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/leuca/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/posts/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/roma/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/craco/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/palascia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/london/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/barcelona/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/amsterdam/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/venezia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/about/</loc><lastmod>2024-08-26T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:56413/categories/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://localhost:63502/tags/javascript/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/tags/ml/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/tags/objectdetection/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/projects/objdetect/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/projects/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/tags/</loc><lastmod>2025-04-07T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/analogs/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/analogs/calabria/</loc><lastmod>2024-12-31T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/analogs/napoli/</loc><lastmod>2024-09-01T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/leuca/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/posts/</loc><lastmod>2024-10-17T23:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/roma/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/craco/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/palascia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/london/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/barcelona/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/amsterdam/</loc><lastmod>2023-12-27T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/venezia/</loc><lastmod>2024-08-17T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/about/</loc><lastmod>2024-08-26T17:30:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://localhost:63502/categories/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>

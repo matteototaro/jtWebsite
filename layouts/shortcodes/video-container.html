@@ -34,22 +34,19 @@
         background-color: black;
     }
 
-    #webcam {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
-    }
-
+    #webcam,
     #canvas {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
         width: 100%;
         height: 100%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        z-index: 1; /* or 2 for #canvas */
+        /* Remove min-width and min-height */
+    }
+    #canvas {
         z-index: 2;
         pointer-events: none;
     }
@@ -89,8 +86,28 @@
         justify-content: center;
         flex-grow: 1;
         gap: 2rem;
+        align-items: center;
     }
-
+    .stop-btn {
+        background: #ff3b30;
+        color: #fff;
+        margin-left: 2rem;
+        box-shadow: 0 2px 8px rgba(255,59,48,0.15);
+        border: 2px solid #ff3b30;
+        transition: background 0.2s, color 0.2s, border 0.2s;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        font-size: 1.2rem;
+    }
+    .stop-btn:hover {
+        background: #fff;
+        color: #ff3b30;
+        border: 2px solid #ff3b30;
+    }
+    
     .control-side {
         width: 80px;
         display: flex;
@@ -218,7 +235,6 @@
                 <i class="fas fa-camera-rotate"></i>
             </button>
         </div>
-        
         <div class="control-main">
             <button class="control-button" id="photoButton" title="Take Photo">
                 <i class="fas fa-camera"></i>
@@ -226,8 +242,10 @@
             <button class="control-button" id="recordButton" title="Record Video">
                 <i class="fas fa-video"></i>
             </button>
+            <button id="stopCameraBtn" class="control-button small stop-btn" title="Stop Camera">
+                <i class="fas fa-power-off"></i>
+            </button>
         </div>
-        
         <div class="control-side">
             <button class="control-button small" id="modelToggle" title="Switch Model">
                 <i class="fas fa-robot"></i>
@@ -257,6 +275,7 @@
     const loadingElement = document.getElementById('loading');
     const loadingProgressElement = document.getElementById('loading-progress');
     const startCameraBtn = document.getElementById('startCameraBtn');
+    const stopCameraBtn = document.getElementById('stopCameraBtn');
     const webcamElement = document.getElementById('webcam');
     const canvasElement = document.getElementById('canvas');
     const photoButton = document.getElementById('photoButton');
@@ -273,6 +292,45 @@
         await loadModels();
         stopLoadingAnimation();
     });
+
+    function adjustCanvasSize() {
+            const containerWidth = webcamElement.offsetWidth;
+            const containerHeight = webcamElement.offsetHeight;
+            
+            // Set canvas to match video dimensions exactly
+            canvasElement.width = webcamElement.videoWidth;
+            canvasElement.height = webcamElement.videoHeight;
+            
+            // Get the video aspect ratio
+            const videoAspect = webcamElement.videoWidth / webcamElement.videoHeight;
+            const containerAspect = containerWidth / containerHeight;
+            
+            // Calculate scaling factors
+            let scaleX = 1;
+            let scaleY = 1;
+            
+            if (containerAspect > videoAspect) {
+                // Container is wider than video
+                scaleX = containerHeight * videoAspect / containerWidth;
+            } else {
+                // Container is taller than video
+                scaleY = containerWidth / videoAspect / containerHeight;
+            }
+            
+            ctx = canvasElement.getContext('2d');
+            
+            // Reset any transformations
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            
+            // Apply scaling if using front camera (mirror effect)
+            if (isFrontCamera) {
+                ctx.scale(-1, 1);
+                ctx.translate(-canvasElement.width, 0);
+            }
+            
+            // Apply the aspect ratio correction
+            ctx.scale(scaleX, scaleY);
+        }
 
     // Time display (24h format)
     function updateTime() {
@@ -335,6 +393,7 @@
         
         try {
             startCameraBtn.style.display = 'none';
+            stopCameraBtn.style.display = 'inline-flex';
             
             const stream = await navigator.mediaDevices.getUserMedia({
                 video: {
@@ -345,7 +404,8 @@
             });
             
             webcamElement.srcObject = stream;
-            webcamElement.style.display = 'block';
+            webcamElement.style.display = 'none'; // Hide the video element
+            canvasElement.style.display = 'block'; // Show the canvas with overlays
             
             webcamElement.onloadedmetadata = () => {
                 webcamElement.play();
@@ -357,13 +417,65 @@
         } catch (error) {
             console.error("Camera error:", error);
             startCameraBtn.style.display = 'flex';
+            stopCameraBtn.style.display = 'none';
         }
     }
 
+    async function stopCamera() {
+        if (!isCameraOn) return;
+        
+        if (isRecording) {
+            stopRecording();
+        }
+        
+        const stream = webcamElement.srcObject;
+        const tracks = stream.getTracks();
+        tracks.forEach(track => track.stop());
+        
+        webcamElement.srcObject = null;
+        ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+        isCameraOn = false;
+        startCameraBtn.style.display = 'flex';
+        stopCameraBtn.style.display = 'none';
+    }
+
     function adjustCanvasSize() {
+        const containerWidth = webcamElement.offsetWidth;
+        const containerHeight = webcamElement.offsetHeight;
+        
+        // Set canvas to match video dimensions exactly
         canvasElement.width = webcamElement.videoWidth;
         canvasElement.height = webcamElement.videoHeight;
+        
+        // Get the video aspect ratio
+        const videoAspect = webcamElement.videoWidth / webcamElement.videoHeight;
+        const containerAspect = containerWidth / containerHeight;
+        
+        // Calculate scaling factors
+        let scaleX = 1;
+        let scaleY = 1;
+        
+        if (containerAspect > videoAspect) {
+            // Container is wider than video
+            scaleX = containerHeight * videoAspect / containerWidth;
+        } else {
+            // Container is taller than video
+            scaleY = containerWidth / videoAspect / containerHeight;
+        }
+        
         ctx = canvasElement.getContext('2d');
+        
+        // Reset any transformations
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        
+        // Apply scaling if using front camera (mirror effect)
+        if (isFrontCamera) {
+            ctx.scale(-1, 1);
+            ctx.translate(-canvasElement.width, 0);
+        }
+        
+        // Apply the aspect ratio correction
+        ctx.scale(scaleX, scaleY);
     }
 
     // Object detection - fixed warping and mirroring issues
@@ -371,8 +483,11 @@
         if (!isCameraOn || !model || !mobileNetModel) return;
         
         try {
-            // Clear canvas
+            // Clear canvas with proper scaling
+            ctx.save();
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
             ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+            ctx.restore();
             
             // Draw webcam frame
             ctx.drawImage(webcamElement, 0, 0, canvasElement.width, canvasElement.height);
@@ -382,11 +497,9 @@
             if (currentModel === 'coco-ssd') {
                 predictions = await model.detect(webcamElement);
             } else {
-                // MobileNet predictions (faster but less accurate)
                 predictions = await mobileNetModel.classify(webcamElement);
-                // Convert to similar format as COCO-SSD
                 predictions = predictions.map(pred => ({
-                    bbox: [0, 0, 0, 0], // MobileNet doesn't provide bounding boxes
+                    bbox: [0, 0, 0, 0],
                     class: pred.className,
                     score: pred.probability
                 }));
@@ -507,25 +620,9 @@
         await startCamera();
     }
 
-    async function stopCamera() {
-        if (!isCameraOn) return;
-        
-        if (isRecording) {
-            stopRecording();
-        }
-        
-        const stream = webcamElement.srcObject;
-        const tracks = stream.getTracks();
-        tracks.forEach(track => track.stop());
-        
-        webcamElement.srcObject = null;
-        ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
-        isCameraOn = false;
-        startCameraBtn.style.display = 'flex';
-    }
-
     // Event listeners
     startCameraBtn.addEventListener('click', startCamera);
+    stopCameraBtn.addEventListener('click', stopCamera);
     photoButton.addEventListener('click', takePhotoWithDetection);
     recordButton.addEventListener('click', toggleRecording);
     flipButton.addEventListener('click', flipCamera);

@@ -37,70 +37,70 @@ April '24 - Campania, Italy
 
 {{< photo-grid >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_8.jpg"
+        src="napoli/napoli_analog_08.jpg"
         title="Napoli Analog 8"
         caption="Napoli Skyline" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_1.jpg"
+        src="napoli/napoli_analog_01.jpg"
         title="Analog #1"
         caption="Piazza Dante" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_2.jpg"
+        src="napoli/napoli_analog_02.jpg"
         title="Piazza Plebiscito"
         caption="Piazza Plebiscito" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_5.jpg"
+        src="napoli/napoli_analog_05.jpg"
         title="Napoli Analog 5"
         caption="Tra i vicoli" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_6.jpg"
+        src="napoli/napoli_analog_06.jpg"
         title="Napoli Analog 6"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_7.jpg"
+        src="napoli/napoli_analog_07.jpg"
         title="Napoli Analog 7"
         caption="Look at me" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_9.jpg"
+        src="napoli/napoli_analog_09.jpg"
         title="Napoli Analog 9"
         caption="Run Boy Run" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_10.jpg"
+        src="napoli/napoli_analog_010.jpg"
         title="Napoli Analog 10"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_11.jpg"
+        src="napoli/napoli_analog_011.jpg"
         title="Napoli Analog 11"
         caption="SpaccaNapoli" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_12.jpg"
+        src="napoli/napoli_analog_012.jpg"
         title="Napoli Analog 12"
         caption="" >}}
 {{< gallery-image 
-        src="napoli/napoli_analog_13.jpg"
+        src="napoli/napoli_analog_013.jpg"
         title="Napoli Analog 13"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_14.jpg"
+        src="napoli/napoli_analog_014.jpg"
         title="Napoli Analog 14"
         caption="Galleria" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_15.jpg"
+        src="napoli/napoli_analog_015.jpg"
         title="Napoli Analog 15"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_16.jpg"
+        src="napoli/napoli_analog_016.jpg"
         title="Napoli Analog 16"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_17.jpg"
+        src="napoli/napoli_analog_017.jpg"
         title="Napoli Analog 17"
         caption="" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_18.jpg"
+        src="napoli/napoli_analog_018.jpg"
         title="Napoli Analog 18" >}}
     {{< gallery-image 
-        src="napoli/napoli_analog_3.jpg"
+        src="napoli/napoli_analog_03.jpg"
         title="Running away from the music in Piazza Plebiscito"
         caption="Running away from the music 'a Plebiscito'" >}}
 {{< /photo-grid >}}
