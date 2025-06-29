@@ -37,45 +37,45 @@ August '24 - Calabria, Italy
 
 {{< photo-grid >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_4.jpg"
+        src="calabria/calabria_analog_04.jpg"
         title="Scalea Skyline"
         caption="Scalea Skyline" >}}
  {{< gallery-image 
-        src="calabria/calabria_analog_14.jpg"
+        src="calabria/calabria_analog_014.jpg"
         title="Calabria Analog 14"
         caption="" >}}
         <br>
     {{< gallery-image 
-        src="calabria/calabria_analog_8.jpg"
+        src="calabria/calabria_analog_08.jpg"
         title="Lost in Cutro"
         caption="Lost in Cutro" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_9.jpg"
+        src="calabria/calabria_analog_09.jpg"
         title="Calabria Analog 9"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_3.jpg"
+        src="calabria/calabria_analog_03.jpg"
         title="Calabria Analog 3"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_11.jpg"
+        src="calabria/calabria_analog_011.jpg"
         title="Calabria Analog 11"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_12.jpg"
+        src="calabria/calabria_analog_012.jpg"
         title="Calabria Analog 12"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_13.jpg"
+        src="calabria/calabria_analog_013.jpg"
         title="Calabria Analog 13"
         caption="" >}}
         <br>
     {{< gallery-image 
-        src="calabria/calabria_analog_1.jpg"
+        src="calabria/calabria_analog_01.jpg"
         title="Spiaggia dell'Arcomagno"
         caption="Spiaggia dell'Arcomagno" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_10.jpg"
+        src="calabria/calabria_analog_010.jpg"
         title="Capo Colonna"
         caption="Capo Colonna" >}}
 {{< /photo-grid >}}
@@ -85,23 +85,23 @@ August '24 - Calabria, Italy
 </small>
 {{< photo-grid >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_0.jpg"
+        src="calabria/calabria_analog_00.jpg"
         title="Spiaggia dell'Arcomagno"
         caption="Spiaggia dell'Arcomagno" >}}
         {{< gallery-image 
-        src="calabria/calabria_analog_2.jpg"
+        src="calabria/calabria_analog_02.jpg"
         title="Calabria Analog 2"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_5.jpg"
+        src="calabria/calabria_analog_05.jpg"
         title="Spiaggia dell'Arcomagno"
         caption="Spiaggia dell'Arcomagno" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_15.jpg"
+        src="calabria/calabria_analog_015.jpg"
         title="Calabria Analog 15"
         caption="" >}}
     {{< gallery-image 
-        src="calabria/calabria_analog_16.jpg"
+        src="calabria/calabria_analog_016.jpg"
         title="Calabria Analog 16"
         caption="" >}}
 {{< /photo-grid >}}
