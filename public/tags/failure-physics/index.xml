@@ -1,20 +1,296 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Failure Physics on Matteo Totaro</title>
-    <link>http://localhost:62013/tags/failure-physics/</link>
-    <description>Recent content in Failure Physics on Matteo Totaro</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 17 Feb 2026 23:30:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:62013/tags/failure-physics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Master&#39;s Thesis Project w/ Ferrari</title>
-      <link>http://localhost:62013/projects/mastersproject/</link>
-      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
-      <guid>http://localhost:62013/projects/mastersproject/</guid>
-      <description>&lt;h2 id=&#34;predicting-failure-in-sic-power-mosfets-for-automotive-traction-inverters&#34;&gt;Predicting Failure in SiC Power MOSFETs for Automotive Traction Inverters&lt;/h2&gt;&#xA;&lt;p&gt;Electric vehicles demand extreme performance from their power electronics. The silicon carbide (SiC) MOSFETs inside traction inverters switch thousands of times per second, endure temperature swings of 100°C or more, and must survive for the vehicle&amp;rsquo;s lifetime. The question is: how long will they last?&lt;/p&gt;&#xA;&lt;p&gt;For my master&amp;rsquo;s thesis with Ferrari, I built a MATLAB model that answers this question. The goal: convert any racetrack profile into quantifiable cycles needed to estimate the lifetime of the power electronics inside a hybrid or electric Ferrari. The focus was on the power module inside the traction inverter—the component that makes or breaks the system.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Failure Physics - Tag - Matteo Totaro</title>
+        <link>http://localhost:64660/tags/failure-physics/</link>
+        <description>Failure Physics - Tag - Matteo Totaro</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Oct 2024 10:00:00 &#43;0200</lastBuildDate><atom:link href="http://localhost:64660/tags/failure-physics/" rel="self" type="application/rss+xml" /><item>
+    <title>MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari</title>
+    <link>http://localhost:64660/projects/mastersproject/</link>
+    <pubDate>Thu, 17 Oct 2024 10:00:00 &#43;0200</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:64660/projects/mastersproject/</guid>
+    <description><![CDATA[<p>This post is a short recap of my master&rsquo;s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices.
+The full thesis is available on GitHub: <a href="https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf</a> — a Python implementation is available at <a href="https://github.com/matteototaro/sic-thermal-lifetime" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/sic-thermal-lifetime</a>.</p>
+<p><strong>Table of contents</strong></p>
+<ul>
+<li><a href="#the-approach" rel="">The Approach</a></li>
+<li><a href="#whats-in-the-code" rel="">What&rsquo;s in the Code</a></li>
+<li><a href="#how-the-model-works-the-physics-behind-lifetime-prediction" rel="">How the Model Works: The Physics Behind Lifetime Prediction</a></li>
+<li><a href="#example" rel="">Example</a></li>
+<li><a href="#references" rel="">References</a></li>
+</ul>
+<h2 id="predicting-failure-in-sic-power-mosfets-for-automotive-traction-inverters">Predicting Failure in SiC Power MOSFETs for Automotive Traction Inverters</h2>
+<p>Electric vehicles demand extreme performance from their power electronics. The silicon carbide (SiC) MOSFETs inside traction inverters switch thousands of times per second, endure temperature swings of 100°C or more, and must survive for the vehicle&rsquo;s lifetime. The question is: how long will they last?</p>
+<p>For my master&rsquo;s thesis with Ferrari, I built a MATLAB model that answers this question. The goal: convert any racetrack profile into quantifiable cycles needed to estimate the lifetime of the power electronics inside a hybrid or electric Ferrari. The focus was on the power module inside the traction inverter—the component that makes or breaks the system.</p>
+<h3 id="the-approach">The Approach</h3>
+<p>The model works in three steps, starting with real vehicle data.</p>
+<div style="display: flex; gap: 2rem; align-items: flex-start;">
+  <div style="flex: 1;">
+First, given the electrical characteristics of the system and the racetrack profile—inverter voltage, current, switching frequency—it calculates total <strong>power loss</strong>. From there, using the thermal network of the power module, it estimates <strong>junction temperature</strong> through the electro-thermal analogy: thermal resistance maps to electrical resistance, heat flow maps to current.
+<p>Second, once junction temperature is known, the <strong>Rainflow algorithm</strong> extracts the real damage: thermal stress cycles. In power electronics, continuous temperature swings are what kills components. The algorithm counts <i>how many</i> temperature variations (ΔT) occur, <i>how large</i> they are, and <i>how long</i> they last (Δt).</p>
+<p>Third, the model quantifies cumulative <strong>damage</strong> using Miner&rsquo;s Rule and acceleration factors from ECPE AQG 324 industry standards.</p>
+</div>
+  <div style="flex: 1; margin: 0;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+      <a class="lightgallery"
+         href="/images/projects/test_flow.png"
+         title="Test flow"
+         data-thumbnail="/images/projects/test_flow.png"
+         data-sub-html="Test flow">
+        
+      </a>
+      
+        <figcaption class="image-caption">
+          <code>Test flow</code>
+        </figcaption>
+      
+    </figure>
+  </div>
+</div>
+<p>The models used to calculate the acceleration factor are Coffin Manson, Arrhenius and an on-time factor which are all three packed into the <strong>Norris-Landzberg Acceleration Factor (AF)</strong>.
+The MOSFET&rsquo;s body diode enables real-time temperature sensing—no external sensors needed.</p>
+<h3 id="whats-in-the-code">What&rsquo;s in the Code</h3>
+<p>The MATLAB implementation handles electro-thermal modeling, stress counting, and lifetime prediction. Due to IP restrictions with Ferrari, I can&rsquo;t share the complete source, but the repository includes the methodology, key algorithms, and documentation.</p>
+<p>The model bridges the gap between simulation and reality: it takes real vehicle data and outputs a failure prediction you can validate with power cycling tests.</p>
+<h2 id="how-the-model-works-the-physics-behind-lifetime-prediction">How the Model Works: The Physics Behind Lifetime Prediction</h2>
+<p>The README shows what the tool does. Here&rsquo;s how it actually works—the physics and mathematics that turn a driving profile into a failure prediction.</p>
+<h3 id="the-core-problem-temperature-is-everything">The Core Problem: Temperature is Everything</h3>
+<p>Power semiconductor failure is fundamentally a thermal problem. Every time a MOSFET heats up and cools down, mechanical stress accumulates at material interfaces. After enough cycles, solder joints crack, wire bonds lift, and the device fails.</p>
+<p>The challenge: junction temperature isn&rsquo;t measured—it&rsquo;s hidden inside the package. We have to calculate it from electrical data.</p>
+<h3 id="step-1-from-electrical-power-to-heat-generation">Step 1: From Electrical Power to Heat Generation</h3>
+<p>The MOSFET dissipates power in two ways:</p>
+<p><strong>Conduction losses</strong> when current flows through the on-resistance:</p>
+<p>$$P_{\text{cond}} = I_{\text{rms}}^2 \cdot R_{DS,on}(T_j)$$</p>
+<p><strong>Switching losses</strong> during turn-on and turn-off transitions:</p>
+<p>$$P_{\text{sw}} = (E_{on}(T_j) + E_{off}(T_j)) \cdot f_{sw}$$</p>
+<p>The critical detail: both $R_{DS,on}$ and $E_{on}$ increase with temperature. Silicon carbide has a positive temperature coefficient:</p>
+<p>$$R_{DS,on}(T_j) = R_{DS,on,25°C} \cdot \left(1 + \alpha_T \cdot (T_j - 25)\right)$$</p>
+<p>where $\alpha_T \approx 0.004\text{ K}^{-1}$ for SiC.</p>
+<p>This creates a feedback loop: hotter junction → higher resistance → more power loss → even hotter junction. The model must iterate to find the equilibrium.</p>
+<h3 id="step-2-from-heat-to-temperature-the-thermal-network">Step 2: From Heat to Temperature (The Thermal Network)</h3>
+<p>Heat flows from junction to ambient through multiple material layers: die → solder → substrate → baseplate → coolant. Each interface has thermal resistance $R_{th}$ and capacitance $C_{th}$.</p>
+<p>We model this as an electrical RC network using the <strong>electro-thermal analogy</strong>:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Thermal Domain</th>
+          <th>Electrical Analog</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Temperature difference $\Delta T$</td>
+          <td>Voltage $V$</td>
+      </tr>
+      <tr>
+          <td>Heat flow $Q$</td>
+          <td>Current $I$</td>
+      </tr>
+      <tr>
+          <td>Thermal resistance $R_{th}$</td>
+          <td>Resistance $R$</td>
+      </tr>
+      <tr>
+          <td>Thermal capacitance $C_{th}$</td>
+          <td>Capacitance $C$</td>
+      </tr>
+  </tbody>
+</table>
+<p>For a single RC layer, the transient temperature response follows:</p>
+<p>$$C_{th} \frac{dT}{dt} = Q_{in} - \frac{T - T_{next}}{R_{th}}$$</p>
+<p>Using explicit Euler integration with timestep $\Delta t$:</p>
+<p>$$T(t + \Delta t) = T(t) + \frac{\Delta t}{C_{th}} \left[Q_{in} - \frac{T(t) - T_{next}}{R_{th}}\right]$$</p>
+<p>The complete module has four cascaded layers. For stability, the timestep must satisfy:</p>
+<p>$$\Delta t &lt; 2 \cdot \min(R_{th,i} \cdot C_{th,i})$$</p>
+<p>Typical values for a dual-side cooled module: $\Delta t \leq 0.1\text{ s}$.</p>
+<h3 id="step-3-the-iterative-coupling-loop">Step 3: The Iterative Coupling Loop</h3>
+<p>At each timestep, we must solve a circular dependency:</p>
+<ol>
+<li>Guess initial junction temperature: $T_j^{(0)} = T_j(t-\Delta t)$</li>
+<li>Calculate power losses: $P_{loss}(T_j^{(k)})$</li>
+<li>Update junction temperature through thermal network: $T_j^{(k+1)}$</li>
+<li>Check convergence: $|T_j^{(k+1)} - T_j^{(k)}| &lt; \epsilon$</li>
+<li>If not converged, repeat from step 2</li>
+</ol>
+<p>Convergence typically requires 3-5 iterations per timestep with $\epsilon = 0.1\text{ K}$.</p>
+<h3 id="step-4-from-temperature-profile-to-stress-cycles">Step 4: From Temperature Profile to Stress Cycles</h3>
+<p>The Rainflow algorithm extracts closed hysteresis loops from the temperature history. Think of it as identifying complete heating-cooling events that cause damage.</p>
+<p>The algorithm tracks turning points (peaks and valleys) and matches them into cycles. For each cycle, we extract:</p>
+<ul>
+<li><strong>Temperature swing</strong>: $\Delta T_j = T_{max} - T_{min}$</li>
+<li><strong>Maximum temperature</strong>: $T_{j,max}$</li>
+<li><strong>Heating duration</strong>: $t_{on}$ (time spent above mean temperature)</li>
+</ul>
+<p>These three parameters completely define the stress state.</p>
+<h3 id="step-5-an-empirical-lifetime-model">Step 5: An empirical lifetime model</h3>
+<p>The empirical relationship between stress conditions and cycles-to-failure comes from thousands of power cycling tests. An empirical lifetime model (Bayerer et al., CIPS 2008) captures this:</p>
+<p>$$N_f = K \cdot (\Delta T_j)^{\beta_1} \cdot \exp\left(\frac{\beta_2}{T_{j,max}}\right) \cdot t_{on}^{\beta_3}$$</p>
+<p>where:</p>
+<ul>
+<li>$\beta_1 = -3.483$ captures the <strong>Coffin–Manson relationship</strong>: damage follows a power law with temperature swing (exponent $\beta_1$)</li>
+<li>$\beta_2 = 1917\text{ K}$ represents <strong>Arrhenius activation energy</strong>: chemical degradation accelerates at high temperature (use Kelvin for $T_{j,max}$)</li>
+<li>$\beta_3 = -0.438$ accounts for <strong>creep and diffusion</strong>: longer dwell times cause more damage</li>
+<li>$K$ is a technology-dependent constant calibrated from test data</li>
+</ul>
+<p><strong>Physical interpretation</strong>: A cycle with $\Delta T_j = 100\text{ K}$ causes roughly <strong>50 times</strong> more damage than a cycle with $\Delta T_j = 30\text{ K}$, even though the temperature swing is only 3× larger. This is why performance driving kills components so much faster than urban driving.</p>
+<h3 id="step-6-cumulative-damage-miners-rule">Step 6: Cumulative Damage (Miner&rsquo;s Rule)</h3>
+<p>Different stress cycles cause different amounts of damage. Miner&rsquo;s rule provides the framework to add them up:</p>
+<p>$$D_{total} = \sum_{i=1}^{n} \frac{1}{N_{f,i}}$$</p>
+<p>Each cycle consumes a fraction $1/N_{f,i}$ of the component&rsquo;s life. When $D_{total} \geq 1.0$, failure is predicted.</p>
+<p><strong>Example</strong>: If one hour of performance driving produces:</p>
+<ul>
+<li>50 cycles with $\Delta T = 80\text{ K}$, $N_f = 10^5$ → damage = $50/10^5 = 0.0005$</li>
+<li>30 cycles with $\Delta T = 120\text{ K}$, $N_f = 10^4$ → damage = $30/10^4 = 0.003$</li>
+<li>200 cycles with $\Delta T = 20\text{ K}$, $N_f = 10^7$ → damage = $200/10^7 = 0.00002$</li>
+</ul>
+<p>Total damage: $0.00352$ per hour → extrapolated lifetime: $284$ hours.</p>
+<p>The large cycles dominate. This is why the model must accurately capture peak temperatures.</p>
+<h3 id="the-acceleration-factor-concept">The Acceleration Factor Concept</h3>
+<p>To relate field operation to lab testing, we use acceleration factors:</p>
+<p>$$AF = \left(\frac{\Delta T_{field}}{\Delta T_{test}}\right)^{\beta_1} \cdot \exp\left[\beta_2 \left(\frac{1}{T_{max,field}} - \frac{1}{T_{max,test}}\right)\right] \cdot \left(\frac{t_{on,field}}{t_{on,test}}\right)^{\beta_3}$$</p>
+<p>If lab tests run at $\Delta T = 100\text{ K}$ and field operation produces $\Delta T = 60\text{ K}$:</p>
+<p>$$AF \approx \left(\frac{60}{100}\right)^{-3.483} \approx 6.8$$</p>
+<p>The field device will last <strong>6.8 times longer</strong> than the test sample. This allows qualification with accelerated testing.</p>
+<h3 id="why-the-model-works">Why the Model Works</h3>
+<p>The model succeeds because it respects the physics at every level:</p>
+<ol>
+<li><strong>Temperature-dependent material properties</strong> create realistic feedback</li>
+<li><strong>Transient thermal response</strong> captures fast and slow thermal dynamics</li>
+<li><strong>Rainflow counting</strong> correctly identifies damage-causing events</li>
+<li><strong>Empirical lifetime model</strong> is validated against decades of test data</li>
+</ol>
+<p>The output isn&rsquo;t a guess—it&rsquo;s a physics-based prediction you can validate with power cycling tests following AQG 324 standards.</p>
+<p>These examples and the <a href="https://github.com/matteototaro/sic-thermal-lifetime">project</a> published on GitHub were created with the help of AI-assisted tools to:</p>
+<ul>
+<li>preserve confidentiality for sensitive data,</li>
+<li>convert the MATLAB model into Python,</li>
+<li>demonstrate the methodology using publicly available SiC datasheet parameters while respecting confidentiality requirements.</li>
+</ul>
+<p>The full thesis can be accessed <a href="https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf">here</a>.</p>
+<h3 id="example">Example</h3>
+<p>Power module &amp; test conditions used in this example (extracted from the Python port):</p>
+<table>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Module</td>
+          <td>Infineon FS03MR12A6MA1B — 1200 V, 310 A</td>
+      </tr>
+      <tr>
+          <td>R_th_jc</td>
+          <td>0.10 K/W (R_th_jc_max: 0.108 K/W)</td>
+      </tr>
+      <tr>
+          <td>E_on (mJ) interpolation points</td>
+          <td>25 °C: 19.48; 125 °C: 19.85; 150 °C: 20.16</td>
+      </tr>
+      <tr>
+          <td>E_off (mJ) interpolation points</td>
+          <td>25 °C: 17.61; 125 °C: 17.95; 150 °C: 18.21</td>
+      </tr>
+      <tr>
+          <td>R_DS_on (Ω) interpolation points</td>
+          <td>25 °C: 2.75e-3; 125 °C: 4.00e-3; 150 °C: 4.55e-3</td>
+      </tr>
+      <tr>
+          <td>Voltage / current references</td>
+          <td>V_DC_ref = 800 V; I_ref = 310 A; V_F (diode) = 1.3 V</td>
+      </tr>
+      <tr>
+          <td>Thermal network</td>
+          <td>R_th array scaled from module R_th_jc; representative R_th values used in the script</td>
+      </tr>
+      <tr>
+          <td>Power-cycling (AQG) test params</td>
+          <td>ΔT_test = 100 °C; t_on_test = 1.0 s; PC_min_temp = 50 °C; PC_max_temp = 150 °C; N_f_test = 1000 cycles</td>
+      </tr>
+      <tr>
+          <td>Lifetime model coefficients</td>
+          <td>β1 = -3.483; β2 = 1917 K; β3 = -0.438</td>
+      </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery"
+     href="/images/projects/example_output.png"
+     title="Example output"
+     data-thumbnail="/images/projects/example_output.png"
+     data-sub-html="Example output generated by the Python port of the model">
+    
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Example output generated by the Python port of the model</code>
+    </figcaption>
+  
+</figure>
+<h3 id="references">References</h3>
+<ul>
+<li>
+<p>ECPE AQG 324 - Qualification of Automotive Electronic Components</p>
+</li>
+<li>
+<p>Infineon FS03MR12A6MA1B Datasheet - 1200V 310A SiC Power Module</p>
+</li>
+<li>
+<p>ASTM E1049-85 - Standard Practices for Cycle Counting in Fatigue Analysis</p>
+</li>
+<li>
+<p>Bayerer, R., Herrmann, T., Licht, T., Lutz, J., &amp; Feller, M. (2008) - &ldquo;Model for Power Cycling lifetime of IGBT Modules - various factors influencing lifetime&rdquo;, 5th International Conference on Integrated Power Electronics Systems (CIPS), Nuremberg, Germany, pp. 1-6</p>
+</li>
+<li>
+<p>Miner (1945) - Cumulative Damage in Fatigue, Journal of Applied Mechanics</p>
+</li>
+<li>
+<p>IEC 60749-34 - Power Cycling Test to Failure for Power Semiconductor Devices</p>
+</li>
+<li>
+<p>Held, M., et al. (1997) - &ldquo;Fast power cycling test of IGBT modules in traction application&rdquo;, LESIT Project</p>
+</li>
+<li>
+<p>Norris-Landzberg (Norris &amp; Landzberg acceleration factors / AF formulation)</p>
+</li>
+</ul>
+<style>
+@media (max-width: 768px) {
+  div[style*="display: flex"] {
+    flex-direction: column !important;
+  }
+}
+</style>]]></description>
+</item>
+</channel>
 </rss>
