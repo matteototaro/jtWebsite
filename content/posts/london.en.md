@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "A photo journey through London's iconic locations"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["london", "uk", "travel", "camden", "big ben"]

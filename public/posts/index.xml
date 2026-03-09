@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Matteo Totaro</title>
-        <link>http://localhost:63502/posts/</link>
+        <link>http://localhost:62013/posts/</link>
         <description>All Posts | Matteo Totaro</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</lastBuildDate><atom:link href="http://localhost:63502/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</lastBuildDate><atom:link href="http://localhost:62013/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Leuca</title>
-    <link>http://localhost:63502/leuca/</link>
+    <link>http://localhost:62013/leuca/</link>
     <pubDate>Fri, 20 Aug 2021 13:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/leuca/</guid>
+    <guid>http://localhost:62013/leuca/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>This summer I finally managed to get tanned also in Leuca, Italy&rsquo;s south-est end. This town is a gem. I hope you agree with me!</p>
@@ -18,11 +18,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
      title="Sanctuary of Santa Maria de Finibus Terrae"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/4.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/4.jpg"
      data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
     
   </a>
@@ -38,11 +58,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
      title="Mediterranean Flora"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/6.jpg"
      data-sub-html="Mediterranean Flora">
     
   </a>
@@ -58,11 +98,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
      title="Harbour of Leuca"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/7.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/7.jpg"
      data-sub-html="Harbour of Leuca">
     
   </a>
@@ -78,11 +138,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/2.jpg"
      title="Leuca Harbour"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/2.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/2.jpg"
      data-sub-html="Leuca Harbour">
     
   </a>
@@ -100,11 +180,31 @@
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/leuca/1.jpg"
          title="Leuca Lighthouse"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/1.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/1.jpg"
          data-sub-html="Leuca Lighthouse">
         
       </a>
@@ -120,11 +220,31 @@
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/leuca/8.jpg"
          title="Leuca Lighthouse"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/8.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/8.jpg"
          data-sub-html="Leuca Lighthouse">
         
       </a>
@@ -142,11 +262,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/9.jpg"
      title="Leuca Lighthouse"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/9.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/9.jpg"
      data-sub-html="Leuca Lighthouse">
     
   </a>
@@ -162,11 +302,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/10.jpg"
      title="Leuca Lighthouse"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/10.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/10.jpg"
      data-sub-html="Leuca Lighthouse">
     
   </a>
@@ -182,11 +342,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/5.jpg"
      title="Leuca Business Call"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/5.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/5.jpg"
      data-sub-html="Leuca Business Call">
     
   </a>
@@ -202,11 +382,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/leuca/3.jpg"
      title="Sanctuary of Santa Maria de Finibus Terrae"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/leuca/3.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/leuca/3.jpg"
      data-sub-html="Sanctuary of Santa Maria de Finibus Terrae">
     
   </a>
@@ -220,10 +420,10 @@
 </item>
 <item>
     <title>Roma</title>
-    <link>http://localhost:63502/roma/</link>
+    <link>http://localhost:62013/roma/</link>
     <pubDate>Mon, 18 Jan 2021 10:30:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/roma/</guid>
+    <guid>http://localhost:62013/roma/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>This short collection of shots consists of some very special pictures that most caught my attention. They are very subjective shots and certainly do not represent the city in its entirety.</p>
@@ -233,11 +433,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/roma/1.jpg"
      title="Musei Vaticani"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/1.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/roma/1.jpg"
      data-sub-html="Musei Vaticani">
     
   </a>
@@ -253,11 +473,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/roma/2.jpg"
      title="Via della Conciliazione"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/2.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/roma/2.jpg"
      data-sub-html="Via della Conciliazione">
     
   </a>
@@ -273,11 +513,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/roma/4.jpg"
      title="Basilica di San Pietro"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/4.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/roma/4.jpg"
      data-sub-html="Basilica di San Pietro, Inside">
     
   </a>
@@ -293,11 +553,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/roma/5.jpg"
      title="Largo del Colonnato"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/5.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/roma/5.jpg"
      data-sub-html="Largo del Colonnato">
     
   </a>
@@ -313,11 +593,31 @@
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
      title="Piazza San Pietro"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/roma/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
      data-sub-html="Piazza San Pietro">
     
   </a>
@@ -342,21 +642,41 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Craco</title>
-    <link>http://localhost:63502/craco/</link>
+    <link>http://localhost:62013/craco/</link>
     <pubDate>Wed, 18 Nov 2020 18:03:23 &#43;0000</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/craco/</guid>
+    <guid>http://localhost:62013/craco/</guid>
     <description><![CDATA[
 
 
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
      title="Craco"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/15.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/15.jpg"
      data-sub-html="Craco">
     
   </a>
@@ -375,11 +695,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
      title="Craco from the road"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/6.jpg"
      data-sub-html="Craco from the road">
     
   </a>
@@ -395,11 +735,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
      title="Craco"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/14.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
      data-sub-html="Craco">
     
   </a>
@@ -416,11 +776,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
      title="Buildings still standing"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/16.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/16.jpg"
      data-sub-html="Buildings still standing">
     
   </a>
@@ -436,11 +816,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
      title="Craco Hills"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/8.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/8.jpg"
      data-sub-html="Craco Hills">
     
   </a>
@@ -458,11 +858,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
          title="Craco"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/9.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/9.jpg"
          data-sub-html="Craco">
         
       </a>
@@ -478,11 +898,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
          title="Craco"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/10.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/10.jpg"
          data-sub-html="Craco">
         
       </a>
@@ -498,11 +938,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
          title="Craco"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/11.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/11.jpg"
          data-sub-html="Craco">
         
       </a>
@@ -518,11 +978,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
          title="Craco"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/13.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/13.jpg"
          data-sub-html="Craco views and ravines">
         
       </a>
@@ -541,11 +1021,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
      title="Ravines near Craco"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/2.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/2.jpg"
      data-sub-html="Ravines near Craco">
     
   </a>
@@ -561,11 +1061,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
      title="sin(x)cos(y)"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/17.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/17.jpg"
      data-sub-html="sin(x)cos(y)">
     
   </a>
@@ -584,11 +1104,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
          title="Rizla"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/19.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/19.jpg"
          data-sub-html="Rizla">
         
       </a>
@@ -604,11 +1144,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
          title="Craco"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/18.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/18.jpg"
          data-sub-html="Views from Craco">
         
       </a>
@@ -626,11 +1186,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
      title="Old House"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/1.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/1.jpg"
      data-sub-html="Old House">
     
   </a>
@@ -646,11 +1226,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
      title="Craco in its entirety"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/craco/4.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/craco/4.jpg"
      data-sub-html="Craco in its entirety">
     
   </a>
@@ -666,10 +1266,10 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Punta Palascìa</title>
-    <link>http://localhost:63502/palascia/</link>
+    <link>http://localhost:62013/palascia/</link>
     <pubDate>Mon, 22 Jun 2020 23:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/palascia/</guid>
+    <guid>http://localhost:62013/palascia/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p>The Punta Palascìa lighthouse represents one of the symbols of Otranto. It is located 40 km from Lecce and is the most eastern point of Italy. It is located at <em>40°06'26&quot; N, 18°31'14&quot; E</em>. When parked near the military base literally on the main street it starts the main path to the lighthouse; it&rsquo;s a 10 minutes downhill path that lets you enjoy the view, the wind and the lighthouse from above.</p>
@@ -679,11 +1279,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
      title="Trident"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/palascia/6.jpg"
      data-sub-html="Trident">
     
   </a>
@@ -699,11 +1319,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
      title="Path towards the lighthouse"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/4.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/palascia/4.jpg"
      data-sub-html="Path towards the lighthouse">
     
   </a>
@@ -719,11 +1359,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
      title="Path towards the lighthouse"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/5.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
      data-sub-html="Path towards the lighthouse">
     
   </a>
@@ -739,11 +1399,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
      title="Boat"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/3.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/palascia/3.jpg"
      data-sub-html="Boat">
     
   </a>
@@ -759,11 +1439,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
      title="View from the top of the hill"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/palascia/1.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/palascia/1.jpg"
      data-sub-html="View from the top of the hill">
     
   </a>
@@ -777,21 +1477,41 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>London</title>
-    <link>http://localhost:63502/london/</link>
+    <link>http://localhost:62013/london/</link>
     <pubDate>Wed, 27 May 2020 13:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/london/</guid>
+    <guid>http://localhost:62013/london/</guid>
     <description><![CDATA[
 
 
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
      title="Big Ben"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/111.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/111.jpg"
      data-sub-html="Big Ben">
     
   </a>
@@ -812,11 +1532,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
          title="Camden Town"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/3.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
          data-sub-html="Camden Town">
         
       </a>
@@ -832,11 +1572,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
          title="Camden Town"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/44.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/44.jpg"
          data-sub-html="Camden Town, original and warm tones">
         
       </a>
@@ -854,11 +1614,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
      title="Camden Market"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/6.jpg"
      data-sub-html="Camden Market">
     
   </a>
@@ -874,11 +1654,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
      title="Super-warm-tones invaded London"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/7.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/7.jpg"
      data-sub-html="Super-warm-tones invaded London">
     
   </a>
@@ -896,11 +1696,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
          title="Big Ben showing off"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/11.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/11.jpg"
          data-sub-html="Big Ben showing off">
         
       </a>
@@ -916,11 +1736,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
          title="Big Ben showing off"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/8.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/8.jpg"
          data-sub-html="Big Ben showing off">
         
       </a>
@@ -938,11 +1778,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
      title="Towards Piccadilly Circus"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/9.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/9.jpg"
      data-sub-html="Towards Piccadilly Circus">
     
   </a>
@@ -959,11 +1819,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
      title="Life in Camden Town"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/5.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/5.jpg"
      data-sub-html="Life in Camden Town">
     
   </a>
@@ -979,11 +1859,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
      title="Tower of London"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/10.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/10.jpg"
      data-sub-html="Tower of London">
     
   </a>
@@ -1000,11 +1900,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
      title="Buckingham Palace"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/2.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/2.jpg"
      data-sub-html="Buckingham Palace">
     
   </a>
@@ -1021,11 +1941,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
      title="Sixtupla"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/london/sixtupla.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/london/sixtupla.jpg"
      data-sub-html="Sixtupla">
     
   </a>
@@ -1040,21 +1980,41 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 </item>
 <item>
     <title>Barcelona</title>
-    <link>http://localhost:63502/barcelona/</link>
+    <link>http://localhost:62013/barcelona/</link>
     <pubDate>Fri, 01 May 2020 21:20:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/barcelona/</guid>
+    <guid>http://localhost:62013/barcelona/</guid>
     <description><![CDATA[
 
 
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
      title="Casa Battlò"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/1.jpg"
      data-sub-html="Casa Battlò">
     
   </a>
@@ -1075,11 +2035,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
          title="View from Castell de Montjuïc"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/15.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/15.jpg"
          data-sub-html="View from Castell de Montjuïc">
         
       </a>
@@ -1095,11 +2075,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
          title="View from Castell de Montjuïc"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/2.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/2.jpg"
          data-sub-html="View from Castell de Montjuïc">
         
       </a>
@@ -1115,11 +2115,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
          title="View from Castell de Montjuïc"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/5.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/5.jpg"
          data-sub-html="View from Castell de Montjuïc">
         
       </a>
@@ -1138,11 +2158,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/12.jpg"
      title="Vallcarca district, near Parc Güell"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/12.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/12.jpg"
      data-sub-html="Vallcarca district, near Parc Güell">
     
   </a>
@@ -1159,11 +2199,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
      title="Barcelona"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/13.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/13.jpg"
      data-sub-html="Barcelona">
     
   </a>
@@ -1180,11 +2240,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
      title="Towards Parc Güell"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/14.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/14.jpg"
      data-sub-html="Towards Parc Güell">
     
   </a>
@@ -1201,11 +2281,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
      title="Parc Güell"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/4.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/4.jpg"
      data-sub-html="Parc Güell">
     
   </a>
@@ -1222,11 +2322,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
      title="Parc Güell"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/3.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/3.jpg"
      data-sub-html="Parc Güell">
     
   </a>
@@ -1243,11 +2363,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
      title="Sagrada Familia"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/10.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/10.jpg"
      data-sub-html="Sagrada Familia">
     
   </a>
@@ -1264,11 +2404,31 @@ This flashy pink Populous album - W, for <em>Women</em></p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
      title="Navata della Sagrada Familia"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/9.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/9.jpg"
      data-sub-html="Navata della Sagrada Familia">
     
   </a>
@@ -1288,11 +2448,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
          title="Inside of the Sagrada Familia"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/6.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/6.jpg"
          data-sub-html="Inside of the Sagrada Familia">
         
       </a>
@@ -1308,11 +2488,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
          title="Inside of the Sagrada Familia"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/7.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/7.jpg"
          data-sub-html="Inside of the Sagrada Familia">
         
       </a>
@@ -1328,11 +2528,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
          title="Inside of the Sagrada Familia"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/8.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/8.jpg"
          data-sub-html="Inside of the Sagrada Familia">
         
       </a>
@@ -1353,11 +2573,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/11_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/11_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/11_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1373,11 +2613,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/22_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/22_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/22_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1393,11 +2653,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/33_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/33_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/33_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1413,11 +2693,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/44_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/44_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/44_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1433,11 +2733,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/55_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/55_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/55_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1453,11 +2773,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/barcelona/66_poster.jpg"
          title="Barcelona Summary"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/66_poster.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/barcelona/66_poster.jpg"
          data-sub-html="Barcelona Summary">
         
       </a>
@@ -1475,21 +2815,41 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 </item>
 <item>
     <title>Amsterdam</title>
-    <link>http://localhost:63502/amsterdam/</link>
+    <link>http://localhost:62013/amsterdam/</link>
     <pubDate>Sat, 25 Apr 2020 18:40:00 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/amsterdam/</guid>
+    <guid>http://localhost:62013/amsterdam/</guid>
     <description><![CDATA[
 
 
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/9.jpg"
      title="Amsterdam"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/9.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/9.jpg"
      data-sub-html="Amsterdam">
     
   </a>
@@ -1508,11 +2868,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/6.jpg"
      title="Church in Amsterdam"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/6.jpg"
      data-sub-html="Church in Amsterdam">
     
   </a>
@@ -1529,11 +2909,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/7.jpg"
      title="Amsterdam canals in an autumn"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/7.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/7.jpg"
      data-sub-html="Amsterdam canals in an autumn mood">
     
   </a>
@@ -1550,11 +2950,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/11.jpg"
      title="Mirror"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/11.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/11.jpg"
      data-sub-html="Mirror">
     
   </a>
@@ -1571,11 +2991,31 @@ The two glass windows of the two side aisles are opposed by color palette, in fa
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/10.jpg"
      title="Running late"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/10.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/10.jpg"
      data-sub-html="Running late">
     
   </a>
@@ -1593,11 +3033,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/12.jpg"
      title="View from NEMO"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/12.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/12.jpg"
      data-sub-html="View from NEMO">
     
   </a>
@@ -1616,11 +3076,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/5.jpg"
          title="Amsterdam canals"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/5.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/5.jpg"
          data-sub-html="Amsterdam canals">
         
       </a>
@@ -1636,11 +3116,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/2.jpg"
          title="Amsterdam canals"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/2.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/2.jpg"
          data-sub-html="Amsterdam canals">
         
       </a>
@@ -1656,11 +3156,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/3.jpg"
          title="Amsterdam canals"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/3.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/3.jpg"
          data-sub-html="Amsterdam canals">
         
       </a>
@@ -1676,11 +3196,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/4.jpg"
          title="Amsterdam canals"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/amsterdam/4.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/amsterdam/4.jpg"
          data-sub-html="Amsterdam canals">
         
       </a>
@@ -1698,10 +3238,10 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 </item>
 <item>
     <title>Venezia</title>
-    <link>http://localhost:63502/venezia/</link>
+    <link>http://localhost:62013/venezia/</link>
     <pubDate>Tue, 14 Apr 2020 19:21:10 &#43;0200</pubDate>
     <author>Matteo Totaro</author>
-    <guid>http://localhost:63502/venezia/</guid>
+    <guid>http://localhost:62013/venezia/</guid>
     <description><![CDATA[<div class="typeit"><h3 id="id-1"></h3></div>
 
 <p><strong>Almost three years ago I went to Venice, Italy for my second time and as always I shot lots of photos.</strong> It is a magical city, especially if you visit it with someone special to you. In fact I wasn&rsquo;t alone &lsquo;cause it&rsquo;s a city only visited by couples but, for reason left to the understanding of the reader, the following pics represent the beauty of just the city itself.</p>
@@ -1711,11 +3251,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
      title="Venice Painting"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/2.jpg"
      data-sub-html="A personal revisitation of the city obtained via Photoshop messing around with shadows and saturation of different colors">
     
   </a>
@@ -1732,11 +3292,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
      title="Venice Skyline"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/5.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/5.jpg"
      data-sub-html="Venice Skyline">
     
   </a>
@@ -1755,11 +3335,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
          title="Venice Theatre"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/1.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/1.jpg"
          data-sub-html="Venice Theatre">
         
       </a>
@@ -1775,11 +3375,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
     
     
     
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+        
+      
+    
+    
+    
+    
     <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-      <a class="lightgallery" 
+      <a class="lightgallery"
          href="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
          title="Venice Lucetta"
-         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/4.jpg"
+         data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/4.jpg"
          data-sub-html="A classic venetian shot from a bridge with yellow light from an artisan shop">
         
       </a>
@@ -1798,11 +3418,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
      title="Venice Barca"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/3.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/3.jpg"
      data-sub-html="Venice Barca">
     
   </a>
@@ -1819,11 +3459,31 @@ We finished the ride on the bicycle near the Museum of Science (NEMO).</p>
 
 
 
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    
+  
+
+
+
+
 <figure class="gallery-figure" style="aspect-ratio: 1200/800;">
-  <a class="lightgallery" 
+  <a class="lightgallery"
      href="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
      title="Venice Ponte"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/6.jpg"
+     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/venezia/6.jpg"
      data-sub-html="Venice Ponte">
     
   </a>

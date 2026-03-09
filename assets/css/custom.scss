@@ -5,6 +5,75 @@ body {
     box-sizing: border-box;
 }
 
+/* HOME LINKS SECTION - MOBILE ONLY */
+/* Default: HIDE EVERYWHERE */
+.home-links-section {
+    display: none !important;
+}
+
+/* MOBILE: Show only on small screens */
+@media only screen and (max-width: 768px) {
+    .home-links-section {
+        display: block !important;
+        width: 100% !important;
+        margin: 2rem 0 1rem 0 !important;
+        padding: 0 !important;
+    }
+    
+    .links-container {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        gap: 1rem !important;
+        width: 100% !important;
+        padding: 0 1rem !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+    
+    .link-card {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 1.2rem 0.8rem !important;
+        border: 1px solid #ddd !important;
+        border-radius: 8px !important;
+        text-decoration: none !important;
+        color: inherit !important;
+        background: transparent !important;
+        min-height: 120px !important;
+        box-sizing: border-box !important;
+        gap: 0.5rem !important;
+    }
+    
+    .link-emoji {
+        font-size: 2.5rem !important;
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1 !important;
+    }
+    
+    .link-title {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+/* DESKTOP: Hide explicitly */
+@media only screen and (min-width: 769px) {
+    .home-links-section {
+        display: none !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
 /* Gallery components */
 .gallery-figure {
     margin: 2rem 0;

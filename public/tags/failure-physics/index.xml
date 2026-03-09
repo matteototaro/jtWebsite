@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Failure Physics on Matteo Totaro</title>
+    <link>http://localhost:62013/tags/failure-physics/</link>
+    <description>Recent content in Failure Physics on Matteo Totaro</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 17 Feb 2026 23:30:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:62013/tags/failure-physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Master&#39;s Thesis Project w/ Ferrari</title>
+      <link>http://localhost:62013/projects/mastersproject/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/projects/mastersproject/</guid>
+      <description>&lt;h2 id=&#34;predicting-failure-in-sic-power-mosfets-for-automotive-traction-inverters&#34;&gt;Predicting Failure in SiC Power MOSFETs for Automotive Traction Inverters&lt;/h2&gt;&#xA;&lt;p&gt;Electric vehicles demand extreme performance from their power electronics. The silicon carbide (SiC) MOSFETs inside traction inverters switch thousands of times per second, endure temperature swings of 100°C or more, and must survive for the vehicle&amp;rsquo;s lifetime. The question is: how long will they last?&lt;/p&gt;&#xA;&lt;p&gt;For my master&amp;rsquo;s thesis with Ferrari, I built a MATLAB model that answers this question. The goal: convert any racetrack profile into quantifiable cycles needed to estimate the lifetime of the power electronics inside a hybrid or electric Ferrari. The focus was on the power module inside the traction inverter—the component that makes or breaks the system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

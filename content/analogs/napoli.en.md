@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Analog photography collection from Naples"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["napoli", "italy", "travel", "analog", "photography"]

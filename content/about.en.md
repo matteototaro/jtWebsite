@@ -1,12 +1,12 @@
 ---
 title: "About Me"
 date: 2020-04-13T22:25:49+02:00
-lastmod: 2024-08-26T17:30:00
+lastmod: 2024-02-15T17:30:00
 draft: false
 
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 tags: 
 hiddenFromHomePage: true
@@ -22,20 +22,15 @@ share:
 
 <div class="container-fluid">
     <div class="col-md-8 col-md-push-2 no-padding-left" >
-        {{< typeit >}} My name is Matteo Totaro, I'm 27 and I'm from Reggio Emilia, Italy. {{< /typeit >}}
-        <p><strong>I like photography</strong>, so  this website was built to create a personal space in the web to post parts of my albums, to give them more glory and credit. Also I wanted to save them from the conversion-alghoritms of social media.
-        <br><br>
-        <strong>This is a static site </strong>built in less than a month with the open source framework <a href="https://gohugo.io/">Hugo</a> during april 2020, when the entire world was quarantined at home, so I took this time to focus on personal projects exactly like this one you're reading.
-        <br>
-        The main goal of this space is to publish my previous and future projects just like they are, with the purpose to create a sort of <i>personal museum</i> to observe the evolutionary process over time.<br><br>
-        I tried to find a compromise between photo quality and loading speed of the website. Hope you like it.<br>
-        Thanks for stopping by and have a great day.<br>
+        <p>{{< typeit >}} I am Matteo, I'm 28 and I live in Reggio Emilia, Italy. {{< /typeit >}}<br>
+        I am curious and creative engineer. I work in Ferrari as an Electronics Test Engineer on high voltage components for the next Hybrid and Full-Electric Ferrari. I built this website as a repository for my personal photos both digital and analog, but lately I wanted to share more about a few projects I have in mind. <br>Let's see how it goes.<br><br>
+        Thanks for stopping by and have a great day!
         </p>
         <figure style="max-width:100%;height:auto;display:inline;">
             <img class="lazyload blur-up" src="/images/selfie.jpg" style="width:100%;height:auto;">
             <br><figcaption><code>Selfie in a beach-house near the county of<br>Cardiff, Wales (11/2016)</code></figcaption>
           </figure>
-        <p style="font-size:85%;text-align:right;">Last page update: 13th October 2024</p><br>
+        <p style="font-size:85%;text-align:right;">Last page update: February 2026</p><br>
       </div>
   <div class="row" style="text-align:center;">
     <div class="column" style="text-align:right;">

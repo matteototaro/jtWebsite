@@ -7,7 +7,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "A travel guide to Leuca, southeastern Italy"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["leuca", "puglia", "italy", "travel", "lighthouse"]

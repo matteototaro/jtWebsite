@@ -1,25 +1,53 @@
 {{ $src := .Get "src" }}
-{{ $title := .Get "title" }}
-{{ $caption := .Get "caption" }}
+{{ $title := .Get "title" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
 {{ $width := .Get "width" | default "1200" }}
 {{ $height := .Get "height" | default "800" }}
 
+{{/* Resolve image source:
+   Priority:
+   1) If $src is absolute (http/https) -> use as-is
+   2) If $src starts with '/' -> use as-is (absolute local path)
+   3) If a local file exists at static/images/<src> or static/<src> or assets/images/<src> or assets/<src> -> use that local path
+   4) Fallback to Cloudinary upload path for the given src
+*/}}
+{{ $.Scratch.Set "href" "" }}
+{{ if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
+  {{ $.Scratch.Set "href" $src }}
+{{ else if strings.HasPrefix $src "/" }}
+  {{ $.Scratch.Set "href" $src }}
+{{ else }}
+  {{ $candidates := slice (printf "static/images/%s" $src) (printf "static/%s" $src) (printf "assets/images/%s" $src) (printf "assets/%s" $src) }}
+  {{ range $p := $candidates }}
+    {{ if fileExists $p }}
+      {{ $localHref := printf "/%s" (replace $p "^static/" "" ) }}
+      {{ $.Scratch.Set "href" $localHref }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+  {{ if eq ($.Scratch.Get "href") "" }}
+    {{ $.Scratch.Set "href" (printf "https://res.cloudinary.com/matteototaro/image/upload/%s" $src) }}
+  {{ end }}
+{{ end }}
+
+{{ $href := $.Scratch.Get "href" }}
+
 <figure class="gallery-figure" style="aspect-ratio: {{ $width }}/{{ $height }};">
-  <a class="lightgallery" 
-     href="https://res.cloudinary.com/matteototaro/image/upload/{{ $src }}"
+  <a class="lightgallery"
+     href="{{ $href }}"
      title="{{ $title }}"
-     data-thumbnail="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/{{ $src }}"
+     data-thumbnail="{{ $href }}"
      data-sub-html="{{ $caption }}">
     <img class="lazyload blur-up"
-         src="https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/{{ $src }}"
+         src="{{ $href }}"
          alt="{{ $title }}"
          width="{{ $width }}"
          height="{{ $height }}"
-         loading="lazy">
+         loading="lazy" style="cursor: zoom-in;">
   </a>
-  {{ with $caption }}
+  {{ if $caption }}
     <figcaption class="image-caption">
-      <code>{{ . }}</code>
+      <code>{{ $caption }}</code>
     </figcaption>
   {{ end }}
 </figure>

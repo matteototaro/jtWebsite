@@ -5,7 +5,7 @@ lastmod: 2024-10-17T23:30:00
 draft: true
 authorLink: "https://mtotaro.com/about"
 description: "Leuca travel guide"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # Performance optimizations
 cascade:

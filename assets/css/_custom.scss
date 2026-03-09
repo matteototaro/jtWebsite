@@ -1,0 +1,62 @@
+// Custom overrides for homepage mobile links
+// This file overrides theme's _custom.scss when building `css/style.min.css`
+
+// Default: hide the custom links everywhere
+.home-links-section {
+  display: none !important;
+}
+
+// Mobile: show as a single row with 3 equal columns
+@media only screen and (max-width: 768px) {
+  .home-links-section {
+    display: block !important;
+    width: 100% !important;
+    margin: 1.5rem 0 0.5rem 0 !important;
+    padding: 0 !important;
+    clear: both !important;
+    position: relative !important;
+    z-index: 10 !important;
+  }
+
+  .links-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.6rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 0.75rem !important;
+    margin: 0 !important;
+  }
+
+  .link-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0.8rem 0.4rem !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    min-height: 96px !important;
+    background: transparent !important;
+    border: 1px solid rgba(0,0,0,0.06) !important;
+    box-sizing: border-box !important;
+  }
+
+  .link-emoji { font-size: 2.2rem !important; line-height: 1 !important; }
+  .link-title { font-size: 0.95rem !important; font-weight: 600 !important; }
+
+  /* Remove large translate applied by theme on .home-profile (visual shift) */
+  .home .home-profile {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    margin-top: 0 !important;
+    padding-top: 100px !important;
+  }
+
+  /* Ensure links are pushed below profile content */
+  .home-links-section {
+    margin-top: 0.75rem !important;
+  }
+}

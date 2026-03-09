@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "A very small and personal collection of pictures about this magical city"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["rome", "italy", "travel", "vatican","roma","italia","viaggi"]

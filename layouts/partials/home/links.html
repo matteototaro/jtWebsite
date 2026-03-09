@@ -1,0 +1,22 @@
+{{- /* Main Navigation Links Section - Mobile Only */ -}}
+<div class="home-links-section">
+    <div class="links-container">
+        {{- /* Analog Link */ -}}
+        <a href="{{ `analogs` | relLangURL }}" class="link-card analog-card" title="Analog Wall">
+            <div class="link-emoji">🎞️</div>
+            <div class="link-title">Analog</div>
+        </a>
+
+        {{- /* Digital Link */ -}}
+        <a href="{{ `posts` | relLangURL }}" class="link-card digital-card" title="Digital Gallery">
+            <div class="link-emoji">📷</div>
+            <div class="link-title">Digital</div>
+        </a>
+
+        {{- /* Projects Link */ -}}
+        <a href="{{ `projects` | relLangURL }}" class="link-card projects-card" title="Projects">
+            <div class="link-emoji">💻</div>
+            <div class="link-title">Projects</div>
+        </a>
+    </div>
+</div>

@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Real-time object detection"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["object detection", "tensorflow", "machine learning", "webcam"]

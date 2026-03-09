@@ -25,7 +25,7 @@ enableEmoji = true
     # default amount of posts in each pages
     pagination.pagerSize = 24
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "390763854" #"UA-164939128-1"
+    googleAnalytics = "" #"UA-164939128-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
@@ -144,8 +144,8 @@ enableEmoji = true
             pagination.pagerSize = 5
         # Social config in home page
         [languages.en.params.social]
-          #GitHub = "xxxx"
-          Twitter = "matteojtotaro"
+          GitHub = "matteojtotaro"
+          #Twitter = ""
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
           Linkedin = "m-totaro"
@@ -244,7 +244,7 @@ enableEmoji = true
 
     [params.page.toc]
       # whether to enable the table of the contents
-      enable = false
+      enable = true
       # whether to make the table of the contents automatically collapsed
       auto = true
 
@@ -257,7 +257,7 @@ enableEmoji = true
    
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default block delimiter is $$ ... $$ and \\[ ... \\]
       blockLeftDelimiter = ""
       blockRightDelimiter = ""
@@ -271,7 +271,7 @@ enableEmoji = true
     # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS
-      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      accessToken = "IL_TUO_TOKEN"
       # style for the light theme
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
       # style for the dark theme
@@ -405,7 +405,7 @@ enableEmoji = true
 
   # site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "FJlJwxMy2rXULl5c91sw_X3US7EI2RZSuxVGwmLx-N4"
+    google = ""
     bing = ""
     yandex = ""
     pinterest = ""
@@ -420,14 +420,14 @@ enableEmoji = true
 
  # Analytics config
   [params.analytics]
-    enable = true
+    enable = false
     # Google Analytics id privacy
     [params.analytics.google]
-      id = "390763854"
+      id = ""
       # whether to anonymize IP
-      anonymizeIP = true
+      anonymizeIP = false
       # whether to use cookie
-      cookie = true
+      cookie = false
  
   # Cookie consent config
   [params.cookieconsent]

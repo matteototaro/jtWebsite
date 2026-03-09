@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Series of pics from a very fascinating city"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["venice", "italy", "travel", "photography", "venezia", "italia", "fotografia", "viaggi"]

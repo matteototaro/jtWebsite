@@ -2,32 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Matteo Totaro</title>
-    <link>http://localhost:63502/tags/</link>
+    <link>http://localhost:62013/tags/</link>
     <description>Recent content in Tags on Matteo Totaro</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 07 Apr 2025 17:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63502/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 23:30:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:62013/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Javascript</title>
-      <link>http://localhost:63502/tags/javascript/</link>
+      <link>http://localhost:62013/tags/javascript/</link>
       <pubDate>Sun, 06 Apr 2025 13:30:00 +0200</pubDate>
-      <guid>http://localhost:63502/tags/javascript/</guid>
+      <guid>http://localhost:62013/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Ml</title>
-      <link>http://localhost:63502/tags/ml/</link>
+      <link>http://localhost:62013/tags/ml/</link>
       <pubDate>Sun, 06 Apr 2025 13:30:00 +0200</pubDate>
-      <guid>http://localhost:63502/tags/ml/</guid>
+      <guid>http://localhost:62013/tags/ml/</guid>
       <description></description>
     </item>
     <item>
       <title>Objectdetection</title>
-      <link>http://localhost:63502/tags/objectdetection/</link>
+      <link>http://localhost:62013/tags/objectdetection/</link>
       <pubDate>Sun, 06 Apr 2025 13:30:00 +0200</pubDate>
-      <guid>http://localhost:63502/tags/objectdetection/</guid>
+      <guid>http://localhost:62013/tags/objectdetection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arrhenius Equation</title>
+      <link>http://localhost:62013/tags/arrhenius-equation/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/arrhenius-equation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coffin-Manson</title>
+      <link>http://localhost:62013/tags/coffin-manson/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/coffin-manson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Electro-Thermal Analogy</title>
+      <link>http://localhost:62013/tags/electro-thermal-analogy/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/electro-thermal-analogy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empirical Lifetime Model</title>
+      <link>http://localhost:62013/tags/empirical-lifetime-model/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/empirical-lifetime-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Failure Physics</title>
+      <link>http://localhost:62013/tags/failure-physics/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/failure-physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lifetime Modeling</title>
+      <link>http://localhost:62013/tags/lifetime-modeling/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/lifetime-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Miner&#39;s Rule</title>
+      <link>http://localhost:62013/tags/miners-rule/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/miners-rule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Norris-Landzberg</title>
+      <link>http://localhost:62013/tags/norris-landzberg/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/norris-landzberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Cycling</title>
+      <link>http://localhost:62013/tags/power-cycling/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/power-cycling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thermal Network</title>
+      <link>http://localhost:62013/tags/thermal-network/</link>
+      <pubDate>Thu, 17 Oct 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:62013/tags/thermal-network/</guid>
       <description></description>
     </item>
   </channel>

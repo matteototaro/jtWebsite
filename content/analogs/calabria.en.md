@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Analog collection from an interrail in Calabria"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["calabria", "italy", "travel", "analog", "photography"]
@@ -32,7 +32,8 @@ August '24 - Calabria, Italy
 {{< /typeit >}}
 
 <small>
-    <i>Kodak Ektra 200 & Lomography 110mm film</i>
+    <i>camera: Kodak Ektra 200<br>
+       film: Lomography 110mm</i>
 </small>
 
 {{< photo-grid >}}
@@ -81,7 +82,8 @@ August '24 - Calabria, Italy
 {{< /photo-grid >}}
 <br>
 <small>
-    <i>Nikon F55 & Kodak 35mm film</i>
+    <i>camera: Nikon F55 <br>
+       film: Kodak 35mm </i>
 </small>
 {{< photo-grid >}}
     {{< gallery-image 

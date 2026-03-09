@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Digital tour guide through many of the famous spots in Barcelona"
-license: "©2023 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["barcelona", "spain", "travel", "gaudi", "sagrada familia"]

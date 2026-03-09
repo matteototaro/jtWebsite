@@ -6,7 +6,7 @@ draft: true
 
 authorLink: "https://mtotaro.com/about"
 description: ""
-license: "©2023 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 tags:
 categories:

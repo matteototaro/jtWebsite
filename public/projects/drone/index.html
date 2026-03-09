@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=62013&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>DIY Drone - Matteo Totaro</title><meta name="Description" content="Personal space on the web with a gallery of shots presented in a very minimal way"><meta property="og:url" content="http://localhost:62013/projects/drone/">
+  <meta property="og:site_name" content="Matteo Totaro">
+  <meta property="og:title" content="DIY Drone">
+  <meta property="og:description" content="During the summer of 2020, I built a custom quadcopter from scratch for FPV flying and aerial photography. Below is a concise breakdown of the build.
+Overview A complete DIY quadcopter build featuring custom 3D-printed components, brushless motors, and FPV capabilities. This project explores the fundamentals of drone aerodynamics, flight control systems, and radio communications.
+Specifications Frame: Custom 250mm carbon fiber/3D-printed hybrid Motors: 2300KV brushless outrunners Flight Controller: F4 with BetaFlight firmware Camera: 800TVL FPV camera &#43; GoPro mount Battery: 4S 1500mAh LiPo Flight Time: ~12-15 minutes Weight: 485g (without battery) Bill of Materials (excerpt) Build Process Frame Assembly I started with a carbon-fiber base plate for rigidity and vibration damping. The arms are 3D-printed in reinforced PLA to balance weight and strength.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2022-01-24T18:40:00+02:00">
+    <meta property="article:modified_time" content="2023-12-27T17:30:00+00:00">
+    <meta property="og:image" content="http://localhost:62013/cover.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:62013/cover.jpg">
+  <meta name="twitter:title" content="DIY Drone">
+  <meta name="twitter:description" content="During the summer of 2020, I built a custom quadcopter from scratch for FPV flying and aerial photography. Below is a concise breakdown of the build.
+Overview A complete DIY quadcopter build featuring custom 3D-printed components, brushless motors, and FPV capabilities. This project explores the fundamentals of drone aerodynamics, flight control systems, and radio communications.
+Specifications Frame: Custom 250mm carbon fiber/3D-printed hybrid Motors: 2300KV brushless outrunners Flight Controller: F4 with BetaFlight firmware Camera: 800TVL FPV camera &#43; GoPro mount Battery: 4S 1500mAh LiPo Flight Time: ~12-15 minutes Weight: 485g (without battery) Bill of Materials (excerpt) Build Process Frame Assembly I started with a carbon-fiber base plate for rigidity and vibration damping. The arms are 3D-printed in reinforced PLA to balance weight and strength.">
+<meta name="application-name" content="Matteo Totaro">
+<meta name="apple-mobile-web-app-title" content="Matteo Totaro">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:62013/projects/drone/" /><link rel="prev" href="http://localhost:62013/projects/buildthiswebsite/" /><link rel="next" href="http://localhost:62013/projects/mastersproject/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "DIY Drone",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:62013\/projects\/drone\/"
+        },"image": ["http:\/\/localhost:62013\/images\/cover.jpg"],"genre": "projects","wordcount":  354 ,
+        "url": "http:\/\/localhost:62013\/projects\/drone\/","datePublished": "2022-01-24T18:40:00+02:00","dateModified": "2023-12-27T17:30:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Matteo Totaro","logo": "http:\/\/localhost:62013\/avatar.jpg"},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Matteo Totaro"><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/analogs/" title="Analog"> 🎞️ Analog Wall </a><a class="menu-item" href="/posts/" title="Digital pics"> 📷 Gallery </a><a class="menu-item" href="/projects/" title="Uni, Hobbies and Stuff"> 💻 Projects </a><a class="menu-item" href="/about/" title="Who am I"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Matteo Totaro"><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/analogs/" title="Analog">🎞️ Analog Wall</a><a class="menu-item" href="/posts/" title="Digital pics">📷 Gallery</a><a class="menu-item" href="/projects/" title="Uni, Hobbies and Stuff">💻 Projects</a><a class="menu-item" href="/about/" title="Who am I">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container">&nbsp;<div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">DIY Drone</h1><div class="content" id="content"><p>During the summer of 2020, I built a custom quadcopter from scratch for FPV flying and aerial photography. Below is a concise breakdown of the build.</p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>A complete DIY quadcopter build featuring custom 3D-printed components, brushless motors, and FPV capabilities. This project explores the fundamentals of drone aerodynamics, flight control systems, and radio communications.</p>
+<h2 id="specifications">Specifications</h2>
+<ul>
+<li><strong>Frame</strong>: Custom 250mm carbon fiber/3D-printed hybrid</li>
+<li><strong>Motors</strong>: 2300KV brushless outrunners</li>
+<li><strong>Flight Controller</strong>: F4 with BetaFlight firmware</li>
+<li><strong>Camera</strong>: 800TVL FPV camera + GoPro mount</li>
+<li><strong>Battery</strong>: 4S 1500mAh LiPo</li>
+<li><strong>Flight Time</strong>: ~12-15 minutes</li>
+<li><strong>Weight</strong>: 485g (without battery)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery"
+     href="/images/drone/Drone2.jpeg"
+     title="Drone — full BOM"
+     data-thumbnail="/images/drone/Drone2.jpeg"
+     data-sub-html="Bill of Materials (excerpt)">
+    <img class="lazyload blur-up"
+         src="/images/drone/Drone2.jpeg"
+         alt="Drone — full BOM"
+         width="1200"
+         height="800"
+         loading="lazy" style="cursor: zoom-in;">
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Bill of Materials (excerpt)</code>
+    </figcaption>
+  
+</figure>
+<h2 id="build-process">Build Process</h2>
+<h3 id="frame-assembly">Frame Assembly</h3>
+<p>I started with a carbon-fiber base plate for rigidity and vibration damping. The arms are 3D-printed in reinforced PLA to balance weight and strength.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery"
+     href="/images/drone/Drone4.jpeg"
+     title="Frame close-up"
+     data-thumbnail="/images/drone/Drone4.jpeg"
+     data-sub-html="Frame close-up">
+    <img class="lazyload blur-up"
+         src="/images/drone/Drone4.jpeg"
+         alt="Frame close-up"
+         width="1200"
+         height="800"
+         loading="lazy" style="cursor: zoom-in;">
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>Frame close-up</code>
+    </figcaption>
+  
+</figure>
+<h3 id="electronics-integration">Electronics Integration</h3>
+<p>The flight controller runs BetaFlight for precise control and tuning. I wired a 4-in-1 ESC to minimize clutter and soldered XT60 connectors for quick battery swaps.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery"
+     href="/images/drone/Drone1.jpeg"
+     title="Flight controller"
+     data-thumbnail="/images/drone/Drone1.jpeg"
+     data-sub-html="M4-based flight controller">
+    <img class="lazyload blur-up"
+         src="/images/drone/Drone1.jpeg"
+         alt="Flight controller"
+         width="1200"
+         height="800"
+         loading="lazy" style="cursor: zoom-in;">
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>M4-based flight controller</code>
+    </figcaption>
+  
+</figure>
+<p><strong>Wiring diagram:</strong></p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Battery → PDB → FC (5V) → Receiver
+</span></span><span class="line"><span class="cl">       ↓
+</span></span><span class="line"><span class="cl">       ESC → Motors (x4)
+</span></span><span class="line"><span class="cl">       ↓
+</span></span><span class="line"><span class="cl">       FPV Camera → VTX → Antenna</span></span></code></pre></div></div>
+<h3 id="configuration--tuning">Configuration &amp; Tuning</h3>
+<p>PID tuning in BetaFlight took several sessions to get smooth, responsive flight. Key settings:</p>
+<ul>
+<li><strong>P</strong>: 45, <strong>I</strong>: 70, <strong>D</strong>: 32 (roll/pitch)</li>
+<li><strong>RC Rate</strong>: 1.8, <strong>Expo</strong>: 0.15</li>
+<li><strong>Camera Angle</strong>: 35°</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-figure" style="aspect-ratio: 1200/800;">
+  <a class="lightgallery"
+     href="/images/drone/Drone5.jpeg"
+     title="In-flight"
+     data-thumbnail="/images/drone/Drone5.jpeg"
+     data-sub-html="In-flight photo">
+    <img class="lazyload blur-up"
+         src="/images/drone/Drone5.jpeg"
+         alt="In-flight"
+         width="1200"
+         height="800"
+         loading="lazy" style="cursor: zoom-in;">
+  </a>
+  
+    <figcaption class="image-caption">
+      <code>In-flight photo</code>
+    </figcaption>
+  
+</figure>
+<h3 id="test-flights">Test Flights</h3>
+<p>Initial flights showed oscillation at high throttle; I resolved this by reducing P gains and checking motor balance. After tuning, the quadcopter flew stably and responsively.</p>
+<p>Here is a short demo video — let&rsquo;s see it in action:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/lUMkGLwBifU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h2 id="key-learnings">Key Learnings</h2>
+<p><strong>What worked well</strong>: Hybrid frame design saved weight while maintaining strength. BetaFlight&rsquo;s OSD is invaluable for real-time telemetry.</p>
+<p><strong>Challenges</strong>: Motor vibrations affecting FPV feed required dampening with rubber grommets. Soldering the 4-in-1 ESC in tight quarters was tricky.</p>
+<p><strong>Next iteration</strong>: Better antenna placement, GPS module for position hold, and lighter frame design.</p>
+<h2 id="parts-list">Parts List</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Model</th>
+          <th>Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Motors</td>
+          <td>EMAX RS2205 2300KV</td>
+          <td>$60</td>
+      </tr>
+      <tr>
+          <td>ESC</td>
+          <td>4-in-1 30A BLHeli_S</td>
+          <td>$35</td>
+      </tr>
+      <tr>
+          <td>Flight Controller</td>
+          <td>Matek F405</td>
+          <td>$45</td>
+      </tr>
+      <tr>
+          <td>Frame</td>
+          <td>DIY Carbon + PLA</td>
+          <td>$25</td>
+      </tr>
+      <tr>
+          <td>FPV Camera</td>
+          <td>Foxeer Predator</td>
+          <td>$30</td>
+      </tr>
+      <tr>
+          <td>VTX</td>
+          <td>TBS Unify Pro</td>
+          <td>$35</td>
+      </tr>
+      <tr>
+          <td>Props</td>
+          <td>HQ 5x4.3 (3 sets)</td>
+          <td>$15</td>
+      </tr>
+      <tr>
+          <td>Battery</td>
+          <td>4S 1500mAh</td>
+          <td>$25</td>
+      </tr>
+      <tr>
+          <td><strong>Total</strong></td>
+          <td></td>
+          <td><strong>~$270</strong></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><script src="/lib/object-fit-images/ofi.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/typeit/index.umd.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/contrib/auto-render.min.js"></script><script src="/lib/katex/contrib/copy-tex.min.js"></script><script src="/lib/katex/contrib/mhchem.min.js"></script><script>window.config={"comment":{},"data":{"id-1":"MT","id-2":"MT"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script></body>
+</html>

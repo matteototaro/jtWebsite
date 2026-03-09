@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "A guide to Punta Palascìa lighthouse in Otranto, Italy"
-license: "©2024 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["palascia", "puglia", "italy", "lighthouse", "otranto"]

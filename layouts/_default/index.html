@@ -5,6 +5,9 @@
             {{- partial "home/profile.html" . -}}
         {{- end -}}
 
+        {{- /* Main Links Section */ -}}
+        {{- partial "home/links.html" . -}}
+
         {{- /* Posts */ -}}
         {{- if ne .Site.Params.home.posts.enable false -}}
             {{- /* Paginate */ -}}

@@ -6,7 +6,7 @@ draft: false
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "A different perspective of the well-known capital of Netherlands"
-license: "©2023 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["amsterdam", "netherlands", "travel", "canals"]

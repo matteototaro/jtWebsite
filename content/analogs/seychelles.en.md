@@ -6,7 +6,7 @@ draft: true
 author: "Matteo Totaro"
 authorLink: "https://mtotaro.com/about"
 description: "Analog collection from a trip to the Seychelles"
-license: "©2025 Matteo Totaro"
+license: "©2026 Matteo Totaro"
 
 # SEO
 keywords: ["seychelles", "africa", "travel", "analog", "photography"]
