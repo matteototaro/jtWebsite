@@ -23,7 +23,7 @@ share:
 ---
 
 This post is a short recap of my master's thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices.
-The full thesis is available on GitHub: https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf — a Python implementation is available at https://github.com/matteototaro/sic-thermal-lifetime.
+The full thesis is available on GitHub: [Totaro_Matteo_MastersThesis.pdf](https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf) — a Python implementation is available at [sic-thermal-lifetime](https://github.com/matteototaro/sic-thermal-lifetime).
 
 **Table of contents**
 
@@ -51,7 +51,7 @@ Second, once junction temperature is known, the <strong>Rainflow algorithm</stro
 
 Third, the model quantifies cumulative <strong>damage</strong> using Miner's Rule and acceleration factors from ECPE AQG 324 industry standards.
 </div>
-  <div style="flex: 1; margin: 0;">
+  <div style="flex: 1 1 100%; margin: 0; width: 100%;">
     {{< gallery-image 
         src="/images/projects/test_flow.png"
         title="Test flow"

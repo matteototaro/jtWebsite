@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64660&amp;path=livereload" data-no-instant defer></script>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari - Matteo Totaro</title><meta name="Description" content="Personal space on the web with a gallery of shots presented in a very minimal way"><meta property="og:url" content="http://localhost:64660/projects/mastersproject/">
+        <title>MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari - Matteo Totaro</title><meta name="Description" content="Personal space on the web with a gallery of shots presented in a very minimal way"><meta property="og:url" content="http://localhost:1313/projects/mastersproject/">
   <meta property="og:site_name" content="Matteo Totaro">
   <meta property="og:title" content="MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari">
-  <meta property="og:description" content="This post is a short recap of my master’s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices. The full thesis is available on GitHub: https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf — a Python implementation is available at https://github.com/matteototaro/sic-thermal-lifetime.
+  <meta property="og:description" content="This post is a short recap of my master’s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices. The full thesis is available on GitHub: Totaro_Matteo_MastersThesis.pdf — a Python implementation is available at sic-thermal-lifetime.
 Table of contents
 The Approach What’s in the Code How the Model Works: The Physics Behind Lifetime Prediction Example References Predicting Failure in SiC Power MOSFETs for Automotive Traction Inverters Electric vehicles demand extreme performance from their power electronics. The silicon carbide (SiC) MOSFETs inside traction inverters switch thousands of times per second, endure temperature swings of 100°C or more, and must survive for the vehicle’s lifetime. The question is: how long will they last?">
   <meta property="og:locale" content="en">
@@ -21,19 +21,19 @@ The Approach What’s in the Code How the Model Works: The Physics Behind Lifeti
     <meta property="article:tag" content="Empirical Lifetime Model">
     <meta property="article:tag" content="Miner&#39;s Rule">
     <meta property="article:tag" content="Coffin-Manson">
-    <meta property="og:image" content="http://localhost:64660/cover.jpg">
+    <meta property="og:image" content="http://localhost:1313/cover.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:64660/cover.jpg">
+  <meta name="twitter:image" content="http://localhost:1313/cover.jpg">
   <meta name="twitter:title" content="MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari">
-  <meta name="twitter:description" content="This post is a short recap of my master’s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices. The full thesis is available on GitHub: https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf — a Python implementation is available at https://github.com/matteototaro/sic-thermal-lifetime.
+  <meta name="twitter:description" content="This post is a short recap of my master’s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices. The full thesis is available on GitHub: Totaro_Matteo_MastersThesis.pdf — a Python implementation is available at sic-thermal-lifetime.
 Table of contents
 The Approach What’s in the Code How the Model Works: The Physics Behind Lifetime Prediction Example References Predicting Failure in SiC Power MOSFETs for Automotive Traction Inverters Electric vehicles demand extreme performance from their power electronics. The silicon carbide (SiC) MOSFETs inside traction inverters switch thousands of times per second, endure temperature swings of 100°C or more, and must survive for the vehicle’s lifetime. The question is: how long will they last?">
 <meta name="application-name" content="Matteo Totaro">
 <meta name="apple-mobile-web-app-title" content="Matteo Totaro">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:64660/projects/mastersproject/" /><link rel="prev" href="http://localhost:64660/projects/drone/" /><link rel="next" href="http://localhost:64660/projects/objdetect/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/projects/mastersproject/" /><link rel="prev" href="http://localhost:1313/projects/drone/" /><link rel="next" href="http://localhost:1313/projects/objdetect/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -43,11 +43,11 @@ The Approach What’s in the Code How the Model Works: The Physics Behind Lifeti
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:64660\/projects\/mastersproject\/"
-        },"image": ["http:\/\/localhost:64660\/images\/cover.jpg"],"genre": "projects","keywords": "Thermal Network, Electro-Thermal Analogy, Lifetime Modeling, Empirical Lifetime Model, Miner\u0027s Rule, Coffin-Manson, Arrhenius Equation, Power Cycling, Failure Physics, Norris-Landzberg","wordcount":  1617 ,
-        "url": "http:\/\/localhost:64660\/projects\/mastersproject\/","datePublished": "2024-10-17T10:00:00+02:00","dateModified": "2026-02-17T23:30:00+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "http:\/\/localhost:1313\/projects\/mastersproject\/"
+        },"image": ["http:\/\/localhost:1313\/images\/cover.jpg"],"genre": "projects","keywords": "Thermal Network, Electro-Thermal Analogy, Lifetime Modeling, Empirical Lifetime Model, Miner\u0027s Rule, Coffin-Manson, Arrhenius Equation, Power Cycling, Failure Physics, Norris-Landzberg","wordcount":  1617 ,
+        "url": "http:\/\/localhost:1313\/projects\/mastersproject\/","datePublished": "2024-10-17T10:00:00+02:00","dateModified": "2026-02-17T23:30:00+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "Matteo Totaro","logo": "http:\/\/localhost:64660\/avatar.jpg"},"author": {
+            "name": "Matteo Totaro","logo": "http:\/\/localhost:1313\/avatar.jpg"},"author": {
                 "@type": "Person",
                 "name": "xxxx"
             },"description": ""
@@ -93,7 +93,7 @@ The Approach What’s in the Code How the Model Works: The Physics Behind Lifeti
     </div>
 </header><main class="main">
                 <div class="container">&nbsp;<div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari</h1><div class="content" id="content"><p>This post is a short recap of my master&rsquo;s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices.
-The full thesis is available on GitHub: <a href="https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf</a> — a Python implementation is available at <a href="https://github.com/matteototaro/sic-thermal-lifetime" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/sic-thermal-lifetime</a>.</p>
+The full thesis is available on GitHub: <a href="https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf" target="_blank" rel="noopener noreffer ">Totaro_Matteo_MastersThesis.pdf</a> — a Python implementation is available at <a href="https://github.com/matteototaro/sic-thermal-lifetime" target="_blank" rel="noopener noreffer ">sic-thermal-lifetime</a>.</p>
 <p><strong>Table of contents</strong></p>
 <ul>
 <li><a href="#the-approach" rel="">The Approach</a></li>
@@ -113,7 +113,7 @@ First, given the electrical characteristics of the system and the racetrack prof
 <p>Second, once junction temperature is known, the <strong>Rainflow algorithm</strong> extracts the real damage: thermal stress cycles. In power electronics, continuous temperature swings are what kills components. The algorithm counts <i>how many</i> temperature variations (ΔT) occur, <i>how large</i> they are, and <i>how long</i> they last (Δt).</p>
 <p>Third, the model quantifies cumulative <strong>damage</strong> using Miner&rsquo;s Rule and acceleration factors from ECPE AQG 324 industry standards.</p>
 </div>
-  <div style="flex: 1; margin: 0;">
+  <div style="flex: 1 1 100%; margin: 0; width: 100%;">
     
     
     

@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Failure Physics - Tag - Matteo Totaro</title>
-        <link>http://localhost:64660/tags/failure-physics/</link>
+        <link>http://localhost:1313/tags/failure-physics/</link>
         <description>Failure Physics - Tag - Matteo Totaro</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Oct 2024 10:00:00 &#43;0200</lastBuildDate><atom:link href="http://localhost:64660/tags/failure-physics/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Oct 2024 10:00:00 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/tags/failure-physics/" rel="self" type="application/rss+xml" /><item>
     <title>MOSFET Lifetime Modeling - MSc Thesis w/ Ferrari</title>
-    <link>http://localhost:64660/projects/mastersproject/</link>
+    <link>http://localhost:1313/projects/mastersproject/</link>
     <pubDate>Thu, 17 Oct 2024 10:00:00 &#43;0200</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:64660/projects/mastersproject/</guid>
+    <guid>http://localhost:1313/projects/mastersproject/</guid>
     <description><![CDATA[<p>This post is a short recap of my master&rsquo;s thesis. It presents a MATLAB model to estimate the lifetime of high-power transistors for automotive applications, validated with field hardware data and recent research on silicon carbide power devices.
 The full thesis is available on GitHub: <a href="https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/Fatigue-Analysis-SiC-Power-Module/blob/main/Totaro_Matteo_MastersThesis.pdf</a> — a Python implementation is available at <a href="https://github.com/matteototaro/sic-thermal-lifetime" target="_blank" rel="noopener noreffer ">https://github.com/matteototaro/sic-thermal-lifetime</a>.</p>
 <p><strong>Table of contents</strong></p>
