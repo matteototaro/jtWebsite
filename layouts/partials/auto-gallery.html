@@ -22,9 +22,11 @@
     {{- end -}}
     {{- $view := $img.Process "fit 1600x1600 webp q82" -}}
     {{- $full := $img.Process "fit 2560x2560 webp q85" -}}
+    {{- $thumb := $img.Process "fit 240x240 webp q75" -}}
     {{- $caption := index $captions (lower .Name) | default "" -}}
-    <figure class="gallery-figure" style="aspect-ratio: {{ $view.Width }}/{{ $view.Height }};">
-      <a href="{{ $full.RelPermalink }}" title="{{ $caption }}">
+    <figure class="gallery-figure">
+      <a class="lightgallery" href="{{ $full.RelPermalink }}" title="{{ $caption }}"
+         data-thumbnail="{{ $thumb.RelPermalink }}" data-sub-html="{{ $caption }}">
         <img src="{{ $view.RelPermalink }}" alt="{{ $caption | default $.Title }}"
              width="{{ $view.Width }}" height="{{ $view.Height }}" loading="lazy" decoding="async">
       </a>

@@ -355,6 +355,8 @@ enableEmoji = true
 # needs title, date, place and description (see archetypes/ and GUIDA.md).
 [[cascade]]
   toc = false
+  # click-to-zoom lightbox, loaded only on gallery pages
+  lightgallery = true
   [cascade.build]
     # photos inside a post folder are published only as the resized WebP
     # copies made by layouts/partials/auto-gallery.html, never as originals
