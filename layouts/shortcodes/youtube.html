@@ -1,0 +1,9 @@
+{{- /* Plain link instead of the YouTube iframe (no request to Google until
+       the visitor clicks). Overrides Hugo's built-in shortcode; usage is
+       unchanged: {{< youtube VIDEO_ID >}} or {{< youtube id="..." title="..." >}} */ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+<p class="external-embed">
+  <a href="https://www.youtube.com/watch?v={{ $id }}" target="_blank" rel="noopener noreferrer">
+    &#9654; {{ .Get "title" | default "Watch the video on YouTube" }}
+  </a>
+</p>
