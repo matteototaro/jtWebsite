@@ -29,10 +29,10 @@ HUGO_VERSION = "0.147.8"
 # The CSP starts as Report-Only: violations are only logged in the browser
 # console. Once the deploy preview shows no violations, rename the key to
 # "Content-Security-Policy" to enforce it.
-# Origins in use (checked on the built site): cdn.jsdelivr.net (theme libs),
-# res.cloudinary.com (photos), open.spotify.com and www.youtube-nocookie.com
-# (embeds), storage.googleapis.com / tfhub.dev / www.kaggle.com (TF.js models
-# on the objdetect project page).
+# Origins in use (checked on the built site): everything is self-hosted except
+# res.cloudinary.com (photos of the older galleries) and storage.googleapis.com
+# (COCO-SSD model weights, downloaded only after a visitor starts the
+# Objectify demo). No iframes, no third-party scripts or fonts.
 [[headers]]
   for = "/*"
   [headers.values]
@@ -41,7 +41,24 @@ HUGO_VERSION = "0.147.8"
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(self), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()"
-    Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://res.cloudinary.com; font-src 'self' data: https://cdn.jsdelivr.net; frame-src https://open.spotify.com https://www.youtube-nocookie.com; connect-src 'self' https://cdn.jsdelivr.net https://storage.googleapis.com https://tfhub.dev https://www.kaggle.com; media-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+    Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://res.cloudinary.com; font-src 'self'; frame-src 'none'; connect-src 'self' https://storage.googleapis.com; media-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+
+# Long browser cache for files whose name changes when their content changes
+# (fonts and versioned libraries).
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/lib/tfjs-4.22.0/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/lib/coco-ssd-2.2.3/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "*.webmanifest"
