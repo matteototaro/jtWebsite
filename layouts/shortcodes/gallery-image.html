@@ -1,53 +1,108 @@
-{{ $src := .Get "src" }}
-{{ $title := .Get "title" | default "" }}
-{{ $caption := .Get "caption" | default "" }}
-{{ $width := .Get "width" | default "1200" }}
-{{ $height := .Get "height" | default "800" }}
+{{- /*
+  {{< gallery-image src="roma/1.jpg" title="..." caption="..." >}}
 
-{{/* Resolve image source:
-   Priority:
-   1) If $src is absolute (http/https) -> use as-is
-   2) If $src starts with '/' -> use as-is (absolute local path)
-   3) If a local file exists at static/images/<src> or static/<src> or assets/images/<src> or assets/<src> -> use that local path
-   4) Fallback to Cloudinary upload path for the given src
-*/}}
-{{ $.Scratch.Set "href" "" }}
-{{ if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
-  {{ $.Scratch.Set "href" $src }}
-{{ else if strings.HasPrefix $src "/" }}
-  {{ $.Scratch.Set "href" $src }}
-{{ else }}
-  {{ $candidates := slice (printf "static/images/%s" $src) (printf "static/%s" $src) (printf "assets/images/%s" $src) (printf "assets/%s" $src) }}
-  {{ range $p := $candidates }}
-    {{ if fileExists $p }}
-      {{ $localHref := printf "/%s" (replace $p "^static/" "" ) }}
-      {{ $.Scratch.Set "href" $localHref }}
-      {{ break }}
-    {{ end }}
-  {{ end }}
-  {{ if eq ($.Scratch.Get "href") "" }}
-    {{ $.Scratch.Set "href" (printf "https://res.cloudinary.com/matteototaro/image/upload/%s" $src) }}
-  {{ end }}
-{{ end }}
+  src resolution (unchanged):
+    1) http(s)://...            used as-is
+    2) /path                    local file under static/
+    3) static/images/<src>, static/<src>, assets/images/<src>, assets/<src>
+    4) otherwise                Cloudinary: res.cloudinary.com/matteototaro/image/upload/<src>
 
-{{ $href := $.Scratch.Get "href" }}
+  Cloudinary photos are requested already resized and in the best format the
+  browser supports (f_auto,q_auto -> AVIF/WebP/JPEG), with a srcset so phones
+  download ~480-800 px instead of the multi-MB original. At build time a 48 px
+  preview is fetched once to get the real aspect ratio (no layout jumps) and
+  is inlined as a blurred placeholder.
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $width := .Get "width" | default 1200 | int -}}
+{{- $height := .Get "height" | default 800 | int -}}
+{{- $cloud := "https://res.cloudinary.com/matteototaro/image/upload/" -}}
 
-<figure class="gallery-figure" style="aspect-ratio: {{ $width }}/{{ $height }};">
-  <a class="lightgallery"
-     href="{{ $href }}"
-     title="{{ $title }}"
-     data-thumbnail="{{ $href }}"
-     data-sub-html="{{ $caption }}">
-    <img class="lazyload blur-up"
-         src="{{ $href }}"
-         alt="{{ $title }}"
-         width="{{ $width }}"
-         height="{{ $height }}"
-         loading="lazy" style="cursor: zoom-in;">
+{{- $href := "" -}}
+{{- $isCloud := false -}}
+{{- $localFile := "" -}}
+{{- if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+  {{- $href = $src -}}
+{{- else if strings.HasPrefix $src "/" -}}
+  {{- $href = $src -}}
+  {{- $localFile = printf "static%s" $src -}}
+{{- else -}}
+  {{- range slice (printf "static/images/%s" $src) (printf "static/%s" $src) (printf "assets/images/%s" $src) (printf "assets/%s" $src) -}}
+    {{- if and (eq $href "") (fileExists .) -}}
+      {{- $href = replaceRE "^(static|assets)/" "/" . -}}
+      {{- $localFile = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if eq $href "" -}}
+    {{- $isCloud = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* first gallery photo of the page loads with high priority, the rest lazily */ -}}
+{{- $.Page.Store.Add "galleryImageCount" 1 -}}
+{{- $first := eq ($.Page.Store.Get "galleryImageCount") 1 -}}
+
+{{- $srcset := "" -}}
+{{- $full := $href -}}
+{{- $thumb := $href -}}
+{{- $placeholder := "" -}}
+{{- $sizes := "(max-width: 800px) 100vw, 800px" -}}
+
+{{- if $isCloud -}}
+  {{- /* real size of the original (Cloudinary fl_getinfo), fetched once at build time */ -}}
+  {{- $origW := 0 -}}
+  {{- with try (resources.GetRemote (printf "%sfl_getinfo/%s" $cloud $src)) -}}
+    {{- with .Err -}}
+      {{- warnf "gallery-image: no size info for %s (%s), using %dx%d" $src . $width $height -}}
+    {{- else with .Value -}}
+      {{- $info := .Content | transform.Unmarshal -}}
+      {{- $origW = int $info.input.width -}}
+      {{- $height = div (mul $width (int $info.input.height)) $origW -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* srcset: standard widths up to the original width, never upscaled */ -}}
+  {{- $list := slice -}}
+  {{- range slice 480 800 1200 1600 -}}
+    {{- if or (eq $origW 0) (lt . $origW) -}}
+      {{- $list = $list | append (printf "%sf_auto,q_auto,c_limit,w_%d/%s %dw" $cloud . $src .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (gt $origW 0) (le $origW 1600) -}}
+    {{- $list = $list | append (printf "%sf_auto,q_auto/%s %dw" $cloud $src $origW) -}}
+  {{- end -}}
+  {{- $srcset = delimit $list ", " -}}
+  {{- $href = printf "%sf_auto,q_auto,c_limit,w_1200/%s" $cloud $src -}}
+  {{- $full = printf "%sf_auto,q_auto,c_limit,w_2400/%s" $cloud $src -}}
+  {{- $thumb = printf "%sf_auto,q_auto,c_fill,w_240,h_160/%s" $cloud $src -}}
+  {{- /* ~200-byte blurred placeholder shown until the photo arrives */ -}}
+  {{- with try (resources.GetRemote (printf "%sfl_strip_profile,f_webp,q_30,w_32/%s" $cloud $src)) -}}
+    {{- with .Value -}}
+      {{- $placeholder = printf "data:image/webp;base64,%s" (.Content | base64Encode) -}}
+    {{- end -}}
+  {{- end -}}
+{{- else if $localFile -}}
+  {{- with try (images.Config $localFile) -}}
+    {{- with .Value -}}
+      {{- $width = .Width -}}
+      {{- $height = .Height -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<figure class="gallery-figure">
+  <a class="lightgallery" href="{{ $full }}" title="{{ $title }}"
+     data-thumbnail="{{ $thumb }}" data-sub-html="{{ $caption }}">
+    <img src="{{ $href }}"
+         {{- with $srcset }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }}
+         alt="{{ $title | default $caption }}"
+         width="{{ $width }}" height="{{ $height }}"
+         {{- if $first }} fetchpriority="high"{{ else }} loading="lazy"{{ end }}
+         decoding="async"
+         {{- with $placeholder }} style="background-image:url({{ . | safeURL }})"{{ end }}>
   </a>
-  {{ if $caption }}
-    <figcaption class="image-caption">
-      <code>{{ $caption }}</code>
-    </figcaption>
-  {{ end }}
+  {{- with $caption }}
+  <figcaption class="image-caption"><code>{{ . }}</code></figcaption>
+  {{- end }}
 </figure>
