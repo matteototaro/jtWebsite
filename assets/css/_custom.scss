@@ -1,6 +1,123 @@
 // Custom overrides for homepage mobile links
 // This file overrides theme's _custom.scss when building `css/style.min.css`
 
+// ---------- Inter, self-hosted variable font (weights 100-900) ----------
+// Latin covers English/Italian; latin-ext is downloaded only if a page uses
+// one of its characters; italic only if italic text is on the page.
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin-wght-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+// Arial scaled to Inter's metrics: no layout shift while Inter loads
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial"), local("Helvetica");
+  size-adjust: 107.12%;
+  ascent-override: 90.44%;
+  descent-override: 22.52%;
+  line-gap-override: 0%;
+}
+
+// ---------- Cross-browser / mobile fixes ----------
+html {
+  // iOS Safari: don't inflate text when rotating to landscape
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // long URLs / words must never push the page wider than the phone screen
+  overflow-wrap: break-word;
+}
+img, video, iframe {
+  max-width: 100%;
+}
+// Galleries: the <img> carries the photo's real width/height attributes, so
+// every browser reserves the right space before it loads (no jumping);
+// height:auto keeps the proportions. The tiny blurred preview set as
+// background is visible until the real photo arrives.
+.gallery-figure {
+  margin: 0 0 1rem 0;
+  max-width: 100%;
+  > a { display: block; }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+// Home: the copyright line follows the profile instead of sitting at the very
+// bottom of the window (older browsers without :has() keep the old layout)
+.wrapper:has(.home) > main {
+  flex: 0 0 auto;
+}
+.wrapper:has(.home) .home {
+  padding-bottom: 1rem;
+}
+.wrapper:has(.home) .home-profile {
+  // the theme pushes the profile down with a transform, which does not move
+  // what comes after it: use real spacing instead
+  transform: none;
+  padding-top: 12vh;
+}
+.wrapper:has(.home) > .footer {
+  margin-top: 2.5rem;
+}
+
+// Diagrams that would be too big at full width (e.g. thesis test flow)
+.figure-narrow {
+  max-width: 520px;
+  margin: 1.5rem auto;
+}
+.content .gallery-figure img {
+  border-radius: 6px;
+}
+
+// Plain links that replaced the Spotify / YouTube embeds
+.external-embed {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+// Tables, code blocks and long formulas scroll sideways on small screens
+// instead of widening the page
+.katex-display {
+  position: relative; // keeps KaTeX's hidden MathML copy inside the scroll box
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.2rem 0;
+}
+.content table, .content pre {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 // Default: hide the custom links everywhere
 .home-links-section {
   display: none !important;

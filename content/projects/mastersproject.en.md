@@ -16,6 +16,7 @@ hiddenFromHomePage: false
 featuredImage: ""
 featuredImagePreview: ""
 
+lightgallery: true
 math:
   enable: true
 linkToMarkdown: false
@@ -44,20 +45,19 @@ For my master's thesis with Ferrari, I built a MATLAB model that answers this qu
 
 The model works in three steps, starting with real vehicle data.
 
-<div style="display: flex; gap: 2rem; align-items: flex-start;">
-  <div style="flex: 1;">
 First, given the electrical characteristics of the system and the racetrack profile—inverter voltage, current, switching frequency—it calculates total <strong>power loss</strong>. From there, using the thermal network of the power module, it estimates <strong>junction temperature</strong> through the electro-thermal analogy: thermal resistance maps to electrical resistance, heat flow maps to current.
 
 Second, once junction temperature is known, the <strong>Rainflow algorithm</strong> extracts the real damage: thermal stress cycles. In power electronics, continuous temperature swings are what kills components. The algorithm counts <i>how many</i> temperature variations (ΔT) occur, <i>how large</i> they are, and <i>how long</i> they last (Δt).
 
 Third, the model quantifies cumulative <strong>damage</strong> using Miner's Rule and acceleration factors from ECPE AQG 324 industry standards.
-</div>
-  <div style="flex: 1 1 100%; margin: 0; width: 100%;">
-    {{< gallery-image 
-        src="/images/projects/test_flow.png"
-        title="Test flow"
-        caption="Test flow" >}}
-  </div>
+
+<div class="figure-narrow">
+
+{{< gallery-image 
+    src="/images/projects/test_flow.png"
+    title="Test flow"
+    caption="Test flow (click to zoom)" >}}
+
 </div>
 
 The models used to calculate the acceleration factor are Coffin Manson, Arrhenius and an on-time factor which are all three packed into the <strong>Norris-Landzberg Acceleration Factor (AF)</strong>.
