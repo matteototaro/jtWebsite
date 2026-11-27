@@ -1,4 +1,4 @@
-baseURL = "https://mtotaro.com/"
+baseURL = "https://www.mtotaro.com/"
 defaultContentLanguage = "en"
 title = "Matteo Totaro"
 theme = "LoveIt"
@@ -120,7 +120,7 @@ enableEmoji = true
             pagination.pagerSize = 5
         # Social config in home page
         [languages.en.params.social]
-          GitHub = "matteojtotaro"
+          GitHub = "matteototaro"
           #Twitter = ""
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
@@ -139,7 +139,7 @@ enableEmoji = true
   # date format
     dateFormat = "02/01/2006"
   # website images for Open Graph and Twitter Cards
-    images = ["/cover.jpg"]
+    images = ["/images/cover.jpg"]
 
   # Header info
   [params.header]
@@ -244,37 +244,10 @@ enableEmoji = true
       copyTex = true
       # KaTeX extension mhchem
       mhchem = true
-    # Social share links in post page
+    # Social share buttons: off (no third-party share scripts)
     [params.page.share]
-      enable = true
-      Twitter = true
-      Facebook = true
-      Linkedin = true
-      Whatsapp = true
-      Pinterest = true
-      Tumblr = true
-      HackerNews = false
-      Reddit = true
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = false
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = false
-      Renren = false
-      Myspace = false
-      Blogger = false
-      Baidu = false
-      Odnoklassniki = false
-      Evernote = false
-      Skype = false
-      Trello = false
-      Mix = false
-    
+      enable = false
+
     # Comments are disabled (no third-party scripts)
     [params.page.comment]
       enable = false
