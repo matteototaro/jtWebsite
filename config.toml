@@ -24,8 +24,6 @@ enableEmoji = true
     hasCJKLanguage = false
     # default amount of posts in each pages
     pagination.pagerSize = 24
-    # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "" #"UA-164939128-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
@@ -93,28 +91,6 @@ enableEmoji = true
         iconColor = "#5bbad5"
         # Windows v8-10 tile color
         tileColor = "#da532c"
-      # Search config
-      [languages.en.params.search]
-        enable = false
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-
         # Home Page Info
         [languages.en.params.home]
         # amount of RSS pages
@@ -268,23 +244,6 @@ enableEmoji = true
       copyTex = true
       # KaTeX extension mhchem
       mhchem = true
-    # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
-    [params.page.mapbox]
-      # access token of Mapbox GL JS
-      accessToken = "IL_TUO_TOKEN"
-      # style for the light theme
-      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
-      # style for the dark theme
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
-      # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
-      navigation = true
-      # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
-      geolocate = true
-      # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
-      scale = true
-      # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
-      fullscreen = true
-
     # Social share links in post page
     [params.page.share]
       enable = true
@@ -316,73 +275,10 @@ enableEmoji = true
       Trello = false
       Mix = false
     
-    # Comment config
+    # Comments are disabled (no third-party scripts)
     [params.page.comment]
       enable = false
-      # Disqus comment config (https://disqus.com/)
-      [params.page.comment.disqus]
-        enable = false
-        # Disqus shortname to use Disqus in posts
-        shortname = ""
-      # Gitalk comment config (https://github.com/gitalk/gitalk)
-      [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      # Valine comment config (https://github.com/xCss/Valine)
-      [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-      # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # Telegram comments config (https://comments.app/)
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      # Commento comments config (https://commento.io/)
-      [params.page.comment.commento]
-        enable = false
 
-    # Third-party library config
-    [params.page.library]
-      [params.page.library.css]
-        # someCSS = "some.css"
-        # located in "assets/" 位于 "assets/"
-        # Or cdn
-        # BootstrapCss = "bootstrap.min.css"
-        # BootstrapGridCss = "bootstrap-grid.min.css"
-      [params.page.library.js]
-        # someJavascript = "some.js"
-        # located in "assets/" 位于 "assets/"
-        # Or 或者
-        # jQuery = "jquery-3.5.1.min.js"
-        # PopperJs = "popper.min.js"
-        # BootstrapJs = "bootstrap.min.js"
-        # BootstrapBundleJs = "bootstrap.bundle.min.js"
     # SEO config
     [params.page.seo]
       # image URL
@@ -418,26 +314,13 @@ enableEmoji = true
     # thumbnail URL
     thumbnailUrl = "logoMT.png"
 
- # Analytics config
+ # No analytics, no cookies
   [params.analytics]
     enable = false
-    # Google Analytics id privacy
-    [params.analytics.google]
-      id = ""
-      # whether to anonymize IP
-      anonymizeIP = false
-      # whether to use cookie
-      cookie = false
- 
-  # Cookie consent config
+
   [params.cookieconsent]
     enable = false
-    # text strings used for Cookie consent banner
-    [params.cookieconsent.content]
-      message = "We use first and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Websites to operate, and we refer to these as <i>essential</i> or <i>strictly necessary</i> cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Online Properties. <a href=https://mtotaro.com/privacypolicy/>Click to learn more about it</a>"
-      dismiss = "Dismiss"
-      link = "What are cookies?"
-   
+
    [services]
    #If simple mode is enabled, a static and no-JS version of the Instagram image card will be built. 
    #Note that this only supports image cards and the image itself will be fetched from Instagram’s servers.
@@ -453,7 +336,6 @@ enableEmoji = true
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     data = "jsdelivr.yml"
-    mydata = "mycdns.yml"
 
   # Compatibility config
   [params.compatibility]
