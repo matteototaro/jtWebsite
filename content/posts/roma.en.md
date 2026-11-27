@@ -13,15 +13,12 @@ keywords: ["rome", "italy", "travel", "vatican","roma","italia","viaggi"]
 #tags: ["travel", "italy", "rome", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: "https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/roma/6.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

@@ -28,7 +28,6 @@ resources:
       
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto,f_auto/leuca/3.jpg"
 
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

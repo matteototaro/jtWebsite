@@ -19,6 +19,12 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.147.8"
 
+# AMP pages are no longer generated: send old /amp/ links to the normal page.
+[[redirects]]
+  from = "/amp/*"
+  to = "/:splat"
+  status = 301
+
 # Security headers for every response.
 # The CSP starts as Report-Only: violations are only logged in the browser
 # console. Once the deploy preview shows no violations, rename the key to

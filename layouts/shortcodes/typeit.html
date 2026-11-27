@@ -1,0 +1,5 @@
+{{- /* Static replacement for the theme's typeit shortcode: same markup
+       ({{< typeit tag=h3 >}}...{{< /typeit >}}), no JavaScript animation. */ -}}
+{{- $tag := .Get "tag" | default "p" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- printf "<%s%s>%s</%s>" $tag (cond (ne $class "") (printf " class=%q" $class) "") (.Inner | strings.TrimSpace | markdownify) $tag | safeHTML -}}

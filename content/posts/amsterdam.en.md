@@ -13,15 +13,12 @@ keywords: ["amsterdam", "netherlands", "travel", "canals"]
 #tags: ["travel", "netherlands", "amsterdam", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: ""
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/amsterdam/11.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

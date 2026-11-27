@@ -15,7 +15,6 @@ hiddenFromHomePage: false
 featuredImage: ""
 featuredImagePreview: "/images/uploads/"
 
-lightgallery: false
 linkToMarkdown: false
 share:
   enable: false

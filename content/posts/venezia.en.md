@@ -13,15 +13,12 @@ keywords: ["venice", "italy", "travel", "photography", "venezia", "italia", "fot
 #tags: ["travel", "italy", "venice", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/venezia/2.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

@@ -13,14 +13,11 @@ keywords: ["barcelona", "spain", "travel", "gaudi", "sagrada familia"]
 #tags: ["travel", "spain", "barcelona", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/barcelona/1.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

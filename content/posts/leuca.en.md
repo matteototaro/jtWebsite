@@ -14,14 +14,11 @@ keywords: ["leuca", "puglia", "italy", "travel", "lighthouse"]
 #tags: ["travel", "italy", "puglia", "mediterranean"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/q_auto,f_auto,w_auto/leuca/3.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false
