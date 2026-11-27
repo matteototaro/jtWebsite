@@ -13,14 +13,11 @@ keywords: ["craco", "basilicata", "italy", "ghost town"]
 #tags: ["travel", "italy", "basilicata", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/craco/14.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

@@ -14,7 +14,6 @@ hiddenFromHomePage: true
 featuredImage: ""
 featuredImagePreview: ""
 
-lightgallery: false
 linkToMarkdown: false
 share:
   enable: false

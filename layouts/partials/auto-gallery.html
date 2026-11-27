@@ -1,0 +1,39 @@
+{{- /*
+  Automatic gallery for "page bundle" posts:
+    content/posts/<name>/index.md  + the photos in the same folder.
+  Every image in the folder is shown in file-name order, auto-rotated,
+  resized and re-encoded as WebP at build time. Re-encoding drops all
+  EXIF metadata (GPS, camera serial, ...). The original files are not
+  published (cascade build.publishResources = false in config.toml).
+
+  Optional captions in front matter, keyed by file name:
+    captions:
+      01.jpg: "Alfama at sunset"
+  Old posts (gallery-image shortcodes, no images in the folder) are unaffected.
+*/ -}}
+{{- $images := sort (.Resources.ByType "image") "Name" -}}
+{{- with $images -}}
+  {{- $captions := $.Params.captions | default dict -}}
+  <div class="auto-gallery">
+  {{- range $images -}}
+    {{- $img := . -}}
+    {{- if ne .MediaType.SubType "svg" -}}
+      {{- $img = .Filter images.AutoOrient -}}
+    {{- end -}}
+    {{- $view := $img.Process "fit 1600x1600 webp q82" -}}
+    {{- $full := $img.Process "fit 2560x2560 webp q85" -}}
+    {{- $thumb := $img.Process "fit 240x240 webp q75" -}}
+    {{- $caption := index $captions (lower .Name) | default "" -}}
+    <figure class="gallery-figure">
+      <a class="lightgallery" href="{{ $full.RelPermalink }}" title="{{ $caption }}"
+         data-thumbnail="{{ $thumb.RelPermalink }}" data-sub-html="{{ $caption }}">
+        <img src="{{ $view.RelPermalink }}" alt="{{ $caption | default $.Title }}"
+             width="{{ $view.Width }}" height="{{ $view.Height }}" loading="lazy" decoding="async">
+      </a>
+      {{- with $caption }}
+      <figcaption class="image-caption"><code>{{ . }}</code></figcaption>
+      {{- end }}
+    </figure>
+  {{- end -}}
+  </div>
+{{- end -}}

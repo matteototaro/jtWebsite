@@ -1,4 +1,4 @@
-baseURL = "https://mtotaro.com/"
+baseURL = "https://www.mtotaro.com/"
 defaultContentLanguage = "en"
 title = "Matteo Totaro"
 theme = "LoveIt"
@@ -24,8 +24,6 @@ enableEmoji = true
     hasCJKLanguage = false
     # default amount of posts in each pages
     pagination.pagerSize = 24
-    # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "" #"UA-164939128-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
@@ -93,28 +91,6 @@ enableEmoji = true
         iconColor = "#5bbad5"
         # Windows v8-10 tile color
         tileColor = "#da532c"
-      # Search config
-      [languages.en.params.search]
-        enable = false
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-
         # Home Page Info
         [languages.en.params.home]
         # amount of RSS pages
@@ -131,7 +107,7 @@ enableEmoji = true
             # subtitle shown in home page
             subtitle = "Welcome to my space on the web"
             # whether to use typeit animation for subtitle
-            typeit = true
+            typeit = false
             # whether to show social links
             social = true
             # disclaimer (HTML format is supported)
@@ -144,7 +120,7 @@ enableEmoji = true
             pagination.pagerSize = 5
         # Social config in home page
         [languages.en.params.social]
-          GitHub = "matteojtotaro"
+          GitHub = "matteototaro"
           #Twitter = ""
           Instagram = "matt.totaro"
           Email = "tmatteos@gmail.com"
@@ -163,7 +139,7 @@ enableEmoji = true
   # date format
     dateFormat = "02/01/2006"
   # website images for Open Graph and Twitter Cards
-    images = ["/cover.jpg"]
+    images = ["/images/cover.jpg"]
 
   # Header info
   [params.header]
@@ -181,7 +157,7 @@ enableEmoji = true
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
-      typeit = true
+      typeit = false
 
   # Footer Copyright Info
   [params.footer]
@@ -229,7 +205,7 @@ enableEmoji = true
     # whether to enable twemoji
     twemoji = false
     # whether to enable lightgallery
-    lightgallery = true
+    lightgallery = false
     # whether to enable the ruby extended syntax
     ruby = false
     # whether to enable the fraction extended syntax
@@ -251,13 +227,13 @@ enableEmoji = true
     # Code config
     [params.page.code]
       # whether to show the copy button of the code block
-      copy = true
+      copy = false
       # the maximum number of lines of displayed code by default
       maxShownLines = 10
    
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
-      enable = true
+      enable = false
       # default block delimiter is $$ ... $$ and \\[ ... \\]
       blockLeftDelimiter = ""
       blockRightDelimiter = ""
@@ -268,121 +244,14 @@ enableEmoji = true
       copyTex = true
       # KaTeX extension mhchem
       mhchem = true
-    # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
-    [params.page.mapbox]
-      # access token of Mapbox GL JS
-      accessToken = "IL_TUO_TOKEN"
-      # style for the light theme
-      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
-      # style for the dark theme
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
-      # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
-      navigation = true
-      # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
-      geolocate = true
-      # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
-      scale = true
-      # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
-      fullscreen = true
-
-    # Social share links in post page
+    # Social share buttons: off (no third-party share scripts)
     [params.page.share]
-      enable = true
-      Twitter = true
-      Facebook = true
-      Linkedin = true
-      Whatsapp = true
-      Pinterest = true
-      Tumblr = true
-      HackerNews = false
-      Reddit = true
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = false
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = false
-      Renren = false
-      Myspace = false
-      Blogger = false
-      Baidu = false
-      Odnoklassniki = false
-      Evernote = false
-      Skype = false
-      Trello = false
-      Mix = false
-    
-    # Comment config
+      enable = false
+
+    # Comments are disabled (no third-party scripts)
     [params.page.comment]
       enable = false
-      # Disqus comment config (https://disqus.com/)
-      [params.page.comment.disqus]
-        enable = false
-        # Disqus shortname to use Disqus in posts
-        shortname = ""
-      # Gitalk comment config (https://github.com/gitalk/gitalk)
-      [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      # Valine comment config (https://github.com/xCss/Valine)
-      [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-      # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # Telegram comments config (https://comments.app/)
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      # Commento comments config (https://commento.io/)
-      [params.page.comment.commento]
-        enable = false
 
-    # Third-party library config
-    [params.page.library]
-      [params.page.library.css]
-        # someCSS = "some.css"
-        # located in "assets/" 位于 "assets/"
-        # Or cdn
-        # BootstrapCss = "bootstrap.min.css"
-        # BootstrapGridCss = "bootstrap-grid.min.css"
-      [params.page.library.js]
-        # someJavascript = "some.js"
-        # located in "assets/" 位于 "assets/"
-        # Or 或者
-        # jQuery = "jquery-3.5.1.min.js"
-        # PopperJs = "popper.min.js"
-        # BootstrapJs = "bootstrap.min.js"
-        # BootstrapBundleJs = "bootstrap.bundle.min.js"
     # SEO config
     [params.page.seo]
       # image URL
@@ -418,26 +287,13 @@ enableEmoji = true
     # thumbnail URL
     thumbnailUrl = "logoMT.png"
 
- # Analytics config
+ # No analytics, no cookies
   [params.analytics]
     enable = false
-    # Google Analytics id privacy
-    [params.analytics.google]
-      id = ""
-      # whether to anonymize IP
-      anonymizeIP = false
-      # whether to use cookie
-      cookie = false
- 
-  # Cookie consent config
+
   [params.cookieconsent]
     enable = false
-    # text strings used for Cookie consent banner
-    [params.cookieconsent.content]
-      message = "We use first and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Websites to operate, and we refer to these as <i>essential</i> or <i>strictly necessary</i> cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Online Properties. <a href=https://mtotaro.com/privacypolicy/>Click to learn more about it</a>"
-      dismiss = "Dismiss"
-      link = "What are cookies?"
-   
+
    [services]
    #If simple mode is enabled, a static and no-JS version of the Instagram image card will be built. 
    #Note that this only supports image cards and the image itself will be fetched from Instagram’s servers.
@@ -452,15 +308,15 @@ enableEmoji = true
     # located in "themes/LoveIt/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
-    data = "jsdelivr.yml"
-    mydata = "mycdns.yml"
+    # empty = serve the theme libraries from this site (no jsdelivr, no third party)
+    data = ""
 
   # Compatibility config
   [params.compatibility]
     # whether to use Polyfill.io to be compatible with older browsers
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
-    objectFit = true
+    objectFit = false
 
 # Markup related configuration in Hugo
 [markup]
@@ -495,6 +351,19 @@ enableEmoji = true
   email = "tmatteos@gmail.com"
   link = "/about/"
   
+# Defaults for every post in /posts/ and /analogs/, so a new post only
+# needs title, date, place and description (see archetypes/ and GUIDA.md).
+[[cascade]]
+  toc = false
+  # click-to-zoom lightbox, loaded only on gallery pages
+  lightgallery = true
+  [cascade.build]
+    # photos inside a post folder are published only as the resized WebP
+    # copies made by layouts/partials/auto-gallery.html, never as originals
+    publishResources = false
+  [cascade.target]
+    path = "{/posts/**,/analogs/**}"
+
 # Sitemap Info
 [sitemap]
   changefreq = "monthly"
@@ -516,20 +385,8 @@ enableEmoji = true
   [privacy.youtube]
     privacyEnhanced = true
 
-# Options to make output .md files
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
-
-# Options to make output .md files
-[outputFormats.MarkDown]
-  mediaType = "text/plain"
-  isPlainText = true
-  isHTML = false
-
-# Options to make hugo output files???
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "MarkDown"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]

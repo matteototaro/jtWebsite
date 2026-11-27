@@ -12,6 +12,16 @@
     <meta name="theme-color" content="{{ . }}">
 {{- end -}}
 
+{{- /* Safari/Chrome mobile address bar colour in dark mode (matches LoveIt's dark background) */ -}}
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#252627">
+
+{{- /* Inter, self-hosted: fetch the main Latin file early to avoid a font swap flash */ -}}
+<link rel="preload" href="{{ "fonts/inter-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+{{- /* Old galleries load photos from Cloudinary: open the connection early */ -}}
+<link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+<link rel="dns-prefetch" href="https://res.cloudinary.com">
+
 {{- with .Site.Params.app.tileColor -}}
     <meta name="msapplication-TileColor" content="{{ . }}">
 {{- end -}}

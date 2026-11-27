@@ -7,13 +7,6 @@ HUGO_VERSION = "0.147.8"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.147.8"
-HUGO_ENV = "production"
-
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
@@ -26,8 +19,46 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.147.8"
 
-[context.next.environment]
-HUGO_ENABLEGITINFO = "false"
+# AMP pages are no longer generated: send old /amp/ links to the normal page.
+[[redirects]]
+  from = "/amp/*"
+  to = "/:splat"
+  status = 301
+
+# Security headers for every response.
+# The CSP starts as Report-Only: violations are only logged in the browser
+# console. Once the deploy preview shows no violations, rename the key to
+# "Content-Security-Policy" to enforce it.
+# Origins in use (checked on the built site): everything is self-hosted except
+# res.cloudinary.com (photos of the older galleries) and storage.googleapis.com
+# (COCO-SSD model weights, downloaded only after a visitor starts the
+# Objectify demo). No iframes, no third-party scripts or fonts.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(self), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()"
+    Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://res.cloudinary.com; font-src 'self'; frame-src 'none'; connect-src 'self' https://storage.googleapis.com; media-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+
+# Long browser cache for files whose name changes when their content changes
+# (fonts and versioned libraries).
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/lib/tfjs-4.22.0/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/lib/coco-ssd-2.2.3/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "*.webmanifest"

@@ -13,15 +13,12 @@ keywords: ["palascia", "puglia", "italy", "lighthouse", "otranto"]
 #tags: ["travel", "italy", "puglia", "lighthouse"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: ""
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/palascia/5.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

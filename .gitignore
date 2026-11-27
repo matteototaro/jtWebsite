@@ -1,0 +1,9 @@
+# Hugo build output (Netlify rebuilds it on every deploy)
+public/
+resources/
+.hugo_build.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

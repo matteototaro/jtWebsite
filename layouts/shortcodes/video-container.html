@@ -1,672 +1,713 @@
-<!-- Avoid loading heavy external ML scripts on page load to prevent content-blocker prompts.
-    The page will lazy-load TensorFlow and models only when the user starts the camera. -->
-
+{{- /*
+  Objectify: live object detection in the browser (nothing leaves the device).
+  Phone: looks like the iPhone Camera app. Desktop (>= 900 px): a vintage
+  rangefinder camera. Same markup, only the CSS changes.
+  TF.js + COCO-SSD are loaded only after "Start camera" is pressed.
+*/ -}}
 <style>
-    :root {
-        --camera-bg: #111;
-        --camera-accent: #ffffff; /* White camera button */
-        --camera-accent-hover: #f0f0f0;
-        --record-color: #ff3b30;
-        --record-hover: #ff5e54;
-    }
-    
-    .video-app-container {
-        position: relative;
-        max-width: 100%;
-        width: 100%;
-        margin: 0 auto;
-        background-color: var(--camera-bg);
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        aspect-ratio: 9/13;
-        height: auto;
-    }
+/* ================= base: iPhone-like camera (phones) ================= */
+.objectify {
+    --oy-yellow: #ffd60a;
+    --oy-red: #ff3b30;
+    position: relative;
+    max-width: 430px;
+    margin: 1.5rem auto;
+    background: #000;
+    color: #fff;
+    border-radius: 28px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.objectify button {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+.oy-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 16px;
+    font-size: 1.05rem;
+}
+.oy-brand { display: none; }
+.oy-pill {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.85);
+    font-variant-numeric: tabular-nums;
+}
+.oy-pill.ready { background: var(--oy-yellow); color: #000; }
+.oy-pill.rec { background: var(--oy-red); color: #fff; }
+.oy-icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+#stopCameraBtn { visibility: hidden; }
+.objectify.on #stopCameraBtn { visibility: visible; }
 
-    .video-container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        background-color: black;
-    }
+.oy-viewfinder {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    /* never taller than the screen minus header + camera controls:
+       the whole camera fits without scrolling (video fills it, cropped) */
+    max-height: calc(100vh - 290px);
+    max-height: calc(100svh - 290px);
+    min-height: 260px;
+    background: #111;
+    overflow: hidden;
+}
+#webcam { display: none; }
+#canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.objectify.on #canvas { display: block; }
+#loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 4;
+    display: none;
+}
+#loading-progress {
+    height: 100%;
+    width: 0;
+    background: var(--oy-yellow);
+    transition: width 0.3s;
+}
+#startCameraBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+#startCameraBtn .oy-start-ring {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.objectify.on #startCameraBtn { display: none; }
+#mlStatus {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 52px;
+    z-index: 5;
+    text-align: center;
+    font-size: 0.8rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+}
+.oy-zoom {
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    color: var(--oy-yellow);
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    #webcam,
-    #canvas {
+.oy-modes {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding: 14px 0 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+.oy-modes button { color: rgba(255, 255, 255, 0.75); }
+.oy-modes button[aria-pressed="true"] { color: var(--oy-yellow); }
+
+.oy-bottom {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 10px 28px 26px;
+}
+#thumb {
+    justify-self: start;
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    background: #222 center / cover no-repeat;
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+}
+#thumb:disabled { cursor: default; opacity: 0.5; }
+#flipButton {
+    justify-self: end;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#shutter {
+    position: relative;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+#shutter::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+#shutter:active::after { transform: scale(0.9); }
+.objectify[data-mode="video"] #shutter::after { background: var(--oy-red); }
+.objectify.recording #shutter::after { inset: 20px; border-radius: 6px; }
+.objectify .oy-flash {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 6;
+    transition: opacity 0.25s ease;
+}
+.objectify .oy-flash.go { opacity: 0.8; transition: none; }
+
+/* ================= desktop: vintage rangefinder ================= */
+@media (min-width: 900px) {
+    .objectify {
+        /* sized from the window height: camera body = ~190 px of chrome and
+           controls + a 4:3 viewfinder, all visible on a 16:9 screen with the
+           site header and page title above it */
+        max-width: none;
+        width: clamp(340px, calc((100vh - 400px) * 4 / 3 + 48px), 560px);
+        margin: 1rem auto;
+        border-radius: 18px;
+        padding: 0 16px 14px;
+        color: #2b2620;
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+        /* black leatherette */
+        background:
+            radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 1.6px) 0 0 / 5px 5px,
+            radial-gradient(circle at 3px 3px, rgba(0,0,0,0.35) 1px, transparent 1.8px) 0 0 / 5px 5px,
+            #1d1b19;
+        box-shadow:
+            0 2px 0 #000,
+            0 24px 50px rgba(0, 0, 0, 0.45),
+            inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    }
+    /* brushed chrome top plate */
+    .oy-top {
+        height: 46px;
+        margin: 0 -16px 14px;
+        padding: 0 20px;
+        border-radius: 18px 18px 6px 6px;
+        background:
+            repeating-linear-gradient(90deg, rgba(255,255,255,0.10) 0 1px, rgba(0,0,0,0.03) 1px 3px),
+            linear-gradient(180deg, #f4f4f2 0%, #c9c9c5 45%, #a9a9a4 55%, #dcdcd8 100%);
+        border-bottom: 2px solid #6e6c67;
+        box-shadow: inset 0 1px 0 #fff;
+    }
+    .oy-brand {
+        display: block;
+        font-weight: 800;
+        letter-spacing: 0.32em;
+        font-size: 0.85rem;
+        color: #2b2620;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    }
+    .oy-brand small {
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        margin-left: 0.6em;
+        color: #6b655b;
+    }
+    .oy-top .oy-flash-icon { display: none; }
+    .oy-pill {
+        margin-left: auto;
+        margin-right: 12px;
+        background: #2b2620;
+        color: #e8e2d4;
+        border-radius: 3px;
+        font-family: "Courier New", monospace;
+        letter-spacing: 0.1em;
+    }
+    .oy-pill.ready { background: #2b2620; color: #ffcf5c; }
+    .oy-pill.rec { background: #a3241b; color: #fff; }
+    .oy-icon-btn {
+        color: #2b2620;
+        background: radial-gradient(circle at 35% 30%, #fff, #b9b9b4 60%, #8e8d88);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    }
+    /* viewfinder: framed, warm, vignetted, with film grain */
+    .oy-viewfinder {
+        aspect-ratio: 4 / 3;
+        max-height: none;
+        min-height: 0;
+        border-radius: 8px;
+        border: 8px solid #0d0c0b;
+        box-shadow:
+            0 0 0 2px #8e8d88,
+            0 0 0 4px #3a3733,
+            inset 0 0 40px rgba(0, 0, 0, 0.6);
+        background: #0f0e0c;
+    }
+    .oy-viewfinder #canvas { filter: sepia(0.35) contrast(1.05) saturate(0.85); }
+    .oy-viewfinder::before {
+        content: "";
         position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        height: 100%;
-        transform: translate(-50%, -50%);
-        object-fit: contain;
-        z-index: 1; /* or 2 for #canvas */
-        /* Remove min-width and min-height */
-    }
-    #canvas {
-        z-index: 2;
+        inset: 0;
+        z-index: 3;
         pointer-events: none;
+        background: radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
     }
-    
-    #loading {
+    .oy-viewfinder::after {
+        content: "";
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 4px;
-        background: rgba(255,255,255,0.2);
-        z-index: 10;
+        inset: 0;
+        z-index: 3;
+        pointer-events: none;
+        opacity: 0.18;
+        mix-blend-mode: overlay;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
-    
-    #loading-progress {
-        height: 100%;
-        width: 0%;
-        background: linear-gradient(90deg, #4CAF50, #8BC34A);
-        transition: width 0.3s;
+    #startCameraBtn { color: #efe6d2; }
+    #startCameraBtn .oy-start-ring {
+        border: 3px solid #efe6d2;
+        box-shadow: 0 0 0 6px rgba(239, 230, 210, 0.15);
     }
-
-    .controls {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-        z-index: 4;
+    .oy-zoom {
+        color: #efe6d2;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: "Courier New", monospace;
     }
-
-    .control-main {
-        display: flex;
-        justify-content: space-between;
-        flex-grow: 1;
-        gap: 0.5rem;
-        align-items: center;
+    #loading-progress { background: #ffcf5c; }
+    /* mode dial engraved on the body */
+    .oy-modes {
+        padding: 10px 0 2px;
+        gap: 30px;
+        font-size: 0.72rem;
+        letter-spacing: 0.3em;
     }
-    .stop-btn {
-        background: #ff3b30;
-        color: #fff;
-        box-shadow: 0 2px 8px rgba(255,59,48,0.15);
-        border: 2px solid #ff3b30;
-        transition: background 0.2s, color 0.2s, border 0.2s;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 56px;
-        height: 56px;
+    .oy-modes button { color: #8b857a; }
+    .oy-modes button[aria-pressed="true"] { color: #e8e2d4; text-decoration: underline 2px #c9a23a; text-underline-offset: 5px; }
+    .oy-bottom { padding: 6px 6px 0; }
+    /* thumbnail as a little print */
+    #thumb {
+        width: 54px;
+        height: 40px;
+        border-radius: 2px;
+        border: 4px solid #efe6d2;
+        border-bottom-width: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        transform: rotate(-4deg);
+    }
+    /* knurled advance knob */
+    #flipButton {
+        width: 44px;
+        height: 44px;
+        color: #2b2620;
+        background:
+            repeating-conic-gradient(#9a9994 0 6deg, #e2e2de 6deg 12deg),
+            #c9c9c5;
+        box-shadow: inset 0 0 0 6px rgba(0,0,0,0.08), 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #flipButton i {
+        background: radial-gradient(circle, #f2f2ef, #b5b5b0);
         border-radius: 50%;
-        font-size: 1.2rem;
-        flex: 0 0 56px;
+        padding: 9px;
     }
-    .stop-btn:hover {
-        background: #fff;
-        color: #ff3b30;
-        border: 2px solid #ff3b30;
+    /* chrome shutter release with the red dot */
+    #shutter {
+        width: 62px;
+        height: 62px;
+        border: 0;
+        background: radial-gradient(circle at 35% 30%, #ffffff, #c2c2bd 55%, #7d7c77);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6), inset 0 -2px 4px rgba(0, 0, 0, 0.25);
     }
-    
-    .control-side {
-        width: 80px;
-        display: flex;
-        justify-content: center;
+    #shutter::after {
+        inset: 24px;
+        background: #b3261e;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
     }
-    
-    .control-button {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        border: none;
-        background: var(--camera-accent);
-        color: #333; /* Dark icon for white button */
-        cursor: pointer;
-        transition: all 0.2s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        padding: 0;
-        flex: 0 0 56px;
-        min-width: 56px;
-    }
-    
-    #recordButton {
-        background: var(--record-color);
-        color: white;
-    }
-    
-    #recordButton:hover {
-        background: var(--record-hover);
-    }
-    
-    .control-button.small {
-        width: 56px;
-        height: 56px;
-        font-size: 1rem;
-        background: transparent;
-        color: white;
-        border: 2px solid white;
-        padding: 0;
-        flex: 0 0 56px;
-        min-width: 56px;
-    }
-    
-    .control-button.small:hover {
-        background: rgba(255,255,255,0.1);
-    }
-    
-    .control-button:hover {
-        background: var(--camera-accent-hover);
-    }
-    
-    .control-button.recording {
-        animation: pulse 1.5s infinite;
-    }
-    
-    @keyframes pulse {
-        0% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7); }
-        70% { box-shadow: 0 0 0 15px rgba(255, 59, 48, 0); }
-        100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); }
-    }
-    
-    /* Status bar */
-    .status-bar {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: calc(100% - 2rem);
-        padding: 0.8rem 1rem;
-        display: flex;
-        justify-content: space-between;
-        color: white;
-        z-index: 10;
-        font-size: 0.9rem;
-        font-weight: 600;
-    }
-    
-    #startCameraBtn {
-        position: absolute;
-        bottom: 100px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 5;
-        padding: 0.8rem 1.5rem;
-        font-size: 1rem;
-        background: var(--camera-accent);
-        border: none;
-        color: #333;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
-    
-    #startCameraBtn:hover {
-        background: var(--camera-accent-hover);
-    }
-    
-    /* Responsive adjustments */
-    @media (min-width: 768px) {
-        .video-app-container {
-            max-width: 400px;
-            aspect-ratio: 9/13;
-        }
-    }
+    .objectify[data-mode="video"] #shutter::after { background: #b3261e; inset: 20px; }
+    .objectify.recording #shutter::after { inset: 22px; border-radius: 3px; }
+    .objectify .oy-flash { background: #fff8e1; }
+}
 </style>
 
-<div class="video-app-container">
-    <div class="status-bar">
-        <span class="current-time">14:30</span>
-        <div class="status-icons">
-            <i class="fas fa-signal"></i>
-            <i class="fas fa-battery-three-quarters" style="margin-left: 8px;"></i>
-        </div>
-    </div>
-    
-    <div id="loading"><div id="loading-progress"></div></div>
-    
-    <div class="video-container">
-        <button id="startCameraBtn">
-            <i class="fas fa-camera" style="margin-right: 8px;"></i> Start Camera
+<div class="objectify" id="objectify" data-mode="photo">
+    <div class="oy-top">
+        <span class="oy-icon-btn oy-flash-icon" aria-hidden="true"><i class="fas fa-bolt"></i></span>
+        <span class="oy-brand">OBJECTIFY<small>AI · 35</small></span>
+        <span class="oy-pill" id="oyPill">OFF</span>
+        <button class="oy-icon-btn" id="stopCameraBtn" title="Turn camera off" aria-label="Turn camera off">
+            <i class="fas fa-power-off"></i>
         </button>
-        <video id="webcam" autoplay playsinline style="display: none;"></video>
-        <canvas id="canvas"></canvas>
     </div>
 
-    <div class="controls">
-        <div class="control-main">
-            <button class="control-button small" id="flipButton" title="Flip Camera">
-                <i class="fas fa-camera-rotate"></i>
-            </button>
-            <button class="control-button" id="photoButton" title="Take Photo">
-                <i class="fas fa-camera"></i>
-            </button>
-            <button class="control-button" id="recordButton" title="Record Video">
-                <i class="fas fa-video"></i>
-            </button>
-            <button id="stopCameraBtn" class="control-button small stop-btn" title="Stop Camera">
-                <i class="fas fa-power-off"></i>
-            </button>
-        </div>
+    <div class="oy-viewfinder">
+        <div id="loading"><div id="loading-progress"></div></div>
+        <video id="webcam" autoplay playsinline muted></video>
+        <canvas id="canvas"></canvas>
+        <button id="startCameraBtn">
+            <span class="oy-start-ring"><i class="fas fa-camera"></i></span>
+            Start camera
+        </button>
+        <div id="mlStatus" aria-live="polite"></div>
+        <div class="oy-zoom" aria-hidden="true">1×</div>
+        <div class="oy-flash" id="oyFlash"></div>
+    </div>
+
+    <div class="oy-modes" role="group" aria-label="Mode">
+        <button data-mode="video" aria-pressed="false">VIDEO</button>
+        <button data-mode="photo" aria-pressed="true">PHOTO</button>
+    </div>
+
+    <div class="oy-bottom">
+        <button id="thumb" title="Save the last shot" aria-label="Save the last shot" disabled></button>
+        <button id="shutter" title="Take photo" aria-label="Take photo"></button>
+        <button id="flipButton" title="Switch camera" aria-label="Switch camera">
+            <i class="fas fa-camera-rotate"></i>
+        </button>
     </div>
 </div>
 
 <script>
-    // Global variables
-    let model;
-    let mobileNetModel;
-    let webcam;
-    let canvas;
-    let ctx;
-    let isModelLoading = false;
-    let isCameraOn = false;
-    let isRecording = false;
-    let mediaRecorder;
-    let recordedChunks = [];
-    let isFrontCamera = false;
-    let loadingProgress = 0;
-    let loadingInterval;
-    let currentModel = 'coco-ssd'; // 'coco-ssd' or 'mobilenet'
+/*
+ * Speed: only COCO-SSD "lite" is loaded (TF.js + model code served by this
+ * site, pinned); camera and model start in parallel; the video is drawn at
+ * full frame rate while detection runs ~10x/s on a 320 px copy of the frame;
+ * WebGL backend with a warm-up run; the ~18 MB of weights are cached in
+ * IndexedDB after the first visit.
+ */
+(() => {
+    const TFJS_URL = '{{ "lib/tfjs-4.22.0/tf.es2017.min.js" | relURL }}';
+    const COCO_URL = '{{ "lib/coco-ssd-2.2.3/coco-ssd.min.js" | relURL }}';
+    const CACHE_KEY = 'indexeddb://objectify-coco-ssd-lite-v2';
+    const DETECT_EVERY_MS = 100;
+    const DETECT_WIDTH = 320;
+    const MIN_SCORE = 0.5;
+    const MAX_BOXES = 10;
 
-    // DOM Elements
-    const loadingElement = document.getElementById('loading');
-    const loadingProgressElement = document.getElementById('loading-progress');
-    const startCameraBtn = document.getElementById('startCameraBtn');
-    const stopCameraBtn = document.getElementById('stopCameraBtn');
-    const webcamElement = document.getElementById('webcam');
-    const canvasElement = document.getElementById('canvas');
-    const photoButton = document.getElementById('photoButton');
-    const recordButton = document.getElementById('recordButton');
-    const flipButton = document.getElementById('flipButton');
+    const $ = (id) => document.getElementById(id);
+    const root = $('objectify');
+    const video = $('webcam');
+    const canvas = $('canvas');
+    const ctx = canvas.getContext('2d');
+    const statusEl = $('mlStatus');
+    const pill = $('oyPill');
+    const loadingEl = $('loading');
+    const loadingBar = $('loading-progress');
+    const startBtn = $('startCameraBtn');
+    const stopBtn = $('stopCameraBtn');
+    const shutter = $('shutter');
+    const thumb = $('thumb');
+    const flipBtn = $('flipButton');
+    const flash = $('oyFlash');
+    const vintage = window.matchMedia('(min-width: 900px)');
 
-    // Initialize (do not auto-load heavy ML models on page load)
-    document.addEventListener('DOMContentLoaded', () => {
-        updateTime();
-        setInterval(updateTime, 1000);
-        // Models and TF.js will be loaded when the user explicitly starts the camera.
-    });
+    const small = document.createElement('canvas');
+    const smallCtx = small.getContext('2d');
 
-    // Dynamically load external ML scripts only when needed
+    let model = null, modelPromise = null, stream = null, running = false;
+    let frontCamera = false, predictions = [], detecting = false, lastDetect = 0;
+    let mode = 'photo', recorder = null, chunks = [], recStart = 0, recTimer = 0;
+    let lastShot = null;
+
+    const setStatus = (t) => { statusEl.textContent = t || ''; };
+    const setPill = (text, cls) => { pill.textContent = text; pill.className = 'oy-pill' + (cls ? ' ' + cls : ''); };
+
     function loadScript(src) {
         return new Promise((resolve, reject) => {
-            if (document.querySelector(`script[src="${src}"]`)) return resolve();
+            if (document.querySelector('script[src="' + src + '"]')) return resolve();
             const s = document.createElement('script');
             s.src = src;
             s.async = true;
-            s.onload = () => resolve();
-            s.onerror = (e) => reject(e);
+            s.onload = resolve;
+            s.onerror = () => reject(new Error('Could not load ' + src));
             document.head.appendChild(s);
         });
     }
-
-    async function ensureMlScripts() {
-        if (window.tf && window.cocoSsd && window.mobilenet) return;
-        startLoadingAnimation();
-        try {
-            await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js');
-            await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.2/dist/coco-ssd.min.js');
-            await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0');
-            // allow libs to initialize
-            await new Promise(r => setTimeout(r, 150));
-            await loadModels();
-        } catch (err) {
-            console.error('Failed to load ML scripts:', err);
-        } finally {
-            stopLoadingAnimation();
-        }
+    function progress(p) {
+        loadingEl.style.display = p >= 100 ? 'none' : 'block';
+        loadingBar.style.width = p + '%';
     }
 
-    function adjustCanvasSize() {
-            const containerWidth = webcamElement.offsetWidth;
-            const containerHeight = webcamElement.offsetHeight;
-            
-            // Set canvas to match video dimensions exactly
-            canvasElement.width = webcamElement.videoWidth;
-            canvasElement.height = webcamElement.videoHeight;
-            
-            // Get the video aspect ratio
-            const videoAspect = webcamElement.videoWidth / webcamElement.videoHeight;
-            const containerAspect = containerWidth / containerHeight;
-            
-            // Calculate scaling factors
-            let scaleX = 1;
-            let scaleY = 1;
-            
-            if (containerAspect > videoAspect) {
-                // Container is wider than video
-                scaleX = containerHeight * videoAspect / containerWidth;
-            } else {
-                // Container is taller than video
-                scaleY = containerWidth / videoAspect / containerHeight;
+    function loadModel() {
+        if (modelPromise) return modelPromise;
+        modelPromise = (async () => {
+            progress(10);
+            setPill('LOADING');
+            await loadScript(TFJS_URL);
+            progress(30);
+            await loadScript(COCO_URL);
+            try { await tf.setBackend('webgl'); } catch (e) { await tf.setBackend('cpu'); }
+            await tf.ready();
+            progress(45);
+            let m;
+            try {
+                m = await cocoSsd.load({ base: 'lite_mobilenet_v2', modelUrl: CACHE_KEY });
+            } catch (e) {
+                setStatus('Downloading the detector (~18 MB, only the first time)…');
+                m = await cocoSsd.load({ base: 'lite_mobilenet_v2' });
+                try { await m.model.save(CACHE_KEY); } catch (e2) { /* private mode / quota */ }
             }
-            
-            ctx = canvasElement.getContext('2d');
-            
-            // Reset any transformations
-            ctx.setTransform(1, 0, 0, 1, 0, 0);
-            
-            // Apply scaling if using front camera (mirror effect)
-            if (isFrontCamera) {
-                ctx.scale(-1, 1);
-                ctx.translate(-canvasElement.width, 0);
-            }
-            
-            // Apply the aspect ratio correction
-            ctx.scale(scaleX, scaleY);
-        }
-
-    // Time display (24h format)
-    function updateTime() {
-        const now = new Date();
-        const hours = now.getHours().toString().padStart(2, '0');
-        const minutes = now.getMinutes().toString().padStart(2, '0');
-        document.querySelector('.current-time').textContent = `${hours}:${minutes}`;
-    }
-
-    // Loading animation
-    function startLoadingAnimation() {
-        loadingProgress = 0;
-        loadingElement.style.display = 'block';
-        loadingInterval = setInterval(() => {
-            loadingProgress += Math.random() * 5;
-            if (loadingProgress > 95) loadingProgress = 95;
-            loadingProgressElement.style.width = `${loadingProgress}%`;
-        }, 200);
-    }
-
-    function stopLoadingAnimation() {
-        clearInterval(loadingInterval);
-        loadingProgressElement.style.width = '100%';
-        setTimeout(() => {
-            loadingElement.style.display = 'none';
-        }, 300);
-    }
-
-    // Model loading
-    async function loadModels() {
-        if (isModelLoading) return;
-        isModelLoading = true;
-        
-        try {
-            // Load both models
-            model = await cocoSsd.load(window.modelConfig);
-            mobileNetModel = await mobilenet.load();
-            console.log("All models loaded successfully");
-        } catch (error) {
-            console.error("Failed to load models:", error);
-        }
-    }
-
-    // Toggle between models
-    async function toggleModel() {
-        currentModel = currentModel === 'coco-ssd' ? 'mobilenet' : 'coco-ssd';
-        // UI toggle removed; switching models programmatically only
-        
-        if (isCameraOn) {
-            // Re-run detection with new model
-            detectObjects();
-        }
-    }
-
-    // Camera control
-    async function startCamera() {
-        if (isCameraOn) return;
-        
-        try {
-            startCameraBtn.style.display = 'none';
-            stopCameraBtn.style.display = 'inline-flex';
-            
-            const stream = await navigator.mediaDevices.getUserMedia({
-                video: {
-                    facingMode: isFrontCamera ? "user" : "environment",
-                    width: { ideal: 1280 },
-                    height: { ideal: 720 }
-                }
-            });
-            
-            webcamElement.srcObject = stream;
-            webcamElement.style.display = 'none'; // Hide the video element
-            canvasElement.style.display = 'block'; // Show the canvas with overlays
-            
-            webcamElement.onloadedmetadata = () => {
-                webcamElement.play();
-                adjustCanvasSize();
-                isCameraOn = true;
-                detectObjects();
-            };
-            
-        } catch (error) {
-            console.error("Camera error:", error);
-            startCameraBtn.style.display = 'flex';
-            stopCameraBtn.style.display = 'none';
-        }
-    }
-
-    async function stopCamera() {
-        if (!isCameraOn) return;
-        
-        if (isRecording) {
-            stopRecording();
-        }
-        
-        const stream = webcamElement.srcObject;
-        const tracks = stream.getTracks();
-        tracks.forEach(track => track.stop());
-        
-        webcamElement.srcObject = null;
-        ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
-        isCameraOn = false;
-        startCameraBtn.style.display = 'flex';
-        stopCameraBtn.style.display = 'none';
-    }
-
-    function adjustCanvasSize() {
-        const containerWidth = webcamElement.offsetWidth;
-        const containerHeight = webcamElement.offsetHeight;
-        
-        // Set canvas to match video dimensions exactly
-        canvasElement.width = webcamElement.videoWidth;
-        canvasElement.height = webcamElement.videoHeight;
-        
-        // Get the video aspect ratio
-        const videoAspect = webcamElement.videoWidth / webcamElement.videoHeight;
-        const containerAspect = containerWidth / containerHeight;
-        
-        // Calculate scaling factors
-        let scaleX = 1;
-        let scaleY = 1;
-        
-        if (containerAspect > videoAspect) {
-            // Container is wider than video
-            scaleX = containerHeight * videoAspect / containerWidth;
-        } else {
-            // Container is taller than video
-            scaleY = containerWidth / videoAspect / containerHeight;
-        }
-        
-        ctx = canvasElement.getContext('2d');
-        
-        // Reset any transformations
-        ctx.setTransform(1, 0, 0, 1, 0, 0);
-        
-        // Apply scaling if using front camera (mirror effect)
-        if (isFrontCamera) {
-            ctx.scale(-1, 1);
-            ctx.translate(-canvasElement.width, 0);
-        }
-        
-        // Apply the aspect ratio correction
-        ctx.scale(scaleX, scaleY);
-    }
-
-    // Object detection - fixed warping and mirroring issues
-    async function detectObjects() {
-        if (!isCameraOn || !model || !mobileNetModel) return;
-        
-        try {
-            // Clear canvas with proper scaling
-            ctx.save();
-            ctx.setTransform(1, 0, 0, 1, 0, 0);
-            ctx.clearRect(0, 0, canvasElement.width, canvasElement.height);
-            ctx.restore();
-            
-            // Draw webcam frame
-            ctx.drawImage(webcamElement, 0, 0, canvasElement.width, canvasElement.height);
-            
-            // Get predictions based on current model
-            let predictions;
-            if (currentModel === 'coco-ssd') {
-                predictions = await model.detect(webcamElement);
-            } else {
-                predictions = await mobileNetModel.classify(webcamElement);
-                predictions = predictions.map(pred => ({
-                    bbox: [0, 0, 0, 0],
-                    class: pred.className,
-                    score: pred.probability
-                }));
-            }
-            
-            // Draw detections
-            drawDetections(predictions);
-        } catch (error) {
-            console.error("Detection error:", error);
-        }
-        
-        requestAnimationFrame(detectObjects);
-    }
-
-    function getColorForClass(name) {
-        // Simple deterministic hash -> HSL color
-        let h = 0;
-        for (let i = 0; i < name.length; i++) {
-            h = (h * 31 + name.charCodeAt(i)) % 360;
-        }
-        const s = 70; // saturation
-        const l = 50; // lightness
-        return `hsl(${h}, ${s}%, ${l}%)`;
-    }
-
-    function drawDetections(predictions) {
-        // Responsive font size based on canvas width
-        const baseFont = Math.max(14, Math.round(canvasElement.width / 480 * 18));
-
-        predictions.forEach((prediction, idx) => {
-            const label = `${prediction.class} ${Math.round(prediction.score * 100)}%`;
-            const color = getColorForClass(String(prediction.class || 'obj'));
-            ctx.font = `${baseFont}px Arial`;
-            const textWidth = ctx.measureText(label).width;
-            const padding = 8;
-
-            if (currentModel === 'coco-ssd' && prediction.bbox && prediction.bbox.length === 4) {
-                const [x, y, width, height] = prediction.bbox;
-
-                // Box
-                ctx.strokeStyle = color;
-                ctx.lineWidth = Math.max(2, Math.round(baseFont / 6));
-                ctx.strokeRect(x, y, width, height);
-
-                // Label background (above the box if space)
-                const labelHeight = baseFont + 6;
-                const labelX = x;
-                const labelY = (y - labelHeight > 0) ? (y - labelHeight) : y;
-
-                ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
-                ctx.fillRect(labelX, labelY, textWidth + padding, labelHeight);
-
-                // Label text in class color
-                ctx.fillStyle = color;
-                ctx.fillText(label, labelX + padding/2, labelY + baseFont - 2);
-            } else {
-                // No bbox: stack labels at top-left
-                const x = 10;
-                const y = 10 + idx * (baseFont + 12);
-
-                ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
-                ctx.fillRect(x, y, textWidth + padding, baseFont + 6);
-
-                ctx.fillStyle = color;
-                ctx.fillText(label, x + padding/2, y + baseFont - 2);
-            }
+            progress(90);
+            const warm = document.createElement('canvas');
+            warm.width = warm.height = 64;
+            await m.detect(warm);
+            progress(100);
+            setStatus('');
+            setPill('AI', 'ready');
+            model = m;
+            return m;
+        })().catch((err) => {
+            console.error(err);
+            progress(100);
+            modelPromise = null;
+            setPill('OFF');
+            setStatus('Could not load the detector. Check your connection and try again.');
         });
+        return modelPromise;
     }
 
-    // Photo capture with detections
-    async function takePhotoWithDetection() {
-        if (!isCameraOn) return;
-        
-        const photoCanvas = document.createElement('canvas');
-        photoCanvas.width = canvasElement.width;
-        photoCanvas.height = canvasElement.height;
-        const photoCtx = photoCanvas.getContext('2d');
-        
-        // Draw exactly what's visible on the main canvas
-        photoCtx.drawImage(canvasElement, 0, 0);
-        
-        // Download
-        const link = document.createElement('a');
-        link.download = `detection-${new Date().toISOString()}.png`;
-        link.href = photoCanvas.toDataURL('image/png');
-        link.click();
+    async function startCamera() {
+        if (running) return;
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            setStatus('Camera not available in this browser (it needs HTTPS).');
+            return;
+        }
+        try {
+            stream = await navigator.mediaDevices.getUserMedia({
+                audio: false,
+                video: { facingMode: frontCamera ? 'user' : 'environment', width: { ideal: 640 }, height: { ideal: 480 } }
+            });
+        } catch (err) {
+            console.error(err);
+            setStatus(err && err.name === 'NotAllowedError' ? 'Camera permission denied.' : 'Could not start the camera.');
+            return;
+        }
+        video.srcObject = stream;
+        await new Promise((r) => { if (video.readyState >= 1) return r(); video.onloadedmetadata = () => r(); });
+        try { await video.play(); } catch (e) { /* muted + user gesture */ }
+        canvas.width = video.videoWidth || 640;
+        canvas.height = video.videoHeight || 480;
+        small.width = DETECT_WIDTH;
+        small.height = Math.round(canvas.height * DETECT_WIDTH / canvas.width);
+        running = true;
+        root.classList.add('on');
+        if (!model) setPill('LOADING');
+        requestAnimationFrame(frame);
     }
 
-    // Recording functions
-    function toggleRecording() {
-        if (!isCameraOn) return;
-        
-        if (!isRecording) {
-            startRecording();
-        } else {
-            stopRecording();
+    function stopCamera() {
+        if (recorder && recorder.state !== 'inactive') recorder.stop();
+        running = false;
+        predictions = [];
+        if (stream) stream.getTracks().forEach((t) => t.stop());
+        stream = null;
+        video.srcObject = null;
+        root.classList.remove('on');
+        if (model) setPill('AI', 'ready'); else setPill('OFF');
+    }
+
+    function frame(now) {
+        if (!running) return;
+        const W = canvas.width, H = canvas.height;
+        ctx.setTransform(frontCamera ? -1 : 1, 0, 0, 1, frontCamera ? W : 0, 0);
+        ctx.drawImage(video, 0, 0, W, H);
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        if (model && !detecting && now - lastDetect >= DETECT_EVERY_MS) {
+            detecting = true;
+            lastDetect = now;
+            smallCtx.drawImage(video, 0, 0, small.width, small.height);
+            model.detect(small, MAX_BOXES, MIN_SCORE)
+                .then((p) => { predictions = p; })
+                .catch((e) => console.error(e))
+                .finally(() => { detecting = false; });
+        }
+        drawBoxes(W);
+        requestAnimationFrame(frame);
+    }
+
+    function colorFor(name) {
+        if (vintage.matches) return '#ffcf5c';
+        let h = 0;
+        for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
+        return 'hsl(' + h + ', 80%, 55%)';
+    }
+
+    function drawBoxes(W) {
+        const scale = W / small.width;
+        const font = Math.max(14, Math.round(W / 480 * 18));
+        ctx.font = '600 ' + font + 'px Inter, -apple-system, Arial, sans-serif';
+        ctx.lineWidth = Math.max(2, Math.round(font / 7));
+        for (const p of predictions) {
+            let [x, y, w, h] = p.bbox.map((v) => v * scale);
+            if (frontCamera) x = W - x - w;
+            const color = colorFor(p.class);
+            const label = p.class + ' ' + Math.round(p.score * 100) + '%';
+            const tw = ctx.measureText(label).width + 10;
+            const lh = font + 8;
+            const ly = y - lh > 0 ? y - lh : y;
+            ctx.strokeStyle = color;
+            ctx.beginPath();
+            if (ctx.roundRect) ctx.roundRect(x, y, w, h, 8); else ctx.rect(x, y, w, h);
+            ctx.stroke();
+            ctx.fillStyle = color;
+            ctx.fillRect(x, ly, tw, lh);
+            ctx.fillStyle = '#000';
+            ctx.fillText(label, x + 5, ly + font);
         }
     }
 
-    function startRecording() {
-        recordedChunks = [];
-        const stream = webcamElement.srcObject;
-        mediaRecorder = new MediaRecorder(stream);
-        
-        mediaRecorder.ondataavailable = (e) => {
-            if (e.data.size > 0) recordedChunks.push(e.data);
+    function download(blob, name) {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 10000);
+    }
+
+    function setThumb(blob, name, previewUrl) {
+        lastShot = { blob: blob, name: name };
+        thumb.style.backgroundImage = 'url(' + previewUrl + ')';
+        thumb.disabled = false;
+    }
+
+    function takePhoto() {
+        flash.classList.add('go');
+        requestAnimationFrame(() => requestAnimationFrame(() => flash.classList.remove('go')));
+        canvas.toBlob((b) => {
+            if (!b) return;
+            setThumb(b, 'objectify-' + Date.now() + '.png', canvas.toDataURL('image/jpeg', 0.5));
+            setStatus('Tap the thumbnail to save the photo');
+            setTimeout(() => setStatus(''), 2500);
+        }, 'image/png');
+    }
+
+    function pickMime() {
+        if (!window.MediaRecorder) return null;
+        const types = ['video/mp4;codecs=avc1', 'video/mp4', 'video/webm;codecs=vp9', 'video/webm'];
+        return types.find((t) => MediaRecorder.isTypeSupported(t)) || '';
+    }
+
+    function toggleRecording() {
+        if (recorder && recorder.state === 'recording') { recorder.stop(); return; }
+        const mime = pickMime();
+        if (mime === null || !canvas.captureStream) { setStatus('Recording is not supported in this browser.'); return; }
+        chunks = [];
+        const preview = canvas.toDataURL('image/jpeg', 0.5);
+        recorder = new MediaRecorder(canvas.captureStream(30), mime ? { mimeType: mime } : undefined);
+        recorder.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data); };
+        recorder.onstop = () => {
+            root.classList.remove('recording');
+            clearInterval(recTimer);
+            setPill(model ? 'AI' : 'OFF', model ? 'ready' : '');
+            const type = recorder.mimeType || mime || 'video/webm';
+            const ext = type.indexOf('mp4') >= 0 ? 'mp4' : 'webm';
+            setThumb(new Blob(chunks, { type: type }), 'objectify-' + Date.now() + '.' + ext, preview);
+            setStatus('Tap the thumbnail to save the video');
+            setTimeout(() => setStatus(''), 2500);
         };
-        
-        mediaRecorder.onstop = () => {
-            const blob = new Blob(recordedChunks, { type: 'video/webm' });
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.download = `recording-${new Date().toISOString()}.webm`;
-            link.href = url;
-            link.click();
+        recorder.start(1000);
+        recStart = Date.now();
+        root.classList.add('recording');
+        const tickRec = () => {
+            const s = Math.floor((Date.now() - recStart) / 1000);
+            setPill(String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'), 'rec');
         };
-        
-        mediaRecorder.start();
-        isRecording = true;
-        recordButton.classList.add('recording');
+        tickRec();
+        recTimer = setInterval(tickRec, 500);
     }
 
-    function stopRecording() {
-        mediaRecorder.stop();
-        isRecording = false;
-        recordButton.classList.remove('recording');
+    function setMode(m) {
+        if (recorder && recorder.state === 'recording') return;
+        mode = m;
+        root.dataset.mode = m;
+        root.querySelectorAll('.oy-modes button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === m)));
+        const label = m === 'video' ? 'Record video' : 'Take photo';
+        shutter.title = label;
+        shutter.setAttribute('aria-label', label);
     }
 
-    // Flip camera
-    async function flipCamera() {
-        if (!isCameraOn) return;
-        
-        isFrontCamera = !isFrontCamera;
-        await stopCamera();
-        await startCamera();
-    }
-
-    // Event listeners
-    startCameraBtn.addEventListener('click', () => {
-        // Start camera immediately to preserve user gesture on Safari/iOS,
-        // then load ML scripts in background.
+    async function begin() {
+        // camera first, inside the click (required by Safari/iOS); model in parallel
         startCamera();
-        ensureMlScripts();
+        loadModel();
+        // show the whole camera (on phones the page title pushes it down)
+        const r = root.getBoundingClientRect();
+        if (r.top < 0 || r.bottom > window.innerHeight) {
+            root.scrollIntoView({ behavior: 'smooth', block: r.height < window.innerHeight ? 'end' : 'start' });
+        }
+    }
+
+    startBtn.addEventListener('click', begin);
+    stopBtn.addEventListener('click', stopCamera);
+    shutter.addEventListener('click', () => {
+        if (!running) { begin(); return; }
+        if (mode === 'video') toggleRecording(); else takePhoto();
     });
-    stopCameraBtn.addEventListener('click', stopCamera);
-    photoButton.addEventListener('click', takePhotoWithDetection);
-    recordButton.addEventListener('click', toggleRecording);
-    flipButton.addEventListener('click', flipCamera);
+    thumb.addEventListener('click', () => { if (lastShot) download(lastShot.blob, lastShot.name); });
+    flipBtn.addEventListener('click', async () => {
+        if (!running) return;
+        frontCamera = !frontCamera;
+        stopCamera();
+        await startCamera();
+    });
+    root.querySelectorAll('.oy-modes button').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode)));
+    window.addEventListener('pagehide', stopCamera);
+})();
 </script>

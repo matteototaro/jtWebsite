@@ -14,7 +14,6 @@ tags: ["ml", "objectdetection", "javascript"]
 
 # Layout
 toc: false
-lightgallery: false
 linkToMarkdown: false
 share:
   enable: false

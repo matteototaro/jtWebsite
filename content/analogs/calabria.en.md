@@ -13,15 +13,12 @@ keywords: ["calabria", "italy", "travel", "analog", "photography"]
 #tags: ["travel", "italy", "calabria", "analog"]
 #categories: ["Analog Photography"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: ""
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/c_auto,w_auto/calabria/calabria_analog_1.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false

@@ -1,9 +1,9 @@
-<iframe 
-    style="display: block; margin: auto;" 
-    src="https://open.spotify.com/embed/track/{{ .Get "id" }}" 
-    width="343" 
-    height="380" 
-    frameborder="0" 
-    allowtransparency="true" 
-    allow="encrypted-media">
-</iframe>
+{{- /* Plain link instead of the Spotify iframe: the embed set third-party
+       cookies and sent the visitor's IP to Spotify on page load.
+       Usage unchanged: {{< spotify-track id="..." title="optional" >}} */ -}}
+{{- $id := .Get "id" -}}
+<p class="external-embed">
+  <a href="https://open.spotify.com/track/{{ $id }}" target="_blank" rel="noopener noreferrer">
+    &#9835; {{ .Get "title" | default "Listen on Spotify" }}
+  </a>
+</p>

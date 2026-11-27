@@ -13,15 +13,12 @@ keywords: ["london", "uk", "travel", "camden", "big ben"]
 #tags: ["travel", "uk", "london", "photography"]
 #categories: ["Travel Guides"]
 
-# Performance
-outputs: ["HTML", "AMP"]
 #featuredImage: ""
 featuredImagePreview: "https://res.cloudinary.com/matteototaro/image/upload/london/3.jpg"
 
 # Layout
 layout: gallery
 toc: false
-lightgallery: true
 linkToMarkdown: false
 share:
   enable: false
