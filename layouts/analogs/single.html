@@ -73,7 +73,11 @@
 
         {{- /* Content */ -}}
         <div class="content" id="content">
+            {{- with .Params.place -}}
+                <h3>{{ $.Date.Format "January '06" }} - {{ . }}</h3>
+            {{- end -}}
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+            {{- partial "auto-gallery.html" . -}}
         </div>
 
         {{- /* Footer */ -}}

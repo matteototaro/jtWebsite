@@ -351,6 +351,17 @@ enableEmoji = true
   email = "tmatteos@gmail.com"
   link = "/about/"
   
+# Defaults for every post in /posts/ and /analogs/, so a new post only
+# needs title, date, place and description (see archetypes/ and GUIDA.md).
+[[cascade]]
+  toc = false
+  [cascade.build]
+    # photos inside a post folder are published only as the resized WebP
+    # copies made by layouts/partials/auto-gallery.html, never as originals
+    publishResources = false
+  [cascade.target]
+    path = "{/posts/**,/analogs/**}"
+
 # Sitemap Info
 [sitemap]
   changefreq = "monthly"
@@ -372,20 +383,8 @@ enableEmoji = true
   [privacy.youtube]
     privacyEnhanced = true
 
-# Options to make output .md files
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
-
-# Options to make output .md files
-[outputFormats.MarkDown]
-  mediaType = "text/plain"
-  isPlainText = true
-  isHTML = false
-
-# Options to make hugo output files???
 [outputs]
   home = ["HTML", "RSS"]
-  page = ["HTML", "MarkDown"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
